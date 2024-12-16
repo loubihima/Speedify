@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">%1$d개의 페어링된 장치들과 (%2$s) 공유 중</item>
+    </plurals>
+</resources>

@@ -1,0 +1,1600 @@
+{
+  "ACCCTRL": {
+    "CHANGEPASS": "Şifre Değiştir",
+    "FACEBOOKLIKE": "{speedifyProductName}'ı Facebook'ta beğen",
+    "RESTORE": "Satın Alımları Geri Yükle",
+    "REVIEW": "{speedifyProductName}' Değerlendir",
+    "SHARE": "Paylaş"
+  },
+  "ACCINFO": {
+    "PERIOD": {
+      "ENDTIME": "({dayCount} {dayCount, plural, other{gün}} içinde sıfırlanır)"
+    },
+    "SUB": {
+      "ENDTIME": "Abonelik {dayCount} {dayCount, plural, other{gün}} içinde sona erer",
+      "EXPIRED": "Abonelik sona erdi"
+    },
+    "TYPE": {
+      "FAMILY": "Aile Hesabı",
+      "FREE": "Ücretsiz Hesap",
+      "LIMITED": "Sınırlı Hesap",
+      "NOACCOUNT": "Oturum açılmamış",
+      "TEAMS": "Teams Hesabı",
+      "UNLIMITED": "Sınırsız Hesap"
+    },
+    "USAGE": {
+      "UNLIMITED": "Sınırsız",
+      "UNLIMITEDWITHUSAGE": "Bu ay {usedBytes} kullanıldı",
+      "UNSUPPORTED": "Desteklenmeyen",
+      "USAGEREMAINING": "{availableBytes}'ın %{percentConsumed}'ı Kullanıldı"
+    }
+  },
+  "ACCOUNTING": {
+    "DATAREPLENISH": "{speedifyProductName} aylık veri paketiniz dolduruldu",
+    "EXTRADATA": "İyi haber, size ilave {speedifyProductName} verileri gönderildi!",
+    "LAUNCH": "{speedifyProductName} Başlat...",
+    "UNLIMITED": "Sınırsız"
+  },
+  "ACCOUNTPANE": {
+    "CREATE": "Kaydı Tamamla",
+    "LOGGEDOUT": "Çıkış Yapıldı",
+    "LOGIN": "Giriş Yap",
+    "LOGOUT": "Çıkış Yap",
+    "UPGRADE": "Yükselt"
+  },
+  "ACCOUNTSETTINGERRORMESSAGE": {
+    "MESSAGE": "@:SETTINGSPANE.PREMIUMFEATURES",
+    "TITLE": "@:SETTINGERRORMESSAGE.TITLE"
+  },
+  "ADAPTEREXTRAS": {
+    "addconnection": {
+      "desc": "Bağlantı Ekle",
+      "name": "Bağlantı Ekle"
+    }
+  },
+  "ADAPTERINFO": {
+    "BWLIMIT": {
+      "title": "Hız Sınırı",
+      "unlimited": "Sınırsız"
+    },
+    "DATA": "{adapterType} veri",
+    "OVERLIMITMODE": {
+      "disabled": "Durdurulacak olan",
+      "slow": "Yavaşlanacak olan değer",
+      "title": "Bir sınıra ulaştığımda..."
+    },
+    "PRIORITY": "Öncelikli",
+    "RESETALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "{adapterName} için takip edilen tüm veri kullanımını {speedifyProductName}'dan sıfırlamak istiyor musunuz?",
+      "OK": "Sıfırla",
+      "TITLE": "Veri Kullanımını Sıfırla"
+    },
+    "RESETUSAGE": "Veri Kullanımını Sıfırla",
+    "STATUS": {
+      "CAPTIVEPORTAL": "Çevrimdışı, Eylem Gerekiyor",
+      "DISCONNETED": "Bağlantı kesildi",
+      "NOINTERNET": "İnternet yok",
+      "NOTUSED": "Kullanılmıyor",
+      "ONLINECONNECTED": "Çevrimiçi, Bağlandı",
+      "ONLINECONNECTING": "Bağlanıyor",
+      "ONLINEDISCONNECTED": "Çevrimiçi, Bağlı değil",
+      "ONLINESLEEPING": "Çevrimiçi, Uykuda",
+      "OVERLIMIT": "Limit aşımı",
+      "OVERLIMITDAILY": "Günlük Limitin Üzerinde",
+      "OVERLIMITMONTHLY": "Aylık Limitin Üzerinde",
+      "SPEEDIFYDISCONNECTED": "{speedifyProductName} Bağlantısı Kesildi"
+    },
+    "TUNNELSTATE": {
+      "CONNECTED": "@:UBERBOX.STATE.CONNECTED",
+      "CONNECTING": "@:UBERBOX.STATE.CONNECTING",
+      "DISCONNECTED": "@:UBERBOX.STATE.LOGGED_IN"
+    },
+    "USEDATA": "{adapterType} Verileri Kullan"
+  },
+  "ADAPTERTYPES": {
+    "Bluetooth": "Bluetooth",
+    "Cellular": "Hücresel",
+    "Ethernet": "Ethernet",
+    "Loopback": "Geri döngü",
+    "NetworkShare Client": "Eşleştirilmiş Ağ",
+    "NetworkShare Host": "Paylaşılan Hücresel",
+    "Unknown": "Bilinmiyor",
+    "VPN": "VPN",
+    "Wi-Fi": "Wi-Fi"
+  },
+  "ADVANCED": {
+    "OPTIONS": {
+      "ACCOUNTALERT": "Hesap Uyarıları",
+      "ACCOUNTALERTDESC": "Speedify hesabınızla ilgili bildirimler alın",
+      "CAPTIVEPORTAL": "Kısıtlanmış Portal Uyarıları",
+      "CAPTIVEPORTALDESC": "Mevcut Wi-Fi bağlantınız İnternet’e bağlanmak için bir işlem gerektirdiğinde sizi bilgilendirir.",
+      "CONNECTALERT": "Bağlantı Bildirimi",
+      "CONNECTALERTDESC": "{speedifyProductName} bağlandığında veya bağlantısı kesildiğinde bir bildirim göster",
+      "CRASH": "Kilitlenme Raporları",
+      "CRASHDESC": "{speedifyProductName} için olası bir çökme durumunda bilinmeyen hata ayıklayıcısına izin ver",
+      "DEADHOTSPOT": "Ölü Kablosuz Erişim Noktası Uyarıları",
+      "DEADHOTSPOTDESC": "{speedifyProductName} ölü bir kablosuz bağlantı noktasını kurtardığında bildirim verir.",
+      "INCOMINGPASALERTS": "Gelen Eşleştirme İstekleri",
+      "PASSTATUSALERTS": "Eşleştirme Durumu Güncellemeleri",
+      "PASNEWPEERALERTS": "Yeni Eş Keşfedildi",
+      "DISCONNECTALERTS": "Bağlantı Kesme Uyarıları",
+      "DNSLEAK": "DNS Sızıntı Koruması",
+      "DNSLEAKDESC": "DNS Sızıntı Korumasını etkinleştirir",
+      "DNSSERVER": {
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "DNS değiştirmek için yeniden {speedifyProductName} bağlantısını kurmalısınız",
+          "OK": "Yeniden bağlan",
+          "TITLE": "DNS Sunucusu Değiştirme"
+        },
+        "CUSTOMINSTRUCTION": "Boşluklarla ayrılmış, 1 veya daha fazla IP adresi girin",
+        "DESC": "{speedifyProductName} sunucularımızdaki DNS hizmetine her zaman bağlanır ancak, {speedifyProductName} DNS hizmetinden istekleri başka bir DNS hizmetine iletmesini isteyebilirsiniz.",
+        "TITLE": "DNS Sunucusu"
+      },
+      "HOTSPOTSECURITY": "Bağlantı Noktası Güvenlik Uyarıları",
+      "HOTSPOTSECURITYDESC": "Güvenli olmayan Wi-Fi bağlantı noktalarına bağlandığınızda sizi uyarır.",
+      "IPLEAK": "IP Sızıntı Koruması",
+      "IPLEAKDESC": "IP Sızıntı Korumasını Etkinleştirir",
+      "JUMBO": "Jumbo MTU",
+      "JUMBODESC": "Jumbo MTU'yu Etkinleştir",
+      "KILLSWITCH": "İnternet Kapatma Anahtarı",
+      "KILLSWITCHDESC": "İnternet Acil Anahtarı etkin olduğunda, {speedifyProductName} bağlantısı kesildiğinde tüm İnternet trafiği devre dışı bırakılacak.",
+      "MARKETINGALERT": "Haberler ve Özel Teklifler",
+      "MARKETINGALERTDESC": "Speedify'dan indirimler ve promosyonlar hakkında güncellemeler alın",
+      "NOTIFICATIONDESC": "Bireysel bildirim türleri yukarıda etkinleştirilebilir veya devre dışı bırakılabilir. Sadece gerekli olduğunda yardımcı güvenlik mesajları ve hesap güncellemeleri göndereceğiz.",
+      "PORTFORWARD": {
+        "ADDTCP": "TCP Bağlantı Noktası Ekle",
+        "ADDUDP": "UDP Bağlantı Noktası Ekle",
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "Yönlendirilen portlarınızı değiştirmek için, {speedifyProductName}'a yeniden bağlanmalısınız",
+          "OK": "Yeniden bağlan",
+          "TITLE": "İletilen Portlar Değişiyor"
+        },
+        "DESC": "Sunucunun herkese açık IP adresindeki sabit portlar bu bilgisayara gönderildi. Yalnızca Özel Sunucular.",
+        "INVALIDINPUT": "Port numarası {portNumberMin} ve {portNumberMax} arasında olmalı",
+        "RESTRICTED": "Bağlantı noktası numarası şunlardan biri olamaz: {portRestrictedList}",
+        "TCP": "TCP",
+        "TITLE": "Port Yönlendirme",
+        "TOOMANY": "Sadece {maxPorts} erişim noktalarına sahip olabilirsiniz. Başka bir port eklemek için mecvut portu silin.",
+        "UDP": "UDP"
+      },
+      "SIRICONFIGURE": "Siri Kısayollarını yapılandır",
+      "SIRIDESC": "Siri'nin kısayol önermesine izin verin.",
+      "SIRILINK": "Siri Kısayolları ile Yardım al",
+      "SIRITITLE": "Siri Açılır Pencereleri",
+      "SPEEDIFYLIVE": "{speedifyProductName} CANLI Hatırlatmaları",
+      "SPEEDIFYLIVEDESC": "Speedify CANLI etkinlikleri ve Speedify Çalışma Saatleri canlı Soru ve Cevap için bildirimler alın.",
+      "STREAMINGBYPASS": "Geçiş Önerileri",
+      "STREAMINGBYPASSDESC": "Bir uygulama veya hizmetin engelini kaldırmak için Bypass'ın kullanılabileceği zamanı bildirir.",
+      "STREAMMONITORALERT": "Akış Sağlık İzleme",
+      "STREAMMONITORALERTDESC": "Yayınlarınızın sağlığıyla ilgili uyarılar.",
+      "TRANSPORT": "Taşıma Modu",
+      "TRANSPORTDESC": "{speedifyProductName}, hangi ağ protokolünü ilk önce denemelidir?",
+      "TRANSPORTMODES": {
+        "auto": "Otomatik",
+        "tcp": "TCP",
+        "tcp-multi": "TCP Çoklu",
+        "udp": "UDP",
+        "websocket": "WebSocket"
+      },
+      "WEEKLYREPORT": "Haftalık Rapor",
+      "WEEKLYREPORTDESC": "Haftalık kullanım raporunuz hazır olduğunda bir bildirim alın."
+    }
+  },
+  "ARIALABEL": {
+    "DOWNLOAD": "İndirme Hızı",
+    "EXITINTRO": "Tanıtımdan Panele Geç",
+    "INTRO1": "Slayt Tanıtımı 1/6",
+    "INTRO2": "Slayt Tanıtımı 2/6",
+    "INTRO3": "Slayt Tanıtımı 3/6",
+    "INTRO4": "Slayt Tanıtımı 4/6",
+    "INTRO5": "Slayt Tanıtımı 5/6",
+    "INTRO6": "Slayt Tanıtımı 6/6",
+    "SETTINGS": "Ayarlar Butonu",
+    "SHARE": "{speedifyProductName} öğesini paylaş",
+    "TOGGLE": "Speedify Anahtarını Aç",
+    "TOGGLESETTING": "Ayarlar Anahtarını Aç",
+    "UPLOAD": "Karşıya Yükleme Hızı"
+  },
+  "CAPTIVEPORTALPOPUP": {
+    "CONNECTBUTTON": "Bağlan",
+    "CONTINUEBUTTON": "Wi-Fi Olmadan Devam Et",
+    "DESCRIPTION": "Bu Wi-Fi ağı, İnternet’e bağlanmak için oturum açmanızı veya bir eylem gerçekleştirmenizi gerektirir.",
+    "TITLE": "'{SSID}'yi Kullanılmak için Eylem Gerekiyor"
+  },
+  "CHANGEPASSWORD": {
+    "CHANGE": "Şifrenizi Değiştirin"
+  },
+  "CONNECTSTARTUPERMISSION": {
+    "ACTIONBUTTON": "Başlangıçta Bağlan'ı Etkinleştir",
+    "DISMISSBUTTON": "Şimdi Değil",
+    "INTRO": {
+      "ACTIONBUTTON": "Evet, Başlangıçta Bağlan",
+      "DESCRIPTION": "Başlangıçta Bağlan'ı etkinleştirerek, sistem güncellemeleri ve yeniden başlatmadan sonra bile bağlı kalacak ve korunacaksınız. Dilediğiniz zaman bu ayarı değiştirebilirsiniz.",
+      "DISMISSBUTTON": "Bana Daha sonra Hatırlat",
+      "HEADER": "Başlangıçta Bağlan'ı Etkinleştir",
+      "TITLE": "{speedifyProductName}, bilgisayarınızı yeniden başlattığınızda veya oturum açtığınızda otomatik olarak bağlanabilir"
+    },
+    "TITLE": "Speedify'ın kanal birleştirme teknolojisinin avantajlarından yalnızca bağlı olduğunuzda yararlanacaksınız!  {boldPre} Başlangıçta Bağlan'ı{boldPost} etkinleştirin, böylece Speedify, bilgisayarınızı yeniden başlattığınızda veya oturum açtığınızda otomatik olarak bağlanabilir."
+  },
+  "DESKTOPSTORENAGS": {
+    "DESC": "Sınırsız erişim, katı güvenlik ve inanılmaz hız, tümü 30 günlük para iade garantimizle desteklenir.",
+    "DESCTITLE": "Daha iyi bir İnternet'in tadını çıkarmaya devam etmek için Sınırsız bir plana yükseltin",
+    "HEADER": "Aylık ücretsiz verinizin tamamını kullandınız",
+    "NEWDATA": "{dayCountDisplay} {dayCount, plural, other{gün}} içinde daha fazla veri alacaksınız"
+  },
+  "DISCONNECTPROMPT": {
+    "OPTIONS": {
+      "CONNECTED": "Hiçbir Yere Ayrılma",
+      "HELP": "Yardım Al",
+      "LONGCONNECT": "Yarın yeniden bağlanın",
+      "NOCONNECT": "Yeniden bağlanmayın",
+      "SERVER": "Başka bir sunucu deneyin",
+      "SHORTCONNECT": "2 saat içinde yeniden bağlanın"
+    },
+    "RECONNECTSUBTITLE": "Daha sonra yeniden bağlanın ve daha kararlı ve güvenli akışa, görüntülü aramaya ve göz atmaya dönün",
+    "RECONNECTTIME": "{connectTime}'da yeniden bağlanılıyor",
+    "RECONNECTTITLE": "{speedifyProductName}'nin otomatik olarak yeniden bağlanmasını ister misiniz?",
+    "STREAMINPROGRESS": {
+      "SUBTITLE": "Şimdi bağlantıyı keserseniz aktif akışlar kesilebilir.",
+      "TITLE": "Şu anda bir akış alıyorsunuz, bağlantıyı kesmek istediğinizden emin misiniz?"
+    },
+    "SUBTITLE": "Başka bir sunucu bağlantısı denemek, {speedifyProductName} ile deneyiminizi iyileştirebilir",
+    "TITLE": "{speedifyProductName}'i bir sorun yüzünden mi durdurdunuz?"
+  },
+  "ENCRYPTION": {
+    "DESCRIPTION": "Gönderip aldığınız her şeyin gizlice izlenmesinden korur.",
+    "ENCRYPTED": "Şifrelenmiş"
+  },
+  "ERROR": {
+    "SERVICEDOWN": "{speedifyProductName} hizmeti çalışmıyor"
+  },
+  "FORMS": {
+    "DEFAULT": {
+      "EMAIL": "E-posta Adresi",
+      "PASS": "Şifre",
+      "PASSCONFIRM": "Yeni Şifreyi Onayla",
+      "PASSCURRENT": "Mevcut Şifre",
+      "PASSNEW": "Yeni Şifre"
+    },
+    "ERRORS": {
+      "EMAILINVALID": "Lütfen geçerli bir e-posta adresi girin",
+      "ENTERCURPASS": "Lütfen geçerli şifrenizi girin",
+      "ENTERPASS": "Lütfen şifrenizi girin",
+      "PASSINVALIDCHAR": "Lütfen şifrenizin \" veya \\\\ içermediğinden emin olun",
+      "PASSLENGTH": "Lütfen parolanızın en az 8 karakter uzunluğunda olduğunu kontrol edin",
+      "PASSMATCH": "Lütfen şifrelerin eşleştiğinden emin olun"
+    },
+    "WAITING": "Lütfen Bekleyin..."
+  },
+  "GOFORTH": {
+    "ALREADYHAVEACCOUNT": "@:INTRO.HAVEACCOUNT",
+    "BACKGROUND": "İnternet bağlantılarınızı optimize etmek için arka planda sessizce çalışacaktır.",
+    "BODY": "Ücretsiz {stylePre}{dataAmount}/ay{stylePost} planıyla başlayıp kanal birleştirme olanağının büyüsünü kendi gözlerinizle görebilirsiniz.",
+    "CONNECTED": "Bağlandım, daha sonra ne yapacağım?",
+    "CONTINUE": "Şimdi {speedifyProductName} sihrini yaparken siz internette keyfinize bakın!",
+    "LOGIN": "Şimdi oturum aç",
+    "RELIABILITY": "Şimdi artırılmış güvenilirlik, güvenlik ve hız ile!",
+    "RUNNING": "{speedifyProductName} uygulamasını çalışır halde bırakın",
+    "TITLE": "Devam edin ve birleştirin!",
+    "USE": "Favori uygulamalarınızı ve web sitelerinizi kullanın"
+  },
+  "GRAPHROTATION": {
+    "DESCRIPTION": "Etkinleştirildiğinde, panodaki grafikler her 20 saniyede bir döner",
+    "TITLE": "Grafik Rotasyonu"
+  },
+  "HELP": {
+    "DESC": "{speedifyProductName} yeni bir çeşit, baştan aşağı hız, güvenlik ve güvenilirlik için tasarlanmış Mobil VPN'dir. Yaptığınız her şeyi şifrelemekle kalmaz, size hızlı ve güvenilir internet temin etmek için {platformu, mobili {Wi-Fi ve Hücresel}, masaüstünü {tüm İnternet bağlantılarınızı} birleştirir. İnternetinizi güvenli ve güvenilir bir şekilde sürdürmek için arkaplanda çalışır.",
+    "GETHELP": {
+      "ACCOUNT": "Hesabınızla İlgili Yardım Alın",
+      "CONNECTION": "Bağlantılarla İlgili Yardım Alın",
+      "CONNECTIONS": "{speedifyProductName}, yeni bağlantıları otomatik olarak algılar ve birleştirir.",
+      "CONNECTIONSLINK": "Bağlantı ekleme konusunda yardım alın »",
+      "PASSWORD": "Şifrelerle İlgili Yardım Alın",
+      "SERVERS": "Sunucular ile İlgili Yardım Alın",
+      "SETTINGS": {
+        "NOTIFICATIONS": "Bildirimlerle İlgili Yardım Alın",
+        "PRIVACY": "Gizlilikle İlgili Yardım Alın",
+        "SESSION": "Oturumlarla İlgili Yardım Alın"
+      },
+      "SIGNIN": "Oturum Açma ile İlgili Yardım Alın"
+    },
+    "MENU": {
+      "ACCOUNT": "@:ONEPANE.POPINS.ACCOUNT",
+      "CLEARSETTINGS": "Ayarları Sil",
+      "CREDITS": "3. Taraf Kredileri",
+      "DEVTOOLS": "Geliştirici Araçları",
+      "GENLOGS": "Kayıtları Oluştur",
+      "GETSTART": "Başlangıç Kılavuzu",
+      "PRIVACY": "Gizlilik Politikası",
+      "QUITAPP": "Uygulamadan Çık",
+      "REMOVEHELPER": "Yardımcı Aracı Kaldır",
+      "SETTINGS": "@:ONEPANE.POPINS.SETTINGS",
+      "SUPPORT": "Yardım için Arama Yapın",
+      "TOS": "Kullanım Şartları",
+      "UPDATES": "Güncellemeleri Denetle"
+    }
+  },
+  "INTRO": {
+    "DESC": {
+      "BODY": "{speedifyProductName}, interneti sizin için ultra güvenli, hızlı ve sorunsuz hale getirmek için tüm bağlantılarınızı birleştiren bir VPN türüdür.",
+      "CONTINUE": "Devam",
+      "PRIVACY": "Gizliliğiniz bizim en baştaki önceliğimizdir",
+      "PRIVACYBODY": "Bir hesap ile kaydolmadan hizmeti kullanmanıza izin veren IP adresiniz ve eşsiz cihaz tanımlayıcı, trafiğinizi olabildiğince verimli bir şekilde yönlendirmeniz için ilk bağlantınızın zamanı ve ağ konumu, koşullarımızı yerine getirmek için kullanılan veri miktarı ve VPN hizmetimize bağlı kalma süresi, hız artırmak için ağ performansı istatistikleri ve kaliteyi artırmak için çökme kayıtları. Lisansı başka cihazlarda da kullanmak için satın alma sırasında vermeniz durumunda e-posta adresiniz toplanır.",
+      "PRIVACYBODYHEADER": "Geçici olarak şunları saklıyoruz:",
+      "PRIVACYCHANGE": "Daha da az veri topladığımız için ve Kaliforniya yasalarına uyumluluk amacıyla gizlilik politkamız değişmiştir",
+      "PRIVACYDESC": "Çevrimiçi faaliyetlerinizi kayıt etmiyoruz ve asla sizin kullandığınız alanları veya uygulamaları sizle, cihazınızla, IP adresinizle, veya epostanızla ilişkilendirmiyoruz.",
+      "PRIVACYMOREINFO": "Daha fazla bilgi için lütfen okuyun ",
+      "TITLE": "İki bağlantı, bir bağlantıdan iyidir"
+    },
+    "GDPR2": {
+      "CONTINUE": "Kabul et ve Devam et",
+      "DISCLOSURE": "Ziyaret ettiğiniz web sitelerini, kullandığınız hizmetleri veya çevrimiçi olarak ne yaptığınızı kaydetmiyoruz. Şartlarımızı uygulamak için aktarılan veri miktarını ve {speedifyProductName} bağlantısının süresini geçici olarak saklarız, bir hesap için kaydolmadan hizmeti kullanmanızı sağlamak için benzersiz bir cihaz tanımlayıcısı, sizi en iyi olası sunucuya bağlamak için IP adresiniz, ayrıca ilk bağlantınızın zamanı ve ağ konumu.",
+      "LEARN": "Verilerinizin nasıl yönetildiğini öğrenin",
+      "TITLE": "Gizliliğiniz bizim önceliğimizdir",
+      "WECOLLECT": "Tüm web trafiğinizin şifresini çözer ve hizmet sunmaya devam etmek için gereken asgari düzeyde bilgiyi toplarız."
+    },
+    "HAVEACCOUNT": "Zaten bir hesabınız var mı?",
+    "PERMISSIONS": {
+      "ACCOUNTREADY": "{accountType}'iniz kullanıma hazır!",
+      "COMPLETE": "Devam et",
+      "OPTIONAL": "(Seçmeli)",
+      "TITLE": "Kurulum"
+    },
+    "PITCH": {
+      "COMBINE": "Bağlantıları Birleştirin",
+      "COMBINEDESC": "Kablosuz ve Hücresel bağlantıları en uygun performans için aynı anda kullanın",
+      "DEVICEDESC": "Telefonunuzu, tabletinizi, bilgisayarınızı ve daha fazlasını bir hesapta birleştirin",
+      "DEVICETITLE": "5 Cihazda Kullanın",
+      "ENCRYPTIONDESC": "Verilerinizi hacker'lardan ve haydutlardan güvende ve emniyette tutun",
+      "ENCRYPTIONTITLE": "Son Seviye Şifreleme",
+      "FREEVERSION": "Sınırlı Ücretsiz Versiyonu Kullanın",
+      "LIMITED": "Sınırlı Ücretsiz Versiyon",
+      "LIMITEDDESCData": "Her ay veri kullanımınızın ilk {data} kısmını en iyi şekilde kullanın-hesap gerekmez.",
+      "LIMITEDTITLE": "{speedifyProductName}'ı sınırlı şekilde ücretsiz kullanın",
+      "LIMITEDTITLEDESCDATA": "Her ay {data} internet optimizasyonu",
+      "NOTRIALDESC": "Neyi bekliyorsunuz? Yıllık sadece {cost} karşılığında hemen başlayın.",
+      "PRICEPERUSERPERMONTH": "Sonrasında aylık {currencySymbol}{price} {currencyCode}",
+      "SECURITY": "Kararlılığı, Hızı ve Güvenliği Artırın. {streamergencies}'ı Giderin",
+      "SERVERDESC": "Tüm dünyadaki sunuculara bağlanın",
+      "SERVERHEADER": "Küresel Sunucu Ulaşımı",
+      "SUBSCRIBE": "Şimdi üye olun",
+      "SUBSCRIBEFOR": "Abonelik:",
+      "TITLEHEADER": "{speedifyProductName} Sınırsız VPN",
+      "TRIAL": "7 gün ücretsiz denemenize başlayın",
+      "TRIALBUTTON": "7 Günlük Ücretsiz Deneme Sürümümü başlat",
+      "TRIALPAY": "Sonra sadece yılda {cost}"
+    }
+  },
+  "KILLSWITCH": {
+    "CONNECT": "{speedifyProductName}'ı Bağla",
+    "DISABLE": "Acil Anahtar'ı Kapat",
+    "MSG": "VPN'siz internete girmenizi önlemek için, {speedifyProductName} diğer programların İnternete erişim sağlamasının önüne geçiyor.",
+    "OFFLINE": "Çevrimdışı Kal"
+  },
+  "LANGUAGE": {
+    "AUTO": "@:ADVANCED.OPTIONS.TRANSPORTMODES.auto",
+    "DESC": "Speedify kullanıcı arayüzünün sunulduğu dili kontrol eder. Otomatik, önerilen varsayılan, işletim sisteminin dilini kullanır.",
+    "TITLE": "Dil"
+  },
+  "LIMITS": {
+    "DAILYLIMIT": "Günlük Limit",
+    "DAYBOOST": "Bugün ekstra {boostHtml} izin verilecek",
+    "DAYUSAGELIMITED": "Bugün {limitHtml}'nin {usage}'sı kullanıldı",
+    "DAYUSAGEUNLIMITED": "Bugün {usage} kullanıldı",
+    "MONTHLYLIMIT": "Aylık Limit",
+    "MONTHUSAGELIMITED": "Aylık {limitHtml} limitin {usage} kısmı kullanıldı",
+    "MONTHUSAGEUNLIMITED": "Son 30 günde {usage} kullanıldı",
+    "MONTHUSAGEUNLIMITEDMONTH": "Bu ay {usage} kullanıldı",
+    "RESETDAY": {
+      "LAST30": "Son 30 Gün",
+      "N": "{day, selectordinal, =1{#'inci} =2{#'nci} =3{#'üncü} =4{#'üncü} =5{#'inci} =6{#'nci} =7{#'nci} =8{#'inci} =9{#'uncu} =10{#'uncu} =11{#'inci} =12{#'nci} =13{#'üncü} =14{#'üncü} =15{#'inci} =16{#'nci} =17{#'nci} =18{#'inci} =19{#'uncu} =20{#'nci} =21{#'inci} =22{#'nci} =23{#'üncü} =24{#'üncü} =25{#'inci} =26{#'nci} =27{#'nci} =28{#'inci} =29{#'uncu} =30{#'uncu} =31{#'inci} other{}}",
+      "UNKNOWN": "BİLİNMİYOR"
+    },
+    "RESETDAYPRE": "Sıfırla {resetDayHtml}",
+    "USAGEWITHPERCENTAGE": "{usage} ({percentage})"
+  },
+  "LOCATION": {
+    "CITY": {
+      "amsterdam": "Amsterdam",
+      "atlanta": "Atlanta",
+      "auckland": "Auckland",
+      "baku": "Bakü",
+      "bangalore": "Bangalore",
+      "beijing": "Pekin",
+      "belgrade": "Belgrad",
+      "bhs": "Montreal",
+      "bogota": "Bogotá",
+      "brisbane": "Brisbane",
+      "brussels": "Brüksel",
+      "bucharest": "Bükreş",
+      "budapest": "Budapeşte",
+      "bursa": "Bursa",
+      "cairo": "Kahire",
+      "chicago": "Şikago",
+      "chisinau": "Kişinev",
+      "copenhagen": "Kopenhag",
+      "dallas": "Dallas",
+      "denver": "Denver",
+      "dubai": "Dubai",
+      "dublin": "Dublin",
+      "dusseldorf": "Düsseldorf",
+      "frankfurt": "Frankfurt",
+      "fremont": "Fremont",
+      "graz": "Graz",
+      "helsinki": "Helsinki",
+      "honolulu": "Honolulu",
+      "hsinchu": "Hsinchu",
+      "islamabad": "İslamabad",
+      "istanbul": "İstanbul",
+      "izmir": "İzmir",
+      "jakarta": "Jakarta",
+      "johannesburg": "Johannesburg",
+      "karaganda": "Karağandı",
+      "kowloon": "Hong Kong",
+      "kualalumpur": "Kuala Lumpur",
+      "la": "Los Angeles",
+      "lisbon": "Lizbon",
+      "ljubljana": "Ljubljana",
+      "london": "Londra",
+      "madrid": "Madrid",
+      "melbourne": "Melbourne",
+      "mexicocity": "Meksiko",
+      "miami": "Miami",
+      "milano": "Milano",
+      "moscow": "Moskova",
+      "mumbai": "Mumbai",
+      "newark": "Newark",
+      "nicosia": "Lefkoşa",
+      "nova": "Kuzey Virginia",
+      "nyc": "New York City",
+      "oostkamp": "Oostkamp",
+      "oslo": "Oslo",
+      "palermo": "Palermo",
+      "paris": "Paris",
+      "perth": "Perth, Batı Avustralya",
+      "philadelphia": "Philadelphia",
+      "prague": "Prag",
+      "riyadh": "Riyad",
+      "sanjose": "San José",
+      "saopaulo": "São Paulo",
+      "seattle": "Seattle",
+      "seoul": "Seul",
+      "sf": "San Francisco",
+      "singapore": "Singapur",
+      "sofia": "Sofya",
+      "stockholm": "Stokholm",
+      "stpetersburg": "St. Petersburg",
+      "sydney": "Sydney",
+      "taipei": "Taipei",
+      "tallinn": "Tallinn",
+      "telaviv": "Tel Aviv",
+      "test": "Test",
+      "tokyo": "Tokyo",
+      "toronto": "Toronto",
+      "tripoli": "Trablus",
+      "valencia": "Valensiya",
+      "vancouver": "Vancouver",
+      "vienna": "Viyana",
+      "vilnius": "Vilnius",
+      "warsaw": "Varşova",
+      "zurich": "Zürih"
+    },
+    "COUNTRY": {
+      "ae": "BAE",
+      "at": "Avusturya",
+      "au": "Avustralya",
+      "az": "Azerbaycan",
+      "be": "Belçika",
+      "bg": "Bulgaristan",
+      "br": "Brezilya",
+      "ca": "Kanada",
+      "ch": "İsviçre",
+      "cn": "Çin Halk Cumhuriyeti",
+      "co": "Kolombiya",
+      "cr": "Kosta Rika",
+      "cy": "Kıbrıs Cumhuriyeti",
+      "cz": "Çek Cumhuriyeti",
+      "de": "Almanya",
+      "dk": "Danimarka",
+      "ee": "Estonya",
+      "eg": "Mısır",
+      "es": "İspanya",
+      "fi": "Finlandiya",
+      "fr": "Fransa",
+      "gb": "Büyük Britanya",
+      "hk": "Hong Kong",
+      "hu": "Macaristan",
+      "id": "Endonezya",
+      "ie": "İrlanda",
+      "il": "İsrail",
+      "im": "Man Adası",
+      "in": "Hindistan",
+      "is": "İzlanda",
+      "it": "İtalya",
+      "jp": "Japonya",
+      "kr": "Güney Kore",
+      "kz": "Kazakistan",
+      "lt": "Litvanya",
+      "ly": "Libya ",
+      "md": "Moldova",
+      "mx": "Meksika",
+      "my": "Malezya",
+      "nl": "Hollanda",
+      "no": "Norveç",
+      "nz": "Yeni Zelanda",
+      "pk": "Pakistan",
+      "pl": "Polonya",
+      "pt": "Portekiz",
+      "ro": "Romanya",
+      "rs": "Sırbistan",
+      "ru": "Rusya",
+      "sa": "Suudi Arabistan",
+      "se": "İsveç",
+      "sg": "Singapur",
+      "si": "Slovenya",
+      "tr": "Türkiye",
+      "tw": "Tayvan",
+      "us": "Amerika Birleşik Devletleri",
+      "za": "Güney Afrika"
+    }
+  },
+  "LOCKSCREEN": {
+    "POPUP": {
+      "CALLS": "Video konferansı iyileştirin",
+      "PLUS": "Aynı anda birden fazla İnternet bağlantısı kullanın",
+      "SECURITY": "Süper güvenli şifreleme",
+      "SERVERS": "Dünya çapında sunucu erişimi",
+      "STREAM": "Optimize edilmiş canlı yayın",
+      "SUBTITLE": "İşte kaçırdığınız tüm özellikler...",
+      "TITLE": "Tüm ücretsiz verilerinizi kullandınız!",
+      "UNLIMITED": "Sınırsız göz atın, yayınlayın ve oyun oynayın"
+    },
+    "UPGRADETITLE": "Speedify'ı kullanmaya devam etmek için şimdi yükseltin",
+    "USAGE": "Tüm ücretsiz aylık verilerinizi kullandınız"
+  },
+  "NETWORKADAPTERFUNCTIONS": {
+    "UNKNOWN": "Bilinmiyor"
+  },
+  "NETWORKDOT": {
+    "MESSAGING": {
+      "CAPTIVE": "Captive Portal",
+      "DISABLED": "Devre dışı",
+      "OVERLIMITRATELIMIT": "Limit aşımı Hız aşımı"
+    }
+  },
+  "NOTIFICATIONS": {
+    "PERMISSION": "{speedifyProductName}, bildirimleri gösteremiyor. {linkPre}Bildirim İznini Etkinleştirin{linkPost}."
+  },
+  "OMNICHART": {
+    "SUBTITLES": {
+      "EXTENDED": "5 dakika",
+      "LATENCY": "Gecikme süresi",
+      "LOSS": "Kayıp",
+      "PROXY": "Yerel",
+      "REALTIME": "Gerçek zamanlı",
+      "SHARED": "Paylaşıldı",
+      "SPEED": "Hız",
+      "USAGE": "Kullanım"
+    },
+    "TITLES": {
+      "QUALITY": "Bağlantı Kalitesi",
+      "SPEED": "Hız"
+    },
+    "TOTAL": "Toplam",
+    "WAITING": "Başlamak için bağlan"
+  },
+  "ONEPANE": {
+    "POPINS": {
+      "ACCOUNT": "Hesap",
+      "ADAPTERCONFIGURE": "Yapılandır",
+      "CHANGEPASSWORD": "Şifre Değiştir",
+      "CONNECTION": "Seans",
+      "DEVTOOLS": "Araçlar Geliştir",
+      "LOGIN": "Giriş Yap",
+      "NOTIFICATIONS": "Bildirimler",
+      "PRIVACY": "Gizlilik",
+      "SERVERS": "Sunucular",
+      "SERVERSLOCATION": "Sunucu Konumu",
+      "SETTINGS": "Ayarlar",
+      "SIRI": "Siri Kısayolları",
+      "SOUNDS": "Sesler",
+      "SUPPORT": "Destek",
+      "UPGRADE": "Yükselt"
+    }
+  },
+  "OVERLIMIT": {
+    "ACTIONLIMIT": "{speed} hızda {boldPre}Kullanmayı Sürdür{boldPost}",
+    "ACTIONSTOP": "Bu adaptörü kullanmayı durdur",
+    "DAILY": {
+      "BOOST": "Bugünün Bütçesini {boostAmount} Kadar Artır",
+      "MSG": "{adapterName} {limit} limitinin günlük veri kullanım limitini aştı ve bugün artık kullanılmayacak."
+    },
+    "DAILY75": {
+      "MSG": "{adapterName} {limit} limitinin günlük veri kullanım limitini %75 aştı"
+    },
+    "DISABLED": "Sizi korumak için {boldPre}{adapterName}{boldPost} şimdi devre dışı bırakıldı",
+    "LIMITED": "Sizi korumak için {boldPre}{adapterName}{boldPost} şimdi hız sınırlı.",
+    "MONTHLY": {
+      "MSG": "{adapterName} {limit} limitinin aylık veri kullanım limitini aştı ve artık kullanılmayacak."
+    },
+    "MONTHLY75": {
+      "MSG": "{adapterName} {limit} limitinin aylık veri kullanım limitini %75 aştı"
+    }
+  },
+  "OVERVIEW": {
+    "CONSAVED": "Kaydedilen Bağlantılar",
+    "DOWNLOAD": "İndirmeler",
+    "PACKRECOVERED": "Kurtarılan Paketler",
+    "SHARE": "Bunu Paylaş!",
+    "SHARETEXT": {
+      "CONSAVED": "{speedifyProductName} {value, plural, one{1 time} other{# times}} bağlantıları arasında sorunsuz şekilde geçiş yaptı!",
+      "DOWNLOAD": "{speedifyProductName} indirme hızımı {value} Mbps artırdı!",
+      "PACKRECOVERED": "{speedifyProductName} kayıp paketlerde {value} {bytesLabel} kurtardı!",
+      "UPLOAD": "{speedifyProductName} yükleme hızımı {value} Mbps artırdı!"
+    },
+    "TITLE": "İstatistik",
+    "UPLOAD": "Yüklemeler",
+    "WAITING": "Veriler toplanıyor, kısa süre içinde kontrol edin."
+  },
+  "PLATFORM": {
+    "SHARE": {
+      "INSTRUCTION": "{speedifyProductName} Deneyiminizi Paylaşın.",
+      "TEXT1": "{speedifyProductName}'a Göz Atın - "
+    }
+  },
+  "PRIORITIES": {
+    "ALWAYS": {
+      "DESC": "Her zaman bu bağlantıyı kullan",
+      "DISPLAY": "Birincil"
+    },
+    "AUTOMATIC": {
+      "DESC": "{speedifyProductName} ürününün bağlantının önceliğini yönetmesine izin ver",
+      "DISPLAY": "Otomatik"
+    },
+    "BACKUP": {
+      "DESC": "Bu bağlantıyı, başka bağlantılar yokken sadece yük devri için kullan.",
+      "DISPLAY": "Yedekle"
+    },
+    "CAPTIVEPORTAL": "Eylem Gerekiyor",
+    "DESC": "Bir bağlantının Öncelik Önemi, {speedifyProductName}'ın onu nasıl ve ne zaman kullanması gerektiğini belirler.",
+    "NEVER": {
+      "DESC": "Bu bağlantıyı kullanma",
+      "DISPLAY": "Asla"
+    },
+    "OVERLIMIT": {
+      "DISPLAY": "LİMİT AŞIMI"
+    },
+    "SECONDARY": {
+      "DESC": "Hız arttırma ve yük devri için bu bağlantıyı kullanın, ancak Birincilden az.",
+      "DISPLAY": "İkincil"
+    },
+    "UNKNOWN": {
+      "DISPLAY": "BİLİNMİYOR"
+    }
+  },
+  "PRIORITYSELECTION": {
+    "CELLULARALWAYSALERT": {
+      "ASKAGAINCANCEL": "Hayır, İkincil olarak Değiştir",
+      "ASKAGAINOK": "Evet, Birincil Olarak Ayarlanmış Kalsın",
+      "ASKAGAINTITLE": "\"{adapter}\" ögesinin hâlâ Birincil Öncelik olarak ayarlanmasını istiyor musunuz?",
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Bir Hücresel bağlantı Öncelikli olarak ayarlandığında, Wi-Fi veya Ethernet bağlantısının mevcut olduğu hallerde dahi bu bağlantı her zaman kullanılacaktır. Bu durum, ek Hücresel veri kullanımına ve pil tüketiminin artmasına neden olabilir.",
+      "OK": "HER ZAMAN olarak ayarla",
+      "TITLE": "HER ZAMAN {adapterType} kullan"
+    },
+    "NEVERALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "HİÇBİR ZAMAN ayarı bu bağlantının hiç kullanılmayacağı anlamına gelir. Devam etmek istiyor musunuz?",
+      "OK": "HİÇBİR ZAMAN olarak ayarla",
+      "TITLE": "HİÇBİR ZAMAN {adapterType} kullanma"
+    }
+  },
+  "PROMPTS": {
+    "ALLOW": "İzin Ver",
+    "CANCEL": "İptal",
+    "NO": "Hayır",
+    "NOTNOW": "Şimdi Değil",
+    "OK": "Tamam",
+    "YES": "Evet"
+  },
+  "PURCHASE": {
+    "BESTDEAL": "EN İYİ TEKLİF!",
+    "CANCELSUBDESC": "Dilediğiniz zaman iptal edin",
+    "CHOOSEYOURDESTINY": "Bireysel bir abonelik seçin",
+    "COMPLETECOVER": "Devam etmek için siparişinizi tamamlayın veya {speedifyProductName} Mağazasını kapatın.",
+    "CREATEACCOUNTALERT": {
+      "CANCEL": "Atla",
+      "MSG": "Diğer cihazlarınızda Unlimited {speedifyProductName} hesabınızı kullanabilmeniz için, bir e-posta adresi ve şifre kullanarak kaydolmanız gerekmektedir.",
+      "OK": "Bir hesap oluşturun",
+      "TITLE": "Hesabınızı Kaydettirin"
+    },
+    "CREATEACCOUNTALERT2": {
+      "CANCEL": "@:PURCHASE.CREATEACCOUNTALERT.CANCEL",
+      "MSG": "Hesap kayıt işlemini atlarsanız, Unlimited {speedifyProductName} hesabınıza diğer cihazlardan erişemeyeceksiniz.",
+      "OK": "@:PURCHASE.CREATEACCOUNTALERT.OK",
+      "TITLE": "Emin misiniz?"
+    },
+    "CREATEACCOUNTREGISTER": {
+      "HEADER": "{speedifyProductName}'ı aynı anda 4 cihaza kadar kullanabilmek için Unlimited {speedifyProductName} hesabınızı şimdi kaydettirin!",
+      "TITLE": "Hesabı Kaydettir"
+    },
+    "DISPLAYEDPRICES": "Fiyatlar {currencyCode} cinsinden görüntülenir",
+    "FAMILYHEADER": "...Ya da tüm aileniz için bir tane!",
+    "HEADER100USED": "{pre1}Ücretsiz {speedifyProductName} verilerinizin hepsini kullandınız!{post1} {pre2}Bu muhteşem özelliklerin kilidini açmak için hemen abone olun ya da daha fazla ücretsiz veri için {stylePre} {daysDisplay} {days, plural, one{gün} other{günler}}{stylePost} bekleyin.{post2}",
+    "HEADER100USEDNODATA": "{pre1}Ücretsiz {speedifyProductName}verinizin tümünü kullandınız!{post1} {pre2}Tüm bu harika özelliklerin kilidini açmak için abone olun.",
+    "HEADEREXPIRED": "{pre1}Aboneliğinizin Süresi Doldu!{post1}",
+    "MOSTPOPULAR": "EN POPÜLER",
+    "NAMES": {
+      "FAMILY": "Aile Planı",
+      "MONTHLY": "Aylık",
+      "THREEYEAR": "3 Yıllık Plan",
+      "YEARLY": "Yıllık"
+    },
+    "PLANS": {
+      "FAMILY": "Aileler",
+      "FIXED": "Sabit uzunluk planları",
+      "INDIVIDUAL": "Bireysel",
+      "SUB": "Üyelik",
+      "UPGRADES": "Mevcut Yükseltmeler"
+    },
+    "POSTPURCHASE": {
+      "DIRECTIONS": "Az önce alış yaptığınız hesaba giriş yapın",
+      "TITLE": "Giriş Yap"
+    },
+    "PRICEPERMONTH": "{price}{currencySymbol}/Ay",
+    "PRICEPERUSERPERMONTH": "{currencySymbol}{price} {currencyCode}/aylık kullanıcı",
+    "PRICEPERYEAR": "{price}{currencySymbol}/Yıl",
+    "PRICEPERYEARABTESTA": "Sadece ",
+    "PRICEPERYEARABTESTB": "Yıllık {currencySymbol}{price} {currencyCode}",
+    "PRICEPERYEARABTESTC": "{currencySymbol}{price} {currencyCode}",
+    "PRICEWITHOUTDURATION": "{currencySymbol}{price}",
+    "PRODUCTTITLE": "{pre1}{speedifyProductName}{post1} {pre2} Limitsiz {post2}",
+    "PRODUCTTITLEFAMILY": "Aileler{post2} için {pre1}{speedifyProductName}{post1} {pre2}",
+    "PURCHASELENGTH": "{monthsDisplay} {months, plural, one{Ay} other{aylar}}",
+    "REASONS": {
+      "FAMILY": "Sınırsız kullanım, premium sunucu erişimi ve sizin ve en fazla diğer beş aile üyesinin erişimini paylaşmanıza olanak tanıyan {stylePre}iCloud Aile Paylaşımı{stylePost}",
+      "FIVEDEVICES": "Aynı anda 5 cihaza kadar kullanım",
+      "INDIVIDUAL": "5 cihaza kadar sınırsız kullanım + premium sunuculara erişim için şimdi yükseltin!",
+      "PREMIUM": "Premium Sunucu Erişimi",
+      "SALE": "Şimdi Abone Olun ve 30% Tasarruf Edin",
+      "UNLIMITED": "Sınırsız Kullanım",
+      "WORLDWIDE": "Dünya Çapında Sunucu Erişimi"
+    },
+    "SALEOFFER": "SINIRLI SÜRELİ TEKLİF",
+    "SALESAVINGS": "%30 İNDİRİM",
+    "SALETRIAL": "7 Günlük Ücretsiz Deneme Sürümümü başlat",
+    "SAVEPERCENTAGE": "%{percentDisplay} tasarruf edin",
+    "SIGNIN": "Zaten bir hesabım var",
+    "TRIALBUTTON": "İlk 7 gün ücretsiz - Ardından {price}{currencySymbol}/yıl",
+    "TRIALEXPLAIN": "İlk kez kullananlar {trialLength} günlük ücretsiz denemeye hak kazanır.",
+    "TRIALPRICE": "Bugün {trialPrice}{currencySymbol} ödeyin, ardından ücretsiz deneme süresinden sonra {price}{currencySymbol}/yıl ödeyin.",
+    "USERDEVICES": "{userDisplay} kullanıcalar, {deviceDisplay} cihazlar",
+    "VIEWMORE": "Daha Fazla Seçenek Görüntüle"
+  },
+  "PUSHPERMISSION": {
+    "DESCRIPTION": "Yardımcı güvenlik mesajlarını ve hesap güncellemelerini sadece gerekli olduğu zamanlarda göndereceğiz",
+    "HEADER": "Sonuncu fakat bir o kadar önemli...",
+    "LOWERDESC": "Belirli uyarıları istediğiniz zaman açıp kapatabilirsiniz.",
+    "RECEIVE": "Bildirimleri al",
+    "SOUNDSGOOD": "İyi görünüyor"
+  },
+  "REGISTERLOGIN": {
+    "BUTTONS": {
+      "CONTINUE": "Devam et",
+      "CREATEGLOBAL": "Kayıt İşlemini Tamamla",
+      "FORGOTPASSWORD": "Şifreyi Unut",
+      "LOGIN": "Giriş Yap",
+      "NEEDACCOUNT": "Hesabınız yok mu?",
+      "REGISTER": "Kayıt Ol",
+      "USEFREE": "Ücretsiz Hesap Kullan"
+    },
+    "DIRECTIONS": {
+      "AUTOFREE": "Mevcut hesabınıza giriş yapmak için e-posta adresinizi girin",
+      "AUTOPAID": "{speedifyProductName} paketinizi diğer cihazlarda kullanmak için bir hesap oluşturun veya önceki hesabınıza bağlayın.",
+      "LOGOUT": "Şimdi çıkış yaptınız. {speedifyProductName}'ı kullanmaya devam etmek için başka bir kullanıcı hesabıyla veya Ücretsiz Hesap kullan seçeneğiyle giriş yapın.",
+      "NOACCOUNT": "{speedifyProductName} hesabınıza giriş yapmak için e-posta adresinizi girin",
+      "NOTEXIST": "Böyle bir hesap yok. Lütfen oturum açmak istediğiniz {speedifyProductName} hesabıyla bağlantılı e-posta adresini girin.",
+      "PASSRESETSUBMIT": "Şifre sıfırlama işleminiz gönderildi. Lütfen ilave talimatlar için e-postanızı kontrol edin",
+      "SWITCH": "Farklı bir hesaba giriş yapmak için e-posta adresinizi girin"
+    },
+    "ERRORS": {
+      "DEVICELIMIT": {
+        "BTMMSG": "Devam etmek için, bir veya daha fazla cihazınızda Speedify'den çıkış yapın ve tekrar deneyin. Beklemeniz gereken süre 1 haftaya kadar çıkabilir.",
+        "LEARNMORE": "@:SETTINGSPANE.LEARNMORE",
+        "OK": "@:PROMPTS.OK",
+        "TITLE": "Cihaz Limiti Aşıldı",
+        "TOPMSG": "Tek bir kullanıcı hesabı haftada en fazla 5 cihazda oturum açabilir."
+      }
+    },
+    "PASSMANAGERS": "Yada Şununla Giriş Yap",
+    "PASSRESET": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Şifrenizi sıfırlamak istediğinizden emin misiniz?",
+      "OK": "Şifre Sıfırlama",
+      "TITLE": "Şifre Sıfırlama"
+    }
+  },
+  "REVIEW": {
+    "ENJOYING": {
+      "NO": "Çalışmıyor, Lütfen Yardım Edin!",
+      "QUESTION": "{speedifyProductName}'dan memnun musunuz?",
+      "YES": "Şimdilik her şey yolunda."
+    },
+    "FBLIKE": {
+      "QUESTIONFORLIKE": "{speedifyProductName}'a bayılıyor musunuz?",
+      "YES": "Bizi Facebook'ta beğenin"
+    },
+    "PROMPT": {
+      "LINK": "İncelemek için Dokun",
+      "SUBTITLE": "Öyleyse, bize bir inceleme bırakmak için zaman ayırırsanız gerçekten minnettar oluruz!",
+      "TITLE": "{speedifyProductName} ürününü seviyor musunuz?"
+    },
+    "REVIEW": {
+      "NO": "Şimdi değil.",
+      "QUESTION": "Harika. {speedifyProductName}'ı incelemek için bir dakika ayırır mısınız?",
+      "YES": "Elbette!"
+    },
+    "SUPPORT": {
+      "NO": "Şimdi değil.",
+      "QUESTION": "Bunu duyduğumuza üzüldük. Size yardım edebilmemiz için bir destek talebi gönderir misiniz?",
+      "YES": "Destek ile İletişim Kur"
+    }
+  },
+  "SALEPOPUP": {
+    "DEALBUTTON": "Bu Teklifi Alın!",
+    "DESCRIPTION": "Yeni kullanıcılara yönelik bu sınırlı süreli teklif ile {speedifyProductName} Sınırsız VPN'e yükseltin.",
+    "HURRY": "Acele edin!  Bu teklifin süresi doluyor: ",
+    "LATERBUTTON": "Belki Sonra",
+    "SAVINGS": "Şimdi %40 Tasarruf Edin!"
+  },
+  "SERVERFUNCTIONS": {
+    "PRIVATE": "Özel Sunucular",
+    "PRIVATEBRAG": "Daha yüksek hızların, istikrarlı bir IP adresinin ve port yönlendirme için seçeneklerin tadını çıkarın.",
+    "UNKNOWN": "Bilinmiyor"
+  },
+  "SERVERS": {
+    "LESS": "daha az...",
+    "MORE": "daha fazla...",
+    "OPTIONS": {
+      "AUTOMATIC": "Otomatik Seçim",
+      "CLOSEST": "En Hızlı Sunucu",
+      "CLOSESTDEDICATED": "En Yakın Atanmış Sunucu",
+      "CLOSESTPUBLIC": "En Yakın Genel Sunucu",
+      "COUNTRY": "Ülke Seç",
+      "DEDICATED": "Adanmış",
+      "EXIT": "Çıkış'ta Bağlantıyı Kes",
+      "EXITANDROID": "Görev Geçişi",
+      "EXITDESC": {
+        "ANDROID": "Kaydırma veya Hepsini Kapat yoluyla {speedifyProductName}'ı Görev'den kaldırırken bağlantıyı kes",
+        "DESKTOP": "UI'den çıkarken bağlantıyı kes"
+      },
+      "EXITOFFANDROID": "Bağlı kalın",
+      "EXITONANDROID": "Bağlantıyı kesin",
+      "MANUALPITCH": "Belirli sunucuları seçmek veya web sitelerine göz atmak ve uygulamaları başka bir ülkedeymiş gibi kullanmak için Manuel Seçimi kullanın.",
+      "MANUALSELECTION": "MANÜEL SEÇİM",
+      "MANUALSELECTIONDESC": "Tüm dünya çapında konumlardaki premium sunuculara erişimi açın.",
+      "P2P": "Torrent Dostu Sunucu",
+      "P2PDESC": "Torrent indirmeye ve uçtan uca protokollere olanak sağlayan bir sunucuya bağlanır.",
+      "PROXY": "Yerel",
+      "REQUIRESUNLIMITED": "(Sınırsız Gerektirir)",
+      "STARTUP": "Başlangıçta Bağlan",
+      "STARTUPDESC": "Cihazınız yeniden başlatılırken {speedifyProductName}'a otomatik olarak bağlanın.",
+      "UPGRADELINK": "Hemen Yükseltin"
+    },
+    "VIEWALLLOCATIONS": "TÜM KONUMLARA BAK",
+    "VIEWLESS": "DAHA AZ GÖR"
+  },
+  "SERVICE": {
+    "RESTART": "{speedifyProductName} Hizmetini yeniden başlatın"
+  },
+  "SETTINGERRORMESSAGE": {
+    "MESSAGE": "Takım Yöneticiniz bu ayarın yapılandırmasını kilitledi.",
+    "TITLE": "Bu Ayar Kilitli"
+  },
+  "SETTINGSPANE": {
+    "ABOUT": {
+      "FOLLOW": "{username} kişisini Twitter'da Takip Et",
+      "RATE": "{appname} için Oy ver",
+      "TITLE": "{speedifyProductName} Hakkında"
+    },
+    "ACCOUNT": {
+      "CANCEL": "Aboneliği İptal Et",
+      "DATAUSED": "{dataAvailable} verinin {percentage} kadarı Kullanıldı",
+      "DELETE": {
+        "ACCOUNT": "Hesabı sil",
+        "ACCOUNTERROR": "Hesabınızın kaldırılmasıyla ilgili bir sorun oluştu, lütfen support@speedify.com adresiyle iletişime geçin",
+        "ACCOUNTMESSAGE": "\"Sil\"e dokunduğunuzda Speedify hesabınız derhâl devre dışı bırakılacak ve talebinizden sonraki 14 gün içinde silinecektir. Bu eylem geri alınamaz.\n NOT: Bu işlem App Store üzerinden satın aldığınız aboneliği iptal etmez veya size yeni Deneme süresi vermez. Satın alımlarınızı yönetmek için App Store'u ziyaret edin.",
+        "ACCOUNTMESSAGESUCCESSTITLE": "Hesap Silindi",
+        "ACCOUNTMESSAGETITLE": "Hesap silinsin mi?",
+        "ACCOUNTSUCCESS": "Hesabınız silinmek üzere işaretlendi ve 14 gün içinde kaldırılacaktır",
+        "MANAGESUB": "Abonelikleri Yönet",
+        "MESSAGECONFIRMOPTION": "Sil"
+      },
+      "EXPIRESON": "{date} tarihinde süresi doluyor",
+      "HELPERMESSAGE": "{speedifyProductName} Hesabınızla Giriş Yapın",
+      "MANAGE": "Hesabı Yönet",
+      "MONTHLYTIER": "Aylık Abonelik",
+      "NEWUPGRADE": "Yeni Yükseltme Mevcut",
+      "NOACCOUNT": "Hesabınız yok mu? Şimdi Yükseltin!",
+      "ONEYEARPASS": "Senelik Geçiş",
+      "PLAN": "{dataAvailable} Aylık",
+      "REDEMPTIONCODE": "Kodu Kullan",
+      "RENEWSFREE": "{date} tarihindeki Ücretsiz Veri Yenileme",
+      "RENEWSPAID": "{date} Tarihinde Yenilenir",
+      "REVIEW": "{speedifyProductName}'ı Değerlendir",
+      "REVIEWDESC": "Cömert hissediyorsanız ve birkaç dakikanız varsa, lütfen bir değerlendirme bırakın. Bizim için büyük bir fark yaratacaktır. Şimdiden teşekkürler.:smiley:",
+      "SIGNOUT": "Çıkış Yap",
+      "STATS": {
+        "RESCUE": "Kesintisiz Yük Devirleri",
+        "RESCUEDESCRIPTION": "Kesintisiz Yük Devirleri {speedifyProductName}'ı kullanmasaydınız kesilecek ağ bağlantılarının sayısını ifade eder.",
+        "TITLE": "İSTATİSTİKLER (TÜM ZAMANLAR)"
+      },
+      "THREEYEARPASS": "Üç Senelik Geçiş",
+      "THREEYEARSUB": "Üç Senelik Abonelik",
+      "TITLE": "@:ONEPANE.POPINS.ACCOUNT",
+      "TWOYEARTIER": "İki Senelik Abonelik",
+      "UPGRADE": "Sınırsıza Yükselt",
+      "UPGRADEFAMILIES": "Ailelere Yükselt",
+      "VERSION": "Sürüm ",
+      "YEARLYTIER": "Yıllık Abonelik"
+    },
+    "APPLICATIONBYPASS": {
+      "HEADER": "App Bypass"
+    },
+    "BACK": "Geri",
+    "CONNECTIONSETTINGS": "BAĞLANTI AYARLARI",
+    "CONNECTIONSUBTITLE": "Bağlantılar buunduğunda otomatik olarak görünür.",
+    "CUSTOM": "Özel",
+    "DASHBOARD": "Gösterge Paneli",
+    "DETACHWINDOW": {
+      "DESC": "Pencere Konumu, Speedify kullanıcı arayüzünün nasıl görüntüleneceğini belirler.",
+      "DOCKDESC": "Speedify arayüzü Menü Çubuğuna eklenecektir.",
+      "DOCKED": "Menü Çubuğu",
+      "DOCKEDOPTION": "Menü Çubuğuna yerleştirildi",
+      "FLOATING": "Yüzen",
+      "FLOATINGDESC": "Speedify arayüzü, kendi yüzer uygulama penceresinde görüntülenecektir.",
+      "FLOATINGOPTION": "Yüzen Pencere",
+      "HEADER": "Pencere Konumu"
+    },
+    "DNSLEAKDESC": "DNS isteklerinin {speedifyProductName}'ın etrafından dolandığı ve gerçek konumunuzu ziyaret ettiğiniz sitelere açık ettiği \"DNS sızıntılarından\" korur",
+    "DONE": "Bitti",
+    "HELP": {
+      "CONTACT": "{speedifyProductName} Destek Birimi ile İletişime Geçin",
+      "TITLE": "Yardım"
+    },
+    "IPLEAKDESC": "IP isteklerinin {speedifyProductName} öğesini aşıp ziyaret ettiğiniz sitelerin gerçek konumunu açıklamasına sebep olan \"IP sızıntılarından\" korur.",
+    "LEARNMORE": "Daha Fazla Bilgi",
+    "LOCKEDMESSAGE": "Bu ayar, Takım Yöneticiniz tarafından yönetilir",
+    "LOCKEDPOP": {
+      "MESSAGE": "Takım Yöneticiniz bu ayarın yapılandırmasını kilitledi.",
+      "TITLE": "Bu Ayar Kilitli"
+    },
+    "NETWORKS": {
+      "ADVANCED": {
+        "HEADER": "GELİŞMİŞ",
+        "IPADDRESS": "IP Adresi",
+        "IPADDRESSDESC": "Bu bağlantıda o anda kullanılmakta olan IP adresini ve aktarımı gösterir.",
+        "RATELIMIT": {
+          "DESC": "Hız Limiti etkinleştirildiğinde, {speedifyProductName} bu internet bağlantısının maksimum hızını yıkarıda belirlenen değer ile sınırlandırır. İnternet sağlayacınız ile sınırlı bir veri planınız varsa, limit aşımlarını önlemenize yardımcı olabilir."
+        }
+      },
+      "COLLAPSE": "Daralt",
+      "CONNECTIONDIALOG": "Bu Wi-Fi ağına giriş yap",
+      "DATACAP": {
+        "AMOUNT": "Miktar",
+        "BOOST": "Hızlandırma",
+        "BOOSTDESC": "Günlük veri kullanım sınırınıza ekstra veri ekler.",
+        "DAILY": "Günlük Veri Limiti",
+        "DESC": " bu bağdaştırıcı üzerinden {speedifyProductName}'ın gönderip alabileceği veri miktarını kontrol etmenize olanak verir. İnternet sağlayacınız ile sınırlı bir veri planınız varsa, limit aşımlarını önlemenize yardımcı olabilir.",
+        "HEADER": "VERİ LİMİTLERİ",
+        "MONTHLY": "Aylık Veri Limiti",
+        "OVERLIMIT": "{data} veriden %{percent}",
+        "RESETSON": "Sıfırlamalar Açık",
+        "SUB": "{speedifyProductName} veri kullanımını yalnızca hizmete bağlı olduğunuzda ölçer."
+      },
+      "DETAILS": "Bağlantı Detayları",
+      "EXPAND": "Genişlet",
+      "MESSAGES": {
+        "ADAPTERNAME": {
+          "DESCRIPTION": "Adaptör Açıklaması",
+          "HEADER": "Adaptör Adı"
+        },
+        "ISP": {
+          "HEADER": "İnternet Servis Sağlayıcısı",
+          "MESSAGE": "İnternet Servis Sağlayıcının adı."
+        },
+        "JITTER": {
+          "HEADER": "Sapma",
+          "MESSAGE": "Bu bağlantının gecikme süresinde değişkenlik. Düşük bir değer, daha kararlı ve tutarlı bir bağlantıyı gösterir."
+        },
+        "LATENCY": {
+          "HEADER": "Gecikme",
+          "MESSAGE": "Ping olarak da bilinen gecikme, bu bağlantının sunucuya bir istek göndermesi ile yanıt aldığı zamana kadar geçen toplam gidiş-dönüş (RTT) süresidir. Daha düşük daha iyidir, oyun oynamak için 80 ms'nin altındaki değerler istenirken, 150 ms'nin üzerindeki değerlerde internet deneyiminizde fark edilir gecikmeler ve durgunluk gerçekleşir."
+        },
+        "LOSS": {
+          "HEADER": "Paket Kaybı",
+          "MESSAGE": "Bu bağlantı tarafından son zamanlarda kaybedilen veya bırakılan veri paketlerinin yüzdesi. Güvenilir bir internet bağlantısında paket kaybı çok azdır veya hiç yoktur. %1'in üzerindeki değerlerde performansın önemli ölçüde azalmasına neden olur."
+        },
+        "MOS": {
+          "HEADER": "Ortalama Yargı Değeri",
+          "MESSAGE": "VoIP aramaları için, gecikme, sapma ve kayba dayalı olarak bu bağlantının ne kadar iyi performans göstereceğine dair standart bir derecelendirmedir."
+        },
+        "SSID": {
+          "HEADER": "Ağ Adı",
+          "MESSAGE": "Bağlı ağın adı."
+        }
+      },
+      "OVERLIMIT": {
+        "DAILY": "Günlük Veri Limiti Aşıldı",
+        "DESC": "Limit Aşım Davranışı, bu internet bağlantısının Günlük ya da Aylık Veri Limitini aşması halinde ne olacağını belirler.",
+        "HEADER": "Limit Aşım Davranışı",
+        "MONTHLY": "Aylık Veri Limiti Aşıldı",
+        "RATELIMIT": "Hız Limiti",
+        "RATELIMITTO": "{speed} Hız Limiti",
+        "STOP": "Kullanmayı Bırak"
+      },
+      "RESET": "İstatistikleri Sıfırla"
+    },
+    "NEWS": {
+      "ARCHIVED": "ARŞİVLENDİ",
+      "DASHBOARDOPTION": "Panoda Göster",
+      "NOEVENTS": "Hepiniz yakalandınız!",
+      "TITLE": "Haberler ve Etkinlikler",
+      "UNREAD": "OKUNMAMIŞ"
+    },
+    "NOTIFICATIONS": {
+      "ALLOW": "Bildirimlere İzin Ver",
+      "STABILITYHEADER": "Kararlılık & Güvenlik",
+      "DISABLEDDESC": "Speeds'in size bildirim göndermesi için izne ihtiyacı var. Bildirim Ayarlarını açın ve izin vere dokunun.",
+      "PITCH": "Sadece gerekli olduğunda hesap güncellemeleri ve yardımcı güvenlik mesajları göndereceğiz."
+    },
+    "OFF": "Kapalı",
+    "ON": "Açık",
+    "PREFERENCES": "Tercihler",
+    "PREMIUMFEATURES": "Sınırsız hesaplar bu özelliğe ve daha fazlasına erişim sağlar.",
+    "PRIVACY": {
+      "DNSSERVICE": {
+        "ADD": "DNS Hizmeti Ekle",
+        "ADDIP": "IP Adresi Ekle",
+        "ADGUARDDESC": "Yerleşik reklam engelleyicili DNS hizmeti.",
+        "ADGUARDHEADER": "AdGuard DNS",
+        "AUTODESC": "{speedifyProductName}'ın DNS hizmeti, en yüksek hız ve gizlilik için DNS'inizi otomatik olarak ayarlar.",
+        "AUTOHEADER": "Oto",
+        "CLOUDFLAREDESC": "Gizlilik öncelikli DNS hizmeti",
+        "CLOUDFLAREHEADER": "Cloudflare'den 1.1.1.1",
+        "HEADER": "DNS Hizmeti",
+        "IP": "IP ADRESLERİ",
+        "OPENDNSDESC": "Yerleşik kimlik hırsızlığı korumalı DNS hizmeti.",
+        "OPENDNSHEADER": "OpenDNS Ev",
+        "QUAD9DESC": "İnternet Güvenliği & Gizliliği",
+        "QUAD9HEADER": "9.9.9.9 Quad9 tarafından"
+      },
+      "ENCRYPTION": {
+        "DESC": "Şifreleme etkinleştirildiğinde, {speedifyProductName} genel performans üzerinde en az etki ile bilgilerinizi güvende tutmak için son şifreleme standartlarından faydalanır. Cihaz desteğine bağlı olarak {speedifyProductName}, AES256-GCM ya da ChaCha20 şifreleme anahtarları ile birlikte DTLS 1.2 kullanır.",
+        "HEADER": "Şifreleme"
+      },
+      "HEADER": "GİZLİLİK",
+      "INTERNETKILLSWITCH": {
+        "DESC": "İnternet Acil Anahtarı etkin olduğunda, {speedifyProductName} bağlantısı kesildiğinde tüm İnternet trafiği devre dışı bırakılacak.",
+        "HEADER": "İnternet Acil Anahtarı",
+        "OFF": "Kapalı"
+      }
+    },
+    "RECOMMENDED": "(Önerilir)",
+    "SERVERS": {
+      "ALL": "Tüm Sunucular",
+      "CONNECT": "Bağlan",
+      "CONNECTED": "Bağlandı",
+      "DESCRIPTION": "İnternet trafiğinin sevk edildiği ülkeyi ve sunucuyu seçin.",
+      "RECENT": "Son Seçimler",
+      "SERVER": "Sunucu",
+      "TITLE": "SUNUCU SEÇİMİ"
+    },
+    "SESSION": {
+      "BONDINGMODE": {
+        "DESC": {
+          "MAIN": "Birleştirme Modu, {speedifyProductName}'ın internet bağlantılarınızı nasıl yöneteceğini belirler.",
+          "REDUNDANT": "Fazlalık Modu etkinken, {speedifyProductName} üstün derecede tutarlı bir internet bağlantısı sağlayabilmek için tek başına en hızlı olan internet bağlantısının hızında çalışacak ve ek veri kullanacaktır. Fazlalık Modu'nu kullanırken, her bir paket aynı anda birden fazla bağlantı üzerinden gönderilir ve ilk önce hangi paket ulaşırsa o bağlantı üzerinden devam edilir.",
+          "SPEED": "Hız Modu etkinken, {speedifyProductName} en iyi hız ve performansı sağlayabilmek için web trafiğinizi tüm kullanılabilir internet bağlantıları üzerinde dağıtır.",
+          "STREAMING": "Akışı İyileştir etkinleştirildiğinde Speedify, akışları (görüntülü aramalar, sesli aramalar, canlı akış vb.) diğer ağ trafiği işlemlerine göre otomatik önceliklendirir ve performansı optimize etmek için hem bağlantı kurma hem de yedeklemeyi akıllıca kullanır."
+        },
+        "ENHANCESTREAMING": "Akışı Geliştirin",
+        "HEADER": "Birleştirme Modu",
+        "REDUNDANT": "Fazlalık",
+        "SPEED": "Hız",
+        "SPEEDPLUS": "Hız +",
+        "STREAMING": "Akış"
+      },
+      "HEADER": "OTURUM SEÇENEKLERİ",
+      "HEADERCOMPRESSION": {
+        "DESC": {
+          "MAIN": "Üstbilgi Sıkıştırma etkinleştirildiğinde, Speedify, ağ ek yükünü ve veri kullanımını azaltmak için veri paketlerindeki başlıkları küçültür. Bu, çevrimiçi oyunlar, VoIP ve video konferans ile artan performansa yol açabilir."
+        },
+        "HEADER": "Üstbilgi Sıkıştırma"
+      },
+      "JUMBO": {
+        "DESC": "MTU (Maximum Transmission Unit) etkinleştirildiğinde, {speedifyProductName} Sanal Ağ Bağdaştırıcısı üzerinden daha büyük veri paketleri göndererek, verimliliği yükseltecek ve CPU kulanımını azaltacaktır. Destek birimi kapatmanızı tavsiye edene kadar açık bırakın."
+      },
+      "PAIRANDSHARE": {
+        "ATTEMPTPAIR": "Eşleşmeye çalışılıyor",
+        "BACKUPONLY": "Yalnızca Yedek Olarak Kullan",
+        "CONNECTPANE": {
+          "BOTTOMDESC": "Veya, cihazınızın kamerasını kullanarak QR kodunu tarayabilirsiniz.",
+          "CONNECT": "@:CAPTIVEPORTALPOPUP.CONNECTBUTTON",
+          "TITLE": "Cihazı Eşleştir",
+          "TOPDESC": "{displayName} sahibine, Pair & Share ayarlarında görüntülenen 6 haneli kodu sorun."
+        },
+        "DASHBOARD": {
+          "BUTTONTEXT": "Bir Cihazı Eşleştirmeye Başlayın",
+          "BUTTONTEXTNORECEIVE": "Çiftleştir & Paylaş'ı Etkinleştir",
+          "NEWPEERTITLE": "{count} yeni eşleşme bulundu",
+          "NEWPEERSUBTITLE": "Eşleştirilmiş cihazları eklemek veya yönetmek için dokunun",
+          "NOPAIREDTITLE": "Eşleştirilmiş cihaz bulunmamaktadır.",
+          "NOPAIREDSUBTITLE": "Eşleştirilmiş cihazları yönetmek için dokunun",
+          "TITLE": "Aynı Wi-Fi ağındaki birden fazla {speedifyProductName} kullanıcısı arasında Hücresel bağlantıları kolayca paylaşın."
+        },
+        "DATAUSAGE": {
+          "REALTIME": "Gerçek Zamanlı",
+          "RECEIVED": "Alınan",
+          "SHARED": "Paylaşılan",
+          "TITLE": "Eşleştirilmiş Veri Kullanımı"
+        },
+        "DESCCLIENT": "Aynı yerel ağdaki diğer Speedify kullanıcıları tarafından paylaşılan Hücresel bağlantıları eşleştirin ve kullanın.",
+        "DESCHOST": "Aynı Wi-Fi ağındaki birden fazla {speedifyProductName} kullanıcısı arasında Hücresel bağlantıları kolayca paylaşın.",
+        "DISABLEPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DISABLE": "Devre Dışı Bırak",
+          "MSG": "Bu paylaşılan bağlantıyı en az bir çiftleşmiş cihaz aktif olarak kullanıyor. Devam etmek istiyor musunuz?",
+          "PEERMSG": "Bu cihaz, bu paylaşılan bağlantıyı aktif olarak kullanıyor. Devam etmek istiyor musunuz?",
+          "TITLE": "Paylaşmayı Devre Dışı Bırak"
+        },
+        "ENABLERECEIVING": "Eşleşmek için yeni cihazları keşfetmek üzere Almayı etkinleştirin.",
+        "INTRO": {
+          "ENABLE": "@:SETTINGSPANE.SESSION.PAIRANDSHARE.DASHBOARD.BUTTONTEXTNORECEIVE",
+          "NOTNOW": "@:PROMPTS.NOTNOW",
+          "POINT1": "Etkinleştirildiğinde, {speedifyProductName} eşleşmek üzere yerel ağınızdaki cihazları arayacaktır.",
+          "POINT2": "Her zaman diğer cihazlardan çiftleştirebilir, izinleri değiştirebilir veya çiftleşmeyi kaldırabilirsiniz.",
+          "POINT3": "Eşleştirilmiş cihazlar ve {speedifyProductName} sunucuları arasında paylaşılan ve alınan tüm veriler şifrelenmiştir.",
+          "POINT4": "Herhangi bir Hücresel veri, diğer cihazlarla paylaşıldığında, İSS'nize bağlı veri olarak görünecektir.",
+          "SUBTITLE": "Pair & Share, aynı Wi-Fi ağındaki birden fazla {speedifyProductName} kullanıcısı arasında Hücresel bağlantıları kolaylıkla paylaşmanızı sağlayan yeni bir özelliktir.",
+          "TITLE": "Maksimum bağlantı için Pair & Share'ı etkinleştirin"
+        },
+        "MANAGE": "Yönet",
+        "DISCOVERED": "Keşfedildi",
+        "NOUNPAIREDDEVICES": "Aynı Wi-Fi ağındaki eşleştirilmemiş cihazlar burada görünecektir.",
+        "PAIREDDEVICE": "Eşleştirilmiş Cihaz",
+        "PAIREDDEVICES": "Eşleştirilmiş Cihazlar",
+        "PERMISSIONS": "İzinler",
+        "POPUP": {
+          "ACCEPT": "Evet, Cihazı Eşleştir",
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "FAILMESSAGE": "Bu cihaz artık eşleştirilemez veya mevcut yerel ağınızda bulunamaz. Lütfen daha sonra tekrar deneyin.",
+          "FAILTITLE": "\"{displayName}\" ile eşleştirme yapılamıyor",
+          "MANAGE": "İzinleri Yönet",
+          "OK": "@:PROMPTS.OK",
+          "AUTOTITLE": "Cihazınız \"{displayName}\" otomatik olarak eşleştirildi",
+          "AUTOSUBTITLE": "{speedifyProductName} otomatik olarak hesabınızdaki diğer cihazlarla eşleşerek hızlı ve kolay hücresel paylaşım sağlar. Bu davranışı istediğiniz zaman değiştirebilirsiniz.",
+          "OPTIONS": {
+            "ENCRYPTED": "Cihazlar ve Speedify sunucuları arasında gönderilen tüm veriler şifrelenmiştir.",
+            "LIMITS": "Hücresel bağlantınızın aşırı kullanımını önlemek için limitler belirleyebilir veya paylaşmayı durdurabilirsiniz.",
+            "PERMISSION": "Bu cihazın izinlerini istediğiniz zaman değiştirebilir veya eşleştirmeyi kaldırabilirsiniz."
+          },
+          "REQUEST": "Eşleştirme İsteği Gönder",
+          "SUCCESS": "Başarılı! Artık \"{displayName}\" ile eşleştiniz.",
+          "SUCCESSMESSAGE": "Aynı yerel ağda olduğunuzda otomatik olarak bu cihaza bağlanacaksınız. Paylaşılan bağlantının izinlerini ve önceliğini yönetebilir veya bu cihazla olan eşleştirmeyi istediğiniz zaman kaldırabilirsiniz.",
+          "TITLE": "\"{displayName}\" ile Eşleştir ve Paylaş?",
+          "TOPDESCRIPTION": "Eşleştirildikten sonra, aynı Wi-Fi ağı üzerindeyken Hücresel bağlantıları kolaylıkla ileri geri paylaşabileceksiniz."
+        },
+        "QRSCREEN": {
+          "NOSPEEDIFY": "Hala {speedifyProductName} yok mu?",
+          "NOSPEEDIFYDESC": "Endişelenmeyin, yukarıdaki QR kodu cihazınız için doğru versiyona bağlanacaktır.",
+          "SCANDESC": "Bu kodu tarayarak, arkadaşlar aynı Wi-Fi ağı üzerindeyken Hücresel bağlantıları kolaylıkla paylaşmak için eşleşebilir.",
+          "TITLE": "Hızlı ve kolay eşleştirme için QR kodunuzu paylaşın"
+        },
+        "SCANTOPAIR": "Eşleştirmek için Tara",
+        "SETTINGS": {
+          "ADD": "EKLE",
+          "CONNECTING": "Bağlanıyor...",
+          "DISPLAYNAME": "Görüntü Adı",
+          "DISPLAYNAMEDESC": "Görüntüleme Adı, cihazınızın diğer Pair ve Share kullanıcılarına nasıl tanımlanacağını belirler.",
+          "PAIRINGREQUEST": {
+            "ASK": "Sor",
+            "AUTO": "Otomatik Kabul Et",
+            "AUTODESC": "{speedifyProductName} otomatik olarak herhangi bir eşleştirme talebini kabul edecektir.",
+            "DESC": "Eşleştirme İstekleri, Speedify'nin diğer cihazların eşleşme isteğinde bulunduğunda nasıl yanıt vereceğini belirler.",
+            "IGNORE": "Yoksay",
+            "OFFDESC": "{speedifyProductName}, tüm gelen eşleştirme isteklerini yoksayacaktır.",
+            "ONDESC": "Başka bir cihazın eşleşme isteğinde bulunduğu her zaman size bir istem gönderilecektir."
+          },
+          "PAIRMYDEVICES": {
+            "AUTO": "Otomatik olarak",
+            "MANUAL": "Manuel olarak"
+          },
+          "PAIRINGREQUESTS": "Eşleştirme İstekleri",
+          "AUTOPAIR": "Cihazlarımı Eşleştir",
+          "AUTOPAIRDESC": "Cihazlarımı Eşleştir, Speedify'nin bu cihazı hesabınızdaki diğer cihazlarla otomatik olarak eşleştirip eşleştirmemesini kontrol eder.",
+          "RECEIVEDISABLED": "Alma işlemi {speedifyProductName} tarafından devre dışı bırakıldı.",
+          "RECEIVEDSTOPPED": "Alma işlemi durduruldu",
+          "RECEIVEFROM": "Alma:",
+          "RECEIVING": "Alma",
+          "RECEIVINGCONTROLDESC": "İzin Verme etkinleştirildiğinde, bu cihaz aynı Wi-Fi ağı üzerindeyken ve {speedifyProductName} çalışırken diğer eşleştirilmiş cihazlardan gelen paylaşılan bağlantıları kullanabilecektir.",
+          "RECEIVINGCONTROLTITLE": "Almayı İzin Ver",
+          "RECEIVINGUNAVAILABLE": "Alma Kullanılamaz",
+          "SHARERECEIVE": "& Almaktan Paylaşma",
+          "SHARING": "Paylaşım ({isp})",
+          "SHARINGCONTROLDESC": "Paylaşıma İzin Ver özelliği etkinleştirildiğinde, aynı Wi-Fi ağı üzerindeki diğer eşleştirilmiş cihazlar, bu Hücresel bağlantıdan her biri için 10 Mbps'ye kadar kullanabileceklerdir. {stylePre}{stylePost} Bu özellik, mobil hotspot/tethering yetenekleri olan uyumlu bir Hücresel veri planı gerektirir. Bazı İSS'ler tethering için sınırlama getirebilir veya ek ücret talep edebilir. {stylePre}{stylePost} NOT: Bireysel cihazlar için paylaşımı etkinleştirme veya devre dışı bırakma seçeneğiniz bulunmaktadır, bunun için ilgili cihazın bağlantı ayarlarını ziyaret edebilirsiniz.",
+          "SHARINGCONTROLTITLE": "Paylaşım İzin Verme",
+          "SHARINGDISABLED": "Paylaşım 2 GB'ye kadar devre dışı bırakıldı.",
+          "SHARINGSTOPPED": "Paylaşım durduruldu",
+          "SHARINGTO": "Paylaşım İçin",
+          "SHARINGUNAVAILABLE": "Paylaşım Kullanılamaz",
+          "TITLE": "Pair & Share Ayarları",
+          "UNAVAILABLE": "Kullanılamaz"
+        },
+        "SHAREDEVICE": "Bu Cihaza Paylaş",
+        "TAPPAIR": "Eşleştirmek için Dokunun",
+        "TITLE": "Pair & Share",
+        "TOPTITLE": "Pair & Share özelliğini kullanmaya başlamak için {speedifyProductName} 'a bağlanın.",
+        "UNPAIR": "Cihazın Eşleştirmesini Kaldır",
+        "UNPAIREDDEVICES": "Eşleştirilmemiş Cihazlar",
+        "UNPAIRPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DESC": "Artık bu cihaza paylaşımda bulunamayacak veya cihazın paylaşılan bağlantısını kullanamayacaksınız.",
+          "OK": "Eşleştirmeyi Kaldır",
+          "TITLE": "Bu Cihazın Eşleştirmesini Kaldırılsın mı?"
+        },
+        "USEDEVICE": "Bu Cihazın Paylaşılan Bağlantısını Kullanın",
+        "VIEWALL": "Tümünü Gör",
+        "VIEWLESS": "Daha Az Gör",
+        "WIFIDESC": "Pair & Share'ı Kullanmaya Başlamak için Wi-Fi'ye Bağlanın"
+      },
+      "PORTFWD": {
+        "DESC": "Özelleştirilmiş Sunucularda {speedifyProductName}, sunucuda gelen portları bu istemciye yönlendirebilir. Bu sayede Özelleştirilmiş Sunucu'nun IP adresini kullanarak internetteki kullanıcıların bağlanabileceği bir sunucuyu bu cihazda işletebilirsiniz. 1024 ve 49151 port numaraları arasında hem TCP hem de UDP desteklenmektedir."
+      },
+      "STARTUPCONNECT": {
+        "DESC": "Başlangıçta Bağlan etkinken, cihazınız yeniden başlatıldığında {speedifyProductName} otomatik olarak bağlanacaktır.",
+        "HEADER": "Başlangıçta Bağlan"
+      },
+      "TRANSPORTMODE": {
+        "AUTO": "Otomatik (Tavsiye Edilen)",
+        "DESC": {
+          "AUTO": "Herhangi bir durumda hangi protokolün en iyi olduğuna {speedifyProductName}'ın karar vermesini sağlar.",
+          "HTTPS": "HTTPS aktarımı, {speedifyProductName}'ın trafiğini web taraması olarak gizlemektedir. Genellikle diğer seçeneklerden biraz daha yavaştır.",
+          "MAIN": "Aktarım Modu, {speedifyProductName}'ın hangi ağ protokolünü kullanacağını belirler.",
+          "TCP": "TCP, hızlı ve tutarlı internet bağlantılarında en iyi performansı sağlar.",
+          "TCPMULTI": "Tek bir TCP soketinden daha iyi performans için birden çok paralel TCP soketi kullanır. Çok hızlı ağlar ve yüksek gecikme veya paket kaybı olan ağlar için önerilir.",
+          "UDP": "UDP, yavaş ve tutarsız bağlantılar için en iyi performansı sunar ve oyunlar gibi gecikme konusunda hassas uygulamalar ve canlı yayınlar için tavsiye edilir."
+        },
+        "HEADER": "Aktarım Modu",
+        "HTTPS": "HTTPS",
+        "TCP": "TCP",
+        "TCPMULTI": "TCP Çoklu",
+        "UDP": "UDP"
+      }
+    },
+    "SOUNDS": {
+      "DESC": "{speedifyProductName} kullanıcı arayüzünde ses efektlerini etkinleştirin veya devre dışı bırakın.",
+      "TITLE": "Ses Efektleri"
+    },
+    "STATISTICS": {
+      "BRAGS": {
+        "BONDED": "Bağlanılmış Zaman",
+        "CPASSIST": "Giriş Portalı Yardımları",
+        "DATAENCRYPTED": "Veri Şifrelendi",
+        "MALWARE": "Kötü Amaçlı Yazılım Engellendi",
+        "RESCUED": "Kesintisiz Yük Devirleri",
+        "STREAMERGENCY": "@:SETTINGSPANE.STATISTICS.MESSAGES.STREAMERGENCY.TITLE",
+        "STREAMS": "Tamamlanan Akışlar",
+        "TOPDOWNLOADSPEED": "En Yüksek İndirme Hızı",
+        "TOPUPLOADSPEED": "En Yüksek Yükleme Hızı"
+      },
+      "DURATION": {
+        "ALLTIME": "Tüm Zamanlar",
+        "MONTH": "Bu Ay",
+        "PAST": "Geçmiş Oturumlar",
+        "RECENT": "Son zamanlarda",
+        "TODAY": "Bugün",
+        "WEEK": "Hafta"
+      },
+      "MESSAGES": {
+        "CAPTIVE": {
+          "MESSAGE": "Speedify'ın bir giriş ekranı ya da giriş portalının ardından bir Wi-Fi ağına bağlanmanıza yardım etme sayısı.",
+          "TITLE": "Giriş Portalı Yardımları"
+        },
+        "DOWNSPEED": {
+          "MESSAGE": "Speedify çalıştırılırken kaydedilen en yüksek indirme hızı.",
+          "TITLE": "En Yüksek İndirme Hızı"
+        },
+        "ENCRYPTED": {
+          "MESSAGE": "Speedify'ın şifrelediği toplam ağ trafiği miktarı.",
+          "TITLE": "Toplam Şifrelenmiş Baytlar"
+        },
+        "RESCUE": {
+          "MESSAGE": "Bir ağ hatası veya değişikliği sırasında Speedify'ın engellediği yükleme, indirme, akış veya arama kesintileri sayısı.",
+          "TITLE": "Kesintisiz Yük Devirleri"
+        },
+        "STREAMERGENCY": {
+          "MESSAGE": "Akışla ilgili acil durumları önlemek için Speedify'ın yaptığı müdahale sayısı.",
+          "TITLE": "{streamergency} Korumaları"
+        },
+        "STREAMS": {
+          "MESSAGE": "Mümkün olan en iyi deneyimi sağlamak için görüntülü aramalar, VoIP ve canlı akışlar gibi gerçek zamanlı akışlara otomatik olarak öncelik verilir ve bunlar korunur .",
+          "TITLE": "@:UBERBOX.STATE.SINGLEACTIVESTREAMING"
+        },
+        "UPSPEED": {
+          "MESSAGE": "Speedify çalıştırılırken kaydedilen en yüksek yükleme hızı.",
+          "TITLE": "En Yüksek Yükleme Hızı"
+        }
+      },
+      "NOSTATS": "Siz Speedify'ı kullanırken biz önemli İstatistikleri burada toplayıp rapor edeceğiz.",
+      "SECTIONS": {
+        "SECURITY": "Güvenlik",
+        "SPEED": "Hız",
+        "STABILIITY": "Kararlılık"
+      },
+      "SHARE": {
+        "CAPTIVE": "Speedify'ı yüklediğimden beri, Captive Portals'ın arkasındaki {stat} Wi-Fi ağına sorunsuz ve güvenli bir şekilde bağlanmama yardımcı oldu.",
+        "DOWNLOAD": "Speedify'ın yardımıyla {stat}'lık en yüksek indirme hızına ulaştım!",
+        "ENCRYPTED": "Speedify'ı yüklediğimden beri, {stat}'lık web trafiğimi güvenli bir şekilde şifreledi.",
+        "FAILOVERS": "Speedify'ı yüklediğimden beri, uygulamalarımın internet bağlantılarında başarısız olmasını {stat} kez engelledi.",
+        "STREAMERGENCY": "Speedify'ı kurduğumdan beri akışla ilgili {stat} acil durumda beni korudu.",
+        "STREAMS": "Speedify'ı kurduğumdan beri {stat} gerçek zamanlı akışımın önceliğini belirledi ve onları korudu.",
+        "UPLOAD": "Speedify'ın yardımıyla {stat}'lık en yüksek yükleme hızına ulaştım!"
+      },
+      "TITLE": "İstatistiklerim"
+    },
+    "STREAMINGBYPASS": {
+      "BYPASSSUGGESTION": "Baypas Önerileri",
+      "DASHBOARDDESC": "Seçili hizmetlerin {speedifyProductName} için baypas yapmasına izin ver",
+      "DASHBOARDINFO": "Yukarıda listelenen hizmetlerin VPN trafiğini kısıtlandığı bilinmektedir. Etkinleştirilirse, seçili hizmetin trafiği {speedifyProductName} güvenliğine şifrelemesine baypas yaparak, doğrudan bağlantı kurmasına izin verecektir.",
+      "DESC": "Bu hizmetlerin VPN trafiğini engellediği bilinmektedir. Bypass etkinleştirildiğinde, seçilen hizmetlerin doğrudan bağlanmasına izin verilerek bu hizmetlerdeki trafiğin {speedifyProductName}’ın güvenliğini ve şifrelemesini bypass etmesi sağlanacaktır.",
+      "HEADER": "Bypass",
+      "MANAGE": "({count}) yönet",
+      "NOSUGGESTIONS": "Şu anda baypas önerisi bulunmuyor",
+      "POPUP": {
+        "DESC": "{speedifyProductName}, VPN’lerin şifrelenmiş tünelin dışına doğrudan bağlanmalarını engellediği bilinen {service}'dan gelen trafiğe izin verebilir.",
+        "NOBUTTON": "Hayır Teşekkürler",
+        "TITLE": "{service}'dan gelen trafiğin {speedifyProductName}'i atlamasına izin verilsin mi?",
+        "YESBUTTON": "{service}'i atla"
+      },
+      "RESTOREPOPUP": {
+        "CANCEL": "@:PROMPTS.CANCEL",
+        "DESC": "Bu eylem herhangi bir baypas seçimini devre dışı bırakıp tavsiye edilen varsayılan seçenekleri etkinleştirecektir.",
+        "RESTORE": "Varsayılanı Eski Haline Getir",
+        "TITLE": "Varsayılan Baypas ayarları eski haline getirilsin mi?"
+      },
+      "SELECTED": "Seçili",
+      "SUGGESTIONDESC": "Kullanıma dayalı baypas önerilerini etkinleştir. Sonuçlar cihazınıza yerel olarak yansır ve {speedifyProductName} tarafına asla geri gönderilmez.",
+      "SUGGESTIONS": "Öneriler",
+      "TITLE": "ŞURADAN TRAFİĞİ ATLA"
+    },
+    "SUPPORT": "DESTEK",
+    "TESTSPEED": {
+      "CLOSE": "Kapat",
+      "CONNECTION": "Bağlantı",
+      "CONNECTIONS": "Bağlantılar",
+      "CONNECTNEWTEST": "Bağlan ve Hız Testini Başlat",
+      "CONNECTSTREAMTEST": "Bağlan ve Canlı Yayın Testini Başlat",
+      "DESC": "iPerf3 kullanarak toplam bağlantı hızınızı test edin",
+      "ERROR": "Hata! Bu test yapılırken bir hata oluştu.",
+      "ERRORDESC": "Lütfen mevcut test tamamlanana kadar bekleyin",
+      "ERRORTITLE": "Hata",
+      "HEADER": "Performans Testleri",
+      "JITTER": "GECİKME",
+      "LIVESTREAMDESC": "Canlı yayın kabiliyetlerinizi kontrol edin",
+      "LIVESTREAMINPROGRESS": "Canlı yayın testi devam ediyor...",
+      "LIVESTREAMPANEDESC": "{speedifyProductName}, canlı yayınlardan ve video konferanslardan gelen trafiğe öncelik verecek.",
+      "LIVESTREAMSTART": "Canlı Yayın Testini Başlat",
+      "LIVESTREAMTEST": "Canlı Yayın Testi",
+      "LIVESTREAMTESTDESC": "Canlı yayını hangi video çözünürlüğünü ve kare hızı ile yapabileceğinizi görmek için yüklemenizi test edin. Hem canlı yayın hem de video görüşmeleri öncesi için kullanışlıdır.",
+      "LIVESTREAMTESTSHARE": "Speedify'ı kullanırken canlı yayın test sonuçlarıma göz atın! Bağlantılarınız hangi çözünürlüğü ve kare hızını destekleyebilir?",
+      "LIVESTREAMTITLE": "{speedifyProductName} Canlı Yayın Testi",
+      "LIVETESTCOMPLETE": "Canlı Yayın Testi Tamamlandı",
+      "LOSS": "KAYIP",
+      "NEWSTREAMTEST": "Yayın Testini Başlat",
+      "NEWTEST": "Hız Testini Başlat",
+      "OVERALLDESC": "Bu testler çok fazla veri kullanabilir, bu nedenle veri ücretleriniz pahalıysa veya sınırlıysa dikkatli olun.",
+      "PING": "PING",
+      "RECENTTESTS": "Son Testler",
+      "RETRY": "Yeniden deneyin",
+      "SPEEDTEST": "Hız Testi",
+      "SPEEDTESTCOMPLETE": "Hız Testi Tamamlandı",
+      "SPEEDTESTDESC": "Speedify gelişmiş internetinizin kaldırabileceği maksimum yükleme ve indirme hızlarını test edin.",
+      "SPEEDTESTSHARE": "Speedify ile internet hızlarıma göz atın! İnternetiniz ne kadar hızlı?",
+      "TESTING_SPEED": "Test Hızları",
+      "TESTING_STREAMING": "Canlı Yayın Test Ediliyor",
+      "TESTREPORT": "{stylePre}{numberOfConnections}{stylePost} bağlantınız birleştiğinde, saniyede {stylePre}{fps}{stylePost} kare hızında {stylePre}{resolution}{stylePost} video yayını gerçekleştirebilir",
+      "TESTREPORTERROR": "{stylePre}{numberOfConnections}{stylePost}] bağlantılarınız yayın için {stylePre}uygun değil{stylePost}",
+      "UPLOAD": "YÜKLEME",
+      "VIEWHISTORY": "Geçmişi Görüntüle"
+    },
+    "THEME": {
+      "DARK": "Koyu",
+      "DEFAULT": "Varsayılan",
+      "DEFAULTDESC": " Varsayılanı seçmek yalnızca işletim sistemi tercihlerinize göre güncelleyecek.",
+      "HEADER": "Tema",
+      "LIGHT": "Açık"
+    }
+  },
+  "SOCIALPOPUP": {
+    "DESC": "En son Speedify haberlerini, ipuçlarını, tüyolarını ve en iyi fırsatlarımız ile ödüllerimizi alın!",
+    "DESCTITLE": "{followSpeedify}'yı Şimdi Takip Edin!",
+    "FOLLOWUS": "Bizi şurada takip edin: ",
+    "HEADER": "İletişimde Kalın!",
+    "NOTHANKS": "@:SETTINGSPANE.STREAMINGBYPASS.POPUP.NOBUTTON",
+    "SUBSCRIBEON": "Şurada abone olun: "
+  },
+  "SPEEDIFY": "Speedify",
+  "SPEEDMODE": {
+    "DESCRIPTIONS": {
+      "REDUNDANCY": "Güvenilirliği artırmak için tüm trafiği fazla şekilde her bağlantıya gönderir"
+    },
+    "REDUNDANCY": "Fazlalık Modu"
+  },
+  "STREAMING": {
+    "ACTIVE": "{active} Aktif",
+    "COMPLETED": "{completed} Tamamlandı",
+    "DELETE": "Geçmişi Temizle",
+    "FAILOVERSAVES": "Bağlantı yük devri ile kurtarıldı",
+    "HEADER": "Akışlar",
+    "HINTS": {
+      "CPU": {
+        "HEADER": "Yüksek CPU",
+        "TEXT": "Bazı uygulamaları veya sekmeleri kapatmayı düşün"
+      },
+      "LATENCY": {
+        "HEADER": "Stabil olmayan bağlantı (Gecikme)",
+        "TEXT": "Daha iyi sinyal almak için hareket edebilir misin?"
+      },
+      "LOSS": {
+        "HEADER": "Stabil olmayan bağlantı (Kayıp)",
+        "TEXT": "Daha iyi sinyal almak için hareket edebilir misin?"
+      },
+      "MEMORY": {
+        "HEADER": "Düşük Bellek",
+        "TEXT": "Bazı uygulamaları veya sekmeleri kapatmayı düşün"
+      }
+    },
+    "NOSTATSSUBTITLE": "Speedify akış trafiğine öncelik verir",
+    "REDUNDANTSAVES": "Aşırı gecikme veya paket kaybından kurtarıldı",
+    "SPEEDSAVES": "Bağlantı kesintisinden kurtarıldı",
+    "STREAM": "Akış"
+  },
+  "STREAMINGPOPUP": {
+    "MAINDESC": "Son yayınınız sırasında Speedify, yayınla ilgili acil durumları önlemek için {saves} müdahale etti.",
+    "MAINTITLE": "Speedify bir yayını kurtardı!",
+    "SHARE": "Speedify, yayınla ilgili acil durumların son çağrımı veya akışımı kesintiye uğratmasını {saves} engelledi. Speedify, İnternet bağlantılarını birleştirmeme izin veriyor ve otomatik olarak daha dengeli ve güvenli Zoom aramaları, oyun ve video konferans için yayın trafiğine öncelik veriyor.",
+    "SUBDESC": "Daha akıcı, daha güvenilir yayınlar, çağrılar ve konferanslar için Speedify'ı arkadaşlarınız, aileniz ve iş arkadaşlarınızla paylaşın."
+  },
+  "TORRENTALERT": {
+    "MSG": "{speedifyProductName} bir uygulamanın BitTorrent veya başka bir Eşler Arası protokol kullanmaya çalıştığını tespit etti. P2P trafiğine bu sunucuda izin verilmemektedir. P2P'yi destekleyen bir sunucuya bağlanmak ister misiniz?",
+    "NO": "Bağlantıyı Kes",
+    "STAYCONNECTED": "P2P olmadan devam et",
+    "TITLE": "P2P Sunucusuna Bağlan",
+    "YES": "P2P Sunucuya Bağlan"
+  },
+  "TORRENTDISCONNECT": {
+    "MSG": "{speedifyProductName}'ın bağlantısı kesildi. Lütfen tekrar bağlanmadan önce BitTorrent veya başka bir P2P Protokolü kullanan tüm programları kapatın.",
+    "TITLE": "{speedifyProductName} bağlantısı kesildi"
+  },
+  "UBERBOX": {
+    "CONNECTTOSERVER": "Bağlanmak İçin Tıklayın",
+    "OUTOFDATA": "Ücretsiz Veri bitti",
+    "REDUNDANTALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Fazlalık Modu ağ bağlantı hızlarını birleştirmez, sadece en hızlı ağı kullanır. Bu modun en güvenilir bağlantıyı kurmak için çok daha fazla veri kullandığını lütfen unutmayın.",
+      "OK": "Etkinleştir",
+      "TITLE": "Fazlalık Modunu Etkinleştir"
+    },
+    "STATE": {
+      "AUTO_CONNECTING": "Sunucular denetleniyor",
+      "CONNECTED": "Bağlandı",
+      "CONNECTING": "Bağlanıyor",
+      "DISCONNECTING": "Bağlantı kesiliyor",
+      "KILLSWITCH": "Kill Switch Etkinleştirildi",
+      "LOGGED_IN": "Bağlantı kesildi",
+      "LOGGED_OUT": "Oturum Kapatıldı",
+      "LOGGING_IN": "Giriş Yapılıyor",
+      "MULTIACTIVEOLRL": "Tüm Bağlantı Oranları Sınırlandırıldı",
+      "MULTIACTIVEREDUNDANT": "{count} Bağlantı Gereksiz",
+      "MULTIACTIVESPEED": "{count} Bağlantıya İletişim Kuruyor",
+      "MULTIACTIVESTREAMINGNOSTREAM": "Gerçek zamanlı akış yok, {count} bağlantı",
+      "MULTIACTIVESTREAMINGREDUNDANT": "Gereksiz akış yapılıyor",
+      "MULTIACTIVESTREAMINGSPEED": "Birleştirme ile akış yapılıyor",
+      "MULTIBACKUPREDUNDANT": "{count} Yedek Bağlantı",
+      "MULTIBACKUPSPEED": "{count} Yedek Bağlantıya İletişim Kuruyor",
+      "NOINTERNET": "İnternet Bağlantısı Yok",
+      "OVERLIMIT": "Bağlantılar kullanım limitine ulaştı",
+      "SINGLEACTIVEOLRL": "Bağlantı Oranı Sınırlandırıldı",
+      "SINGLEACTIVEREDUNDANT": "1 Bağlantı dışında diğerleri gereksiz",
+      "SINGLEACTIVESPEED": "Bağlandı",
+      "SINGLEACTIVESTREAMING": "Akış yapılıyor",
+      "SINGLEBACKUP": "Yedek Bağlantı Kullanılıyor"
+    },
+    "STREAMINGALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Akış modu, bağ kuran ve ihtiyaç fazlası trafiği bir araya getirerek gerçek zamanlı trafiği optimize eder. Bu mod, daha iyi bir akış deneyimi sunmak için akışlar aktifken ekstra veri ve pil kullanabilir.",
+      "OK": "Etkinleştir",
+      "TITLE": "Akış Modunu Etkinleştir"
+    },
+    "UPGRADENOW": "ŞİMDİ GÜNCELLE",
+    "UPGRADENOWSALE": "VE %30 TASARRUF EDİN"
+  },
+  "UPDATES": {
+    "ERROR": "Yeni bir sürüm denetlenirken bir hata oluştu",
+    "IGNORE": "Yoksay",
+    "INSTALLNOW": "Şimdi İndir",
+    "LATEST": "En son sürüme sahipsiniz."
+  },
+  "UPSELL": {
+    "BUTTONS": {
+      "STORE": "Planları ve Fiyatları Görüntüle"
+    },
+    "DESCRIPTION": {
+      "EXPIRED": "@:UPSELL.DESCRIPTION.USAGE100",
+      "USAGE100": "Ücretsiz denemenden memnun kaldığını umuyoruz. 5 cihaza kadar sınırsız kullanım ve premium sunuculara erişim için şimdi yükselt!",
+      "USAGE50": "{speedifyProductName} denemenizin keyfini çıkardığınızı umuyoruz. Verilerinizin bitmesini engelleyin ve hemen harekete geçin! Premium sunuculara erişimin yanında 5 cihaza kadar sınırsız kullanımın kilidini açın!",
+      "USAGE75": "Daha iyi bir İnternetin keyfini çıkarırken ve eğlenirken zaman uçup gider. Verilerinizin bitmesini önlemek ve premium sunuculara erişime sahip olmak için şimdi sınırsız bir plana yükseltin!"
+    },
+    "HEADER": {
+      "EXPIRED": "Aboneliğinizin Süresi Doldu!",
+      "USAGE100": "Aylık Verinin {percentage}%'si Kullanıldı",
+      "USAGE50": "Ücretsiz Verinizi %{percentage} oranında kullandınız.",
+      "USAGE75": "Ücretsiz Verileriniz Bitmek Üzere  (%{percentage} Kullanıldı)"
+    },
+    "SECONDARYHEADER": {
+      "EXPIRED": "@:UPSELL.SECONDARYHEADER.USAGE100",
+      "USAGE100": "{speedifyProductName}'i kullanmaya devam etmek için şimdi yükselt",
+      "USAGE50": "Yükseltme zamanı!",
+      "USAGE75": "Güvenilir İnternet izinizi bozmayın!"
+    }
+  },
+  "USAGECHART": {
+    "SUBTITLES": {
+      "DAILY": "Günlük",
+      "MONTHLY": "Aylık"
+    },
+    "TITLE": "Kullanım Kırılımı",
+    "WAITING": "Başlamak için bağlan"
+  },
+  "WEEKLYSTATSPOPUP": {
+    "CONNRESCUEDDESC": "Speedify, yalnızca geçen hafta bir ağ hatası veya kesintisi sırasında yüklemelerinizi, indirmelerinizi, yayınlarınızı veya aramalarınızı kesilmekten kurtardı {rescued}.",
+    "CONNRESCUEDSHARE": "Kesintili İnternet mi var? Speedify'a ihtiyacınız var. Speedify, yalnızca geçen hafta bir ağ hatası veya kesintisi sırasında yüklemelerimi, indirmelerimi, yayınlarımı veya aramalarımı kesilmekten kurtardı {rescued}.",
+    "CONNRESCUEDTITLE": "{rescued} Kesintisiz Üstlenmeler",
+    "DATAENCRYPTEDDESC": "Geçen hafta, Speedify verileri {data} güvenli bir şekilde şifreledi.",
+    "DATAENCRYPTEDSHARE": "Tüm VPN'ler eşit şekilde oluşturulmaz. Speedify, geleneksel VPN'lerin iki katından fazla performans sağlamak için en son şifreleme standartlarını kullanır. Geçen hafta, Speedify hızdan ödün vermeden verilerimi şifreledi {data} ve çevrimiçi ortamda güvende olmamı sağladı.",
+    "DATAENCRYPTEDTITLE": "{data} Veri Şifreli",
+    "DEFAULTDESC": "Haftalık yeni istatistiklerinize göz atın.",
+    "DEFAULTTITLE": "Haftalık Yeni İstatistikler",
+    "MAXDOWNLOADDESC": "Speedify geçen hafta {download}'un yeni bir en yüksek indirme hızına ulaştı.",
+    "MAXDOWNLOADSHARE": "İnternet bağlantılarımı iyileştirilmiş denge, hız ve güvenlik için birleştirmek üzere Speedify kullanıyorum. Geçtiğimiz hafta {download}'un yeni bir en yüksek indirme hızına ulaştım.",
+    "MAXDOWNLOADTITLE": "{download}'un Yeni En Yüksek İndirme Hızı",
+    "MAXUPLOADDESC": "Speedify geçen hafta, {upload}'un yeni bir en yüksek yükleme hızına ulaştı.",
+    "MAXUPLOADSHARE": "İnternet bağlantılarımı iyileştirilmiş denge, hız ve güvenlik için birleştirmek üzere Speedify kullanıyorum. Geçtiğimiz hafta {upload}'un yeni bir en yüksek yükleme hızına ulaştım.",
+    "MAXUPLOADTITLE": "{upload}'un Yeni En Yüksek Yükleme Hızı",
+    "NOTIFICATIONDESC": "Speedify'ın İnternet'inizin hızını, güvenliğini ve dengesini iyileştirmeye nasıl yardımcı olduğunu görün.",
+    "REPORTAVAILABLE": "Haftalık Raporunuz Hazır",
+    "SMALLTITLE": "Haftalık Öne Çıkanlar",
+    "STREAMSAVEDESC": "Geçen hafta, Speedify otomatik olarak {streams} yayınlarına öncelik verdi ve {saved} yayın acil durumlarını önlemek için müdahale etti.",
+    "STREAMSAVESHARE": "Speedify, Zoom aramaları, oyunlar ve video konferans dahil olmak üzere daha istikrarlı ve güvenilir yayın için mükemmel bir araçtır. Geçen hafta, Speedify otomatik olarak {streams} yayınlarıma öncelik verdi ve {saved} yayın acil durumlarını önlemek için müdahale etti.",
+    "STREAMSAVETITLE": "{saved} Yayın Acil Durum Kurtarmaları"
+  },
+  "WIZARD": {
+    "CHANGE": "{adapterName} bağlantı ayarlarınıza dokunarak bu veri üst sınırlarını istediğiniz zaman değiştirebilirsiniz.",
+    "DAILY": "Günlük",
+    "DESC": "Daha iyi bir İnternet sunmak için {speedifyProductName}, Kablosuz ağa bağlı olsanız bile {adapterName} bağlantınızı zaman zaman kullanacaktır.",
+    "DONTWORRY": "Endişelenmeyin, bu ayarı istediğiniz zaman değiştirebilirsiniz.",
+    "DOYOU": "Sınırlı bir veri planınız var mı?",
+    "GOTIT": "Anladım!",
+    "GREAT": "Harika! {adapterName} bağlantınızda aşağıdaki veri sınırlarını ayarlayacağız",
+    "HEADER": "{adapterName} bağlantınız",
+    "INTRO": "Mobil veri planınızı aşmak size pahalı patlayabilir. Operatörünüzün keseceği ekstra ücretleri önlemek için {speedifyProductName} veri üst sınırları ile {adapterName} kullanımınızı sınırlayabilir.",
+    "MONTHLY": "Aylık",
+    "NOCAPS": "Hayır, sınırsız veri planım var",
+    "SET": "{speedifyProductName}'ın bu bağlantı üzerinden çok fazla veri göndermesini önlemek için Aylık ve Günlük Veri Sınırları belirleyebilirsiniz.",
+    "YESCAPS": "Evet, veri üst sınırlarını uygula"
+  }
+}

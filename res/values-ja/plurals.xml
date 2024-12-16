@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">%1$d台のデバイスと(%2$s)を共有中</item>
+    </plurals>
+</resources>

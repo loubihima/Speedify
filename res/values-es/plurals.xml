@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Compartiendo (%2$s) con %1$d dispositivos emparejados</item>
+        <item quantity="one">Compartiendo (%2$s) con %1$d dispositivo emparejado</item>
+        <item quantity="many">Compartiendo (%2$s) con %1$d dispositivos emparejados</item>
+    </plurals>
+</resources>

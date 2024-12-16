@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <inset android:inset="0.0dip">
+            <shape android:shape="rectangle">
+                <solid android:color="#ff00adee" />
+            </shape>
+        </inset>
+    </background>
+    <foreground>
+        <inset android:drawable="@drawable/speedify_banner_foreground" android:inset="60.0dip" />
+    </foreground>
+    <monochrome>
+        <inset android:drawable="@drawable/speedify_banner_foreground" android:inset="60.0dip" />
+    </monochrome>
+</adaptive-icon>

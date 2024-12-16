@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="one">Partajare (%2$s) cu %1$d dispozitiv asociat</item>
+        <item quantity="few">Partajare (%2$s) cu %1$d dispozitive asociate</item>
+    </plurals>
+</resources>

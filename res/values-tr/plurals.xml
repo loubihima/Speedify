@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">%1$d eşleştirilmiş cihazla (%2$s) paylaşıyor</item>
+        <item quantity="one">%1$d eşleştirilmiş cihazla (%2$s) paylaşıyor</item>
+    </plurals>
+</resources>

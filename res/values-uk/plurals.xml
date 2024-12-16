@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Поділ (%2$s) з %1$d спареними пристроями</item>
+        <item quantity="one">Поділ (%2$s) з %1$d спареним пристроєм</item>
+        <item quantity="few">Поділ (%2$s) з %1$d спареними пристроями</item>
+        <item quantity="many">Поділ (%2$s) з %1$d спареними пристроями</item>
+    </plurals>
+</resources>

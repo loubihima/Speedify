@@ -1,0 +1,23 @@
+.class public interface abstract Lio/sentry/m0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract b(Ljava/lang/String;)V
+.end method
+
+.method public abstract c(Ljava/util/Map;)V
+.end method
+
+.method public abstract d(Lio/sentry/protocol/p;)V
+.end method
+
+.method public abstract e(Ljava/lang/String;)V
+.end method
+
+.method public abstract f(Ljava/lang/String;)V
+.end method

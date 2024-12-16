@@ -1,0 +1,1600 @@
+{
+  "ACCCTRL": {
+    "CHANGEPASS": "更改密码",
+    "FACEBOOKLIKE": "在 Facebook 给 {speedifyProductName} 点赞",
+    "RESTORE": "恢复购买",
+    "REVIEW": "评论 {speedifyProductName}",
+    "SHARE": "分享"
+  },
+  "ACCINFO": {
+    "PERIOD": {
+      "ENDTIME": "（在 {dayCount} {dayCount, plural, other{天}} 天内重置）"
+    },
+    "SUB": {
+      "ENDTIME": "订购在 {dayCount} {dayCount, plural, other{天}} 天内结束",
+      "EXPIRED": "订购已结束"
+    },
+    "TYPE": {
+      "FAMILY": "家庭账户",
+      "FREE": "免费帐户",
+      "LIMITED": "受限帐户",
+      "NOACCOUNT": "未登录",
+      "TEAMS": "团队账户",
+      "UNLIMITED": "无限帐户"
+    },
+    "USAGE": {
+      "UNLIMITED": "无限",
+      "UNLIMITEDWITHUSAGE": "{usedBytes} 使用本月",
+      "UNSUPPORTED": "不受支持",
+      "USAGEREMAINING": "已使用了 {availableBytes} 的 {percentConsumed}%"
+    }
+  },
+  "ACCOUNTING": {
+    "DATAREPLENISH": "您的 {speedifyProductName} 月度数据计划已充满",
+    "EXTRADATA": "好消息，您已获得额外的 {speedifyProductName} 数据！",
+    "LAUNCH": "启动 {speedifyProductName}...",
+    "UNLIMITED": "无限"
+  },
+  "ACCOUNTPANE": {
+    "CREATE": "完成注册",
+    "LOGGEDOUT": "已退出",
+    "LOGIN": "登录",
+    "LOGOUT": "退出",
+    "UPGRADE": "升级"
+  },
+  "ACCOUNTSETTINGERRORMESSAGE": {
+    "MESSAGE": "@:SETTINGSPANE.PREMIUMFEATURES",
+    "TITLE": "@:SETTINGERRORMESSAGE.TITLE"
+  },
+  "ADAPTEREXTRAS": {
+    "addconnection": {
+      "desc": "添加连接",
+      "name": "添加连接"
+    }
+  },
+  "ADAPTERINFO": {
+    "BWLIMIT": {
+      "title": "速率限制",
+      "unlimited": "无限"
+    },
+    "DATA": "{adapterType} 数据",
+    "OVERLIMITMODE": {
+      "disabled": "停止使用",
+      "slow": "降速至",
+      "title": "当我到达限制时……"
+    },
+    "PRIORITY": "优先级",
+    "RESETALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "是否要从 {speedifyProductName} 重置 {adapterName} 的所有跟踪数据流量？",
+      "OK": "重置",
+      "TITLE": "重置数据使用量"
+    },
+    "RESETUSAGE": "重置数据使用",
+    "STATUS": {
+      "CAPTIVEPORTAL": "离线，需要采取措施",
+      "DISCONNETED": "已断开连接",
+      "NOINTERNET": "无 Internet",
+      "NOTUSED": "未使用",
+      "ONLINECONNECTED": "在线，已连接",
+      "ONLINECONNECTING": "正在连接",
+      "ONLINEDISCONNECTED": "在线，未连接",
+      "ONLINESLEEPING": "在线，睡眠中",
+      "OVERLIMIT": "超限",
+      "OVERLIMITDAILY": "超出每日限制",
+      "OVERLIMITMONTHLY": "超出每月限制",
+      "SPEEDIFYDISCONNECTED": "{speedifyProductName} 已断开连接"
+    },
+    "TUNNELSTATE": {
+      "CONNECTED": "@:UBERBOX.STATE.CONNECTED",
+      "CONNECTING": "@:UBERBOX.STATE.CONNECTING",
+      "DISCONNECTED": "@:UBERBOX.STATE.LOGGED_IN"
+    },
+    "USEDATA": "使用 {adapterType} 数据"
+  },
+  "ADAPTERTYPES": {
+    "Bluetooth": "蓝牙",
+    "Cellular": "蜂窝移动数据",
+    "Ethernet": "以太网",
+    "Loopback": "回送",
+    "NetworkShare Client": "配对网络",
+    "NetworkShare Host": "共享蜂窝",
+    "Unknown": "未知",
+    "VPN": "VPN",
+    "Wi-Fi": "Wi-Fi"
+  },
+  "ADVANCED": {
+    "OPTIONS": {
+      "ACCOUNTALERT": "账户提醒",
+      "ACCOUNTALERTDESC": "接收关于你的Speedify账号的通知",
+      "CAPTIVEPORTAL": "强制登录门户提醒",
+      "CAPTIVEPORTALDESC": "当您当前的Wi-Fi连接需要操作才能连接到网络时通知您。",
+      "CONNECTALERT": "连接通知",
+      "CONNECTALERTDESC": "当 {speedifyProductName} 连接或断开连接时显示通知",
+      "CRASH": "崩溃报告",
+      "CRASHDESC": "万一发生崩溃，允许{speedifyProductName}接收匿名调试信息。",
+      "DEADHOTSPOT": "失效热点警报",
+      "DEADHOTSPOTDESC": "当{speedifyProductName}从一个坏掉的热点上救回连接时，你会收到通知。",
+      "INCOMINGPASALERTS": "收到的配对请求",
+      "PASSTATUSALERTS": "配对状态更新",
+      "PASNEWPEERALERTS": "发现新的对等节点",
+      "DISCONNECTALERTS": "断开连接警报",
+      "DNSLEAK": "DNS 泄漏保护",
+      "DNSLEAKDESC": "启用 DNS 泄漏保护",
+      "DNSSERVER": {
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "要更改您的 DNS，您必须重新连接到{speedifyProductName}",
+          "OK": "重新连接",
+          "TITLE": "DNS 服务器更改"
+        },
+        "CUSTOMINSTRUCTION": "输入一个或多个 IP 地址，由空格分隔",
+        "DESC": "{speedifyProductName}始终会连接我们服务器上的DNS服务，不过你可以让{speedifyProductName} DNS服务把请求转发至另一个DNS服务。",
+        "TITLE": "DNS 服务器"
+      },
+      "HOTSPOTSECURITY": "热点安全警告",
+      "HOTSPOTSECURITYDESC": "当您连接至不安全的 Wi-Fi 热点时通知您。",
+      "IPLEAK": "IP 地址泄漏保护",
+      "IPLEAKDESC": "启用 IP 地址泄漏保护",
+      "JUMBO": "超级最大传输单元（MTU）",
+      "JUMBODESC": "开启超级MTU",
+      "KILLSWITCH": "网络杀死开关（Internet Kill Switch）",
+      "KILLSWITCHDESC": "启用断网开关时，若 {speedifyProductName} 断开连接，所有网络流量将被停止。",
+      "MARKETINGALERT": "新闻和特别优惠",
+      "MARKETINGALERTDESC": "获得来自Speedify的最新销售和促销资讯",
+      "NOTIFICATIONDESC": "可以在上方启用或禁用单个通知类型。我们只会在必要时发送有助于安全的消息和账户更新。",
+      "PORTFORWARD": {
+        "ADDTCP": "添加 TCP 端口",
+        "ADDUDP": "添加 UDP 端口",
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "要更改您的转发端口，您必须重新连接到 {speedifyProductName}",
+          "OK": "重新连接",
+          "TITLE": "转发的端口改变中"
+        },
+        "DESC": "在服务器的公共IP上为本计算机提供某些端口。 仅限服务器专用。",
+        "INVALIDINPUT": "端口号必须在{portNumberMin}和{portNumberMax}之间",
+        "RESTRICTED": "端口号码不能是这里面的其中之一：{portRestrictedList}",
+        "TCP": "传输控制协议 (TCP)",
+        "TITLE": "端口转发",
+        "TOOMANY": "您现在只可以有{maxPorts}个端口。请删除一个现有的端口以添加另外一个。",
+        "UDP": "用户数据报协议 (UDP)"
+      },
+      "SIRICONFIGURE": "配置 Siri 快捷方式",
+      "SIRIDESC": "允许 Siri 建议快捷方式",
+      "SIRILINK": "使用 Siri 快捷方式获取帮助",
+      "SIRITITLE": "Siri 弹出窗口",
+      "SPEEDIFYLIVE": "{speedifyProductName} 直播提醒",
+      "SPEEDIFYLIVEDESC": "获得关于 Speedify LIVE 活动和 Speedify 营业时段实时问答的通知。",
+      "STREAMINGBYPASS": "绕过建议",
+      "STREAMINGBYPASSDESC": "在使用 Bypass 来解锁一项应用或服务时通知您。",
+      "STREAMMONITORALERT": "流媒体健康监控",
+      "STREAMMONITORALERTDESC": "你的血流健康警报",
+      "TRANSPORT": "运输模式",
+      "TRANSPORTDESC": "{speedifyProductName} 应该先尝试哪个网络协议？",
+      "TRANSPORTMODES": {
+        "auto": "自动",
+        "tcp": "传输控制协议",
+        "tcp-multi": "TCP 多样化",
+        "udp": "用户数据报协议",
+        "websocket": "WebSocket"
+      },
+      "WEEKLYREPORT": "每周报告",
+      "WEEKLYREPORTDESC": "当您的每周使用报告生成时，您将收到通知。"
+    }
+  },
+  "ARIALABEL": {
+    "DOWNLOAD": "下载速度",
+    "EXITINTRO": "退出简介并返回控制面板",
+    "INTRO1": "简介幻灯片（第 1 张，共 6 张）",
+    "INTRO2": "简介幻灯片（第 2 张，共 6 张）",
+    "INTRO3": "简介幻灯片（第 3 张，共 6 张）",
+    "INTRO4": "简介幻灯片（第 4 张，共 6 张）",
+    "INTRO5": "简介幻灯片（第 5 张，共 6 张）",
+    "INTRO6": "简介幻灯片（第 6 张，共 6 张）",
+    "SETTINGS": "设置按钮",
+    "SHARE": "分享 {speedifyProductName}",
+    "TOGGLE": "切换 Speedify",
+    "TOGGLESETTING": "切换设置",
+    "UPLOAD": "上传速度"
+  },
+  "CAPTIVEPORTALPOPUP": {
+    "CONNECTBUTTON": "连接",
+    "CONTINUEBUTTON": "继续，不使用Wi-Fi",
+    "DESCRIPTION": "此Wi-Fi网络要求您登录或执行操作才能连接到网络",
+    "TITLE": "使用' {SSID} '所需的操作"
+  },
+  "CHANGEPASSWORD": {
+    "CHANGE": "更改您的密码"
+  },
+  "CONNECTSTARTUPERMISSION": {
+    "ACTIONBUTTON": "启用开机时连接",
+    "DISMISSBUTTON": "现在不要",
+    "INTRO": {
+      "ACTIONBUTTON": "是的，开机时连接",
+      "DESCRIPTION": "启用开机时连接，即使是在系统更新和重启后，您也会保持连接，得到保护。您随时可以修改此设置。",
+      "DISMISSBUTTON": "稍后提醒我",
+      "HEADER": "启用开机时连接",
+      "TITLE": "当您登录或重启电脑时，{speedifyProductName} 可以自动连接"
+    },
+    "TITLE": "只有连接时，您才会享受到 Speedify 信道绑定技术的优势！启用{boldPre}开机时连接{boldPost}，以便 Speedify 能在您登录或重启电脑时自动启动。"
+  },
+  "DESKTOPSTORENAGS": {
+    "DESC": "无限制访问，毫不妥协的安全性和令人难以置信的速度，所有这些都受到30天退款保证的支持。",
+    "DESCTITLE": "升级到无限计划，继续享受更好的互联网",
+    "HEADER": "您已用完所有免费的每月数据",
+    "NEWDATA": "您将在 {dayCountDisplay}{dayCount, plural, other{天}} 天后获得更多数据"
+  },
+  "DISCONNECTPROMPT": {
+    "OPTIONS": {
+      "CONNECTED": "保持连接",
+      "HELP": "获取帮助",
+      "LONGCONNECT": "明天重连",
+      "NOCONNECT": "不要重连",
+      "SERVER": "尝试另一个服务器",
+      "SHORTCONNECT": "2 小时后重连"
+    },
+    "RECONNECTSUBTITLE": "稍后重连并返回更稳定和安全的流式传输、视频通话和浏览",
+    "RECONNECTTIME": "{connectTime} 重连",
+    "RECONNECTTITLE": "您是否希望 {speedifyProductName} 自动重连？",
+    "STREAMINPROGRESS": {
+      "SUBTITLE": "如果现在断开连接，正在进行的流式传输可能会中断。",
+      "TITLE": "您正在使用流式传输，确定要断开连接吗？"
+    },
+    "SUBTITLE": "尝试使用另一个服务器连接，这或许能改善您使用 {speedifyProductName} 的体验",
+    "TITLE": "您是否因为出现问题而停止了 {speedifyProductName}？"
+  },
+  "ENCRYPTION": {
+    "DESCRIPTION": "通过窥探保护一切您发送和收取的东西。",
+    "ENCRYPTED": "已加密"
+  },
+  "ERROR": {
+    "SERVICEDOWN": "{speedifyProductName} 服务未运行"
+  },
+  "FORMS": {
+    "DEFAULT": {
+      "EMAIL": "电子邮件地址",
+      "PASS": "密码",
+      "PASSCONFIRM": "确认新密码",
+      "PASSCURRENT": "当前密码",
+      "PASSNEW": "新密码"
+    },
+    "ERRORS": {
+      "EMAILINVALID": "请输入有效的电子邮件地址",
+      "ENTERCURPASS": "请输入您的当前密码",
+      "ENTERPASS": "请输入您的密码",
+      "PASSINVALIDCHAR": "请确保您的密码不包含 \" 或 \\\\",
+      "PASSLENGTH": "请确保您的密码至少为 8 个字符长",
+      "PASSMATCH": "请确保您的密码匹配"
+    },
+    "WAITING": "请稍候..."
+  },
+  "GOFORTH": {
+    "ALREADYHAVEACCOUNT": "@:INTRO.HAVEACCOUNT",
+    "BACKGROUND": "它会在后台静默运行，以优化您的网络连接。",
+    "BODY": "我们正在开始为您制定免费{stylePre} {dataAmount}/月{stylePost}计划，您可以亲身体验通道绑定的魔力。",
+    "CONNECTED": "我已连接，下一步该怎么办？",
+    "CONTINUE": "现在就去使用互联网，让{speedifyProductName}发挥其魔力！",
+    "LOGIN": "现在就登录",
+    "RELIABILITY": "现在具有更高的可靠性、安全性和速度！",
+    "RUNNING": "保持{speedifyProductName}应用运行",
+    "TITLE": "开始，绑定！",
+    "USE": "使用您最爱的应用程序和网站"
+  },
+  "GRAPHROTATION": {
+    "DESCRIPTION": "启用后，仪表板上的图形将每20秒旋转一次。",
+    "TITLE": "图形旋转"
+  },
+  "HELP": {
+    "DESC": "{speedifyProductName}是一种旨在从根本上提升速度、安全性和可靠性的新型移动网络VPN。它不仅加密所有内容，还绑定{platform, select, mobile{你的无线网络和蜂窝网络} desktop{你的全部网络连接} other{}}以提供快速、可靠的网络。它在背景工作，可确保你的互联网安全可靠。",
+    "GETHELP": {
+      "ACCOUNT": "获取有关您帐户的帮助",
+      "CONNECTION": "获取有关连接的帮助",
+      "CONNECTIONS": "{speedifyProductName}将自动检测并组合新连接。",
+      "CONNECTIONSLINK": "获取关于添加连接的帮助 »",
+      "PASSWORD": "获取密码帮助",
+      "SERVERS": "获取有关服务器的帮助",
+      "SETTINGS": {
+        "NOTIFICATIONS": "获取通知帮助",
+        "PRIVACY": "获取有关隐私的帮助",
+        "SESSION": "获取会话帮助"
+      },
+      "SIGNIN": "获取登录帮助"
+    },
+    "MENU": {
+      "ACCOUNT": "@:ONEPANE.POPINS.ACCOUNT",
+      "CLEARSETTINGS": "清除设置",
+      "CREDITS": "第三方信用卡",
+      "DEVTOOLS": "开发者工具",
+      "GENLOGS": "生成日志",
+      "GETSTART": "开始使用",
+      "PRIVACY": "隐私政策",
+      "QUITAPP": "退出 App",
+      "REMOVEHELPER": "删除辅助工具",
+      "SETTINGS": "@:ONEPANE.POPINS.SETTINGS",
+      "SUPPORT": "寻求帮助",
+      "TOS": "服务条款",
+      "UPDATES": "检查更新"
+    }
+  },
+  "INTRO": {
+    "DESC": {
+      "BODY": "{speedifyProductName}是一款VPN，绑定您所有连接，使互联网超级可靠、快速、安全。",
+      "CONTINUE": "继续",
+      "PRIVACY": "您的隐私是我们的第一要务",
+      "PRIVACYBODY": "您的IP地址和唯一设备标识符（为了让您无需注册帐户即可使用服务），您初始连接的时间和网络位置（为了尽可能有效地路由您的流量），使用的数据量和连接到我们的VPN服务的时间（为了执行我们的条款），网络性能统计数据（为了提高速度），以及崩溃日志（为了提高服务质量）。如果您在购买时选择了提供电子邮件地址，以便在其他设备上使用许可证，我们还会收集您的电子邮件地址。",
+      "PRIVACYBODYHEADER": "我们暂时存储以下内容：",
+      "PRIVACYCHANGE": "我们的隐私政策最近发生了改动，因为我们收集的数据甚至更少，而且要遵守加利福尼亚法律",
+      "PRIVACYDESC": "我们不会记录您的在线活动，也不会将您使用的任何域或应用程序与您本人、您的设备、IP地址或电子邮件相关联。",
+      "PRIVACYMOREINFO": "如需更多信息，请阅读我们的 ",
+      "TITLE": "双连接优于单连接"
+    },
+    "GDPR2": {
+      "CONTINUE": "同意并继续",
+      "DISCLOSURE": "我们不记录您访问的网站，您使用的服务，或您在线上的活动。我们暂时存储传输的数据量和{speedifyProductName}连接的持续时间，以便执行我们的条款，一个独特的设备标识符让您无需注册账户即可使用该服务，您的IP地址以将您连接到最佳可能的服务器，以及您初始连接的时间和网络位置。",
+      "LEARN": "了解如何管理数据",
+      "TITLE": "您的隐私是我们的最优先的事",
+      "WECOLLECT": "我们会对您所有的网络流量进行加密，并收集尽可能少的信息来运营我们的服务。"
+    },
+    "HAVEACCOUNT": "已经有账户啦？",
+    "PERMISSIONS": {
+      "ACCOUNTREADY": "您的 {accountType} 已可以使用！",
+      "COMPLETE": "继续",
+      "OPTIONAL": "（可选）",
+      "TITLE": "设置"
+    },
+    "PITCH": {
+      "COMBINE": "合并连接",
+      "COMBINEDESC": "同时使用Wi-Fi和蜂窝网络以获得最优性能",
+      "DEVICEDESC": "将您的手机、平板电脑、计算机等关联到一个帐户下",
+      "DEVICETITLE": "在5台设备上使用",
+      "ENCRYPTIONDESC": "保护您的数据安全，不受窥探者和黑客的攻击",
+      "ENCRYPTIONTITLE": "极端加密",
+      "FREEVERSION": "使用有限免费版",
+      "LIMITED": "有限免费版",
+      "LIMITEDDESCData": "每月优化您的首次数据使用 {data}——无需账户。",
+      "LIMITEDTITLE": "有限免费使用{speedifyProductName}",
+      "LIMITEDTITLEDESCDATA": "每月互联网优化{data}",
+      "NOTRIALDESC": "你还在等什么？现在就开始，每年仅需{cost} GB。",
+      "PRICEPERUSERPERMONTH": "那么{currencySymbol}{price}{currencyCode}每月",
+      "SECURITY": "提高稳定性、速度和安全性。消除 {streamergencies}",
+      "SERVERDESC": "连接到世界各地的服务器",
+      "SERVERHEADER": "全球服务器访问",
+      "SUBSCRIBE": "现在订购",
+      "SUBSCRIBEFOR": "订阅",
+      "TITLEHEADER": "{speedifyProductName}无限制VPN",
+      "TRIAL": "开始为期7天的免费试用",
+      "TRIALBUTTON": "开始我的 7 天免费试用",
+      "TRIALPAY": "然后每年只需 {cost}"
+    }
+  },
+  "KILLSWITCH": {
+    "CONNECT": "连接{speedifyProductName}",
+    "DISABLE": "关闭“杀死”开关",
+    "MSG": "{speedifyProductName}正阻止其他程序接入网络，以免你在没有VPN的情况下上线。",
+    "OFFLINE": "保持离线"
+  },
+  "LANGUAGE": {
+    "AUTO": "@:ADVANCED.OPTIONS.TRANSPORTMODES.auto",
+    "DESC": "控制显示 Speedify 用户界面的语言。 推荐的默认值 Auto 将使用操作系统的语言。",
+    "TITLE": "语言"
+  },
+  "LIMITS": {
+    "DAILYLIMIT": "每日限制",
+    "DAYBOOST": "今天将允许额外的 {boostHtml}",
+    "DAYUSAGELIMITED": "今天已使用 {limitHtml} 的 {usage}",
+    "DAYUSAGEUNLIMITED": "今天已使用 {usage}",
+    "MONTHLYLIMIT": "每月限制",
+    "MONTHUSAGELIMITED": "每月 {limitHtml} 的 {usage}",
+    "MONTHUSAGEUNLIMITED": "过去 30 天中已使用 {usage}",
+    "MONTHUSAGEUNLIMITEDMONTH": "{usage} 本月已用",
+    "RESETDAY": {
+      "LAST30": "过去 30 天",
+      "N": "{day}",
+      "UNKNOWN": "未知"
+    },
+    "RESETDAYPRE": "重置 {resetDayHtml}",
+    "USAGEWITHPERCENTAGE": "{usage} ({percentage})"
+  },
+  "LOCATION": {
+    "CITY": {
+      "amsterdam": "阿姆斯特丹",
+      "atlanta": "亚特兰大",
+      "auckland": "奥克兰",
+      "baku": "巴庫",
+      "bangalore": "班加罗尔",
+      "beijing": "北京市",
+      "belgrade": "贝尔格莱德",
+      "bhs": "蒙特利尔",
+      "bogota": "波哥大",
+      "brisbane": "布里斯班",
+      "brussels": "布鲁塞尔",
+      "bucharest": "布加勒斯特",
+      "budapest": "布达佩斯",
+      "bursa": "布尔萨",
+      "cairo": "开罗",
+      "chicago": "芝加哥",
+      "chisinau": "基希讷乌",
+      "copenhagen": "哥本哈根",
+      "dallas": "达拉斯",
+      "denver": "丹佛市縣",
+      "dubai": "迪拜",
+      "dublin": "都柏林",
+      "dusseldorf": "杜塞尔多夫",
+      "frankfurt": "法兰克福",
+      "fremont": "弗里蒙特",
+      "graz": "格拉茨",
+      "helsinki": "赫尔辛基",
+      "honolulu": "火奴鲁鲁",
+      "hsinchu": "新竹市",
+      "islamabad": "伊斯兰堡",
+      "istanbul": "伊斯坦布尔",
+      "izmir": "伊兹密尔",
+      "jakarta": "雅加达",
+      "johannesburg": "约翰内斯堡",
+      "karaganda": "卡拉干达",
+      "kowloon": "中国香港",
+      "kualalumpur": "吉隆坡",
+      "la": "洛杉矶",
+      "lisbon": "里斯本",
+      "ljubljana": "卢布尔雅那",
+      "london": "伦敦",
+      "madrid": "马德里",
+      "melbourne": "墨尔本",
+      "mexicocity": "墨西哥城",
+      "miami": "迈阿密",
+      "milano": "米兰",
+      "moscow": "莫斯科",
+      "mumbai": "孟买",
+      "newark": "纽瓦克",
+      "nicosia": "尼科西亚",
+      "nova": "北维吉尼亚州",
+      "nyc": "纽约市",
+      "oostkamp": "奥斯特坎普",
+      "oslo": "奧斯陸",
+      "palermo": "巴勒莫",
+      "paris": "巴黎",
+      "perth": "珀斯",
+      "philadelphia": "费城",
+      "prague": "布拉格",
+      "riyadh": "利雅德",
+      "sanjose": "聖荷西",
+      "saopaulo": "圣保罗州",
+      "seattle": "西雅图",
+      "seoul": "首尔",
+      "sf": "旧金山",
+      "singapore": "新加坡",
+      "sofia": "索菲亚",
+      "stockholm": "斯德哥尔摩",
+      "stpetersburg": "圣彼得堡",
+      "sydney": "悉尼",
+      "taipei": "臺北市",
+      "tallinn": "爱沙尼亚",
+      "telaviv": "特拉维夫",
+      "test": "特斯特",
+      "tokyo": "东京",
+      "toronto": "多伦多",
+      "tripoli": "的黎波里",
+      "valencia": "瓦倫西亞",
+      "vancouver": "溫哥華市",
+      "vienna": "维也纳",
+      "vilnius": "维尔纽斯",
+      "warsaw": "华沙",
+      "zurich": "苏黎世"
+    },
+    "COUNTRY": {
+      "ae": "阿联酋",
+      "at": "奥地利",
+      "au": "澳大利亚",
+      "az": "阿塞拜疆",
+      "be": "比利时",
+      "bg": "保加利亚",
+      "br": "巴西",
+      "ca": "加拿大",
+      "ch": "瑞士",
+      "cn": "中华人民共和国",
+      "co": "哥伦比亚",
+      "cr": "哥斯达黎加",
+      "cy": "塞浦路斯",
+      "cz": "捷克",
+      "de": "德国",
+      "dk": "丹麦",
+      "ee": "爱沙尼亚",
+      "eg": "埃及",
+      "es": "西班牙",
+      "fi": "芬兰",
+      "fr": "法国",
+      "gb": "英国",
+      "hk": "中国香港",
+      "hu": "匈牙利",
+      "id": "印度尼西亚",
+      "ie": "爱尔兰",
+      "il": "以色列",
+      "im": "马恩岛",
+      "in": "印度",
+      "is": "冰岛",
+      "it": "意大利",
+      "jp": "日本",
+      "kr": "大韩民国",
+      "kz": "哈萨克斯坦",
+      "lt": "立陶宛",
+      "ly": "利比亚",
+      "md": "摩尔多瓦",
+      "mx": "墨西哥合众国",
+      "my": "马来西亚",
+      "nl": "荷兰",
+      "no": "挪威",
+      "nz": "新西兰",
+      "pk": "巴基斯坦",
+      "pl": "波兰",
+      "pt": "葡萄牙",
+      "ro": "罗马尼亚",
+      "rs": "塞尔维亚",
+      "ru": "俄罗斯",
+      "sa": "沙特阿拉伯",
+      "se": "瑞典",
+      "sg": "新加坡",
+      "si": "斯洛文尼亚",
+      "tr": "土耳其共和国",
+      "tw": "臺灣",
+      "us": "美国",
+      "za": "南非"
+    }
+  },
+  "LOCKSCREEN": {
+    "POPUP": {
+      "CALLS": "改善视频会议效果",
+      "PLUS": "同时使用多个网络连接",
+      "SECURITY": "超安全加密保护",
+      "SERVERS": "全球服务器访问权限",
+      "STREAM": "优化直播",
+      "SUBTITLE": "以下是您错过的全部功能......",
+      "TITLE": "您已用完您的免费数据额度！",
+      "UNLIMITED": "无限畅享浏览，流媒体和游戏资源"
+    },
+    "UPGRADETITLE": "立即升级以继续使用Speedify",
+    "USAGE": "您已用完您的每月免费数据额度"
+  },
+  "NETWORKADAPTERFUNCTIONS": {
+    "UNKNOWN": "未知"
+  },
+  "NETWORKDOT": {
+    "MESSAGING": {
+      "CAPTIVE": "强制门户",
+      "DISABLED": "禁用",
+      "OVERLIMITRATELIMIT": "超限率"
+    }
+  },
+  "NOTIFICATIONS": {
+    "PERMISSION": "{speedifyProductName} 无法显示通知。{linkPre} 开启通知准许 {linkPost}。"
+  },
+  "OMNICHART": {
+    "SUBTITLES": {
+      "EXTENDED": "5 分钟",
+      "LATENCY": "延迟",
+      "LOSS": "损失",
+      "PROXY": "本地",
+      "REALTIME": "实时",
+      "SHARED": "共享",
+      "SPEED": "速度",
+      "USAGE": "用法"
+    },
+    "TITLES": {
+      "QUALITY": "连接质量",
+      "SPEED": "速度"
+    },
+    "TOTAL": "合计",
+    "WAITING": "连接以开始"
+  },
+  "ONEPANE": {
+    "POPINS": {
+      "ACCOUNT": "帐户",
+      "ADAPTERCONFIGURE": "配置",
+      "CHANGEPASSWORD": "更改密码",
+      "CONNECTION": "会话",
+      "DEVTOOLS": "开发工具",
+      "LOGIN": "登录",
+      "NOTIFICATIONS": "通知",
+      "PRIVACY": "隐私",
+      "SERVERS": "服务器",
+      "SERVERSLOCATION": "服务器位置",
+      "SETTINGS": "设置",
+      "SIRI": "Siri 快捷方式",
+      "SOUNDS": "声音",
+      "SUPPORT": "支持",
+      "UPGRADE": "升级"
+    }
+  },
+  "OVERLIMIT": {
+    "ACTIONLIMIT": "{boldPre} 以 {speed} 的速度，持续使用 {boldPost}",
+    "ACTIONSTOP": "停止使用此适配器",
+    "DAILY": {
+      "BOOST": "将今天的预算增加 {boostAmount}",
+      "MSG": "{adapterName} 已超出其每日数据流量限制 {limit}，今天将不会再使用。"
+    },
+    "DAILY75": {
+      "MSG": "{adapterName} 已超过其每日数据流量限制 {limit} 的 75%"
+    },
+    "DISABLED": "为了保护您，{boldPre}{adapterName}{boldPost} 现已被禁用。",
+    "LIMITED": "为了保护您，{boldPre}{adapterName}{boldPost} 现已限速。",
+    "MONTHLY": {
+      "MSG": "{adapterName} 已超出其每月数据流量限制 {limit}，将不会再使用。"
+    },
+    "MONTHLY75": {
+      "MSG": "{adapterName} 已超过其每月数据流量限制 {limit} 的 75%"
+    }
+  },
+  "OVERVIEW": {
+    "CONSAVED": "保存的连接",
+    "DOWNLOAD": "下载",
+    "PACKRECOVERED": "恢复的数据包",
+    "SHARE": "共享！",
+    "SHARETEXT": {
+      "CONSAVED": "{speedifyProductName} 会在连接间无缝切换 {value, plural, other{# 次}}！",
+      "DOWNLOAD": "{speedifyProductName} 使我的下载速度提高了 {value} Mbps！",
+      "PACKRECOVERED": "{speedifyProductName} 在丢失的数据包中恢复了 {value} {bytesLabel}！",
+      "UPLOAD": "{speedifyProductName} 使我的上传速度提高了 {value} Mbps！"
+    },
+    "TITLE": "统计数据",
+    "UPLOAD": "上传",
+    "WAITING": "正在收集数据，请稍后查看"
+  },
+  "PLATFORM": {
+    "SHARE": {
+      "INSTRUCTION": "分享您的 {speedifyProductName} 经验",
+      "TEXT1": "查看 {speedifyProductName} - "
+    }
+  },
+  "PRIORITIES": {
+    "ALWAYS": {
+      "DESC": "始终使用本连接",
+      "DISPLAY": "主要连接"
+    },
+    "AUTOMATIC": {
+      "DESC": "让{speedifyProductName}管理连接的优先级",
+      "DISPLAY": "自动"
+    },
+    "BACKUP": {
+      "DESC": "仅当无其他可用连接时，使用此连接以进行故障转移。不会为网速进行绑定（极少使用）",
+      "DISPLAY": "备用"
+    },
+    "CAPTIVEPORTAL": "需要采取行动",
+    "DESC": "连接的优先等级决定了{speedifyProductName}应以何种方式以及在何时使用它。",
+    "NEVER": {
+      "DESC": "不要使用本连接",
+      "DISPLAY": "永不"
+    },
+    "OVERLIMIT": {
+      "DISPLAY": "超限"
+    },
+    "SECONDARY": {
+      "DESC": "使用此连接提升网速和进行故障转移，但是频次少于主要连接。",
+      "DISPLAY": "辅助"
+    },
+    "UNKNOWN": {
+      "DISPLAY": "未知"
+    }
+  },
+  "PRIORITYSELECTION": {
+    "CELLULARALWAYSALERT": {
+      "ASKAGAINCANCEL": "不，改为次要",
+      "ASKAGAINOK": "是的，仍设为首要",
+      "ASKAGAINTITLE": "您仍然想要把“{adapter}”设为首要优先级吗？",
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "当移动网络连接被设置为主连接时，则即使在有 Wi-Fi 或以太网连接的情况下，也会始终使用移动网络。这可能会导致较大的移动网络数据用量和更高的电池消耗。",
+      "OK": "设置为“始终”",
+      "TITLE": "始终使用 {adapterType}"
+    },
+    "NEVERALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "设置为“从不”意味着将再也不会使用此连接。继续？",
+      "OK": "设置为“从不”",
+      "TITLE": "从不使用 {adapterType}"
+    }
+  },
+  "PROMPTS": {
+    "ALLOW": "允许",
+    "CANCEL": "取消",
+    "NO": "否",
+    "NOTNOW": "以后再说",
+    "OK": "确定",
+    "YES": "是"
+  },
+  "PURCHASE": {
+    "BESTDEAL": "最大优惠！",
+    "CANCELSUBDESC": "随时取消",
+    "CHOOSEYOURDESTINY": "选择个人订阅",
+    "COMPLETECOVER": "完成订单或关闭 {speedifyProductName} 商店以继续",
+    "CREATEACCOUNTALERT": {
+      "CANCEL": "跳过",
+      "MSG": "为了在其他设备上使用您的无限 {speedifyProductName} 帐户，您需要使用一个电邮地址和密码注册。",
+      "OK": "创建一个账户",
+      "TITLE": "注册您的账户"
+    },
+    "CREATEACCOUNTALERT2": {
+      "CANCEL": "@:PURCHASE.CREATEACCOUNTALERT.CANCEL",
+      "MSG": "如果您跳过账户注册程序，您将不能在其他设备上使用您的无限 {speedifyProductName} 帐户。",
+      "OK": "@:PURCHASE.CREATEACCOUNTALERT.OK",
+      "TITLE": "您确定吗？"
+    },
+    "CREATEACCOUNTREGISTER": {
+      "HEADER": "现在注册您的无限 {speedifyProductName} 账户以同时在至多 4 个其他设备上使用 {speedifyProductName} !",
+      "TITLE": "注册账户"
+    },
+    "DISPLAYEDPRICES": "价格以 {currencyCode} 显示",
+    "FAMILYHEADER": "...或者一个适用于全家的！",
+    "HEADER100USED": "{pre1}您已用完您的全部免费 {speedifyProductName} 数据！{post1} {pre2}请立即订阅来解锁这些出色的功能，或者等待 {stylePre}{daysDisplay} {days, plural, other{天}}{stylePost}以获取更多免费数据。{post2}",
+    "HEADER100USEDNODATA": "{pre1}您已用尽所有免费{speedifyProductName}数据！ {post1}{pre2}立即订阅以解锁这些出色的功能。",
+    "HEADEREXPIRED": "{pre1}您的订阅已过期！{post1}",
+    "MOSTPOPULAR": "最受欢迎",
+    "NAMES": {
+      "FAMILY": "家庭套餐",
+      "MONTHLY": "月度",
+      "THREEYEAR": "3年方案",
+      "YEARLY": "每年"
+    },
+    "PLANS": {
+      "FAMILY": "家庭版",
+      "FIXED": "固定时长方案",
+      "INDIVIDUAL": "个人版",
+      "SUB": "订阅",
+      "UPGRADES": "可用升级"
+    },
+    "POSTPURCHASE": {
+      "DIRECTIONS": "登录您刚刚购买使用的帐户",
+      "TITLE": "登录"
+    },
+    "PRICEPERMONTH": "{currencySymbol}{price}/月",
+    "PRICEPERUSERPERMONTH": "{currencySymbol}{price}{currencyCode}/每用户每月",
+    "PRICEPERYEAR": "{currencySymbol}{price}/年",
+    "PRICEPERYEARABTESTA": "仅 ",
+    "PRICEPERYEARABTESTB": "{currencySymbol}{price}{currencyCode}每年",
+    "PRICEPERYEARABTESTC": "{currencySymbol}{price} {currencyCode}",
+    "PRICEWITHOUTDURATION": "{currencySymbol}{price}",
+    "PRODUCTTITLE": "{pre1}{speedifyProductName}{post1} {pre2}无限{post2}",
+    "PRODUCTTITLEFAMILY": "{pre1}{speedifyProductName}{post1} {pre2} 家庭版 {post2}",
+    "PURCHASELENGTH": "{monthsDisplay} {months, plural, other{月}}",
+    "REASONS": {
+      "FAMILY": "无限使用，高级版服务器连接，外加 {stylePre} iCloud 家庭共享 {stylePost}，这可以让你和最多五位家庭成员共享连接",
+      "FIVEDEVICES": "同时在最多 5 台设备上使用",
+      "INDIVIDUAL": "马上升级，在多达 5 台设备上无限使用，并访问高级服务器！",
+      "PREMIUM": "高级服务器访问权限",
+      "SALE": "立即订阅并节省 30%",
+      "UNLIMITED": "无限使用",
+      "WORLDWIDE": "全球服务器访问"
+    },
+    "SALEOFFER": "限时优惠",
+    "SALESAVINGS": "六折优惠",
+    "SALETRIAL": "开始我的 7 天免费试用",
+    "SAVEPERCENTAGE": "保存 {percentDisplay}%",
+    "SIGNIN": "我已经有一个帐户",
+    "TRIALBUTTON": "前 7 天免费——然后{currencySymbol}{price}/年",
+    "TRIALEXPLAIN": "首次使用者可获得 {trialLength} 天免费试用。所有试用在试用结束时均将自动续订。",
+    "TRIALPRICE": "今天支付{currencySymbol} {trialPrice}，然后在免费试用后的价格为{currencySymbol}{price}/年。",
+    "USERDEVICES": "{userDisplay} 用户， {deviceDisplay} 设备",
+    "VIEWMORE": "查看更多选项"
+  },
+  "PUSHPERMISSION": {
+    "DESCRIPTION": "我们只会在必要时发送有用的安全消息和帐户更新",
+    "HEADER": "最后……",
+    "LOWERDESC": "您可以随时打开或关闭特定警报。",
+    "RECEIVE": "接收通知",
+    "SOUNDSGOOD": "听起来不错"
+  },
+  "REGISTERLOGIN": {
+    "BUTTONS": {
+      "CONTINUE": "继续",
+      "CREATEGLOBAL": "完成注册",
+      "FORGOTPASSWORD": "忘记密码",
+      "LOGIN": "登录",
+      "NEEDACCOUNT": "还没有账户？",
+      "REGISTER": "注册",
+      "USEFREE": "使用免费帐户"
+    },
+    "DIRECTIONS": {
+      "AUTOFREE": "输入您的电子邮件地址以登录到现有帐户",
+      "AUTOPAID": "创建帐户以在其他设备上使用您的 {speedifyProductName} 计划，或者将其链接到您的现有帐户",
+      "LOGOUT": "你现在已退出。要继续使用 {speedifyProductName} 的话，用另一个用户账号登录或选择“使用免费账号”",
+      "NOACCOUNT": "输入您的电子邮件地址以登录到 {speedifyProductName}",
+      "NOTEXIST": "该帐户不存在。请输入与您要登录的 {speedifyProductName} 帐户相关联的电子邮件地址",
+      "PASSRESETSUBMIT": "您的密码重置请求已提交。请检查您的电子邮件以了解进一步的说明",
+      "SWITCH": "输入您的电子邮件地址以登录到其他帐户"
+    },
+    "ERRORS": {
+      "DEVICELIMIT": {
+        "BTMMSG": "要继续，请在您的一个或多个设备上退出Speedify，然后再试一次。您可能需要等待最多1周。",
+        "LEARNMORE": "@:SETTINGSPANE.LEARNMORE",
+        "OK": "@:PROMPTS.OK",
+        "TITLE": "设备限制超出",
+        "TOPMSG": "单个用户账户每周最多只能在5台设备上登录。"
+      }
+    },
+    "PASSMANAGERS": "或使用以下帐户登录",
+    "PASSRESET": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "是否确定要重置您的密码？",
+      "OK": "重置密码",
+      "TITLE": "密码已重置"
+    }
+  },
+  "REVIEW": {
+    "ENJOYING": {
+      "NO": "它无法正常工作，请帮帮我！",
+      "QUESTION": "您是否喜欢 {speedifyProductName}？",
+      "YES": "迄今为止，非常好！"
+    },
+    "FBLIKE": {
+      "QUESTIONFORLIKE": "喜欢 {speedifyProductName}？",
+      "YES": "在 Facebook 上给我们点赞"
+    },
+    "PROMPT": {
+      "LINK": "点击评论",
+      "SUBTITLE": "如果是的话，希望您能花点时间留下评论，我们将不胜感激！",
+      "TITLE": "您喜欢{speedifyProductName}吗？"
+    },
+    "REVIEW": {
+      "NO": "不是现在。",
+      "QUESTION": "很棒。您能否花一分钟来评价 {speedifyProductName}？",
+      "YES": "当然！"
+    },
+    "SUPPORT": {
+      "NO": "不是现在。",
+      "QUESTION": "很遗憾。您能否提交支持请求以便我们为您提供帮助？",
+      "YES": "联系支持"
+    }
+  },
+  "SALEPOPUP": {
+    "DEALBUTTON": "完成此交易！",
+    "DESCRIPTION": "使用此新用户限时优惠升级到 {speedifyProductName} Unlimited VPN。",
+    "HURRY": "快点！此优惠有效期还有： ",
+    "LATERBUTTON": "以后再说",
+    "SAVINGS": "立即节省 40%！"
+  },
+  "SERVERFUNCTIONS": {
+    "PRIVATE": "专用服务器",
+    "PRIVATEBRAG": "享受更快的速度、不变的IP地址和端口转发功能。",
+    "UNKNOWN": "未知"
+  },
+  "SERVERS": {
+    "LESS": "更少...",
+    "MORE": "更多...",
+    "OPTIONS": {
+      "AUTOMATIC": "自动选择",
+      "CLOSEST": "最快的服务器",
+      "CLOSESTDEDICATED": "最近的专用服务器",
+      "CLOSESTPUBLIC": "最近的公共服务器",
+      "COUNTRY": "选择国家/地区",
+      "DEDICATED": "专用",
+      "EXIT": "退出时断开连接",
+      "EXITANDROID": "任务滑动",
+      "EXITDESC": {
+        "ANDROID": "用指滑退出或“关闭全部”从“任务”中清除 {speedifyProductName} 时断开连接",
+        "DESKTOP": "退出界面时断开"
+      },
+      "EXITOFFANDROID": "保持连接",
+      "EXITONANDROID": "断开连接",
+      "MANUALPITCH": "使用手动选择来选取特定的服务器或浏览网站，并且像在其他国家一样使用应用程序。",
+      "MANUALSELECTION": "手动选择",
+      "MANUALSELECTIONDESC": "解锁对全球各地高级服务器的访问。",
+      "P2P": "允许 BT 种子下载的服务器",
+      "P2PDESC": "连接到一个允许上传下载种子和其它点对点的协议。",
+      "PROXY": "本地",
+      "REQUIRESUNLIMITED": "（需要订阅无限制计划）",
+      "STARTUP": "启动时连接",
+      "STARTUPDESC": "当您的设备重新启动时自动连接至 {speedifyProductName}。",
+      "UPGRADELINK": "现在就升级"
+    },
+    "VIEWALLLOCATIONS": "查看全部位置",
+    "VIEWLESS": "查看较少内容"
+  },
+  "SERVICE": {
+    "RESTART": "重新启动 {speedifyProductName} 服务"
+  },
+  "SETTINGERRORMESSAGE": {
+    "MESSAGE": "您的团队管理员已锁定此设置的配置。",
+    "TITLE": "此设置被锁定"
+  },
+  "SETTINGSPANE": {
+    "ABOUT": {
+      "FOLLOW": "在推特上关注{username}",
+      "RATE": "给{appname}评分",
+      "TITLE": "关于{speedifyProductName}"
+    },
+    "ACCOUNT": {
+      "CANCEL": "取消订阅",
+      "DATAUSED": "已使用{dataAvailable}中的{percentage}%",
+      "DELETE": {
+        "ACCOUNT": "删除账户",
+        "ACCOUNTERROR": "删除您的账户时出现问题，请联系 support@speedify.com",
+        "ACCOUNTMESSAGE": "通过点击“删除”，您的 Speedify 帐户将立即停用，然后在您提出请求后的 14 天内彻底删除。此操作无法撤消。\n 请注意：此操作不会取消您通过 App Store 购买的订购，也不会为您提供新的免费试用。要管理您的购买，请访问 App Store。",
+        "ACCOUNTMESSAGESUCCESSTITLE": "账户已删除",
+        "ACCOUNTMESSAGETITLE": "删除账户？",
+        "ACCOUNTSUCCESS": "您的账户已被标记为删除，将在 14 天内被移除",
+        "MANAGESUB": "管理订购",
+        "MESSAGECONFIRMOPTION": "删除"
+      },
+      "EXPIRESON": "于{date}到期",
+      "HELPERMESSAGE": "以 {speedifyProductName} 账户登入",
+      "MANAGE": "管理账户",
+      "MONTHLYTIER": "包月订阅",
+      "NEWUPGRADE": "新的可用升级",
+      "NOACCOUNT": "还未注册？马上升级！",
+      "ONEYEARPASS": "年度通行证",
+      "PLAN": "每月{dataAvailable}",
+      "REDEMPTIONCODE": "兑换码",
+      "RENEWSFREE": "于{date}更新免费数据",
+      "RENEWSPAID": "于{date}更新",
+      "REVIEW": "评价{speedifyProductName}",
+      "REVIEWDESC": "如果您能慷慨地抽出几分钟的时间，请留下您的评论。 这对我们来说意义重大。感谢您的大力配合。:smiley:",
+      "SIGNOUT": "退出",
+      "STATS": {
+        "RESCUE": "故障无缝切换",
+        "RESCUEDESCRIPTION": "故障无缝切换，使用如果没有运行 {speedifyProductName} ，就会中断的网络连接数量来衡量。",
+        "TITLE": "统计（全部时间）"
+      },
+      "THREEYEARPASS": "三年通行证",
+      "THREEYEARSUB": "三年订阅",
+      "TITLE": "@:ONEPANE.POPINS.ACCOUNT",
+      "TWOYEARTIER": "两年订阅",
+      "UPGRADE": "升级至无限版",
+      "UPGRADEFAMILIES": "升级到家庭版",
+      "VERSION": "版本 ",
+      "YEARLYTIER": "包年订阅"
+    },
+    "APPLICATIONBYPASS": {
+      "HEADER": "应用 Bypass"
+    },
+    "BACK": "返回",
+    "CONNECTIONSETTINGS": "连接设置",
+    "CONNECTIONSUBTITLE": "当发现连接时，它们会自动出现。",
+    "CUSTOM": "自定义",
+    "DASHBOARD": "仪表板",
+    "DETACHWINDOW": {
+      "DESC": "窗口位置确定Speedify用户界面如何显示。",
+      "DOCKDESC": "Speedify界面将附在菜单栏上。",
+      "DOCKED": "菜单栏",
+      "DOCKEDOPTION": "停靠在菜单栏",
+      "FLOATING": "浮动",
+      "FLOATINGDESC": "Speedify界面将显示在专用的浮动应用程序窗口中。",
+      "FLOATINGOPTION": "浮动窗口",
+      "HEADER": "窗口位置"
+    },
+    "DNSLEAKDESC": "保护数据避免“DNS 泄露”，因为 DNS 请求可能攻击 {speedifyProductName} 并把您的真实位置泄露给访问的网站。",
+    "DONE": "完成",
+    "HELP": {
+      "CONTACT": "联系{speedifyProductName}客服支持",
+      "TITLE": "帮助"
+    },
+    "IPLEAKDESC": "防止出现 IP 请求可能绕过 {speedifyProductName} 并向您访问的站点显示您的真实位置这样的“IP 地址泄漏”情况。",
+    "LEARNMORE": "了解更多",
+    "LOCKEDMESSAGE": "此设置由您的团队管理员管理",
+    "LOCKEDPOP": {
+      "MESSAGE": "您的团队管理员已锁定此设置的配置。",
+      "TITLE": "此设置被锁定"
+    },
+    "NETWORKS": {
+      "ADVANCED": {
+        "HEADER": "高级",
+        "IPADDRESS": "IP地址",
+        "IPADDRESSDESC": "显示当前该连接使用的IP地址和传输信息。",
+        "RATELIMIT": {
+          "DESC": "启用速率限制后，{speedifyProductName}会将此网络连接的最大速度限制为上述设定值。 如果您与网络服务提供商之间签订了流量限额的的数据计划，这可以帮助防止数据的过量使用。"
+        }
+      },
+      "COLLAPSE": "塌陷",
+      "CONNECTIONDIALOG": "登录到该Wi-Fi网络",
+      "DATACAP": {
+        "AMOUNT": "数量",
+        "BOOST": "促进",
+        "BOOSTDESC": "为您的每日数据上限添加额外数据。",
+        "DAILY": "每日数据上限",
+        "DESC": " 允许您控制{speedifyProductName}通过此适配器发送和接收的数据量。 如果您和您的互联网服务提供商签订了流量限额的数据套餐，上述做法可以防止数据的过量使用。",
+        "HEADER": "数据上限",
+        "MONTHLY": "每月数据上限",
+        "OVERLIMIT": "{percent}%的{data}",
+        "RESETSON": "重置",
+        "SUB": "{speedifyProductName}仅在您连接到服务时衡量数据的使用情况。"
+      },
+      "DETAILS": "连接详细信息",
+      "EXPAND": "展开",
+      "MESSAGES": {
+        "ADAPTERNAME": {
+          "DESCRIPTION": "适配器描述",
+          "HEADER": "适配器名称"
+        },
+        "ISP": {
+          "HEADER": "互联网服务提供商",
+          "MESSAGE": "互联网服务提供商的名称。"
+        },
+        "JITTER": {
+          "HEADER": "抖动",
+          "MESSAGE": "此连接延迟的可变性。 较低的值表示连接更加稳定和一致。"
+        },
+        "LATENCY": {
+          "HEADER": "潜伏期",
+          "MESSAGE": "也称为 ping，延迟是从此连接发送请求到从服务器接收响应的总往返时间 (RTT)。 值越低越好，游戏所需的值低于 80 毫秒，而超过 150 毫秒则会导致互联网体验中出现明显的延迟和迟缓。"
+        },
+        "LOSS": {
+          "HEADER": "丢包",
+          "MESSAGE": "此连接最近丢数据包或掉数据包的百分比。 可靠的互联网连接通常很少或没有值超过 1% 的数据包丢失，从而导致性能显著降低。"
+        },
+        "MOS": {
+          "HEADER": "平均意见得分",
+          "MESSAGE": "根据延迟，抖动和丢失对此连接在 VoIP 呼叫中的性能进行的标准评级。"
+        },
+        "SSID": {
+          "HEADER": "网络名称",
+          "MESSAGE": "已连接的网络的名称。"
+        }
+      },
+      "OVERLIMIT": {
+        "DAILY": "超出每日数据上限",
+        "DESC": "“超限行为”定义当此网络连接超出每日或每月数据上限时将会发生什么情况。",
+        "HEADER": "超限行为",
+        "MONTHLY": "超出每月数据上限",
+        "RATELIMIT": "速率限制",
+        "RATELIMITTO": "速率限制为{speed}",
+        "STOP": "停止使用"
+      },
+      "RESET": "重置统计"
+    },
+    "NEWS": {
+      "ARCHIVED": "已存档",
+      "DASHBOARDOPTION": "在面板上显示",
+      "NOEVENTS": "全部已阅！",
+      "TITLE": "新闻和活动",
+      "UNREAD": "未读"
+    },
+    "NOTIFICATIONS": {
+      "ALLOW": "允许发送通知",
+      "STABILITYHEADER": "稳定性与安全性",
+      "DISABLEDDESC": "Speeds 需要获得许可才能向你发送通知。打开通知设置，点击允许。",
+      "PITCH": "我们只会在必要时发送有用的安全消息和帐户更新"
+    },
+    "OFF": "关",
+    "ON": "开",
+    "PREFERENCES": "偏好设置",
+    "PREMIUMFEATURES": "无限制账户可访问该功能及更多功能。",
+    "PRIVACY": {
+      "DNSSERVICE": {
+        "ADD": "添加 DNS 服务",
+        "ADDIP": "添加 IP 地址",
+        "ADGUARDDESC": "内置广告拦截器的 DNS 服务",
+        "ADGUARDHEADER": "AdGuard DNS",
+        "AUTODESC": "{speedifyProductName} 的 DNS 服务器将自动处理您的 DNS，旨在实现最佳的速度和隐私保护。",
+        "AUTOHEADER": "自动",
+        "CLOUDFLAREDESC": "隐私优先的 DNS 服务",
+        "CLOUDFLAREHEADER": "来自 Cloudflare 的 1.1.1.1",
+        "HEADER": "DNS 服务。",
+        "IP": "IP 地址",
+        "OPENDNSDESC": "内置网络钓鱼保护的 DNS 服务。",
+        "OPENDNSHEADER": "OpenDNS 家庭版",
+        "QUAD9DESC": "互联网安全与隐私。",
+        "QUAD9HEADER": "Quad9 之 9.9.9.9"
+      },
+      "ENCRYPTION": {
+        "DESC": "启用加密后，{speedifyProductName}将利用最新的加密标准使您的信息保持私密，同时将对整体性能的影响减至最小。 根据具体的设备支持，{speedifyProductName}使用DTLS 1.2以及AES256-GCM或ChaCha20加密密码。",
+        "HEADER": "加密"
+      },
+      "HEADER": "隐私",
+      "INTERNETKILLSWITCH": {
+        "DESC": "启用断网开关时，若 {speedifyProductName} 断开连接，所有网络流量将被停止。",
+        "HEADER": "断网开关",
+        "OFF": "关"
+      }
+    },
+    "RECOMMENDED": "（推荐）",
+    "SERVERS": {
+      "ALL": "所有服务器",
+      "CONNECT": "连接",
+      "CONNECTED": "已连接",
+      "DESCRIPTION": "选择你的路由流量的所在国家和服务器。",
+      "RECENT": "最近选择",
+      "SERVER": "服务器",
+      "TITLE": "服务器选择"
+    },
+    "SESSION": {
+      "BONDINGMODE": {
+        "DESC": {
+          "MAIN": "绑定模式定义{speedifyProductName}如何管理您的网络连接。",
+          "REDUNDANT": "在冗余模式下，{speedifyProductName}将以最快的单一网络连接速度运行，并使用额外的数据以提供极绝对可靠的连接。当使用冗余模式时，每个数据包都会通过多个连接同时发送，无论哪个数据包最先通过，其都将被第一时间送达。",
+          "SPEED": "在“速度模式”下，{speedifyProductName}可以将您的网络流量智能分配到所有可用的网络连接中，以提供最佳的速度和性能。",
+          "STREAMING": "启用增强流式传输后，Speedify 会自动将流式传输（视频通话、语音通话、直播等）设置为优先于其他网络流量，并智能使用绑定和冗余来优化性能。"
+        },
+        "ENHANCESTREAMING": "增强流式传输",
+        "HEADER": "绑定模式",
+        "REDUNDANT": "冗余",
+        "SPEED": "速度",
+        "SPEEDPLUS": "速度 +",
+        "STREAMING": "流传输"
+      },
+      "HEADER": "会话设置",
+      "HEADERCOMPRESSION": {
+        "DESC": {
+          "MAIN": "启用报头压缩后，Speedify 将收缩数据包的报头以减少网络开销和数据使用量。 这样可以提高在线游戏、网络电话和视频会议的性能。"
+        },
+        "HEADER": "报头压缩"
+      },
+      "JUMBO": {
+        "DESC": "启用巨型MTU（最大传输单元）时，{speedifyProductName}将通过{speedifyProductName}虚拟网络适配器发送更大的数据包，从而提高效率并减少CPU使用率。它保持持续开启，除非客户支持人员建议将其关闭。"
+      },
+      "PAIRANDSHARE": {
+        "ATTEMPTPAIR": "尝试配对中",
+        "BACKUPONLY": "仅作为备份使用",
+        "CONNECTPANE": {
+          "BOTTOMDESC": "或者，您可以使用设备的摄像头扫描二维码",
+          "CONNECT": "@:CAPTIVEPORTALPOPUP.CONNECTBUTTON",
+          "TITLE": "配对设备",
+          "TOPDESC": "向{displayName}的所有者询问他们在“配对和分享”设置中显示的6位代码"
+        },
+        "DASHBOARD": {
+          "BUTTONTEXT": "首先，配对设备",
+          "BUTTONTEXTNORECEIVE": "启用配对和共享",
+          "NEWPEERTITLE": "发现了 {count} 个新的对等节点",
+          "NEWPEERSUBTITLE": "点击以添加或管理配对设备",
+          "NOPAIREDTITLE": "没有可用的配对设备",
+          "NOPAIREDSUBTITLE": "点击以管理配对设备",
+          "TITLE": "在同一Wi-Fi网络上，多个{speedifyProductName}用户可以轻松地在彼此之间共享蜂窝网络连接。"
+        },
+        "DATAUSAGE": {
+          "REALTIME": "实时",
+          "RECEIVED": "已接收",
+          "SHARED": "共享的",
+          "TITLE": "配对数据使用量"
+        },
+        "DESCCLIENT": "配对并使用同一本地网络上的其他Speedify用户共享的蜂窝网络连接。",
+        "DESCHOST": "在同一Wi-Fi网络上，多个{speedifyProductName}用户可以轻松地在彼此之间共享蜂窝网络连接。",
+        "DISABLEPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DISABLE": "禁用",
+          "MSG": "至少有一个配对设备正在积极使用此共享连接。您希望继续吗？",
+          "PEERMSG": "此设备正在积极使用此共享连接。您希望继续吗？",
+          "TITLE": "禁用共享"
+        },
+        "ENABLERECEIVING": "启用接收以发现新的设备进行配对。",
+        "INTRO": {
+          "ENABLE": "@:SETTINGSPANE.SESSION.PAIRANDSHARE.DASHBOARD.BUTTONTEXTNORECEIVE",
+          "NOTNOW": "@:PROMPTS.NOTNOW",
+          "POINT1": "启用后，{speedifyProductName}将在您的本地网络中搜索可以配对的设备。",
+          "POINT2": "您可以随时与其他设备配对，修改权限或解除配对",
+          "POINT3": "在配对设备和{speedifyProductName}服务器之间共享和接收的所有数据都已加密。",
+          "POINT4": "与其他设备共享的任何蜂窝数据将在您的ISP中显示为连接的数据",
+          "SUBTITLE": "“配对与分享”是一项新功能，使您可以在同一Wi-Fi网络上的多个{speedifyProductName}用户之间轻松共享蜂窝网络连接。",
+          "TITLE": "启用配对和共享以实现最大连接性"
+        },
+        "MANAGE": "管理",
+        "DISCOVERED": "已发现",
+        "NOUNPAIREDDEVICES": "在同一Wi-Fi网络上的未配对设备将会在这里显示。",
+        "PAIREDDEVICE": "配对设备",
+        "PAIREDDEVICES": "配对设备",
+        "PERMISSIONS": "权限",
+        "POPUP": {
+          "ACCEPT": "是的，配对设备",
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "FAILMESSAGE": "此设备已无法配对，或在您当前的本地网络上找不到。请稍后再试。",
+          "FAILTITLE": "无法与 “{displayName}” 配对",
+          "MANAGE": "管理权限",
+          "OK": "@:PROMPTS.OK",
+          "AUTOTITLE": "您的设备“{displayName}”已自动配对",
+          "AUTOSUBTITLE": "{speedifyProductName}将自动与您帐户上的其他设备配对，以便快速轻松地共享移动数据。您可以随时更改此行为。",
+          "OPTIONS": {
+            "ENCRYPTED": "所有在设备和Speedify服务器之间发送的数据都被加密",
+            "LIMITS": "您可以设置限制或停止共享，以防止过度使用您的蜂窝网络连接。",
+            "PERMISSION": "您可以随时修改此设备的权限或解除配对"
+          },
+          "REQUEST": "发送配对请求",
+          "SUCCESS": "成功！您现在已与“{displayName}”配对",
+          "SUCCESSMESSAGE": "当您在同一本地网络上时，将自动连接到此设备。您可以随时管理共享连接的权限和优先级，或者从此设备解除配对。",
+          "TITLE": "与“{displayName}”配对并共享？",
+          "TOPDESCRIPTION": "一旦配对，您将能够在同一Wi-Fi网络上轻松地来回共享蜂窝网络连接。"
+        },
+        "QRSCREEN": {
+          "NOSPEEDIFY": "还没有{speedifyProductName}吗？",
+          "NOSPEEDIFYDESC": "别担心，上面的二维码将链接到适合您设备的正确版本。",
+          "SCANDESC": "通过扫描此代码，朋友们可以轻松配对，当在同一Wi-Fi网络上时，可以来回共享蜂窝网络连接。",
+          "TITLE": "分享您的二维码以便快速且轻松地配对"
+        },
+        "SCANTOPAIR": "扫描以配对",
+        "SETTINGS": {
+          "ADD": "添加",
+          "CONNECTING": "正在连接...",
+          "DISPLAYNAME": "显示名称",
+          "DISPLAYNAMEDESC": "显示名称定义了您的设备将如何被其他配对和共享用户识别。",
+          "PAIRINGREQUEST": {
+            "ASK": "提问",
+            "AUTO": "自动接受",
+            "AUTODESC": "{speedifyProductName}将自动接受任何来自配对的入站请求。",
+            "DESC": "配对请求确定了当其他设备请求配对时，Speedify将如何响应。",
+            "IGNORE": "忽略",
+            "OFFDESC": "{speedifyProductName}将忽略所有的配对请求。",
+            "ONDESC": "每当其他设备请求配对时，您将收到提示。"
+          },
+          "PAIRMYDEVICES": {
+            "AUTO": "自动",
+            "MANUAL": "手动"
+          },
+          "PAIRINGREQUESTS": "配对请求",
+          "AUTOPAIR": "配对我的设备",
+          "AUTOPAIRDESC": "“配对我的设备”控制Speedify是否应自动将此设备与您账户上的其他设备配对。",
+          "RECEIVEDISABLED": "“禁止接收”来自",
+          "RECEIVEDSTOPPED": "停止从",
+          "RECEIVEFROM": "从接收",
+          "RECEIVING": "接收中",
+          "RECEIVINGCONTROLDESC": "启用“允许接收”后，当在同一Wi-Fi网络上并运行{speedifyProductName}时，此设备将能够使用其他配对设备的共享连接。",
+          "RECEIVINGCONTROLTITLE": "允许接收",
+          "RECEIVINGUNAVAILABLE": "接收不可用",
+          "SHARERECEIVE": "共享给 & 接收自",
+          "SHARING": "共享（{isp}）",
+          "SHARINGCONTROLDESC": "启用“允许共享”功能后，同一Wi-Fi网络上运行{speedifyProductName}的其他配对设备将能够从这个蜂窝网络连接中各自使用高达10 Mbps。{stylePre}{stylePost}此功能需要兼容移动热点/连接共享功能的蜂窝数据套餐。某些互联网服务提供商可能会对连接共享进行限制或额外收费。{stylePre}{stylePost}注意：您可以通过访问各设备的连接设置来为单个设备启用或禁用共享功能。",
+          "SHARINGCONTROLTITLE": "允许共享",
+          "SHARINGDISABLED": "“禁用共享”",
+          "SHARINGSTOPPED": "共享已停止",
+          "SHARINGTO": "共享至",
+          "SHARINGUNAVAILABLE": "无法共享",
+          "TITLE": "配对与共享设置",
+          "UNAVAILABLE": "不可用"
+        },
+        "SHAREDEVICE": "分享到此设备",
+        "TAPPAIR": "点击配对",
+        "TITLE": "配对和分享",
+        "TOPTITLE": "连接到{speedifyProductName}开始使用配对和共享",
+        "UNPAIR": "取消配对设备",
+        "UNPAIREDDEVICES": "未配对设备",
+        "UNPAIRPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DESC": "您将无法再分享给此设备或使用该设备的共享连接。",
+          "OK": "取消配对",
+          "TITLE": "取消配对此设备？"
+        },
+        "USEDEVICE": "使用此设备的共享连接",
+        "VIEWALL": "查看全部",
+        "VIEWLESS": "查看更少",
+        "WIFIDESC": "连接到Wi-Fi以开始使用配对和共享"
+      },
+      "PORTFWD": {
+        "DESC": "在专用服务器上，{speedifyProductName}可以将服务器上的传入端口转发到此客户端。 这样，您就可以使用专用服务器的IP地址在此设备上运行服务器，以使网络上的用户可以连接到该服务器。 1024和49151之间的端口号同时支持TCP及UDP协议。"
+      },
+      "STARTUPCONNECT": {
+        "DESC": "启用“开机时连接”后，{speedifyProductName}将在设备重新启动时自动连接。",
+        "HEADER": "开机时连接"
+      },
+      "TRANSPORTMODE": {
+        "AUTO": "自动（推荐）",
+        "DESC": {
+          "AUTO": "这使{speedifyProductName}可以确定哪种协议最适合任何一种给定的情况。",
+          "HTTPS": "HTTPS传输协议遮蔽{speedifyProductName}的流量作为Web浏览。 它通常比其他选项要慢一些。",
+          "MAIN": "传输模式定义了{speedifyProductName}使用的网络协议类型。",
+          "TCP": "TCP在快速可靠的网络连接上提供最佳性能。",
+          "TCPMULTI": "使用多个并行 TCP 套接字比使用单个 TCP 套接字具有更好的性能。推荐用于速度非常快的网络以及具有高延迟或丢包的网络。",
+          "UDP": "UDP协议在慢速和不可靠的连接上可提供最佳性能，建议将其用于对延迟敏感的应用程序，例如游戏和实时流媒体。"
+        },
+        "HEADER": "传输模式",
+        "HTTPS": "HTTPS协议（超文本传输协议）",
+        "TCP": "TCP协议（传输控制协议）",
+        "TCPMULTI": "多 TCP",
+        "UDP": "UDP协议（用户数据报协议）"
+      }
+    },
+    "SOUNDS": {
+      "DESC": "在 {speedifyProductName} 用户界面中启用或禁用声音效果。",
+      "TITLE": "音效"
+    },
+    "STATISTICS": {
+      "BRAGS": {
+        "BONDED": "绑定时间",
+        "CPASSIST": "强制网络门户协助",
+        "DATAENCRYPTED": "已加密的数据",
+        "MALWARE": "已阻止的恶意软件",
+        "RESCUED": "故障无缝切换",
+        "STREAMERGENCY": "@:SETTINGSPANE.STATISTICS.MESSAGES.STREAMERGENCY.TITLE",
+        "STREAMS": "流已完成",
+        "TOPDOWNLOADSPEED": "最高下载速度",
+        "TOPUPLOADSPEED": "最高上传速度"
+      },
+      "DURATION": {
+        "ALLTIME": "全部时间",
+        "MONTH": "本月",
+        "PAST": "过去的会话",
+        "RECENT": "最近",
+        "TODAY": "今天",
+        "WEEK": "周"
+      },
+      "MESSAGES": {
+        "CAPTIVE": {
+          "MESSAGE": "Speedify 帮助您连接到登录屏幕或强制网络门户背后的 Wi-Fi 网络的次数。",
+          "TITLE": "强制网络门户协助"
+        },
+        "DOWNSPEED": {
+          "MESSAGE": "运行 Speedify 时记录的最高下载速度",
+          "TITLE": "最高下载速度"
+        },
+        "ENCRYPTED": {
+          "MESSAGE": "Speedify 加密的网络流量总量。",
+          "TITLE": "总加密字节"
+        },
+        "RESCUE": {
+          "MESSAGE": "在网络故障或变更时， Speedify 成功挽救的没有中断的上传、下载、流媒体或通话的次数。",
+          "TITLE": "故障无缝切换"
+        },
+        "STREAMERGENCY": {
+          "MESSAGE": "Speedify 介入预防流媒体突发事故的次数。",
+          "TITLE": "{streamergency} 能救命"
+        },
+        "STREAMS": {
+          "MESSAGE": "实时流，如视频呼叫、VoIP 和直播流，会自动进行优先级排序和保护，以确保最佳体验。",
+          "TITLE": "@:UBERBOX.STATE.SINGLEACTIVESTREAMING"
+        },
+        "UPSPEED": {
+          "MESSAGE": "运行 Speedify 时记录的最高上传速度",
+          "TITLE": "最高上传速度"
+        }
+      },
+      "NOSTATS": "当您使用 Speedify 时，我们将在此处收集并报告重要的统计信息。",
+      "SECTIONS": {
+        "SECURITY": "安全",
+        "SPEED": "速度",
+        "STABILIITY": "稳定"
+      },
+      "SHARE": {
+        "CAPTIVE": "自从安装了 Speedify 之后，它已经帮助我无缝，安全地连接到强制门户后面的 {stat} Wi-Fi 网络。",
+        "DOWNLOAD": "在 Speedify 的帮助下，我达到了 {stat} 的最高下载速度！",
+        "ENCRYPTED": "自从安装 Speedify 后，它已经安全地加密了 {stat} 值的 web 流量。",
+        "FAILOVERS": "自从安装 Speedify 以来，它已经多次拯救了我的应用程序，使其免于失败的互联网连接 {stat} 次数。",
+        "STREAMERGENCY": "自从安装了 Speedify 之后，它已经帮我避免了 {stat} 次流媒体突发事故。",
+        "STREAMS": "自从安装了 Speedify 之后，它已经优先保护了我的 {stat} 个实时媒体流。",
+        "UPLOAD": "在 Speedify 的帮助下，我达到了 {stat} 的最高上传速度！"
+      },
+      "TITLE": "我的统计信息"
+    },
+    "STREAMINGBYPASS": {
+      "BYPASSSUGGESTION": "绕过建议",
+      "DASHBOARDDESC": "允许选择服务来绕过{speedifyProductName}",
+      "DASHBOARDINFO": "已知以上服务是为了限制VPN流量。若被启用，前往选定服务的流量将绕过{speedifyProductName}的安全和加密，直接进行连接。",
+      "DESC": "已知这些服务会阻止VPN流量。Bypass 启用时，将允许流量绕过 {speedifyProductName} 的安全和加密，直接连接所选服务。",
+      "HEADER": "Bypass",
+      "MANAGE": "管理（{count} ）",
+      "NOSUGGESTIONS": "目前没有绕过建议",
+      "POPUP": {
+        "DESC": "{speedifyProductName}可以允许来自{service}的流量（已知该流量会阻止VPN）直接在加密隧道外部进行连接。",
+        "NOBUTTON": "不用了，谢谢",
+        "TITLE": "允许来自{service}的流量绕过{speedifyProductName}吗？",
+        "YESBUTTON": "绕过{service}"
+      },
+      "RESTOREPOPUP": {
+        "CANCEL": "@:PROMPTS.CANCEL",
+        "DESC": "此动作将禁用任何自定义的绕过选项，并启用推荐的默认选项。",
+        "RESTORE": "恢复默认",
+        "TITLE": "恢复默认的绕过配置？"
+      },
+      "SELECTED": "选定",
+      "SUGGESTIONDESC": "启用基于使用的绕过建议。结果位于您的设备，不会传回给{speedifyProductName}。",
+      "SUGGESTIONS": "建议",
+      "TITLE": "分流来自以下的流量"
+    },
+    "SUPPORT": "支持",
+    "TESTSPEED": {
+      "CLOSE": "关闭",
+      "CONNECTION": "连接",
+      "CONNECTIONS": "连接",
+      "CONNECTNEWTEST": "连接并开始测速",
+      "CONNECTSTREAMTEST": "连接并开始直播测试",
+      "DESC": "使用 iPerf3 测试您的总连接速度",
+      "ERROR": "糟糕，执行此测试时出错。",
+      "ERRORDESC": "请等待当前测试完成",
+      "ERRORTITLE": "错误",
+      "HEADER": "性能测试",
+      "JITTER": "抖动",
+      "LIVESTREAMDESC": "检查您的实时流式传输能力",
+      "LIVESTREAMINPROGRESS": "正在进行直播测试……",
+      "LIVESTREAMPANEDESC": "{speedifyProductName} 将优先考虑来自直播和视频会议的流量。",
+      "LIVESTREAMSTART": "开始直播测试",
+      "LIVESTREAMTEST": "直播测试",
+      "LIVESTREAMTESTDESC": "测试您的上传以查看您直播可用的视频分辨率和帧率。在直播和视频通话之前使用将大有帮助。",
+      "LIVESTREAMTESTSHARE": "查看在使用 Speedify 时我的直播测试结果！您的连接可以支持什么分辨率和帧速率？",
+      "LIVESTREAMTITLE": "{speedifyProductName} 直播测试",
+      "LIVETESTCOMPLETE": "直播测试完成",
+      "LOSS": "丢包",
+      "NEWSTREAMTEST": "开始流式传输测试",
+      "NEWTEST": "开始测速",
+      "OVERALLDESC": "这些测试可能会使用大量数据，因此如果您的数据费率较高或有流量上限，请务必谨慎使用。",
+      "PING": "PING",
+      "RECENTTESTS": "近期测试",
+      "RETRY": "重试",
+      "SPEEDTEST": "速度测试",
+      "SPEEDTESTCOMPLETE": "速度测试完成",
+      "SPEEDTESTDESC": "测试您的 Speedify 增强型互联网能够处理的最大上传和下载速度。",
+      "SPEEDTESTSHARE": "使用 Speedify 检查我的网速！您的网速有多快？",
+      "TESTING_SPEED": "正在测试速度",
+      "TESTING_STREAMING": "测试直播",
+      "TESTREPORT": "结合您的 {stylePre}{numberOfConnections}{stylePost} 连接能够以 {stylePre}{fps}{stylePost} 帧/秒的帧速实时流式传输 {stylePre}{resolution}{stylePost} 的视频",
+      "TESTREPORTERROR": "您的 {stylePre}{numberOfConnections}{stylePost} 连接{stylePre}不适合{stylePost}流式传输",
+      "UPLOAD": "上传",
+      "VIEWHISTORY": "查看历史"
+    },
+    "THEME": {
+      "DARK": "黑暗",
+      "DEFAULT": "默认",
+      "DEFAULTDESC": " 选择默认则只会根据您的操作系统首选项进行更新",
+      "HEADER": "主题",
+      "LIGHT": "明亮"
+    }
+  },
+  "SOCIALPOPUP": {
+    "DESC": "获取最新的 Speedify 新闻、贴士、窍门以及我们最优惠的产品和奖品！",
+    "DESCTITLE": "立即关注 {followSpeedify}",
+    "FOLLOWUS": "关注我们的 ",
+    "HEADER": "保持联系！",
+    "NOTHANKS": "@:SETTINGSPANE.STREAMINGBYPASS.POPUP.NOBUTTON",
+    "SUBSCRIBEON": "订阅 "
+  },
+  "SPEEDIFY": "Speedify",
+  "SPEEDMODE": {
+    "DESCRIPTIONS": {
+      "REDUNDANCY": "在每个连接间冗余发送所有流量以提高可靠性。"
+    },
+    "REDUNDANCY": "冗余模式"
+  },
+  "STREAMING": {
+    "ACTIVE": "{active} 活动",
+    "COMPLETED": "{completed} 已完成",
+    "DELETE": "清除历史记录",
+    "FAILOVERSAVES": "由连接故障转移保存",
+    "HEADER": "串流",
+    "HINTS": {
+      "CPU": {
+        "HEADER": "高 CPU",
+        "TEXT": "考虑关闭一些应用或标签页"
+      },
+      "LATENCY": {
+        "HEADER": "不稳定的连接（延迟）",
+        "TEXT": "您能否移动一下以获得更好的信号？"
+      },
+      "LOSS": {
+        "HEADER": "不稳定的连接（丢包）",
+        "TEXT": "您能否移动一下以获得更好的信号？"
+      },
+      "MEMORY": {
+        "HEADER": "低内存",
+        "TEXT": "考虑关闭一些应用或标签页"
+      }
+    },
+    "NOSTATSSUBTITLE": "Speedify 将确定流数据流的优先级",
+    "REDUNDANTSAVES": "避免了过度延迟或数据包丢失",
+    "SPEEDSAVES": "已从连接中断中保存",
+    "STREAM": "流"
+  },
+  "STREAMINGPOPUP": {
+    "MAINDESC": "在你的上次直播中，Speedify 干预并阻止了 {saves} 次直播紧急情况。",
+    "MAINTITLE": "Speedify 拯救了一场直播！",
+    "SHARE": "Speedify 从打断我最后的通话或直播中阻止了 {saves} 次直播紧急情况。Speedify 让我可以将网络连接和自动提高直播流量的优先级结合起来，来获得更稳定、更安全的 Zoom 通话、游戏和电话会议。",
+    "SUBDESC": "想要拥有更流畅、更可靠的直播、通话和电话会议，请与你的朋友、家人和同事分享 Speedify。"
+  },
+  "TORRENTALERT": {
+    "MSG": "{speedifyProductName} 检测到了试图使用 BitTorrent 或其他 Peer2Peer 协议的应用程序。此服务器上不允许使用 P2P 流量。您想连接到支持 P2P 的服务器吗？",
+    "NO": "断开连接",
+    "STAYCONNECTED": "不使用P2P继续",
+    "TITLE": "连接至 P2P 服务器",
+    "YES": "连接至 P2P 服务器"
+  },
+  "TORRENTDISCONNECT": {
+    "MSG": "{speedifyProductName} 已断开连接。在重新连接之前，请关闭所有使用 BitTorrent 或其他 Peer2Peer 协议的程序。",
+    "TITLE": "{speedifyProductName} 已断开连接"
+  },
+  "UBERBOX": {
+    "CONNECTTOSERVER": "点击连接",
+    "OUTOFDATA": "免费数据不足",
+    "REDUNDANTALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "冗余模式不会组合连接速度，而是以最快的单个连接的速度运行。请注意，此模式会使用更多的数据来创建超可靠的连接。",
+      "OK": "启用",
+      "TITLE": "启用冗余模式"
+    },
+    "STATE": {
+      "AUTO_CONNECTING": "测试服务器",
+      "CONNECTED": "已连接",
+      "CONNECTING": "正在连接",
+      "DISCONNECTING": "正在断开连接",
+      "KILLSWITCH": "杀死开关已激活",
+      "LOGGED_IN": "已断开连接",
+      "LOGGED_OUT": "已注销",
+      "LOGGING_IN": "正在登录",
+      "MULTIACTIVEOLRL": "所有连接速率受限",
+      "MULTIACTIVEREDUNDANT": "冗余 {count} 个连接",
+      "MULTIACTIVESPEED": "结合 {count} 个连接",
+      "MULTIACTIVESTREAMINGNOSTREAM": "无实时流，{count} 个连接",
+      "MULTIACTIVESTREAMINGREDUNDANT": "冗余流播",
+      "MULTIACTIVESTREAMINGSPEED": "結合流式傳輸",
+      "MULTIBACKUPREDUNDANT": "冗余 {count} 个备用连接",
+      "MULTIBACKUPSPEED": "结合 {count} 个备用连接",
+      "NOINTERNET": "没有网络连接",
+      "OVERLIMIT": "连接已达到使用限制",
+      "SINGLEACTIVEOLRL": "连接速率受限",
+      "SINGLEACTIVEREDUNDANT": "冗余但只有一个连接",
+      "SINGLEACTIVESPEED": "已连接",
+      "SINGLEACTIVESTREAMING": "流播",
+      "SINGLEBACKUP": "使用备用连接"
+    },
+    "STREAMINGALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "流传输模式利用绑定流量和冗余流量的组合来优化实时流量。此模式可以在流处于活动状态时使用额外的数据和电池，有助于提供更好的流传输体验。",
+      "OK": "启用",
+      "TITLE": "启用流传输模式"
+    },
+    "UPGRADENOW": "立即升级",
+    "UPGRADENOWSALE": "并节省 30%"
+  },
+  "UPDATES": {
+    "ERROR": "检查新版本时发生错误。",
+    "IGNORE": "忽略",
+    "INSTALLNOW": "立即下载",
+    "LATEST": "您已有最新版本。"
+  },
+  "UPSELL": {
+    "BUTTONS": {
+      "STORE": "查看套餐和定价"
+    },
+    "DESCRIPTION": {
+      "EXPIRED": "@:UPSELL.DESCRIPTION.USAGE100",
+      "USAGE100": "我们希望您喜欢免费试用。马上升级，可在多达 5 台设备上无限制使用，还能使用高级服务器！",
+      "USAGE50": "我们希望您喜欢 {speedifyProductName} 试用。别让数据用尽，马上行动起来吧！解锁权限，访问高级服务器，还能在多达 5 台设备上无限使用！",
+      "USAGE75": "您开心享受着更好的网络，而时光飞逝。为了避免数据耗尽，也为了访问高级服务器，立即升级至无限套餐吧！"
+    },
+    "HEADER": {
+      "EXPIRED": "您的订购已过期！",
+      "USAGE100": "已使用 {percentage}% 的月度数据",
+      "USAGE50": "您已使用免费数据的 {percentage}%",
+      "USAGE75": "您的免费数据快用完了（已使用 {percentage}%）"
+    },
+    "SECONDARYHEADER": {
+      "EXPIRED": "@:UPSELL.SECONDARYHEADER.USAGE100",
+      "USAGE100": "马上升级，继续使用 {speedifyProductName}",
+      "USAGE50": "是时候升级了！",
+      "USAGE75": "别破坏了您的可靠网络！"
+    }
+  },
+  "USAGECHART": {
+    "SUBTITLES": {
+      "DAILY": "每日",
+      "MONTHLY": "每月"
+    },
+    "TITLE": "使用详情",
+    "WAITING": "连接以开始"
+  },
+  "WEEKLYSTATSPOPUP": {
+    "CONNRESCUEDDESC": "在过去的一周，Speedify 拯救了 {rescued} 次在网络故障和中断情况下你可能被丢弃的上传、下载、直播，或者通话。",
+    "CONNRESCUEDSHARE": "网络很脆弱？你需要Speedify。仅仅在过去的一周，Speedify拯救了 {rescued} 次在网络故障和中断情况下我可能被丢弃的上传、下载、直播或者通话。",
+    "CONNRESCUEDTITLE": "{rescued} 次无缝失效备份",
+    "DATAENCRYPTEDDESC": "在过去的一周，Speedify 安全地加密了 {data} 数据。",
+    "DATAENCRYPTEDSHARE": "不是所有的 VPN 都一个水平，Speedify 使用最新的加密标准，相比传统的 VPN 可以传递两倍的性能。在过去的一周，Speedify 加密了 {data} 我的数据，让我在线上保持安全的同时还不牺牲速度。",
+    "DATAENCRYPTEDTITLE": "{data} 数据被加密",
+    "DEFAULTDESC": "请查看你的全新每周数据统计。",
+    "DEFAULTTITLE": "全新每周数据统计",
+    "MAXDOWNLOADDESC": "在过去的一周，Speedify 又达到了一个新的最高下载速度 {download}。",
+    "MAXDOWNLOADSHARE": "我已经使用 Speedify，跟我的网络连接相结合，使其提高稳定性、速率和安全性。在过去的一周，我又达到了一个新的最高下载速度 {download}。",
+    "MAXDOWNLOADTITLE": "新的最高下载速度 {download}",
+    "MAXUPLOADDESC": "在过去的一周，Speedify 又达到了一个新的最高上传速度 {upload}。",
+    "MAXUPLOADSHARE": "我已经使用 Speedify，跟我的网络连接相结合，使其提高稳定性、速率和安全性。在过去的一周，我又达到了一个新的最高上传速度 {upload}。",
+    "MAXUPLOADTITLE": "新的最高上传速度 {upload}",
+    "NOTIFICATIONDESC": "来看一看 Speedify 是如何帮助改善你的网络速率、安全和稳定性的。",
+    "REPORTAVAILABLE": "你的每周报告已就绪",
+    "SMALLTITLE": "每周聚焦",
+    "STREAMSAVEDESC": "在过去的一周，Speedify 自动提高了 {streams} 次直播的优先级，并且干预并阻止了 {saved} 次直播紧急情况。",
+    "STREAMSAVESHARE": "对于包括 Zoom 通话、游戏和视频会议在内的更稳定和可靠的直播来说，Speedify 是一个完美的工具。在过去的一周，Speedify 自动提高了 {streams} 次我的直播的优先级，并且干预并阻止了 {saved} 次直播紧急情况。",
+    "STREAMSAVETITLE": "{saved} 次直播紧急情况救援"
+  },
+  "WIZARD": {
+    "CHANGE": "您随时可以点击您的{adapterName}连接设置来更改或删除这些数据帽，",
+    "DAILY": "每日",
+    "DESC": "为了提供更好的互联网，即使连接到Wi-Fi，{speedifyProductName} 也会偶尔使用 {adapterName} 连接。",
+    "DONTWORRY": "不用担心，您可以随时修改此设置。",
+    "DOYOU": "你有有限的数据计划吗？",
+    "GOTIT": "准备好了！",
+    "GREAT": "太棒了！ 我们将在 {adapterName} 连接上设置以下数据上限",
+    "HEADER": "你的 {adapterName} 连接",
+    "INTRO": "我们知道超量使用您手机移动数据计划非常昂贵， 为了防止运营商收取额外费用，{speedifyProductName}可以使用数据帽来限制您{adapterName}使用情况。",
+    "MONTHLY": "每月",
+    "NOCAPS": "不，我有移动数据计划不限量",
+    "SET": "您可以设置每月和每日流量上限，以防止 {speedifyProductName} 通过该连接发送过多数据。",
+    "YESCAPS": "是的，使用数据帽"
+  }
+}

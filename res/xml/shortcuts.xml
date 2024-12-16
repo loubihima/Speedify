@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/speedify_send_logs" android:enabled="true" android:shortcutId="speedifyGenlogs" android:shortcutShortLabel="@string/SPEEDIFY_SHARE_CHOOSER_TITLE" android:shortcutLongLabel="@string/SPEEDIFY_SHARE_CHOOSER_TITLE">
+        <intent android:targetPackage="com.speedify.speedifyandroie" android:action="android.intent.action.VIEW" android:targetClass="com.speedify.speedifyandroie.HeadlessShortcutTarget">
+            <extra android:name="action" android:value="genlogs" />
+        </intent>
+        <categories android:name="android.shortcut.debug" />
+    </shortcut>
+</shortcuts>

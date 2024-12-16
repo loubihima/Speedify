@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">مشاركة (%2$s) مع %1$d أجهزة مقترنة</item>
+        <item quantity="zero">مشاركة (%2$s) مع %1$d جهاز مقترن</item>
+        <item quantity="one">مشاركة (%2$s) مع جهاز مقترن واحد</item>
+        <item quantity="two">مشاركة (%2$s) مع 2 أجهزة مقترنة</item>
+        <item quantity="few">مشاركة (%2$s) مع %1$d أجهزة مقترنة</item>
+        <item quantity="many">مشاركة (%2$s) مع %1$d أجهزة مقترنة</item>
+    </plurals>
+</resources>

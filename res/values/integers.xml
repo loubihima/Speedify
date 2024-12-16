@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="API_CODE_AUTHORIZATION_FAILED">403</integer>
+    <integer name="API_CODE_COMMAND_NOT_FOUND">466</integer>
+    <integer name="API_CODE_COMMAND_SUCCESS">200</integer>
+    <integer name="API_CODE_CONNECT_FAILED">468</integer>
+    <integer name="API_CODE_INVALID_COMMAND">464</integer>
+    <integer name="API_CODE_TIMEOUT">504</integer>
+    <integer name="API_CODE_UNKNOWN_ERROR">500</integer>
+    <integer name="API_CODE_VERSION_NOT_SUPPORTED">505</integer>
+    <integer name="BYPASS_NOTIFICATION_ID">50010</integer>
+    <integer name="CAPTIVE_PORTAL_NOTIFICATION_ID">50008</integer>
+    <integer name="DATA_RENEWAL_NOTIFICATION_ID">50007</integer>
+    <integer name="MESSAGING_NOTIFICATION_ID">60000</integer>
+    <integer name="OVERLIMIT_NOTIFICATION_ID">50002</integer>
+    <integer name="SPEEDIFY_PAIRING_NOTIFICATION_ID">70000</integer>
+    <integer name="STREAMING_LIFECYLE_NOTIFICATION_ID">50012</integer>
+    <integer name="STREAMING_SAVE_NOTIFICATION_ID">50011</integer>
+    <integer name="TORRENT_NOTIFICATION_ID">50004</integer>
+    <integer name="USAGELIMIT_NOTIFICATION_ID">50001</integer>
+    <integer name="USER_AUTHORIZED">433</integer>
+    <integer name="USER_PURCHASE_NOPRODUCT">432</integer>
+    <integer name="USER_PURCHASE_SUCCESS">0</integer>
+    <integer name="VPN_PERMISSION_NOTIFICATION_ID">55504</integer>
+    <integer name="VPN_REVOKED_NOTIFICATION_ID">55503</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

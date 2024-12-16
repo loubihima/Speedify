@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Deler (%2$s) med %1$d parrede enheter</item>
+        <item quantity="one">Deler (%2$s) med %1$d parret enhet</item>
+    </plurals>
+</resources>

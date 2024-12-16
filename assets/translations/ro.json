@@ -1,0 +1,1600 @@
+{
+  "ACCCTRL": {
+    "CHANGEPASS": "Schimbare parolă",
+    "FACEBOOKLIKE": "Like {speedifyProductName} pe Facebook",
+    "RESTORE": "Validare achiziție",
+    "REVIEW": "Scrieți despre {speedifyProductName}",
+    "SHARE": "Distribuire"
+  },
+  "ACCINFO": {
+    "PERIOD": {
+      "ENDTIME": "(se resetează în {dayCount} {dayCount, plural, one{zi} other{zile}})"
+    },
+    "SUB": {
+      "ENDTIME": "Abonamentul expiră în {dayCount} {dayCount, plural, one{zi} other{zile}}",
+      "EXPIRED": "Abonamentul a expirat"
+    },
+    "TYPE": {
+      "FAMILY": "Abonament pentru familie",
+      "FREE": "Cont gratuit",
+      "LIMITED": "Cont cu volum de date limitat",
+      "NOACCOUNT": "Neautentificat",
+      "TEAMS": "Cont de echipă",
+      "UNLIMITED": "Cont nelimitat"
+    },
+    "USAGE": {
+      "UNLIMITED": "Nelimitat",
+      "UNLIMITEDWITHUSAGE": "{usedBytes} folosiți luna aceasta",
+      "UNSUPPORTED": "Nu este suportat",
+      "USAGEREMAINING": "{percentConsumed} % din {availableBytes} utilizat"
+    }
+  },
+  "ACCOUNTING": {
+    "DATAREPLENISH": "Abonamentul dvs. lunar {speedifyProductName} a fost reîncărcat",
+    "EXTRADATA": "Vești bune: ați primit un volum de date adițional pentru {speedifyProductName}!",
+    "LAUNCH": "Lansați {speedifyProductName}...",
+    "UNLIMITED": "Nelimitat"
+  },
+  "ACCOUNTPANE": {
+    "CREATE": "Finalizați procesul de înregistrare",
+    "LOGGEDOUT": "Deconectat",
+    "LOGIN": "Autentificare",
+    "LOGOUT": "Deconectare",
+    "UPGRADE": "Upgrade"
+  },
+  "ACCOUNTSETTINGERRORMESSAGE": {
+    "MESSAGE": "@:SETTINGSPANE.PREMIUMFEATURES",
+    "TITLE": "@:SETTINGERRORMESSAGE.TITLE"
+  },
+  "ADAPTEREXTRAS": {
+    "addconnection": {
+      "desc": "Adăugare conexiune",
+      "name": "Adăugare conexiune"
+    }
+  },
+  "ADAPTERINFO": {
+    "BWLIMIT": {
+      "title": "Limită de transfer",
+      "unlimited": "Nelimitat"
+    },
+    "DATA": "Date {adapterType}",
+    "OVERLIMITMODE": {
+      "disabled": "Nu mai folosi",
+      "slow": "Micșorați viteza la",
+      "title": "Când se atinge o limită..."
+    },
+    "PRIORITY": "Prioritate",
+    "RESETALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Doriți să resetați tot consumul de date pentru {adapterName} din {speedifyProductName}?",
+      "OK": "Resetați",
+      "TITLE": "Resetare consum de date"
+    },
+    "RESETUSAGE": "Resetați consumul de date",
+    "STATUS": {
+      "CAPTIVEPORTAL": "Deconectat, intervenție necesară",
+      "DISCONNETED": "Deconectat",
+      "NOINTERNET": "Fără conexiune la internet",
+      "NOTUSED": "Nefolosit",
+      "ONLINECONNECTED": "Online, conectat",
+      "ONLINECONNECTING": "Se conectează",
+      "ONLINEDISCONNECTED": "Online, deconectat",
+      "ONLINESLEEPING": "Online, în așteptare",
+      "OVERLIMIT": "Limită depășită",
+      "OVERLIMITDAILY": "Limită zilnică depășită",
+      "OVERLIMITMONTHLY": "Limită lunară depășită",
+      "SPEEDIFYDISCONNECTED": "{speedifyProductName} deconectat"
+    },
+    "TUNNELSTATE": {
+      "CONNECTED": "@:UBERBOX.STATE.CONNECTED",
+      "CONNECTING": "@:UBERBOX.STATE.CONNECTING",
+      "DISCONNECTED": "@:UBERBOX.STATE.LOGGED_IN"
+    },
+    "USEDATA": "Folosiți conexiunea {adapterType}"
+  },
+  "ADAPTERTYPES": {
+    "Bluetooth": "Bluetooth",
+    "Cellular": "Date celulare",
+    "Ethernet": "Ethernet",
+    "Loopback": "Loopback",
+    "NetworkShare Client": "Rețea asociată",
+    "NetworkShare Host": "Celular partajat",
+    "Unknown": "Nerecunoscută",
+    "VPN": "VPN",
+    "Wi-Fi": "Wi-Fi"
+  },
+  "ADVANCED": {
+    "OPTIONS": {
+      "ACCOUNTALERT": "Notificări de cont",
+      "ACCOUNTALERTDESC": "Primiți notificări cu privire la contul dv. Speedify",
+      "CAPTIVEPORTAL": "Alerte portaluri captive",
+      "CAPTIVEPORTALDESC": "Afișează notificări când este necesară intervenția dv. pentru a vă conecta la Internet folosind rețeaua Wi-Fi la care sunteți conectați.",
+      "CONNECTALERT": "Notificare la conectare",
+      "CONNECTALERTDESC": "Afișează o notificare când {speedifyProductName} se conectează / deconectează",
+      "CRASH": "Rapoarte cu erorile de aplicație",
+      "CRASHDESC": "Permiteți {speedifyProductName} să primească informații de depanare  anonimizate  în cazul în care aplicația întâmpină erori.",
+      "DEADHOTSPOT": "Alerte hotspot-uri nefuncționale",
+      "DEADHOTSPOTDESC": "Anunță când {speedifyProductName} a evitat un hotspot nefuncțional.",
+      "INCOMINGPASALERTS": "Solicitări de cuplare primite",
+      "PASSTATUSALERTS": "Actualizări ale Stării de Împerechere",
+      "PASNEWPEERALERTS": "Nou Peer Descoperit",
+      "DISCONNECTALERTS": "Alerte de Deconectare",
+      "DNSLEAK": "Protecție împotriva DNS leak",
+      "DNSLEAKDESC": "Activează protecția împotriva DNS leak",
+      "DNSSERVER": {
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "Pentru a schimba serverul DNS, trebuie să vă reconectați la {speedifyProductName}",
+          "OK": "Reconectare",
+          "TITLE": "Schimbare server DNS"
+        },
+        "CUSTOMINSTRUCTION": "Introduceți una sau mai multe adrese IP, separate prin spații",
+        "DESC": "{speedifyProductName} se conectează întotdeauna la serviciul DNS de pe serverele noastre. Puteți specifica ca acesta sa redirecționeze cererile către alt serviciu DNS.",
+        "TITLE": "Server DNS"
+      },
+      "HOTSPOTSECURITY": "Alerte de securitate pentru hotspot-uri",
+      "HOTSPOTSECURITYDESC": "Primiți notificări atunci când sunteți conectați la hotspot-uri Wi-Fi nesecurizate.",
+      "IPLEAK": "Protecție împotriva IP Leaks",
+      "IPLEAKDESC": "Activează protecția împotriva IP Leaks",
+      "JUMBO": "Jumbo MTU ",
+      "JUMBODESC": "Activare Jumbo MTU",
+      "KILLSWITCH": "Mod Internet Sigur",
+      "KILLSWITCHDESC": "Când Kill Switch este activat, tot traficul Internet va fi dezactivat dacă {speedifyProductName} nu este conectat.",
+      "MARKETINGALERT": "Știri și Oferte Speciale",
+      "MARKETINGALERTDESC": "Primiți notificări de la Speedify despre promoții și reduceri",
+      "NOTIFICATIONDESC": "Tipurile individuale de notificări pot fi activate sau dezactivate mai sus. Vom trimite doar mesaje de securitate utile și actualizări ale contului atunci când este necesar.",
+      "PORTFORWARD": {
+        "ADDTCP": "Adaugă port TCP",
+        "ADDUDP": "Adaugă port UDP",
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "Pentru a schimba porturile redirecționate, trebuie să vă reconectați la {speedifyProductName}",
+          "OK": "Reconectare",
+          "TITLE": "Schimbare redirecționare porturi"
+        },
+        "DESC": "Redirecționați anumite porturi către acest dispozitiv direct de la IP-ul public al serverului. Disponibil doar pentru serverele dedicate.",
+        "INVALIDINPUT": "Numărul portului trebuie să fie între {portNumberMin} și {portNumberMax}",
+        "RESTRICTED": "Portul nu poate fi unul dintre următoarele: {portRestrictedList}",
+        "TCP": "TCP",
+        "TITLE": "Redirecționare porturi",
+        "TOOMANY": "Puteți avea doar {maxPorts} porturi. Ștergeți un port existent ca să adăugați altul.",
+        "UDP": "UDP"
+      },
+      "SIRICONFIGURE": "Configurați scurtăturile Siri",
+      "SIRIDESC": "Permiteți Siri să sugereze o scurtătură.",
+      "SIRILINK": "Obțineți asistență în legătură cu scurtăturile Siri",
+      "SIRITITLE": "Notificări Siri",
+      "SPEEDIFYLIVE": "Memento-uri LIVE {speedifyProductName}",
+      "SPEEDIFYLIVEDESC": "Obțineți notificări pentru evenimentele Speedify LIVE și Speedify Office Hours",
+      "STREAMINGBYPASS": "Sugestii de Ocolire",
+      "STREAMINGBYPASSDESC": "Afișează notificări când modul Bypass poate fi folosit pentru a debloca o aplicație sau un serviciu.",
+      "STREAMMONITORALERT": "Monitorizarea Sănătății Stream-ului",
+      "STREAMMONITORALERTDESC": "Alerte despre calitatea streaming-ului",
+      "TRANSPORT": "Mod transport",
+      "TRANSPORTDESC": "Cum ar trebui să încerce să se conecteze {speedifyProductName}?",
+      "TRANSPORTMODES": {
+        "auto": "Automatic",
+        "tcp": "TCP",
+        "tcp-multi": "Multi TCP",
+        "udp": "UDP",
+        "websocket": "WebSocket"
+      },
+      "WEEKLYREPORT": "Raport săptămânal",
+      "WEEKLYREPORTDESC": "Primiți o notificare când raportul săptămânal de utilizare este disponibil."
+    }
+  },
+  "ARIALABEL": {
+    "DOWNLOAD": "Viteza de download",
+    "EXITINTRO": "Ieșire din intro în program",
+    "INTRO1": "Intro slide 1 din 6",
+    "INTRO2": "Intro slide 2 din 6",
+    "INTRO3": "Intro slide 3 din 6",
+    "INTRO4": "Intro slide 4 din 6",
+    "INTRO5": "Intro slide 5 din 6",
+    "INTRO6": "Intro slide 6 din 6",
+    "SETTINGS": "Setări",
+    "SHARE": "Distribuie {speedifyProductName}",
+    "TOGGLE": "Activare Speedify",
+    "TOGGLESETTING": "Modifică setarea",
+    "UPLOAD": "Viteză de upload"
+  },
+  "CAPTIVEPORTALPOPUP": {
+    "CONNECTBUTTON": "Conectare",
+    "CONTINUEBUTTON": "Continuare fără Wi-Fi",
+    "DESCRIPTION": "Această rețea Wi-Fi necesită autentificare sau acceptarea unor termeni și condiții pentru a vă conecta la internet",
+    "TITLE": "Intervenție necesară pentru conectare la {SSID}"
+  },
+  "CHANGEPASSWORD": {
+    "CHANGE": "Schimbare parolă"
+  },
+  "CONNECTSTARTUPERMISSION": {
+    "ACTIONBUTTON": "Activați conectarea la pornire",
+    "DISMISSBUTTON": "Nu acum",
+    "INTRO": {
+      "ACTIONBUTTON": "Conectare la pornire",
+      "DESCRIPTION": "Prin activarea opțiunii de conectare la pornire veți fi conectați și protejați chiar și după actualizări sau reporniri de sistem. Puteți modifica această setare oricând.",
+      "DISMISSBUTTON": "Mai târziu",
+      "HEADER": "Activați conectarea la pornire",
+      "TITLE": "{speedifyProductName} se poate conecta automat când vă autentificați sau când reporniți computerul"
+    },
+    "TITLE": "Puteți beneficia de tehnologia de channel bonding a Speedify doar atunci când este conectat. Activați {boldPre} conectarea la pornire {boldPost} pentru ca Speedify să pornească automat la autentificare sau la repornirea computerului."
+  },
+  "DESKTOPSTORENAGS": {
+    "DESC": "Acces nelimitat, securitate și viteze incredibile, toate garantate cu politica noastră de returnare a banilor în 30 de zile.",
+    "DESCTITLE": "Faceți upgrade la un abonament nelimitat pentru a vă putea bucura de un internet mai bun în continuare",
+    "HEADER": "Ați folosit tot volumul de date gratuit lunar",
+    "NEWDATA": "Veți avea posibilitatea să folosiți mai multe date cu Speedify în {dayCountDisplay} {dayCount, plural, one{zi} other{zile}}"
+  },
+  "DISCONNECTPROMPT": {
+    "OPTIONS": {
+      "CONNECTED": "Rămâneți conectați",
+      "HELP": "Obțineți asistență",
+      "LONGCONNECT": "Reconectare mâine",
+      "NOCONNECT": "Fără reconectare",
+      "SERVER": "Conectare la alt server",
+      "SHORTCONNECT": "Reconectare în 2 ore"
+    },
+    "RECONNECTSUBTITLE": "Reconectare mai târziu pentru o conexiune la Internet stabilă și sigură",
+    "RECONNECTTIME": "Reconectare la {connectTime}",
+    "RECONNECTTITLE": "Doriți ca {speedifyProductName} să se reconecteze automat?",
+    "STREAMINPROGRESS": {
+      "SUBTITLE": "Dacă vă deconectați acum, fluxurile video active ar putea fi întrerupte.",
+      "TITLE": "Aveți un flux video activ - sigur doriți să vă deconectați?"
+    },
+    "SUBTITLE": "Puteți încerca un alt server pentru o experiență mai bună cu {speedifyProductName}",
+    "TITLE": "Ați oprit {speedifyProductName} din cauza unei probleme?"
+  },
+  "ENCRYPTION": {
+    "DESCRIPTION": "Protejează toate datele trimise și primite.",
+    "ENCRYPTED": "Criptat"
+  },
+  "ERROR": {
+    "SERVICEDOWN": "Serviciul {speedifyProductName} nu rulează"
+  },
+  "FORMS": {
+    "DEFAULT": {
+      "EMAIL": "Adresa de email",
+      "PASS": "Parola",
+      "PASSCONFIRM": "Confirmați parola nouă",
+      "PASSCURRENT": "Parola actuală",
+      "PASSNEW": "Parola nouă"
+    },
+    "ERRORS": {
+      "EMAILINVALID": "Introduceți o adresă de email validă",
+      "ENTERCURPASS": "Introduceți parola actuală",
+      "ENTERPASS": "Introduceți parola",
+      "PASSINVALIDCHAR": "Parola nu trebuie să conțină caracterele \" sau \\\\",
+      "PASSLENGTH": "Parola dvs. trebuie să aibă cel puțin 8 caractere",
+      "PASSMATCH": "Parolele trebuie să fie identice"
+    },
+    "WAITING": "Vă rugăm așteptați.."
+  },
+  "GOFORTH": {
+    "ALREADYHAVEACCOUNT": "@:INTRO.HAVEACCOUNT",
+    "BACKGROUND": "Va funcționa silențios în fundal să optimizeze conexiunea la internet.",
+    "BODY": "Veți avea parte de un volum de date gratuit de {stylePre}{dataAmount} / lună {stylePost}, pentru a putea să testați funcționalitatea de combinare a conexiunilor.",
+    "CONNECTED": "Sunt conectat, ce urmează?",
+    "CONTINUE": "Acum puteți folosi Internetul în timp ce {speedifyProductName} se ocupă de îmbunătățirea lui!",
+    "LOGIN": "Autentificare",
+    "RELIABILITY": "Mai multă stabilitate, securitate și viteză!",
+    "RUNNING": "Lăsați aplicația {speedifyProductName} să ruleze",
+    "TITLE": "Combină conexiunile!",
+    "USE": "Folosiți aplicațiile și accesați site-urile favorite"
+  },
+  "GRAPHROTATION": {
+    "DESCRIPTION": "Când este activată opțiunea, graficele de pe pagina principală se vor schimba între ele la fiecare 20 de secunde.",
+    "TITLE": "Rotație grafice "
+  },
+  "HELP": {
+    "DESC": "{speedifyProductName} este un nou tip de VPN construit special pentru viteză, siguranță și stabilitate. Criptează tot traficul online, dar și combină {platform, select, mobile{conexiunile Wi-Fi și de date celulare} desktop{toate conexiunile la Internet} other{}} pentru a vă oferi un Internet rapid, fără întreruperi. Rulează în fundal pentru a vă menține Internetul sigur și fără cusur.",
+    "GETHELP": {
+      "ACCOUNT": "Obțineți asistență legată de contul dv.",
+      "CONNECTION": "Obțineți asistență legată de conexiuni",
+      "CONNECTIONS": "{speedifyProductName} va detecta și combina în mod automat noile conexiuni.",
+      "CONNECTIONSLINK": "Vedeți cum să adăugați conexiuni »",
+      "PASSWORD": "Obțineți asistență legată de parola dv.",
+      "SERVERS": "Obțineți asistență legată de servere",
+      "SETTINGS": {
+        "NOTIFICATIONS": "Obțineți asistență legată de notificări",
+        "PRIVACY": "Obțineți asistență legată de confidențialitate",
+        "SESSION": "Obțineți asistență legată de sesiuni"
+      },
+      "SIGNIN": "Obțineți asistență legată de accesul la contul dv."
+    },
+    "MENU": {
+      "ACCOUNT": "@:ONEPANE.POPINS.ACCOUNT",
+      "CLEARSETTINGS": "Anulare setări",
+      "CREDITS": "Despre aplicație",
+      "DEVTOOLS": "Unelte pentru programatori",
+      "GENLOGS": "Generați fișiere cu informații despre aplicație",
+      "GETSTART": "Ghid de pornire",
+      "PRIVACY": "Politica de confidențialitate",
+      "QUITAPP": "Ieșire",
+      "REMOVEHELPER": "Dezactivați instrumentul de asistență",
+      "SETTINGS": "@:ONEPANE.POPINS.SETTINGS",
+      "SUPPORT": "Obțineți asistență",
+      "TOS": "Termenii serviciului",
+      "UPDATES": "Verificați actualizările disponibile"
+    }
+  },
+  "INTRO": {
+    "DESC": {
+      "BODY": "{speedifyProductName} este un serviciu VPN unic ce combină toate conexiunile pentru un internet de încredere, rapid și sigur.",
+      "CONTINUE": "Continuare",
+      "PRIVACY": "Confidențialitatea ta este prioritatea noastră numărul 1",
+      "PRIVACYBODY": "Adresa IP și un identificator unic de dispozitiv pentru a putea folosi serviciul fără a te înregistra cu un cont, ora și locația de rețea de unde te-ai conectat prima dată pentru a redirecționa traficul cât mai eficient posibil, volumul de date folosit și durata conectării la serviciul VPN pentru a valida termenii și condițiile noastre, statisticile cu privire la performanța rețelei pentru a îmbunătăți vitezele și log-uri de aplicație pentru a îmbunătăți calitatea. Adresa de email este colectată, dacă dorești să o furnizezi la cumpărare, pentru a putea folosi aplicația pe alte dispozitive.",
+      "PRIVACYBODYHEADER": "Păstrăm temporar următoarele date:",
+      "PRIVACYCHANGE": "Politica noastră de confidențialitate s-a schimbat recent - colectăm mult mai puține date și suntem aliniați cu legile din California.",
+      "PRIVACYDESC": "Nu păstrăm jurnale ale activităților online și nu asociem niciodată domeniile sau aplicațiile web folosite cu dv, cu dispozitivul dv, cu adresa dv. IP, cu volumul de date folosit sau cu email-ul dv.",
+      "PRIVACYMOREINFO": "Pentru mai multe informații, te rugăm să citești ",
+      "TITLE": "Două conexiuni sunt mai bune decât una"
+    },
+    "GDPR2": {
+      "CONTINUE": "De acord - continuare",
+      "DISCLOSURE": "Nu înregistrăm site-urile pe care le vizitați, serviciile pe care le utilizați sau ceea ce faceți online. Stocăm temporar cantitatea de date transferate și durata conexiunii {speedifyProductName} pentru a respecta termenii noștri, un identificator unic de dispozitiv pentru a vă permite să utilizați serviciul fără a vă înregistra pentru un cont, adresa dvs. IP pentru a vă conecta la cel mai bun server posibil, precum și timpul și locația rețelei de la conexiunea inițială.",
+      "LEARN": "Aflați cum vă sunt administrate datele",
+      "TITLE": "Confidențialitatea dv. este importantă pentru noi",
+      "WECOLLECT": "Criptăm tot traficul web și colectăm cel mai mic volum de informații pentru a opera serviciul."
+    },
+    "HAVEACCOUNT": "Aveți deja un cont?",
+    "PERMISSIONS": {
+      "ACCOUNTREADY": "Contul dvs. {accountType} este gata!",
+      "COMPLETE": "Continuare",
+      "OPTIONAL": "(opțional)",
+      "TITLE": "Instalare"
+    },
+    "PITCH": {
+      "COMBINE": "Combină conexiunile",
+      "COMBINEDESC": "Folosește Wi-Fi și datele celulare în același timp pentru performanță optimă",
+      "DEVICEDESC": "Folosește același cont pentru telefon, tabletă, computer și alte dispozitive",
+      "DEVICETITLE": "Folosește pe 5 dispozitive",
+      "ENCRYPTIONDESC": "Ține-ți datele în siguranță față de hackeri",
+      "ENCRYPTIONTITLE": "Criptare avansată",
+      "FREEVERSION": "Folosește versiunea gratuită limitată",
+      "LIMITED": "Versiune gratuită limitată",
+      "LIMITEDDESCData": "Optimizați primii {data} de date pe care îi folosiți lunar - nu este necesar cont.",
+      "LIMITEDTITLE": "Folosește {speedifyProductName} gratuit, cu limite",
+      "LIMITEDTITLEDESCDATA": "{data} de date optimizate în fiecare lună",
+      "NOTRIALDESC": "La ce aștepți? Începe acum pentru doar {cost} pe an",
+      "PRICEPERUSERPERMONTH": "Apoi {currencySymbol}{price} {currencyCode} pe lună",
+      "SECURITY": "Obțineți mai multă stabilitate, viteză și securitate de la conexiunea Internet. Eliminați {streamergencies}-urile!",
+      "SERVERDESC": "Conectați-vă la servere din toată lumea",
+      "SERVERHEADER": "Acces la servere globale",
+      "SUBSCRIBE": "Abonează-te acum",
+      "SUBSCRIBEFOR": "Cumpără cu ",
+      "TITLEHEADER": "{speedifyProductName} VPN nelimitat",
+      "TRIAL": "Pornește evaluarea gratuită de 7 zile",
+      "TRIALBUTTON": "7 zile utilizare gratuită",
+      "TRIALPAY": "Apoi doar {cost} pe an"
+    }
+  },
+  "KILLSWITCH": {
+    "CONNECT": "Conectare {speedifyProductName}",
+    "DISABLE": "Dezactivare Kill Switch",
+    "MSG": "Pentru a nu permite accesul online fără VPN, {speedifyProductName} nu va permite altor aplicații să acceseze Internetul.",
+    "OFFLINE": "Rămâneți offline"
+  },
+  "LANGUAGE": {
+    "AUTO": "@:ADVANCED.OPTIONS.TRANSPORTMODES.auto",
+    "DESC": "Setați limba în care va fi afișată interfața Speedify. Valoarea Auto (recomandată) folosește limba sistemului de operare.",
+    "TITLE": "Limbă"
+  },
+  "LIMITS": {
+    "DAILYLIMIT": "Limită zilnică",
+    "DAYBOOST": "{boostHtml} de date adiționale vor fi permiși astăzi",
+    "DAYUSAGELIMITED": "{usage} din {limitHtml} consumați astăzi",
+    "DAYUSAGEUNLIMITED": "{usage} consumați astăzi",
+    "MONTHLYLIMIT": "Limită lunară",
+    "MONTHUSAGELIMITED": "{usage} din {limitHtml} pe lună",
+    "MONTHUSAGEUNLIMITED": "{usage} consumați în ultimele 30 de zile",
+    "MONTHUSAGEUNLIMITEDMONTH": "{usage} de date folosite luna aceasta",
+    "RESETDAY": {
+      "LAST30": "Ultimele 30 de zile",
+      "N": "{day, selectordinal, other{# ale lunii} }",
+      "UNKNOWN": "Necunoscut"
+    },
+    "RESETDAYPRE": "Resetează pe {resetDayHtml}",
+    "USAGEWITHPERCENTAGE": "{usage} ({percentage})"
+  },
+  "LOCATION": {
+    "CITY": {
+      "amsterdam": "Amsterdam",
+      "atlanta": "Atlanta",
+      "auckland": "Auckland",
+      "baku": "Baku",
+      "bangalore": "Bangalore",
+      "beijing": "Beijing",
+      "belgrade": "Belgrad",
+      "bhs": "Montreal",
+      "bogota": "Bogotá",
+      "brisbane": "Brisbane",
+      "brussels": "Bruxelles",
+      "bucharest": "București",
+      "budapest": "Budapesta",
+      "bursa": "Bursa",
+      "cairo": "Cairo",
+      "chicago": "Chicago",
+      "chisinau": "Chișinău",
+      "copenhagen": "Copenhaga",
+      "dallas": "Dallas",
+      "denver": "Denver",
+      "dubai": "Dubai",
+      "dublin": "Dublin",
+      "dusseldorf": "Düsseldorf",
+      "frankfurt": "Frankfurt",
+      "fremont": "Fremont",
+      "graz": "Graz",
+      "helsinki": "Helsinki",
+      "honolulu": "Honolulu",
+      "hsinchu": "Hsinchu",
+      "islamabad": "Islamabad",
+      "istanbul": "Istanbul",
+      "izmir": "İzmir",
+      "jakarta": "Jakarta",
+      "johannesburg": "Johannesburg",
+      "karaganda": "Karagandî",
+      "kowloon": "Hong Kong",
+      "kualalumpur": "Kuala Lumpur",
+      "la": "Los Angeles",
+      "lisbon": "Lisabona",
+      "ljubljana": "Ljubljana",
+      "london": "Londra",
+      "madrid": "Madrid",
+      "melbourne": "Melbourne",
+      "mexicocity": "Ciudad de Mexico",
+      "miami": "Miami",
+      "milano": "Milano",
+      "moscow": "Moscova",
+      "mumbai": "Mumbai",
+      "newark": "Newark",
+      "nicosia": "Nicosia",
+      "nova": "Northern Virginia",
+      "nyc": "New York City",
+      "oostkamp": "Oostkamp",
+      "oslo": "Oslo",
+      "palermo": "Palermo",
+      "paris": "Paris",
+      "perth": "Perth",
+      "philadelphia": "Philadelphia",
+      "prague": "Praga",
+      "riyadh": "Riad",
+      "sanjose": "San José",
+      "saopaulo": "São Paulo",
+      "seattle": "Seattle",
+      "seoul": "Seul",
+      "sf": "San Francisco",
+      "singapore": "Singapore",
+      "sofia": "Sofia",
+      "stockholm": "Stockholm",
+      "stpetersburg": "St. Petersburg",
+      "sydney": "Sydney",
+      "taipei": "Taipei",
+      "tallinn": "Tallinn",
+      "telaviv": "Tel Aviv",
+      "test": "Test",
+      "tokyo": "Tokyo",
+      "toronto": "Toronto",
+      "tripoli": "Tripoli",
+      "valencia": "Valencia",
+      "vancouver": "Vancouver",
+      "vienna": "Viena",
+      "vilnius": "Vilnius",
+      "warsaw": "Varșovia",
+      "zurich": "Zurich"
+    },
+    "COUNTRY": {
+      "ae": "Emiratele Arabe Unite",
+      "at": "Austria",
+      "au": "Australia",
+      "az": "Azerbaidjan",
+      "be": "Belgia",
+      "bg": "Bulgaria",
+      "br": "Brazilia",
+      "ca": "Canada",
+      "ch": "Elveția",
+      "cn": "Republica Populară Chineză",
+      "co": "Columbia",
+      "cr": "Costa Rica",
+      "cy": "Cipru",
+      "cz": "Cehia",
+      "de": "Germania",
+      "dk": "Danemarca",
+      "ee": "Estonia",
+      "eg": "Egipt",
+      "es": "Spania",
+      "fi": "Finlanda",
+      "fr": "Franța",
+      "gb": "Marea Britanie",
+      "hk": "Hong Kong",
+      "hu": "Ungaria",
+      "id": "Indonezia",
+      "ie": "Irlanda",
+      "il": "Israel",
+      "im": "Insula Man",
+      "in": "India",
+      "is": "Islanda",
+      "it": "Italia",
+      "jp": "Japonia",
+      "kr": "Coreea de Sud",
+      "kz": "Kazahstan",
+      "lt": "Lituania",
+      "ly": "Libia",
+      "md": "Republica Moldova",
+      "mx": "Mexic",
+      "my": "Malaezia",
+      "nl": "Olanda",
+      "no": "Norvegia",
+      "nz": "Noua Zeelandă",
+      "pk": "Pakistan",
+      "pl": "Polonia",
+      "pt": "Portugalia",
+      "ro": "România",
+      "rs": "Serbia",
+      "ru": "Rusia",
+      "sa": "Arabia Saudită",
+      "se": "Suedia",
+      "sg": "Singapore",
+      "si": "Slovenia",
+      "tr": "Turcia",
+      "tw": "Taiwan",
+      "us": "Statele Unite ale Americii",
+      "za": "Africa de Sud"
+    }
+  },
+  "LOCKSCREEN": {
+    "POPUP": {
+      "CALLS": "Conferință video îmbunătățită",
+      "PLUS": "Folosește mai multe conexiuni la internet simultan",
+      "SECURITY": "Criptare super sigură",
+      "SERVERS": "Acces la server la nivel mondial",
+      "STREAM": "Transmitere în direct optimizat",
+      "SUBTITLE": "Iată, toate funcțiile pe care le pierzi...",
+      "TITLE": "Ți-ai epuizat toate datele gratuite!",
+      "UNLIMITED": "Navighează, transmite în flux și joacă fără limite"
+    },
+    "UPGRADETITLE": "Fă upgrade acum pentru a utiliza în continuare Speedify",
+    "USAGE": "Ți-ai epuizat toate datele lunare gratuite"
+  },
+  "NETWORKADAPTERFUNCTIONS": {
+    "UNKNOWN": "Necunoscut"
+  },
+  "NETWORKDOT": {
+    "MESSAGING": {
+      "CAPTIVE": "Portal captiv",
+      "DISABLED": "Dezactivat",
+      "OVERLIMITRATELIMIT": "Viteză limitată peste depășirea datelor"
+    }
+  },
+  "NOTIFICATIONS": {
+    "PERMISSION": "{speedifyProductName} nu poate afișa notificări. {linkPre} Activați permisiunile pentru notificări {linkPost}"
+  },
+  "OMNICHART": {
+    "SUBTITLES": {
+      "EXTENDED": "5 minute",
+      "LATENCY": "Timp de răspuns",
+      "LOSS": "Pierderi",
+      "PROXY": "Local",
+      "REALTIME": "În timp real",
+      "SHARED": "Partajat",
+      "SPEED": "Viteză",
+      "USAGE": "Utilizare"
+    },
+    "TITLES": {
+      "QUALITY": "Calitatea conexiunii",
+      "SPEED": "Viteză"
+    },
+    "TOTAL": "Total",
+    "WAITING": "Conectați-vă pentru a începe"
+  },
+  "ONEPANE": {
+    "POPINS": {
+      "ACCOUNT": "Contul {speedifyProductName}",
+      "ADAPTERCONFIGURE": "Configurare",
+      "CHANGEPASSWORD": "Schimbare parolă",
+      "CONNECTION": "Sesiune",
+      "DEVTOOLS": "Unelte pentru programatori",
+      "LOGIN": "Intrare în contul {speedifyProductName}",
+      "NOTIFICATIONS": "Notificări",
+      "PRIVACY": "Confidențialitate",
+      "SERVERS": "Servere",
+      "SERVERSLOCATION": "Locație server",
+      "SETTINGS": "Setări",
+      "SIRI": "Scurtături Siri",
+      "SOUNDS": "Sunete",
+      "SUPPORT": "Despre",
+      "UPGRADE": "Upgrade"
+    }
+  },
+  "OVERLIMIT": {
+    "ACTIONLIMIT": "{boldPre} Folosiți în continuare {boldPost} la viteza de {speed}",
+    "ACTIONSTOP": "{boldPre}Opriți folosirea{boldPost} {adapterName}",
+    "DAILY": {
+      "BOOST": "{boldPre}Măriți limita zilnică{boldPost} cu {boostAmount}",
+      "MSG": "{boldPre}Conexiunea {adapterName}{boldPost} a depășit limita zilnică setată de {boldPre}{limit}{boldPost}."
+    },
+    "DAILY75": {
+      "MSG": "{boldPre}Conexiunea {adapterName}{boldPost} a depășit nivelul de 75% din limita zilnică setată de {boldPre}{limit}{boldPost}."
+    },
+    "DISABLED": "{boldPre}{adapterName}{boldPost} a fost dezactivat pentru a evita taxe suplimentare.",
+    "LIMITED": "{boldPre}{adapterName}{boldPost} este limitat pentru a evita taxe suplimentare.",
+    "MONTHLY": {
+      "MSG": "{boldPre}Conexiunea {adapterName}{boldPost} a depășit limita lunară setată de {boldPre}{limit}{boldPost}."
+    },
+    "MONTHLY75": {
+      "MSG": "{boldPre}Conexiunea {adapterName}{boldPost} a depășit nivelul de 75% din limita lunară setată de {boldPre}{limit}{boldPost}."
+    }
+  },
+  "OVERVIEW": {
+    "CONSAVED": "Conexiuni salvate",
+    "DOWNLOAD": "Descărcări",
+    "PACKRECOVERED": "Pachete recuperate",
+    "SHARE": "Distribuie!",
+    "SHARETEXT": {
+      "CONSAVED": "{speedifyProductName} a comutat automat între conexiuni {value, plural,  one{odată} other{de # ori}}!",
+      "DOWNLOAD": "{speedifyProductName} mi-a accelerat viteza de download cu {value} Mbps!",
+      "PACKRECOVERED": "{speedifyProductName} a recuperat {value} {bytesLabel} din informații pierdute!",
+      "UPLOAD": "{speedifyProductName} mi-a accelerat viteza de upload cu {value} Mbps!"
+    },
+    "TITLE": "Statistici",
+    "UPLOAD": "Încărcări",
+    "WAITING": "Se adună date, vă rugăm reveniți"
+  },
+  "PLATFORM": {
+    "SHARE": {
+      "INSTRUCTION": "Spuneți tuturor despre {speedifyProductName}",
+      "TEXT1": "O aplicație utilă: {speedifyProductName}"
+    }
+  },
+  "PRIORITIES": {
+    "ALWAYS": {
+      "DESC": "Folosește întotdeauna acească conexiune",
+      "DISPLAY": "Principală"
+    },
+    "AUTOMATIC": {
+      "DESC": "Permiteți ca {speedifyProductName} să gestioneze prioritatea conexiunii",
+      "DISPLAY": "Automat(ă)"
+    },
+    "BACKUP": {
+      "DESC": "Folosește această conexiune ca rezervă doar când altele nu sunt disponibile. Nu se combină pentru viteză (mai puțin folosită)",
+      "DISPLAY": "Rezervă"
+    },
+    "CAPTIVEPORTAL": "Intervenție necesară",
+    "DESC": "Prioritatea unei conexiuni determină cum și când să fie folosită de {speedifyProductName}.",
+    "NEVER": {
+      "DESC": "Nu folosi această conexiune",
+      "DISPLAY": "Niciodată"
+    },
+    "OVERLIMIT": {
+      "DISPLAY": "LIMITĂ DEPĂȘITĂ"
+    },
+    "SECONDARY": {
+      "DESC": "Folosește această conexiune doar pentru viteză mărită și protecție la deconectare, dar mai puțin ca principala.",
+      "DISPLAY": "Secundară"
+    },
+    "UNKNOWN": {
+      "DISPLAY": "Nerecunoscută"
+    }
+  },
+  "PRIORITYSELECTION": {
+    "CELLULARALWAYSALERT": {
+      "ASKAGAINCANCEL": "Nu, schimbare ca secundar",
+      "ASKAGAINOK": "Da, rămâne setat ca principal",
+      "ASKAGAINTITLE": "Mai doriți să folosiți {adapter} cu prioritate?",
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Conexiunea celulară va fi folosită întotdeauna dacă este setată ca principală, chiar și în prezența altor conexiuni Wi-Fi sau Ethernet. Volumul de date celulare folosit și consumul de baterie vor crește.",
+      "OK": "Se folosește întotdeauna",
+      "TITLE": "Setați prioritatea ca principală?"
+    },
+    "NEVERALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Dacă dezactivați această conexiune, ea nu va mai fi folosită deloc. Continuați?",
+      "OK": "Dezactivați",
+      "TITLE": "Dezactivare conexiune {adapterType}"
+    }
+  },
+  "PROMPTS": {
+    "ALLOW": "Permite",
+    "CANCEL": "Anulare",
+    "NO": "Nu",
+    "NOTNOW": "Nu acum",
+    "OK": "OK",
+    "YES": "Da"
+  },
+  "PURCHASE": {
+    "BESTDEAL": "CEL MAI BUN!",
+    "CANCELSUBDESC": "Anulați oricând",
+    "CHOOSEYOURDESTINY": "Alegeți un abonament individual",
+    "COMPLETECOVER": "Finalizează comanda sau închide magazinul {speedifyProductName} pentru a continua",
+    "CREATEACCOUNTALERT": {
+      "CANCEL": "Mai târziu",
+      "MSG": "Pentru a putea folosi contul dvs. nelimitat {speedifyProductName} pe alte dispozitive, va trebui să vă înregistrați folosind o adresă email și o parolă.",
+      "OK": "Creați un cont",
+      "TITLE": "Înregistrați-vă cu un cont"
+    },
+    "CREATEACCOUNTALERT2": {
+      "CANCEL": "@:PURCHASE.CREATEACCOUNTALERT.CANCEL",
+      "MSG": "Dacă săriți peste procesul de înregistrare, nu veți putea accesa contul dvs. nelimitat {speedifyProductName} pe alte dispozitive.",
+      "OK": "@:PURCHASE.CREATEACCOUNTALERT.OK",
+      "TITLE": "Sunteți siguri?"
+    },
+    "CREATEACCOUNTREGISTER": {
+      "HEADER": "Înregistrați-vă contul nelimitat {speedifyProductName} acum pentru a putea folosi {speedifyProductName} pe încă 4 dispozitive simultan!",
+      "TITLE": "Înregistrați-vă cu un cont"
+    },
+    "DISPLAYEDPRICES": "Prețuri exprimate în {currencyCode}",
+    "FAMILYHEADER": "... sau unul pentru întreaga familie!",
+    "HEADER100USED": "{pre1} Ați folosit tot volumul de date gratuit oferit de {speedifyProductName}! {post1}   {pre2} Abonați-vă acum pentru a utiliza capabilități extraordinare sau așteptați încă {stylePre}{daysDisplay} {days, plural, one{zi} other{zi}}{stylePost} pentru date gratuite. {post2}",
+    "HEADER100USEDNODATA": "{pre1} Ați folosit tot volumul de date gratuit oferit de {speedifyProductName} {post1}\n{pre2} Cumpărați acum un abonament pentru a debloca aceste capabilități.",
+    "HEADEREXPIRED": "{pre1} Abonamentul dv. a expirat! {post1}",
+    "MOSTPOPULAR": "PREFERATUL UTILIZATORILOR",
+    "NAMES": {
+      "FAMILY": "Abonament familial",
+      "MONTHLY": "Lunar",
+      "THREEYEAR": "Abonament pe 3 ani",
+      "YEARLY": "Anual"
+    },
+    "PLANS": {
+      "FAMILY": "Familii",
+      "FIXED": "Abonamente cu durată fixă",
+      "INDIVIDUAL": "Individual",
+      "SUB": "Abonamente",
+      "UPGRADES": "Actualizări disponibile"
+    },
+    "POSTPURCHASE": {
+      "DIRECTIONS": "Intră în contul tău",
+      "TITLE": "Autentificare"
+    },
+    "PRICEPERMONTH": "{price}{currencySymbol} / lună",
+    "PRICEPERUSERPERMONTH": "{currencySymbol}{price} {currencyCode} per utilizator, lunar",
+    "PRICEPERYEAR": "{price}{currencySymbol} / an",
+    "PRICEPERYEARABTESTA": "Doar",
+    "PRICEPERYEARABTESTB": "{currencySymbol}{price} {currencyCode} anual",
+    "PRICEPERYEARABTESTC": "{currencySymbol}{price} {currencyCode}",
+    "PRICEWITHOUTDURATION": "{currencySymbol}{price}",
+    "PRODUCTTITLE": "{pre1}{speedifyProductName}{post1}{pre2} Nelimitat {post2}",
+    "PRODUCTTITLEFAMILY": "{pre1}{speedifyProductName}{post1}{pre2} pentru familii {post2}",
+    "PURCHASELENGTH": "{monthsDisplay} {luni, plural, one{lună} other{luni}}",
+    "REASONS": {
+      "FAMILY": "Utilizare nelimitată, acces la servere premium plus {stylePre}iCloud Family Sharing{stylePost} ce vă permite dv. și altor 5 membri ai familiei să împartă accesul.",
+      "FIVEDEVICES": "Folosiți simultan pe maxim 5 dispozitive",
+      "INDIVIDUAL": "Actualizare acum pentru utilizare nelimitată, acces la servere premium și folosire pe până la 5 dispozitive simultan.",
+      "PREMIUM": "Acces la servere premium",
+      "SALE": "Cumpărați un abonament acum și economisiți 30%",
+      "UNLIMITED": "Fără limită de volum de date",
+      "WORLDWIDE": "Acces la serverele din toată lumea"
+    },
+    "SALEOFFER": "OFERTĂ LIMITATĂ",
+    "SALESAVINGS": "REDUCERE 30%",
+    "SALETRIAL": "Începeți cele 7 zile de utilizare gratuită",
+    "SAVEPERCENTAGE": "Economisiți {percentDisplay} %",
+    "SIGNIN": "Aveți deja un cont?",
+    "TRIALBUTTON": "Primele 7 zile gratuite - apoi {price}{currencySymbol} / an",
+    "TRIALEXPLAIN": "Cei care utilizează serviciul pentru prima dată pot beneficia de o perioadă de probă de {trialLength} zile. Abonamentele se reînnoiesc automat la sfârșitul perioadei de probă.",
+    "TRIALPRICE": "Plătiți {trialPrice}{currencySymbol} azi, apoi {price}{currencySymbol} pe an dupa perioada de încercare gratuită.",
+    "USERDEVICES": "{userDisplay} utilizatori, {deviceDisplay} dispozitive",
+    "VIEWMORE": "Mai multe opțiuni"
+  },
+  "PUSHPERMISSION": {
+    "DESCRIPTION": "Trimitem doar mesaje de securitate și actualizări ale contului când e necesar",
+    "HEADER": "Nu în ultimul rând...",
+    "LOWERDESC": "Puteți activa sau dezactiva oricând alertele.",
+    "RECEIVE": "Primește notificări",
+    "SOUNDSGOOD": "Este perfect"
+  },
+  "REGISTERLOGIN": {
+    "BUTTONS": {
+      "CONTINUE": "Continuare",
+      "CREATEGLOBAL": "Finalizați înregistrarea",
+      "FORGOTPASSWORD": "Ați uitat parola?",
+      "LOGIN": "Autentificare",
+      "NEEDACCOUNT": "Nu aveți încă un cont?",
+      "REGISTER": "Înregistrare",
+      "USEFREE": "Folosiți contul gratuit"
+    },
+    "DIRECTIONS": {
+      "AUTOFREE": "Introduceți adresa de email pentru a vă autentifica într-un cont deja existent",
+      "AUTOPAID": "Creați un cont pentru a folosi abonamentul {speedifyProductName} și pe alte dispozitive sau autentificați-vă într-un cont deja existent",
+      "LOGOUT": "Sunteți deconectați. Pentru a folosi {speedifyProductName} în continuare, autentificați-vă cu un alt cont sau selectați opțiunea de cont gratuit",
+      "NOACCOUNT": "Introduceți adresa de email pentru a vă autentifica la {speedifyProductName}",
+      "NOTEXIST": "Acest cont nu există. Vă rugăm să introduceți adresa de email asociată cu contul {speedifyProductName} la care doriți să vă autentificați",
+      "PASSRESETSUBMIT": "Cererea de resetare a parolei a fost trimisă. Vă rugăm să verificați emailul dvs. pentru instrucțiuni",
+      "SWITCH": "Introduceți adresa de email pentru a vă autentifica într-un alt cont"
+    },
+    "ERRORS": {
+      "DEVICELIMIT": {
+        "BTMMSG": "Pentru a continua, deconectați-vă de la Speedify pe unul sau mai multe dintre dispozitivele dvs. și încercați din nou. S-ar putea să fie nevoie să așteptați până la 1 săptămână.",
+        "LEARNMORE": "@:SETTINGSPANE.LEARNMORE",
+        "OK": "@:PROMPTS.OK",
+        "TITLE": "Limita de dispozitive depășită",
+        "TOPMSG": "Un singur cont de utilizator poate fi conectat doar pe până la 5 dispozitive pe săptămână."
+      }
+    },
+    "PASSMANAGERS": "sau autentificați-vă cu",
+    "PASSRESET": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Doriți să resetați parola?",
+      "OK": "Resetare parolă",
+      "TITLE": "Resetare parolă"
+    }
+  },
+  "REVIEW": {
+    "ENJOYING": {
+      "NO": "Nu funcționează cum trebuie. Am nevoie de asistență!",
+      "QUESTION": "Este {speedifyProductName} un program folositor pentru dvs?",
+      "YES": "Până acum, da!"
+    },
+    "FBLIKE": {
+      "QUESTIONFORLIKE": "Vă place {speedifyProductName}?",
+      "YES": "Like pe Facebook"
+    },
+    "PROMPT": {
+      "LINK": "Adăugați o recenzie",
+      "SUBTITLE": "În caz afirmativ, ne-ar ajuta să lăsați o recenzie!",
+      "TITLE": "Găsiți {speedifyProductName} util?"
+    },
+    "REVIEW": {
+      "NO": "Nu pot chiar acum.",
+      "QUESTION": "Minunat. V-ar deranja să scrieți o recenzie pentru {speedifyProductName}? Durează doar un minut.",
+      "YES": "Sigur - scriu recenzia acum!"
+    },
+    "SUPPORT": {
+      "NO": "Nu acum.",
+      "QUESTION": "Ne pare rău. Vă rugăm să trimiteți o cerere către departamentul de asistență, ca să vă putem ajuta.",
+      "YES": "Contactează departamentul de asistență"
+    }
+  },
+  "SALEPOPUP": {
+    "DEALBUTTON": "Vreau oferta!",
+    "DESCRIPTION": "Faceți upgrade la {speedifyProductName} Unlimited VPN cu această ofertă exclusivă pentru utilizatorii noi.",
+    "HURRY": "Grăbiți-vă! Oferta expiră în:",
+    "LATERBUTTON": "Poate mai târziu",
+    "SAVINGS": "Economisiți 40% acum!"
+  },
+  "SERVERFUNCTIONS": {
+    "PRIVATE": "Servere dedicate",
+    "PRIVATEBRAG": "Bucurați-vă de viteze mărite, o adresă IP statică și opțiuni pentru port forwarding.",
+    "UNKNOWN": "Necunoscut"
+  },
+  "SERVERS": {
+    "LESS": "mai puțin...",
+    "MORE": "mai mult...",
+    "OPTIONS": {
+      "AUTOMATIC": "Selecție automată",
+      "CLOSEST": "Conectare la cel mai apropiat",
+      "CLOSESTDEDICATED": "Cel mai apropiat server dedicat",
+      "CLOSESTPUBLIC": "Cel mai apropiat server public",
+      "COUNTRY": "Alegere țară",
+      "DEDICATED": "Dedicat",
+      "EXIT": "Deconectare la ieșire",
+      "EXITANDROID": "Închide aplicația",
+      "EXITDESC": {
+        "ANDROID": "Se deconectează când se închide {speedifyProductName} din task-uri prin swipe sau când se închid toate aplicațiile active",
+        "DESKTOP": "Deconectare când se iese din interfața aplicației"
+      },
+      "EXITOFFANDROID": "Menținere conexiune",
+      "EXITONANDROID": "Deconectare",
+      "MANUALPITCH": "Folosiți selecția manuală pentru a vă conecta la anumite servere pentru a accesa website-uri și a folosi aplicații ca și cum v-ați afla în acea regiune.",
+      "MANUALSELECTION": "SELECȚIE MANUALĂ",
+      "MANUALSELECTIONDESC": "Obțineți acces la servere premium în locații din întreaga lume.",
+      "P2P": "Conectare la server P2P",
+      "P2PDESC": "Conectare la un server ce permite torrenting și alte protocoale peer-to-peer.",
+      "PROXY": "Local",
+      "REQUIRESUNLIMITED": "(NECESITĂ ABONAMENT NELIMITAT)",
+      "STARTUP": "Conectare la pornire",
+      "STARTUPDESC": "Conectare automată la {speedifyProductName} atunci când dispozitivul repornește.",
+      "UPGRADELINK": "Upgrade acum"
+    },
+    "VIEWALLLOCATIONS": "VEDEȚI TOATE LOCAȚIILE",
+    "VIEWLESS": "VEDEȚI MAI PUȚIN"
+  },
+  "SERVICE": {
+    "RESTART": "Restartați {speedifyProductName}"
+  },
+  "SETTINGERRORMESSAGE": {
+    "MESSAGE": "Administratorul de echipă a blocat configurarea acestei setări.",
+    "TITLE": "Setarea este blocată"
+  },
+  "SETTINGSPANE": {
+    "ABOUT": {
+      "FOLLOW": "Urmăriți {username} pe Twitter",
+      "RATE": "Evaluați {appname}",
+      "TITLE": "Despre {speedifyProductName}"
+    },
+    "ACCOUNT": {
+      "CANCEL": "Anulare abonament",
+      "DATAUSED": "{percentage}% din {dataAvailable} folosiți",
+      "DELETE": {
+        "ACCOUNT": "Ștergere cont",
+        "ACCOUNTERROR": "Există o problemă cu ștergerea contului. Vă rugăm să ne contactați la support@speedify.com.",
+        "ACCOUNTMESSAGE": "Apăsând ”Ștergere”, contul dv. va fi dezactivat imediat și va fi șters în decurs de 14 zile. Această acțiune nu poate fi anulată. \n\nNOTĂ: Acest lucru nu va anula și abonamentul la Speedify cumpărat din App Store. Nu veți mai putea beneficia de perioade de încercare gratuite. Pentru a gestiona achizițiile, vizitați magazinul App Store.",
+        "ACCOUNTMESSAGESUCCESSTITLE": "Cont șters",
+        "ACCOUNTMESSAGETITLE": "Ștergeți contul?",
+        "ACCOUNTSUCCESS": "Contul dv. a fost marcat pentru ștergere și va fi șters în decurs de 14 zile.",
+        "MANAGESUB": "Administrare abonament",
+        "MESSAGECONFIRMOPTION": "Ștergere"
+      },
+      "EXPIRESON": "Expiră pe {date}",
+      "HELPERMESSAGE": "Autentificare cu contul dv. {speedifyProductName}",
+      "MANAGE": "Administrează contul",
+      "MONTHLYTIER": "Abonament lunar",
+      "NEWUPGRADE": "O actualizare este disponibilă",
+      "NOACCOUNT": "Nu aveți un cont? Faceți upgrade acum!",
+      "ONEYEARPASS": "Licență pe un an",
+      "PLAN": "{dataAvailable} lunar",
+      "REDEMPTIONCODE": "Introducere cod promoțional",
+      "RENEWSFREE": "Veți primi date gratuite pe {date}",
+      "RENEWSPAID": "Se reînnoiește pe {date}",
+      "REVIEW": "Evaluați {speedifyProductName}",
+      "REVIEWDESC": "Dacă aveți câteva minute la dispoziție, vă rugăm să ne lăsați o recenzie. Ne ajută mult. Vă mulțumim anticipat! :smiley:",
+      "SIGNOUT": "Deconectare",
+      "STATS": {
+        "RESCUE": "Conexiuni salvate",
+        "RESCUEDESCRIPTION": "Aflați numărul de conexiuni care s-ar fi deconectat dacă nu ați fi folosit {speedifyProductName}.",
+        "TITLE": "STATISTICI"
+      },
+      "THREEYEARPASS": "Licență pe 3 ani",
+      "THREEYEARSUB": "Abonament pe 3 ani",
+      "TITLE": "@:ONEPANE.POPINS.ACCOUNT",
+      "TWOYEARTIER": "Abonament pe 2 ani",
+      "UPGRADE": "Upgrade la nelimitat",
+      "UPGRADEFAMILIES": "Upgrade la abonament familial",
+      "VERSION": "Versiunea",
+      "YEARLYTIER": "Abonament anual"
+    },
+    "APPLICATIONBYPASS": {
+      "HEADER": "Bypass de aplicații"
+    },
+    "BACK": "Înapoi",
+    "CONNECTIONSETTINGS": "SETĂRI CONEXIUNE",
+    "CONNECTIONSUBTITLE": "Conexiunile vor apărea automat pe măsură ce sunt detectate de dispozitiv.",
+    "CUSTOM": "Personalizat",
+    "DASHBOARD": "Tablou de bord",
+    "DETACHWINDOW": {
+      "DESC": "Locația ferestrei determină cum va fi afișată interfața Speedify.",
+      "DOCKDESC": "Interfața Speedify va fi atașată barei de meniu.",
+      "DOCKED": "Bara de meniu",
+      "DOCKEDOPTION": "Ancorată în bara de meniu",
+      "FLOATING": "Detașată (plutitoare)",
+      "FLOATINGDESC": "Interfața Speedify va fi afișată în propria fereastră detașată (plutitoare).",
+      "FLOATINGOPTION": "Fereastră detașată (plutitoare)",
+      "HEADER": "Locația ferestrei"
+    },
+    "DNSLEAKDESC": "Protejează împotriva \"DNS leaks\" - atunci când informațiile DNS ar putea ocoli tunelul securizat Speedify pentru a dezvălui locația reală site-urilor pe care le vizitați.",
+    "DONE": "Finalizare",
+    "HELP": {
+      "CONTACT": "Contactați asistența {speedifyProductName}",
+      "TITLE": "Asistență"
+    },
+    "IPLEAKDESC": "Oferă protecție împotriva ”IP Leaks”, când adresa IP ocolește {speedifyProductName} și dezvăluie locația reală site-urilor vizitate.",
+    "LEARNMORE": "Aflați mai multe",
+    "LOCKEDMESSAGE": "Această setare este gestionată de administratorul echipei",
+    "LOCKEDPOP": {
+      "MESSAGE": "Administratorul de echipă a blocat configurarea acestei setări.",
+      "TITLE": "Această setare este blocată"
+    },
+    "NETWORKS": {
+      "ADVANCED": {
+        "HEADER": "AVANSATE",
+        "IPADDRESS": "Adresă IP",
+        "IPADDRESSDESC": "Afișează adresa IP și modul transport folosite de această conexiune.",
+        "RATELIMIT": {
+          "DESC": "Când limita de viteză este activă, {speedifyProductName} va restricționa viteza maximă pe această conexiune la Internet la valoarea setată. Dacă aveți un abonament cu limită de date, această setare poate preveni depășirile."
+        }
+      },
+      "COLLAPSE": "Mai puține detalii",
+      "CONNECTIONDIALOG": "Conectați-vă la această rețea Wi-Fi",
+      "DATACAP": {
+        "AMOUNT": "Cantitate",
+        "BOOST": "Mărire",
+        "BOOSTDESC": "Mărește limita de date zilnică.",
+        "DAILY": "Limită de date zilnică",
+        "DESC": "Permite să controlați volumul de date pe care {speedifyProductName} îl poate trimite și primi prin această conexiune. Dacă aveți un abonament cu limită de date, această setare vă ajută să nu depășiți această limită.",
+        "HEADER": "LIMITE DE DATE",
+        "MONTHLY": "Limită de date lunară",
+        "OVERLIMIT": "{percent}% din {data}",
+        "RESETSON": "Se resetează pe",
+        "SUB": "{speedifyProductName} măsoară doar datele folosite în timpul în care rulează aplicația"
+      },
+      "DETAILS": "Detalii despre conexiune",
+      "EXPAND": "Mai multe detalii",
+      "MESSAGES": {
+        "ADAPTERNAME": {
+          "DESCRIPTION": "Descriere adaptor",
+          "HEADER": "Nume adaptor"
+        },
+        "ISP": {
+          "HEADER": "Furnizor de servicii de internet",
+          "MESSAGE": "Numele furnizorului de servicii de internet."
+        },
+        "JITTER": {
+          "HEADER": "Jitter",
+          "MESSAGE": "Variația de latență a conexiunii. O valoare mai mică indică o conexiune mai stabilă."
+        },
+        "LATENCY": {
+          "HEADER": "Latență",
+          "MESSAGE": "Cunoscută și sub numele de ping, latența este definită ca timpul total (RTT) de când conexiunea trimite o cerere până când primește un răspuns de la server. Valorile mai mici sunt mai bune - cele sub 80 ms sunt recomandate pentru gaming; valorile peste 150 ms pot determina întârzieri și o conexiune lentă în general."
+        },
+        "LOSS": {
+          "HEADER": "Pachete pierdute",
+          "MESSAGE": "Procentul de pachete de date care a fost pierdut recent prin această conexiune. O conexiune stabilă are un procent foarte mic; valorile de peste 1% generează performanțe scăzute."
+        },
+        "MOS": {
+          "HEADER": "Scor mediu de opinie",
+          "MESSAGE": "Un calificativ standard pentru cât de bine va performa această conexiune în cazul apelurilor VoIP, bazat pe latență, jitter și pierderile de pachete în rețea."
+        },
+        "SSID": {
+          "HEADER": "Nume rețea",
+          "MESSAGE": "Numele rețelei conectate."
+        }
+      },
+      "OVERLIMIT": {
+        "DAILY": "Depășire la limita zilnică de date",
+        "DESC": "Alegeți ce se întâmplă dacă această conexiune depășește limita zilnică sau lunară de date.",
+        "HEADER": "Funcționare la depășirea limitei",
+        "MONTHLY": "Peste limita lunară de date",
+        "RATELIMIT": "Limită de viteză",
+        "RATELIMITTO": "Limitează viteza la {speed}",
+        "STOP": "Nu mai folosi"
+      },
+      "RESET": "Resetare statistici"
+    },
+    "NEWS": {
+      "ARCHIVED": "ARHIVATE",
+      "DASHBOARDOPTION": "Afișează pe ecranul principal",
+      "NOEVENTS": "Sunteți la zi!",
+      "TITLE": "Știri și evenimente",
+      "UNREAD": "NECITITE"
+    },
+    "NOTIFICATIONS": {
+      "ALLOW": "Permite notificările",
+      "STABILITYHEADER": "Stabilitate & Securitate",
+      "DISABLEDDESC": "{speedifyProductName} are nevoie de permisiunea de a vă trimite notificări. Deschideți setările de notificări și atingeți Permiteți.",
+      "PITCH": "Vom afișa doar mesaje utile de securitate și actualizări ale contului, când este necesar."
+    },
+    "OFF": "Închidere",
+    "ON": "Pornit",
+    "PREFERENCES": "Preferințe",
+    "PREMIUMFEATURES": "Abonamentele nelimitate permit accesul la această funcționalitate, precum și la altele.",
+    "PRIVACY": {
+      "DNSSERVICE": {
+        "ADD": "Adăugați serviciu DNS",
+        "ADDIP": "Adaugă adresă IP",
+        "ADGUARDDESC": "Serviciu DNS cu un ad blocker încorporat.",
+        "ADGUARDHEADER": "AdGuard DNS",
+        "AUTODESC": "Serviciul DNS al {speedifyProductName} va optimiza automat conexiunea pentru viteză și confidențialitate maximă.",
+        "AUTOHEADER": "Automat",
+        "CLOUDFLAREDESC": "Serviciu DNS cu accent pe confidențialitate",
+        "CLOUDFLAREHEADER": "1.1.1.1 al Cloudflare",
+        "HEADER": "Serviciu DNS",
+        "IP": "ADRESE IP",
+        "OPENDNSDESC": "Serviciu DNS cu protecție anti-phishing inclusă.",
+        "OPENDNSHEADER": "OpenDNS",
+        "QUAD9DESC": "Confidențialitate și securitate pentru conexiunea la Internet",
+        "QUAD9HEADER": "9.9.9.9 de la Quad9"
+      },
+      "ENCRYPTION": {
+        "DESC": "Când criptarea este activată, {speedifyProductName} folosește ultimele standarde de criptare pentru a vă ține informațiile private cu un impact minim asupra performanțelor. În funcție de capabilitățile dispozitivului, {speedifyProductName} folosește DTLS 1.2 împreună cu criptarea AES256-GCM sau ChaCha20.",
+        "HEADER": "Criptare"
+      },
+      "HEADER": "CONFIDENȚIALITATE",
+      "INTERNETKILLSWITCH": {
+        "DESC": "Când Internet Kill Switch este activ, tot traficul de Internet va fi dezactiva dacă {speedifyProductName} este deconectat.",
+        "HEADER": "Internet Kill Switch",
+        "OFF": "Închidere"
+      }
+    },
+    "RECOMMENDED": "(Recomandat)",
+    "SERVERS": {
+      "ALL": "Toate serverele",
+      "CONNECT": "Conectare",
+      "CONNECTED": "Conectat",
+      "DESCRIPTION": "Alegeți țara și serverul unde doriți să vă redirecționați traficul.",
+      "RECENT": "Selecțiile recente",
+      "SERVER": "Server",
+      "TITLE": "SELECȚIE SERVER"
+    },
+    "SESSION": {
+      "BONDINGMODE": {
+        "DESC": {
+          "MAIN": "Modul de combinare determină cum va administra {speedifyProductName} conexiunile la Internet.",
+          "REDUNDANT": "În modul redundant, {speedifyProductName} va funcționa la viteza celei mai rapide conexiuni la Internet și va folosi date adiționale pentru a furniza o conexiune super-stabilă. Atunci când folosiți modul redundant, fiecare pachet de date este trimis simultan prin toate conexiunile disponibile. Este livrat pachetul care ajunge primul. \nAcest mod folosește mai multe date, dar și mai multă baterie. Recomandăm celor mai mulți utilizatori folosirea modului de viteză.",
+          "SPEED": "În modul viteză, {speedifyProductName} distribuie în mod inteligent traficul online între toate conexiunile la Internet disponibile. Astfel, veți avea parte de viteză și performanțe optime.",
+          "STREAMING": "În modul Îmbunătățire Streaming, Speedify va prioritiza automat fluxurile de streaming (apeluri video, audio, streaming live etc.) în fața altor tipuri de trafic în rețea. Se vor folosi în mod inteligent atât agregarea cât și redundanța pentru a optimiza performanța."
+        },
+        "ENHANCESTREAMING": "Îmbunătățește streaming-ul",
+        "HEADER": "Mod de combinare",
+        "REDUNDANT": "Redundant",
+        "SPEED": "Viteză",
+        "SPEEDPLUS": "Viteză +",
+        "STREAMING": "Streaming"
+      },
+      "HEADER": "SETĂRI SESIUNE",
+      "HEADERCOMPRESSION": {
+        "DESC": {
+          "MAIN": "Când este activată compresia de header, Speedify va micșora headerele din pachetele de date pentru a reduce volumul adițional de date utilizat. Poate îmbunătăți performanțele în jocuri online, VoIP și conferințe video."
+        },
+        "HEADER": "Compresie de header"
+      },
+      "JUMBO": {
+        "DESC": "Când Jumbo MTU (Maximum Transmission Unit) este activat, {speedifyProductName} va trimite pachete de date mai mari prin adaptorul virtual de rețea {speedifyProductName}. Se va mări eficiența și va scădea solicitarea procesorului. Recomandăm activarea opțiunii, în afara cazurilor în care vi se sugerează dezactivarea de către departamentul de asistență."
+      },
+      "PAIRANDSHARE": {
+        "ATTEMPTPAIR": "Încercare de a pereche cu",
+        "BACKUPONLY": "Folosește doar ca Backup",
+        "CONNECTPANE": {
+          "BOTTOMDESC": "Sau, puteți scana codul QR folosind camera dispozitivului dvs.",
+          "CONNECT": "@:CAPTIVEPORTALPOPUP.CONNECTBUTTON",
+          "TITLE": "Împerechează Dispozitivul",
+          "TOPDESC": "Solicitați proprietarului {displayName} codul de 6 cifre afișat în setările lor Pair & Share."
+        },
+        "DASHBOARD": {
+          "BUTTONTEXT": "Începeți prin a Asocia un Dispozitiv",
+          "BUTTONTEXTNORECEIVE": "Activați Pereche & Partajare",
+          "NEWPEERTITLE": "Au fost descoperiți {count} noi colegi",
+          "NEWPEERSUBTITLE": "Apăsați pentru a adăuga sau gestiona dispozitivele asociate",
+          "NOPAIREDTITLE": "Nu există dispozitive asociate disponibile",
+          "NOPAIREDSUBTITLE": "Apăsați pentru a gestiona dispozitivele asociate",
+          "TITLE": "Împărtășiți cu ușurință conexiunile celulare între mai mulți utilizatori {speedifyProductName} de pe aceeași rețea Wi-Fi."
+        },
+        "DATAUSAGE": {
+          "REALTIME": "Timp Real",
+          "RECEIVED": "Primit",
+          "SHARED": "Împărtășit",
+          "TITLE": "Utilizare Datelor Împerecheate"
+        },
+        "DESCCLIENT": "Asociați-vă și utilizați conexiunile celulare partajate de alți utilizatori Speedify de pe aceeași rețea locală.",
+        "DESCHOST": "Împărtășiți cu ușurință conexiunile celulare între mai mulți utilizatori {speedifyProductName} de pe aceeași rețea Wi-Fi.",
+        "DISABLEPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DISABLE": "Dezactivează",
+          "MSG": "Cel puțin un dispozitiv asociat utilizează activ această conexiune partajată. Doriți să continuați?",
+          "PEERMSG": "Acest dispozitiv folosește activ această conexiune partajată. Doriți să continuați?",
+          "TITLE": "Dezactivează Partajarea"
+        },
+        "ENABLERECEIVING": "Activați opțiunea \"Receiving\" pentru a descoperi noi dispozitive cu care să vă împerecheați.",
+        "INTRO": {
+          "ENABLE": "@:SETTINGSPANE.SESSION.PAIRANDSHARE.DASHBOARD.BUTTONTEXTNORECEIVE",
+          "NOTNOW": "@:PROMPTS.NOTNOW",
+          "POINT1": "Când este activat, {speedifyProductName} va căuta în rețeaua locală dispozitive cu care să se asocieze.",
+          "POINT2": "Puteți asocia, modifica permisiunile sau dez-asocia de la alte dispozitive în orice moment.",
+          "POINT3": "Toate datele partajate și primite între dispozitivele asociate și serverele {speedifyProductName} sunt criptate.",
+          "POINT4": "Orice date mobile partajate cu alte dispozitive vor apărea ca date tethered pentru furnizorul dvs. de servicii de internet (ISP).",
+          "SUBTITLE": "\"Pair & Share\" este o funcționalitate nouă care vă permite să partajați cu ușurință conexiunile celulare între mai mulți utilizatori {speedifyProductName} pe aceeași rețea Wi-Fi.",
+          "TITLE": "Activați \"Pair & Share\" pentru conectivitate maximă"
+        },
+        "MANAGE": "Administrează",
+        "DISCOVERED": "Descoperit",
+        "NOUNPAIREDDEVICES": "Dispozitivele nepereche pe aceeași rețea Wi-Fi vor apărea aici.",
+        "PAIREDDEVICE": "Dispozitiv asociat",
+        "PAIREDDEVICES": "Dispozitive Asociate",
+        "PERMISSIONS": "Permisiuni",
+        "POPUP": {
+          "ACCEPT": "Da, Conectează Dispozitivul",
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "FAILMESSAGE": "Acest dispozitiv nu mai este disponibil pentru cuplare sau nu poate fi găsit în rețeaua locală curentă. Vă rugăm să încercați din nou mai târziu.",
+          "FAILTITLE": "Imposibil de cuplat cu \"{displayName}\"",
+          "MANAGE": "Administrează permisiunile",
+          "OK": "@:PROMPTS.OK",
+          "AUTOTITLE": "Dispozitivul dvs. \"{displayName}\" a fost cuplat automat.",
+          "AUTOSUBTITLE": "{speedifyProductName} se va conecta automat cu alte dispozitive de pe contul dvs. pentru partajare celulară rapidă și ușoară. Puteți modifica acest comportament în orice moment.",
+          "OPTIONS": {
+            "ENCRYPTED": "Toate datele trimise între dispozitive și serverele Speedify sunt criptate.",
+            "LIMITS": "Puteți seta limite sau opri partajarea pentru a preveni suprautilizarea conexiunii dvs. celulare.",
+            "PERMISSION": "Puteți modifica permisiunile acestui dispozitiv sau îl puteți decupla în orice moment."
+          },
+          "REQUEST": "Trimite cererea de cuplare",
+          "SUCCESS": "Succes! Sunteți acum cuplat cu \"{displayName}\"",
+          "SUCCESSMESSAGE": "Vă veți conecta automat la acest dispozitiv când sunteți pe aceeași rețea locală. Puteți gestiona permisiunile și prioritatea conexiunii partajate sau puteți anula cuplarea de la acest dispozitiv în orice moment.",
+          "TITLE": "Doriți să faceți pereche și să partajați cu \"{displayName}\"?",
+          "TOPDESCRIPTION": "Odată cuplat, veți putea partaja cu ușurință conexiunile celulare între voi atunci când sunteți pe aceeași rețea Wi-Fi."
+        },
+        "QRSCREEN": {
+          "NOSPEEDIFY": "Nu aveți încă {speedifyProductName}?",
+          "NOSPEEDIFYDESC": "Fără griji, codul QR de mai sus va face legătura cu versiunea corectă pentru dispozitivul tău.",
+          "SCANDESC": "Prin scanarea acestui cod, prietenii pot să se asocieze cu ușurință pentru a partaja conexiuni celulare în ambele direcții când sunt pe aceeași rețea Wi-Fi.",
+          "TITLE": "Împărtășiți codul dvs. QR pentru asociere rapidă și ușoară"
+        },
+        "SCANTOPAIR": "Scanează pentru a Perechea",
+        "SETTINGS": {
+          "ADD": "ADĂUGA",
+          "CONNECTING": "Conectare...",
+          "DISPLAYNAME": "Nume afișat",
+          "DISPLAYNAMEDESC": "Numele afișat definește cum va fi identificat dispozitivul dvs. pentru alți utilizatori Pair and Share.",
+          "PAIRINGREQUEST": {
+            "ASK": "Întreabă",
+            "AUTO": "Acceptă automat",
+            "AUTODESC": "{speedifyProductName} va accepta automat orice cereri de cuplare primite.",
+            "DESC": "Solicitările de cuplare determină cum va răspunde Speedify când alte dispozitive solicită să se cupleze.",
+            "IGNORE": "Ignora",
+            "OFFDESC": "{speedifyProductName} va ignora toate cererile de cuplare primite.",
+            "ONDESC": "Veți fi notificat ori de câte ori un alt dispozitiv solicită să se cuplare."
+          },
+          "PAIRMYDEVICES": {
+            "AUTO": "Automat",
+            "MANUAL": "Manual"
+          },
+          "PAIRINGREQUESTS": "Cereri de cuplare",
+          "AUTOPAIR": "Asociază Dispozitivele Mele",
+          "AUTOPAIRDESC": "Controlul \"Asociază dispozitivele mele\" determină dacă Speedify ar trebui să asocieze automat acest dispozitiv cu celelalte de pe contul dvs.",
+          "RECEIVEDISABLED": "Primire dezactivată de la",
+          "RECEIVEDSTOPPED": "Primirea a fost oprită de la",
+          "RECEIVEFROM": "Primire de la",
+          "RECEIVING": "Primire",
+          "RECEIVINGCONTROLDESC": "Când este activată opțiunea Permitere Recepție, acest dispozitiv va putea utiliza conexiunile partajate de la alte dispozitive cuplate, atunci când se află pe aceeași rețea Wi-Fi și rulează {speedifyProductName}.",
+          "RECEIVINGCONTROLTITLE": "Permitere Recepție",
+          "RECEIVINGUNAVAILABLE": "Primire Indisponibilă",
+          "SHARERECEIVE": "Partajare către & Recepție de la",
+          "SHARING": "Partajare ({isp})",
+          "SHARINGCONTROLDESC": "Când este activată opțiunea Permitere Partajare, alte dispozitive cuplate pe aceeași rețea Wi-Fi care rulează {speedifyProductName} vor putea utiliza până la 10 Mbps fiecare din această conexiune celulară. {stylePre}{stylePost} Această funcție necesită un plan de date celular compatibil cu capacități de hotspot/tethering mobil. Unele ISP-uri pot limita sau percepe costuri suplimentare pentru tethering. {stylePre}{stylePost} NOTĂ: Puteți activa sau dezactiva partajarea pentru dispozitive individuale vizitând setările lor de conexiune.",
+          "SHARINGCONTROLTITLE": "Permitere Partajare",
+          "SHARINGDISABLED": "Partajare dezactivată pentru",
+          "SHARINGSTOPPED": "Partajarea a fost oprită pentru",
+          "SHARINGTO": "Partajare către",
+          "SHARINGUNAVAILABLE": "Partajare Indisponibilă",
+          "TITLE": "Setări \"Pair & Share\"",
+          "UNAVAILABLE": "Indisponibil"
+        },
+        "SHAREDEVICE": "Partajați către acest dispozitiv",
+        "TAPPAIR": "Atingeți pentru a cupla",
+        "TITLE": "Pereche & Partajare",
+        "TOPTITLE": "Conectați-vă la {speedifyProductName} pentru a începe să utilizați Pair & Share",
+        "UNPAIR": "Dezcuplați dispozitivul",
+        "UNPAIREDDEVICES": "Dispozitive Necuplate",
+        "UNPAIRPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DESC": "Nu veți mai putea partaja către acest dispozitiv sau să utilizați conexiunea partajată a dispozitivului.",
+          "OK": "Dezcuplare",
+          "TITLE": "Dezcuplați acest dispozitiv?"
+        },
+        "USEDEVICE": "Utilizați conexiunea partajată a acestui dispozitiv",
+        "VIEWALL": "Vizualizează Tot",
+        "VIEWLESS": "Vizualizează mai puțin",
+        "WIFIDESC": "Conectați-vă la Wi-Fi pentru a începe să utilizați Pair & Share"
+      },
+      "PORTFWD": {
+        "DESC": "Când se folosesc servere dedicate, {speedifyProductName} poate redirecționa porturi de intrare către acest dispozitiv. Astfel, veți putea rula un server pe acest dispozitiv. Utilizatorii de pe Internet vor putea să se conecteze folosind adresa de IP a serverului dedicat. Sunt suportate protocoalele TCP și UDP pe porturi între 1024 și 49151."
+      },
+      "STARTUPCONNECT": {
+        "DESC": "Când opțiunea de conectare la pornire este activă, {speedifyProductName} se va conecta automat când dispozitivul repornește.",
+        "HEADER": "Conectare la pornire"
+      },
+      "TRANSPORTMODE": {
+        "AUTO": "Automat (recomandat)",
+        "DESC": {
+          "AUTO": "{speedifyProductName} va decide care protocol este cel mai potrivit în orice situație.",
+          "HTTPS": "Modul de transport HTTPS deghizează traficul {speedifyProductName} în trafic de navigare pe web. Este de obicei ceva mai lent decât celelalte opțiuni.",
+          "MAIN": "Modul transport determină ce protocol de rețea va folosi {speedifyProductName}.",
+          "TCP": "TCP furnizează cele mai bune performanțe pe conexiuni rapide și stabile.",
+          "TCPMULTI": "Folosește mai multe socket-uri paralele TCP pentru o performanță mai bună față de un singur socket TCP. Recomandat pentru conexiuni foarte rapide și rețele cu latență mare sau cu packet loss.",
+          "UDP": "Modul UDP furnizează cea mai bună performanță pe conexiuni lente și instabile. Este recomandat pentru activități sensibile la latență precum gaming și streaming live."
+        },
+        "HEADER": "Mod de transport",
+        "HTTPS": "HTTPS",
+        "TCP": "TCP",
+        "TCPMULTI": "Multi TCP",
+        "UDP": "UDP"
+      }
+    },
+    "SOUNDS": {
+      "DESC": "Activați sau dezactivați efectele sonore în interfața utilizatorului {speedifyProductName}.",
+      "TITLE": "Efecte Sonore"
+    },
+    "STATISTICS": {
+      "BRAGS": {
+        "BONDED": "Durată combinare conexiuni",
+        "CPASSIST": "Asistări portaluri captive",
+        "DATAENCRYPTED": "Date criptate",
+        "MALWARE": "Malware blocat",
+        "RESCUED": "Conexiuni salvate",
+        "STREAMERGENCY": "@:SETTINGSPANE.STATISTICS.MESSAGES.STREAMERGENCY.TITLE",
+        "STREAMS": "Fluxuri finalizate",
+        "TOPDOWNLOADSPEED": "Viteza maximă de descărcare",
+        "TOPUPLOADSPEED": "Viteza maximă de încărcare"
+      },
+      "DURATION": {
+        "ALLTIME": "Dintotdeauna",
+        "MONTH": "Luna curentă",
+        "PAST": "Sesiuni din trecut",
+        "RECENT": "Recent",
+        "TODAY": "Astăzi",
+        "WEEK": "Săptămână"
+      },
+      "MESSAGES": {
+        "CAPTIVE": {
+          "MESSAGE": "De câte ori Speedify v-a ajutat să vă conectați la o rețea Wi-Fi aflată în spatele unei pagini de autentificare sau a unui portal captiv.",
+          "TITLE": "Asistări portaluri captive"
+        },
+        "DOWNSPEED": {
+          "MESSAGE": "Cea mai mare viteză de download înregistrată cât timp a rulat Speedify.",
+          "TITLE": "Viteza maximă de descărcare"
+        },
+        "ENCRYPTED": {
+          "MESSAGE": "Volumul total de trafic pe care l-a criptat Speedify.",
+          "TITLE": "Total date criptate"
+        },
+        "RESCUE": {
+          "MESSAGE": "De câte ori Speedify a salvat de la întrerupere trafic de upload, download, fluxuri video sau convorbiri, din cauza problemelor de rețea.",
+          "TITLE": "Conexiuni salvate"
+        },
+        "STREAMERGENCY": {
+          "MESSAGE": "De câte ori  intervenit Speedify ca să prevină urgențele de streaming.",
+          "TITLE": "{streamergency} salvate"
+        },
+        "STREAMS": {
+          "MESSAGE": "Fluxurile în timp real, precum apelurile video, VoIP și live streaming, sunt prioritizate și protejate automat pentru cea mai bună experiență.",
+          "TITLE": "@:UBERBOX.STATE.SINGLEACTIVESTREAMING"
+        },
+        "UPSPEED": {
+          "MESSAGE": "Cea mai mare viteză de upload înregistrată cât timp a rulat Speedify.",
+          "TITLE": "Viteza maximă de încărcare"
+        }
+      },
+      "NOSTATS": "Pe măsură ce folosiți Speedify, vom colecta și raporta aici cele mai importante statistici.",
+      "SECTIONS": {
+        "SECURITY": "Securitate",
+        "SPEED": "Viteză",
+        "STABILIITY": "Stabilitate"
+      },
+      "SHARE": {
+        "CAPTIVE": "De la instalare, Speedify m-a ajutat să mă conectez la {stat} rețele Wi-Fi cu portaluri captive.",
+        "DOWNLOAD": "Viteza mea de download a fost de până la {stat} când am folosit Speedify!",
+        "ENCRYPTED": "De la instalare, Speedify a criptat {stat} din traficul meu de Internet.",
+        "FAILOVERS": "De la instalare, Speedify m-a salvat de la deconectare de {stat} ori.",
+        "STREAMERGENCY": "De la instalare, Speedify m-a salvat de la {stat} urgențe de streaming.",
+        "STREAMS": "De la instalare, Speedify a prioritizat și protejat {stat} dintre fluxurile mele (streaming) în timp real.",
+        "UPLOAD": "Viteza mea de upload a fost de până la {stat} când am folosit Speedify!"
+      },
+      "TITLE": "Statistici"
+    },
+    "STREAMINGBYPASS": {
+      "BYPASSSUGGESTION": "Sugestii de Bypass",
+      "DASHBOARDDESC": "Permiteți anumite servicii să facă bypass la {speedifyProductName}",
+      "DASHBOARDINFO": "Se știe că serviciile enumerate mai sus restricționează traficul VPN. Dacă este activat, traficul către serviciul selectat va ocoli tunelul securizat al {speedifyProductName}, permițându-i să se conecteze direct.",
+      "DESC": "Când este activat, traficul către serviciile selectate va ocoli tunelul securizat al {speedifyProductName}, permițându-le să se conecteze direct.",
+      "HEADER": "Bypass",
+      "MANAGE": "Gestionare ({count})",
+      "NOSUGGESTIONS": "Nu există sugestii de bypass în acest moment",
+      "POPUP": {
+        "DESC": "{speedifyProductName} poate permite traficului de la {service} să nu treacă prin tunelul criptat, având în vedere incompatibilitățile cu serviciile VPN.",
+        "NOBUTTON": "Nu, mulțumesc",
+        "TITLE": "Permiteți traficului de la {service} să nu treacă prin {speedifyProductName}?",
+        "YESBUTTON": "Bypass {service}"
+      },
+      "RESTOREPOPUP": {
+        "CANCEL": "@:PROMPTS.CANCEL",
+        "DESC": "Această acțiune va dezactiva orice selecții de bypass particularizate și va activa opțiunile implicite recomandate.",
+        "RESTORE": "Restaurarea valorilor implicite",
+        "TITLE": "Restaurați configurația implicită de bypass?"
+      },
+      "SELECTED": "Selectat",
+      "SUGGESTIONDESC": "Activați sugestiile de bypass bazate pe utilizare. Rezultatele sunt locale pe dispozitiv și nu sunt comunicate niciodată către  {speedifyProductName}.",
+      "SUGGESTIONS": "Sugestii",
+      "TITLE": "BYPASS DE TRAFIC PENTRU"
+    },
+    "SUPPORT": "ASISTENȚĂ",
+    "TESTSPEED": {
+      "CLOSE": "Dezactivat",
+      "CONNECTION": "Conexiune",
+      "CONNECTIONS": "Conexiuni",
+      "CONNECTNEWTEST": "Conectare și pornire test nou",
+      "CONNECTSTREAMTEST": "Conectare și pornire test livestream",
+      "DESC": "Rulează un test de viteză standard iPerf3 pentru a determina viteza conexiunii la Internet.",
+      "ERROR": "A intervenit o eroare la efectuarea testului de viteză.",
+      "ERRORDESC": "Vă rugăm să așteptați până când testul se finalizează",
+      "ERRORTITLE": "Eroare",
+      "HEADER": "Testare viteză",
+      "JITTER": "BRUIAJ (JITTER)",
+      "LIVESTREAMDESC": "Verificați capabilitățile de livestreaming",
+      "LIVESTREAMINPROGRESS": "Se efectuează testul de livestream...",
+      "LIVESTREAMPANEDESC": "{speedifyProductName} va prioritiza traficul de la livestream-uri si conferințe video.",
+      "LIVESTREAMSTART": "Pornire test de livestream",
+      "LIVESTREAMTEST": "Test de streaming live",
+      "LIVESTREAMTESTDESC": "Testați viteza de încărcare (upload) pentru a vedea rezoluția video și numărul de cadre pe secundă (fps) suportate pentru livestream. Folosiți înainte de livestream-uri și de apeluri video.",
+      "LIVESTREAMTESTSHARE": "Iată rezultatele testelor mele livestream folosind Speedify. La voi e mai bine?",
+      "LIVESTREAMTITLE": "Testare livestream cu {speedifyProductName}",
+      "LIVETESTCOMPLETE": "Test de streaming live finalizat",
+      "LOSS": "PIERDERI (LOSS)",
+      "NEWSTREAMTEST": "Pornire test de streaming",
+      "NEWTEST": "Pornește un test nou",
+      "OVERALLDESC": "Aceste teste pot folosi o cantitate semnificativă de date. Folosiți cu grijă dacă plătiți mult pentru date sau acestea sunt limitate.",
+      "PING": "LATENȚĂ (PING)",
+      "RECENTTESTS": "Teste recente",
+      "RETRY": "Reîncercare",
+      "SPEEDTEST": "Test de viteză",
+      "SPEEDTESTCOMPLETE": "Test de viteză finalizat",
+      "SPEEDTESTDESC": "Vedeți care sunt vitezele maxime de încărcare și descărcare ale conexiunii la internet îmbunătățite de Speedify.",
+      "SPEEDTESTSHARE": "Acestea sunt vitezele mele de internet folosind Speedify. Voi cum stați?",
+      "TESTING_SPEED": "Se testează viteza",
+      "TESTING_STREAMING": "Se testează livestreaming",
+      "TESTREPORT": "Combinate, cele {stylePre}{numberOfConnections}{stylePost} conexiuni sunt capabile de live streaming video la o rezoluție de {stylePre}{resolution}{stylePost} cu {stylePre}{fps}{stylePost} fps",
+      "TESTREPORTERROR": "Cele {stylePre}{numberOfConnections}{stylePost} conexiuni {stylePre}nu sunt potrivite{stylePost} pentru streaming",
+      "UPLOAD": "ÎNCĂRCARE (UPLOAD)",
+      "VIEWHISTORY": "Vizualizare istoric"
+    },
+    "THEME": {
+      "DARK": "Întunecată",
+      "DEFAULT": "Implicită",
+      "DEFAULTDESC": "Dacă selectați implicit, tema se va actualiza conform setărilor sistemului de operare.",
+      "HEADER": "Tema",
+      "LIGHT": "Luminoasă"
+    }
+  },
+  "SOCIALPOPUP": {
+    "DESC": "Obțineți ultimele știri, modalități inedite de utilizare, reduceri și premii în legătură cu Speedify!",
+    "DESCTITLE": "Urmăriți {followSpeedify} acum!",
+    "FOLLOWUS": "Urmăriți-ne pe ",
+    "HEADER": "Fiți informați!",
+    "NOTHANKS": "@:SETTINGSPANE.STREAMINGBYPASS.POPUP.NOBUTTON",
+    "SUBSCRIBEON": "Urmăriți-ne pe"
+  },
+  "SPEEDIFY": "Speedify",
+  "SPEEDMODE": {
+    "DESCRIPTIONS": {
+      "REDUNDANCY": "Trimitere în mod redundant a traficului prin toate conxeiunile disponibile pentru a mări stabilitatea."
+    },
+    "REDUNDANCY": "Mod redundant"
+  },
+  "STREAMING": {
+    "ACTIVE": "{active} Activ",
+    "COMPLETED": "{completed} Terminat",
+    "DELETE": "Eliminare istoric",
+    "FAILOVERSAVES": "Salvate de conexiunea de siguranță",
+    "HEADER": "Fluxuri",
+    "HINTS": {
+      "CPU": {
+        "HEADER": "Utilizare procesor",
+        "TEXT": "Încercați să închideți aplicații."
+      },
+      "LATENCY": {
+        "HEADER": "Conexiune instabilă (latență)",
+        "TEXT": "Încercați să găsiți un loc cu o recepție mai bună a semnalului."
+      },
+      "LOSS": {
+        "HEADER": "Conexiune instabilă (pierderi în rețea)",
+        "TEXT": "Încercați să găsiți un loc cu o recepție mai bună a semnalului."
+      },
+      "MEMORY": {
+        "HEADER": "Memorie insuficientă",
+        "TEXT": "Încercați să închideți aplicații."
+      }
+    },
+    "NOSTATSSUBTITLE": "Speedify va prioritiza traficul pentru fluxuri (streaming).",
+    "REDUNDANTSAVES": "Salvate de latență excesivă sau pierderi de pachete",
+    "SPEEDSAVES": "Salvate de la deconectare",
+    "STREAM": "Flux"
+  },
+  "STREAMINGPOPUP": {
+    "MAINDESC": "În timpul ultimului stream, Speedify a intervenit pentru a preveni {saves} urgențe de streaming.",
+    "MAINTITLE": "Speedify a recuperat un stream!",
+    "SHARE": "Speedify a prevenit {saves} urgențe de streaming care ar fi putut întrerupe ultimul meu call sau stream. Cu Speedify pot combina conexiunile la Internet, iar acesta prioritizează automat traficul de streaming pentru performanță mai bună în call-uri Zoom, jocuri și conferințe video.",
+    "SUBDESC": "Pentru stream-uri, call-uri și conferințe mai fluente, fără întreruperi, spuneți prietenilor, familiei și colegilor despre Speedify."
+  },
+  "TORRENTALERT": {
+    "MSG": "{speedifyProductName} a detectat o aplicație care încearcă să folosească BitTorrent sau alt protocol P2P. Traficul P2P nu este permis pe acest server. Doriți să vă conectați la un server care permite P2P?",
+    "NO": "Deconectare",
+    "STAYCONNECTED": "Continuare fără P2P",
+    "TITLE": "Conectare la server P2P",
+    "YES": "Conectare la server P2P"
+  },
+  "TORRENTDISCONNECT": {
+    "MSG": "{speedifyProductName} a fost deconectat. Vă rugăm să închideți orice program care folosește BitTorrent sau alte protocoale P2P înainte de a vă reconecta.",
+    "TITLE": "{speedifyProductName} s-a deconectat"
+  },
+  "UBERBOX": {
+    "CONNECTTOSERVER": "Atingeți pentru conectare",
+    "OUTOFDATA": "Nu mai sunt date gratuite",
+    "REDUNDANTALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Modul redundant nu combină vitezele de conexiune; în acest mod, dispozitivul va funcționa la viteza cea mai mare dintre toate conexiunile. Vă rugăm să rețineți că astfel veți consuma un volum de date semnificativ mai mare pentru a avea o conexiune ultra-stabilă.",
+      "OK": "Activare",
+      "TITLE": "Activare mod redundant"
+    },
+    "STATE": {
+      "AUTO_CONNECTING": "Testare servere",
+      "CONNECTED": "Conectat",
+      "CONNECTING": "Conectare",
+      "DISCONNECTING": "Deconectare",
+      "KILLSWITCH": "Mod Internet Sigur activat",
+      "LOGGED_IN": "Deconectat",
+      "LOGGED_OUT": "Neautentificat",
+      "LOGGING_IN": "Autentificare în curs",
+      "MULTIACTIVEOLRL": "Viteză de transfer limitată pentru toate conexiunile",
+      "MULTIACTIVEREDUNDANT": "Mod redundant activat, cu {count} conexiuni",
+      "MULTIACTIVESPEED": "Se combină {count} conexiuni",
+      "MULTIACTIVESTREAMINGNOSTREAM": "Fără flux în timp real, {count} conexiuni",
+      "MULTIACTIVESTREAMINGREDUNDANT": "Flux redundant",
+      "MULTIACTIVESTREAMINGSPEED": "Flux combinat",
+      "MULTIBACKUPREDUNDANT": "Mod redundant activat, cu {count} conexiuni de rezervă",
+      "MULTIBACKUPSPEED": "Se combină {count} conexiuni de rezervă",
+      "NOINTERNET": "Fără conexiune la Internet",
+      "OVERLIMIT": "Conexiunile au ajuns la limita de consum de date",
+      "SINGLEACTIVEOLRL": "Viteză de transfer limitată",
+      "SINGLEACTIVEREDUNDANT": "Mod redundant activat, dar există doar o conexiune",
+      "SINGLEACTIVESPEED": "Conectat",
+      "SINGLEACTIVESTREAMING": "Flux",
+      "SINGLEBACKUP": "Se folosește conexiunea de rezervă"
+    },
+    "STREAMINGALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Modul streaming optimizează traficul în timp real prin îmbinarea traficului combinat cu cel redundant. Acest mod poate folosi date suplimentare și poate mări consumul bateriei atunci când fluxurile sunt active pentru a furniza o experiență de streaming mai bună.",
+      "OK": "Activare",
+      "TITLE": "Activare mod streaming"
+    },
+    "UPGRADENOW": "FACEȚI UPGRADE ACUM",
+    "UPGRADENOWSALE": "ȘI ECONOMISIȚI 30%"
+  },
+  "UPDATES": {
+    "ERROR": "S-a produs o eroare la verificarea de versiuni noi.",
+    "IGNORE": "Ignorați",
+    "INSTALLNOW": "Descărcați acum",
+    "LATEST": "Aveți deja cea mai nouă versiune disponibilă."
+  },
+  "UPSELL": {
+    "BUTTONS": {
+      "STORE": "Vedeți abonamentele și costurile"
+    },
+    "DESCRIPTION": {
+      "EXPIRED": "@:UPSELL.DESCRIPTION.USAGE100",
+      "USAGE100": "Sperăm că v-ați bucurat de versiunea de încercare gratuită. Faceți upgrade acum pentru a beneficia de utilizare nelimitată pe până la 5 dispozitive, precum și de acces la serverele premium!",
+      "USAGE50": "Sperăm că vă bucurați de {speedifyProductName} în perioada de încercare. Evitați să rămâneți fără date, deblocați accesul la serverele premium și disponibilitatea pe până la 5 dispozitive! Upgrade acum!",
+      "USAGE75": "Timpul zboară când te distrezi te bucuri de un Internet mai bun. Evitați să rămâneți fără date și obțineți acces la servere premium - faceți upgrade la un abonament nelimitat!"
+    },
+    "HEADER": {
+      "EXPIRED": "Abonamentul dvs. a expirat!",
+      "USAGE100": "{percentage}% din volumul de date lunare consumat",
+      "USAGE50": "Ați folosit {percentage}% din datele gratuite",
+      "USAGE75": "Ați consumat aproape toate datele gratuite ({percentage}%)"
+    },
+    "SECONDARYHEADER": {
+      "EXPIRED": "@:UPSELL.SECONDARYHEADER.USAGE100",
+      "USAGE100": "Faceți upgrade acum pentru a continua să utilizați {speedifyProductName}",
+      "USAGE50": "E momentul să faceți upgrade!",
+      "USAGE75": "Nu renunțați la Internetul stabil!"
+    }
+  },
+  "USAGECHART": {
+    "SUBTITLES": {
+      "DAILY": "Zilnic",
+      "MONTHLY": "Lunar"
+    },
+    "TITLE": "Sumar de utilizare",
+    "WAITING": "Conectați-vă pentru a porni"
+  },
+  "WEEKLYSTATSPOPUP": {
+    "CONNRESCUEDDESC": "În ultima săptămână, Speedify a recuperat {rescued} încărcări, descărcări, fluxuri sau call-uri de la întrerupere în timpul unor probleme cu Internetul.",
+    "CONNRESCUEDSHARE": "Aveți Internet cu probleme? Aveți nevoie de Speedify. Doar în ultima săptămână Speedify a recuperat {rescued} încărcări, descărcări, fluxuri și call-uri care s-ar fi deconectat din cauza problemelor de rețea.",
+    "CONNRESCUEDTITLE": "{rescued} recuperări fără întreruperi",
+    "DATAENCRYPTEDDESC": "În ultima săptămână, Speedify a securizat {data} de date.",
+    "DATAENCRYPTEDSHARE": "Nu toate VPN-urile sunt la fel. Speedify folosește ultimele standarde de criptare pentru o performanță dublă față de cea a VPN-urilor standard. În ultima săptămână, Speedify a securizat {data} de date pentru mine și m-a protejat online fără a sacrifica din viteză.",
+    "DATAENCRYPTEDTITLE": "{data} de date securizate",
+    "DEFAULTDESC": "Iată noile statistici săptămânale.",
+    "DEFAULTTITLE": "Noi statistici săptămânale",
+    "MAXDOWNLOADDESC": "În ultima săptămână, Speedify a înregistrat o nouă viteză maximă de descărcare de {download}.",
+    "MAXDOWNLOADSHARE": "Am folosit  Speedify ca să combin toate conexiunile la Internet în același timp. În ultima săptămână am avut o nouă viteză maximă de download de {download}.",
+    "MAXDOWNLOADTITLE": "Noua viteză maximă de descărcare: {download}",
+    "MAXUPLOADDESC": "În ultima săptămână, Speedify a atins o nouă viteză maximă de încărcare de {upload}.",
+    "MAXUPLOADSHARE": "Am folosit Speedify să combin conexiunile mele la Internet pentru mai multă stabilitate, viteză și securitate. În ultima săptămână am atins o nouă viteză maximă de upload de {upload}.",
+    "MAXUPLOADTITLE": "Noua viteză maximă de încărcare: {upload}",
+    "NOTIFICATIONDESC": "Vedeți cum a ajutat Speedify la îmbunătățirea vitezei, securității și stabilității conexiunii la Internet.",
+    "REPORTAVAILABLE": "Raportul săptămânal este disponibil",
+    "SMALLTITLE": "Repere săptămânale",
+    "STREAMSAVEDESC": "În ultima săptămână, Speedify a prioritizat automat {streams} fluxuri și a prevenit {saved} urgențe de streaming.",
+    "STREAMSAVESHARE": "Speedify este serviciul perfect pentru streaming stabil - call-uri pe Zoom, jocuri și conferințe video. În ultima săptămână, Speedify a prioritizat automat {streams} fluxuri și a salvat {saved} urgențe de streaming.",
+    "STREAMSAVETITLE": "{saved} urgențe de streaming evitate"
+  },
+  "WIZARD": {
+    "CHANGE": "Puteți schimba sau elimina aceste limite oricând dacă atingeți conexiunea {adapterName} în ecranul aplicației.",
+    "DAILY": "Zilnic",
+    "DESC": "Pentru a furniza un Internet stabil și rapid, {speedifyProductName} va folosi ocazional conexiunea {adapterName} chiar și atunci când sunteți conectați la Wi-Fi.",
+    "DONTWORRY": "Puteți modifica această setare oricând.",
+    "DOYOU": "Aveți un plan de date limitat?",
+    "GOTIT": "Am înțeles!",
+    "GREAT": "Perfect! Vom seta aceste limite de date pentru conexiunea {adapterName}",
+    "HEADER": "Conexiunea {adapterName}",
+    "INTRO": "Știm că nu vreți să depășiți volumul de date din abonament. Pentru a preveni costuri suplimentare, {speedifyProductName} poate limita folosirea datelor celulare {adapterName}.",
+    "MONTHLY": "Lunar",
+    "NOCAPS": "Nu, am un abonament cu volum nelimitat de date celulare",
+    "SET": "Puteți seta limite lunare și zilnice pentru ca {speedifyProductName} să nu consume prea multe date de pe această conexiune.",
+    "YESCAPS": "Da, aplică limitele pentru volumul de date"
+  }
+}

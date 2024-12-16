@@ -1,0 +1,1600 @@
+{
+  "ACCCTRL": {
+    "CHANGEPASS": "Cambiar contraseña",
+    "FACEBOOKLIKE": "Di que te gusta {speedifyProductName} en Facebook",
+    "RESTORE": "Restaurar compras",
+    "REVIEW": "Escribir reseña de {speedifyProductName}",
+    "SHARE": "Compartir"
+  },
+  "ACCINFO": {
+    "PERIOD": {
+      "ENDTIME": "(se restablece en {dayCountDisplay} {dayCount, plural, one{día} other{días}})"
+    },
+    "SUB": {
+      "ENDTIME": "La suscripción termina en {dayCountDisplay} {dayCount, plural, one{día} other{días}}",
+      "EXPIRED": "La suscripción terminó"
+    },
+    "TYPE": {
+      "FAMILY": "Cuenta familiar",
+      "FREE": "Cuenta gratuita",
+      "LIMITED": "Cuenta limitada",
+      "NOACCOUNT": "Sesión No Iniciada",
+      "TEAMS": "Cuenta de equipos",
+      "UNLIMITED": "Cuenta ilimitada"
+    },
+    "USAGE": {
+      "UNLIMITED": "Ilimitada",
+      "UNLIMITEDWITHUSAGE": "{usedBytes} usados este mes",
+      "UNSUPPORTED": "No compatible",
+      "USAGEREMAINING": "{percentConsumed}% de {availableBytes} usado"
+    }
+  },
+  "ACCOUNTING": {
+    "DATAREPLENISH": "Su plan de datos mensual de {speedifyProductName} se ha reabastecido",
+    "EXTRADATA": "¡Buenas noticias, ha recibido datos adicionales de {speedifyProductName}!",
+    "LAUNCH": "Abrir {speedifyProductName}...",
+    "UNLIMITED": "Ilimitada"
+  },
+  "ACCOUNTPANE": {
+    "CREATE": "Completar registro",
+    "LOGGEDOUT": "Sin sesión",
+    "LOGIN": "Iniciar sesión",
+    "LOGOUT": "Cerrar sesión",
+    "UPGRADE": "Actualizar"
+  },
+  "ACCOUNTSETTINGERRORMESSAGE": {
+    "MESSAGE": "@:SETTINGSPANE.PREMIUMFEATURES",
+    "TITLE": "@:SETTINGERRORMESSAGE.TITLE"
+  },
+  "ADAPTEREXTRAS": {
+    "addconnection": {
+      "desc": "Añadir conexión",
+      "name": "Añadir conexión"
+    }
+  },
+  "ADAPTERINFO": {
+    "BWLIMIT": {
+      "title": "Límite de tarifa",
+      "unlimited": "Ilimitado"
+    },
+    "DATA": "{adapterType} Datos",
+    "OVERLIMITMODE": {
+      "disabled": "Dejar de usar",
+      "slow": "Bajar a",
+      "title": "Cuando llegue al límite..."
+    },
+    "PRIORITY": "Prioridad",
+    "RESETALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "¿Desea restablecer todo el uso de datos rastreado de {adapterName} de {speedifyProductName}?",
+      "OK": "Restablecer",
+      "TITLE": "Restablecer Uso de datos"
+    },
+    "RESETUSAGE": "Restablecer uso de datos",
+    "STATUS": {
+      "CAPTIVEPORTAL": "Fuera de línea, acción requerida",
+      "DISCONNETED": "Desconectado",
+      "NOINTERNET": "Sin Internet",
+      "NOTUSED": "No usado",
+      "ONLINECONNECTED": "En línea, conectado",
+      "ONLINECONNECTING": "Conectando",
+      "ONLINEDISCONNECTED": "En línea, no conectado",
+      "ONLINESLEEPING": "En línea, inactivo",
+      "OVERLIMIT": "Sobre el límite",
+      "OVERLIMITDAILY": "Límite mensual excedido",
+      "OVERLIMITMONTHLY": "Límite diario excedido",
+      "SPEEDIFYDISCONNECTED": "{speedifyProductName} desconectado"
+    },
+    "TUNNELSTATE": {
+      "CONNECTED": "@:UBERBOX.STATE.CONNECTED",
+      "CONNECTING": "@:UBERBOX.STATE.CONNECTING",
+      "DISCONNECTED": "@:UBERBOX.STATE.LOGGED_IN"
+    },
+    "USEDATA": "Usa datos de {adapterType}"
+  },
+  "ADAPTERTYPES": {
+    "Bluetooth": "Bluetooth",
+    "Cellular": "Celular",
+    "Ethernet": "Ethernet",
+    "Loopback": "Bucle de retorno",
+    "NetworkShare Client": "Red emparejada",
+    "NetworkShare Host": "Celular compartido",
+    "Unknown": "Desconocido",
+    "VPN": "VPN",
+    "Wi-Fi": "Wi-Fi"
+  },
+  "ADVANCED": {
+    "OPTIONS": {
+      "ACCOUNTALERT": "Alertas de la cuenta",
+      "ACCOUNTALERTDESC": "Reciba notificaciones relacionadas con su cuenta Speedify",
+      "CAPTIVEPORTAL": "Alertas de portal cautivo",
+      "CAPTIVEPORTALDESC": "Le notifica cuando su conexión actual por Wi-Fi requiere de alguna acción adicional para conectarse a internet.",
+      "CONNECTALERT": "Conectar Notificación",
+      "CONNECTALERTDESC": "Mostrar una notificación cuando {speedifyProductName} se conecte o desconecte",
+      "CRASH": "Reportes de fallas",
+      "CRASHDESC": "Permitir que {speedifyProductName}  reciba información de depuración anónima en el remoto caso de un fallo.",
+      "DEADHOTSPOT": "Alertas de punto de acceso muerto",
+      "DEADHOTSPOTDESC": "Notifica cuando {speedifyProductName} rescata una conexión de un punto de acceso muerto.",
+      "INCOMINGPASALERTS": "Solicitudes de Emparejamiento Entrantes",
+      "PASSTATUSALERTS": "Actualizaciones de estado de emparejamiento",
+      "PASNEWPEERALERTS": "Nuevo Par Descubierto",
+      "DISCONNECTALERTS": "Alertas de Desconexión",
+      "DNSLEAK": "Protección contra filtrados DNS",
+      "DNSLEAKDESC": "Habilita protección contra filtrados DNS",
+      "DNSSERVER": {
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "Para cambiar su DNS, debe volverse a conectar a {speedifyProductName}.",
+          "OK": "Volver a conectar",
+          "TITLE": "Cambios en el servidor DNS."
+        },
+        "CUSTOMINSTRUCTION": "Escribir 1 o más direcciones IP separadas por espacios.",
+        "DESC": "{speedifyProductName} siempre se conecta al servicio DNS en nuestros servidores, sin embargo, puedes pedirle al servicio DNS de {speedifyProductName} que reenvíe las solicitudes a otro servicio de DNS.",
+        "TITLE": "Servidor DNS."
+      },
+      "HOTSPOTSECURITY": "Alertas de seguridad de puntos de acceso",
+      "HOTSPOTSECURITYDESC": "Le notifican cuándo está conectado a puntos de acceso de Wi-Fi inseguros.",
+      "IPLEAK": "Protección contra fugas de IP",
+      "IPLEAKDESC": "Permite la protección de fugas de IP",
+      "JUMBO": "Jumbo MTU",
+      "JUMBODESC": "Habilitar Jumbo MTU",
+      "KILLSWITCH": "Interruptor de la Internet",
+      "KILLSWITCHDESC": "Cuando Internet Kill Switch está activado, todo el tráfico de Internet será deshabilitado si {speedifyProductName} está desconectado.",
+      "MARKETINGALERT": "Noticias y Ofertas Especiales",
+      "MARKETINGALERTDESC": "Obtenga actualizaciones sobre ventas y promociones de Speedify",
+      "NOTIFICATIONDESC": "Los tipos de notificación individuales pueden habilitarse o deshabilitarse arriba. Solo enviaremos mensajes de seguridad útiles y actualizaciones de cuenta cuando sea necesario.",
+      "PORTFORWARD": {
+        "ADDTCP": "Añadir puerto TCP",
+        "ADDUDP": "Añadir puerto UDP",
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "Para cambiar sus puertos abiertos, debe reconectarse a {speedifyProductName}",
+          "OK": "Reconectar",
+          "TITLE": "Cambio de puertos reenviados"
+        },
+        "DESC": "Envíe ciertos puertos en la IP pública del servidor a esta computadora. Solamente Servidores Dedicados.",
+        "INVALIDINPUT": "El número de puerto debe estar entre {portNumberMin} y {portNumberMax}",
+        "RESTRICTED": "El número de puerto no puede ser ninguno de : {portRestrictedList}",
+        "TCP": "TCP",
+        "TITLE": "Redireccionando puerto",
+        "TOOMANY": "Sólo puede tener {maxPorts} puertos. Elimine un puerto existente para agregar otro.",
+        "UDP": "UDP"
+      },
+      "SIRICONFIGURE": "Configure los atajos de Siri",
+      "SIRIDESC": "Permita que Siri sugiera un atajo.",
+      "SIRILINK": "Obtenga ayuda con los atajos de Siri",
+      "SIRITITLE": "Notificaciones de Siri",
+      "SPEEDIFYLIVE": "Recordatorios EN VIVO de {speedifyProductName}",
+      "SPEEDIFYLIVEDESC": "Recibe notificaciones de los eventos de Speedify LIVE y preguntas y respuestas en directo de Speedify Office Hours.",
+      "STREAMINGBYPASS": "Sugerencias de Bypass",
+      "STREAMINGBYPASSDESC": "Te notifica cuando es posible usar Bypass para desbloquear una aplicación o servicio.",
+      "STREAMMONITORALERT": "Monitoreo de Salud del Flujo de Datos",
+      "STREAMMONITORALERTDESC": "Alertas sobre la calidad de sus transmisiones.",
+      "TRANSPORT": "Modo Transporte",
+      "TRANSPORTDESC": "¿Qué protocolo de red debería probar primero {speedifyProductName}?",
+      "TRANSPORTMODES": {
+        "auto": "Auto",
+        "tcp": "TCP",
+        "tcp-multi": "TCP múltiples",
+        "udp": "UDP",
+        "websocket": "WebSocket"
+      },
+      "WEEKLYREPORT": "Reporte semanal",
+      "WEEKLYREPORTDESC": "Recibe una notificación cuando tu reporte de consumo semanal esté disponible."
+    }
+  },
+  "ARIALABEL": {
+    "DOWNLOAD": "Velocidad de descarga",
+    "EXITINTRO": "Salir de la introducción al tablero de mandos",
+    "INTRO1": "Diapositiva introductoria 1 de 6",
+    "INTRO2": "Diapositiva introductoria 2 de 6",
+    "INTRO3": "Diapositiva introductoria 3 de 6",
+    "INTRO4": "Diapositiva introductoria 4 de 6",
+    "INTRO5": "Diapositiva introductoria 5 de 6",
+    "INTRO6": "Diapositiva introductoria 6 de 6",
+    "SETTINGS": "Botón de ajustes",
+    "SHARE": "Compartir {speedifyProductName}",
+    "TOGGLE": "Activar Speedify",
+    "TOGGLESETTING": "Activar ajuste",
+    "UPLOAD": "Velocidad de subida"
+  },
+  "CAPTIVEPORTALPOPUP": {
+    "CONNECTBUTTON": "Conectar",
+    "CONTINUEBUTTON": "Continuar sin Wi-Fi",
+    "DESCRIPTION": "Esta red Wi-Fi necesita que usted inicie sesión o ejecute una acción para poderse conectar a internet",
+    "TITLE": "Acción Requerida para Usar '{SSID}'"
+  },
+  "CHANGEPASSWORD": {
+    "CHANGE": "Cambie su contraseña"
+  },
+  "CONNECTSTARTUPERMISSION": {
+    "ACTIONBUTTON": "Habilitar Conectar al iniciar",
+    "DISMISSBUTTON": "Ahora no",
+    "INTRO": {
+      "ACTIONBUTTON": "Sí, conectar al iniciar",
+      "DESCRIPTION": "Al habilitar Conectar al iniciar, seguirá conectado y protegido incluso después de actualizaciones del sistema y reinicios. Puede cambiar esta configuración en cualquier momento.",
+      "DISMISSBUTTON": "Recordármelo más tarde",
+      "HEADER": "Habilitar Conectar al iniciar",
+      "TITLE": "{speedifyProductName} puede conectarse automáticamente cuando inicia sesión o reinicia su computadora."
+    },
+    "TITLE": "¡Solo obtendrá los beneficios de la tecnología de unión de canales de Speedify cuando esté conectado! Habilite {boldPre} Conectar al iniciar {boldPost} para que Speedify se inicie automáticamente cuando inicia sesión o reinicia su computadora."
+  },
+  "DESKTOPSTORENAGS": {
+    "DESC": "Acceso ilimitado, seguridad sin compromisos y velocidad increíble, todo respaldado por nuestra garantía de devolución del dinero por 30 días",
+    "DESCTITLE": "Actualícese a un plan Ilimitado para seguir disfrutando de una mejor internet",
+    "HEADER": "Ya ha usado todos los datos mensuales gratuitos",
+    "NEWDATA": "Conseguirás más datos en {dayCountDisplay} {recuentodedías, plural, one{día} other{días}}"
+  },
+  "DISCONNECTPROMPT": {
+    "OPTIONS": {
+      "CONNECTED": "Mantente conectado",
+      "HELP": "Obtener ayuda",
+      "LONGCONNECT": "Reconectar mañana",
+      "NOCONNECT": "No reconectar",
+      "SERVER": "Pruebe otro servidor",
+      "SHORTCONNECT": "Reconectar en 2 horas"
+    },
+    "RECONNECTSUBTITLE": "Vuelva a conectarse más tarde y vuelva a disfrutar de una transmisión, videollamada y navegación más estables y seguras",
+    "RECONNECTTIME": "Reconectando a las {connectTime}",
+    "RECONNECTTITLE": "¿Desea que {speedifyProductName} se reconecte automáticamente?",
+    "STREAMINPROGRESS": {
+      "SUBTITLE": "Si te desconectas ahora, las transmisiones activas pueden interrumpirse.",
+      "TITLE": "Actualmente estás transmitiendo, ¿estás seguro de que quieres desconectarte?"
+    },
+    "SUBTITLE": "Probar otra conexión al servidor puede mejorar su experiencia con {speedifyProductName}",
+    "TITLE": "¿Dejaste {speedifyProductName} por un problema?"
+  },
+  "ENCRYPTION": {
+    "DESCRIPTION": "Protege todo lo que envíes y recibas de curiosos.",
+    "ENCRYPTED": "Codificado"
+  },
+  "ERROR": {
+    "SERVICEDOWN": "El servicio de {speedifyProductName} no está funcionando"
+  },
+  "FORMS": {
+    "DEFAULT": {
+      "EMAIL": "Dirección de correo electrónico",
+      "PASS": "Contraseña",
+      "PASSCONFIRM": "Confirmar contraseña nueva",
+      "PASSCURRENT": "Contraseña actual",
+      "PASSNEW": "Nueva contraseña"
+    },
+    "ERRORS": {
+      "EMAILINVALID": "Ingrese una dirección de correo electrónico válida",
+      "ENTERCURPASS": "Ingrese su contraseña actual",
+      "ENTERPASS": "Ingrese su contraseña",
+      "PASSINVALIDCHAR": "Asegúrese de que su contraseña no contenga \" o \\\\",
+      "PASSLENGTH": "Asegúrese de que su contraseña tenga al menos 8 caracteres",
+      "PASSMATCH": "Asegúrese de que sus contraseñas coincidan"
+    },
+    "WAITING": "Espere..."
+  },
+  "GOFORTH": {
+    "ALREADYHAVEACCOUNT": "@:INTRO.HAVEACCOUNT",
+    "BACKGROUND": "La misma trabajará en silencio y en segundo plano para optimizar sus conexiones a internet.",
+    "BODY": "Queremos que comience con un plan gratuito de {stylePre}{dataAmount}mes{stylePost} para que usted mismo pueda experimentar la magia de la unión de canales.",
+    "CONNECTED": "Estoy conectado, ¿qué hago ahora?",
+    "CONTINUE": "¡Ahora vaya a internet mientras {speedifyProductName} hace su magia!",
+    "LOGIN": "Inicie sesión ahora",
+    "RELIABILITY": "¡Ahora con más confiabilidad, seguridad y velocidad!",
+    "RUNNING": "Deje la aplicación {speedifyProductName} corriendo",
+    "TITLE": "¡Vaya y una!",
+    "USE": "Use sus aplicaciones y sitios web favoritos"
+  },
+  "GRAPHROTATION": {
+    "DESCRIPTION": "Cuando esta opción está activada, los gráficos del panel de control rotan cada 20 segundos.",
+    "TITLE": "Rotación de gráficos"
+  },
+  "HELP": {
+    "DESC": "{speedifyProductName} es un nuevo tipo de VPN móvil diseñado desde cero para ofrecer velocidad, seguridad y fiabilidad. No solo cifra todo lo que haces, sino que también vincula {plataform, select, mobile{tu Wi-Fi y celular} desktop{todas tus conexiones a Internet} other{}} para ofrecerte un Internet rápido y confiable. Funciona en segundo plano para mantener tu Internet seguro y confiable.",
+    "GETHELP": {
+      "ACCOUNT": "Ayuda sobre cuentas",
+      "CONNECTION": "Ayuda sobre conexiones",
+      "CONNECTIONS": "{speedifyProductName} detectará y combinará las conexiones nuevas automáticamente.",
+      "CONNECTIONSLINK": "Obtener ayuda para añadir conexiones »",
+      "PASSWORD": "Ayuda sobre contraseñas",
+      "SERVERS": "Ayuda sobre servidores",
+      "SETTINGS": {
+        "NOTIFICATIONS": "Ayuda sobre notificaciones",
+        "PRIVACY": "Ayuda sobre privacidad",
+        "SESSION": "Ayuda sobre sesiones"
+      },
+      "SIGNIN": "Ayuda sobre inicio de sesión"
+    },
+    "MENU": {
+      "ACCOUNT": "@:ONEPANE.POPINS.ACCOUNT",
+      "CLEARSETTINGS": "Resetear configuración",
+      "CREDITS": "Créditos de terceros",
+      "DEVTOOLS": "Herramientas para desarrollador",
+      "GENLOGS": "Generar registros",
+      "GETSTART": "Guía de inicio",
+      "PRIVACY": "Política de privacidad",
+      "QUITAPP": "Salir de la aplicación",
+      "REMOVEHELPER": "Quitar la herramienta de ayuda",
+      "SETTINGS": "@:ONEPANE.POPINS.SETTINGS",
+      "SUPPORT": "Buscar ayuda",
+      "TOS": "Términos del servicio",
+      "UPDATES": "Verificar si hay actualizaciones"
+    }
+  },
+  "INTRO": {
+    "DESC": {
+      "BODY": "{speedifyProductName} es una VPN única que une todas sus conexiones para hacer que Internet sea extremadamente confiable, rápido y seguro.",
+      "CONTINUE": "Continuar",
+      "PRIVACY": "Su privacidad es nuestra mayor prioridad.",
+      "PRIVACYBODY": "Su dirección IP y un identificador único de dispositivo para permitirle usar el servicio sin tener que registrarse para obtener una cuenta, la hora y la ubicación de la red de su conexión inicial para enrutar su tráfico de la forma más eficiente posible, la cantidad de datos usados y el tiempo conectado a nuestro servicio VPN para hacer cumplir nuestros términos, estadísticas de rendimiento de la red para mejorar las velocidades y registros de fallas para mejorar la calidad.  Su dirección de correo electrónico se registra si decide proporcionarla en el momento de la compra para utilizar la licencia en otros dispositivos.",
+      "PRIVACYBODYHEADER": "Esto es lo que almacenamos temporalmente:",
+      "PRIVACYCHANGE": "Nuestra política de privacidad fue modificada recientemente, ya que reuniremos menos datos y acataremos las leyes de California",
+      "PRIVACYDESC": "No llevamos registros de sus actividades en línea y jamás vinculamos dominios o aplicaciones que usted use con usted, su dispositivo, dirección IP o correo electrónico.",
+      "PRIVACYMOREINFO": "Para más información, lea nuestra ",
+      "TITLE": "Dos conexiones son mejores que una"
+    },
+    "GDPR2": {
+      "CONTINUE": "Aceptar y continuar",
+      "DISCLOSURE": "No registramos los sitios web que visitas, los servicios que utilizas o lo que haces en línea. Almacenamos temporalmente la cantidad de datos transferidos y la duración de la conexión de {speedifyProductName} para hacer cumplir nuestros términos, un identificador de dispositivo único para que puedas usar el servicio sin registrarte en una cuenta, tu dirección IP para conectarte al mejor servidor posible, así como la hora y la ubicación de red de tu conexión inicial.",
+      "LEARN": "Conozca cómo se administran sus datos",
+      "TITLE": "Su privacidad es nuestra prioridad",
+      "WECOLLECT": "Encriptamos todo el tráfico de internet y recopilamos la menor cantidad de información posible para operar nuestro servicio."
+    },
+    "HAVEACCOUNT": "¿Ya tienes cuenta?",
+    "PERMISSIONS": {
+      "ACCOUNTREADY": "¡Tu {accountType} está lista para ser usada!",
+      "COMPLETE": "Continuar",
+      "OPTIONAL": "(Opcional)",
+      "TITLE": "Configuración"
+    },
+    "PITCH": {
+      "COMBINE": "Combine conexiones",
+      "COMBINEDESC": "Use Wi-Fi y datos del celular al mismo tiempo para un rendimiento óptimo",
+      "DEVICEDESC": "Vincule su teléfono, tableta, computadora y más en una misma cuenta",
+      "DEVICETITLE": "Se puede usar en 5 dispositivos",
+      "ENCRYPTIONDESC": "Mantenga sus datos seguros de espías hackers",
+      "ENCRYPTIONTITLE": "Encriptado extremo",
+      "FREEVERSION": "Use la versión gratuita limitada",
+      "LIMITED": "Versión gratuita limitada",
+      "LIMITEDDESCData": "Optimice su primer {data} de uso de datos cada mes; la cuenta no es necesaria.",
+      "LIMITEDTITLE": "Use {speedifyProductName} gratis con límites",
+      "LIMITEDTITLEDESCDATA": "{data} de optimización de Internet todos los meses",
+      "NOTRIALDESC": "¿Qué estás esperando? Comienza ahora por solo {cost} al año",
+      "PRICEPERUSERPERMONTH": "Then {currencySymbol}{price} {currencyCode} al mes",
+      "SECURITY": "Aumenta la estabilidad, velocidad y seguridad. Elimina {streamergencies}",
+      "SERVERDESC": "Conéctese a servidores de todo el mundo.",
+      "SERVERHEADER": "Acceso al servidor desde todo el mundo",
+      "SUBSCRIBE": "Suscribirse ahora",
+      "SUBSCRIBEFOR": "Suscribirse a",
+      "TITLEHEADER": "VPN ilimitada {speedifyProductName}",
+      "TRIAL": "Inicie su período de prueba gratuito de 7 días",
+      "TRIALBUTTON": "Comenzar mi prueba gratuita de 7 días",
+      "TRIALPAY": "Luego solo {cost} por año"
+    }
+  },
+  "KILLSWITCH": {
+    "CONNECT": "Conectar {speedifyProductName}",
+    "DISABLE": "Apagar Kill Switch",
+    "MSG": "Para protegerte de estar en línea sin VPN, {speedifyProductName} está evitando que otros programas accedan a Internet.",
+    "OFFLINE": "Permanecer desconectado"
+  },
+  "LANGUAGE": {
+    "AUTO": "@:ADVANCED.OPTIONS.TRANSPORTMODES.auto",
+    "DESC": "Controla el idioma en el que se presenta la interfaz de usuario de Speedify. Auto, es el que se recomienda por defecto, utilizará el idioma del sistema operativo.",
+    "TITLE": "Idioma"
+  },
+  "LIMITS": {
+    "DAILYLIMIT": "Limite diario",
+    "DAYBOOST": "Se permitirá un {boostHtml} adicional el día de hoy",
+    "DAYUSAGELIMITED": "{usage} de {limitHtml} usado el día de hoy",
+    "DAYUSAGEUNLIMITED": "{usage} usado el día de hoy",
+    "MONTHLYLIMIT": "Límite mensual",
+    "MONTHUSAGELIMITED": "{usage} de {limitHtml} por mes",
+    "MONTHUSAGEUNLIMITED": "{usage} usado en los últimos 30 días",
+    "MONTHUSAGEUNLIMITEDMONTH": "{usage} usado este mes",
+    "RESETDAY": {
+      "LAST30": "Los últimos 30 días",
+      "N": "{day, selectordinal, other{#o} }",
+      "UNKNOWN": "DESCONOCIDO"
+    },
+    "RESETDAYPRE": "Restablecer el {resetDayHtml}",
+    "USAGEWITHPERCENTAGE": "{usage} ({percentage})"
+  },
+  "LOCATION": {
+    "CITY": {
+      "amsterdam": "Ámsterdam",
+      "atlanta": "Atlanta",
+      "auckland": "Auckland",
+      "baku": "Bakú",
+      "bangalore": "Bangalore",
+      "beijing": "Pekín",
+      "belgrade": "Belgrado",
+      "bhs": "Montreal",
+      "bogota": "Bogotá",
+      "brisbane": "Brisbane",
+      "brussels": "Bruselas",
+      "bucharest": "Bucarest",
+      "budapest": "Budapest",
+      "bursa": "Bursa",
+      "cairo": "El Cairo",
+      "chicago": "Chicago",
+      "chisinau": "Chisináu",
+      "copenhagen": "Copenhague",
+      "dallas": "Dallas",
+      "denver": "Dénver",
+      "dubai": "Dubai",
+      "dublin": "Dublín",
+      "dusseldorf": "Düsseldorf",
+      "frankfurt": "Frankfurt",
+      "fremont": "Fremont",
+      "graz": "Graz",
+      "helsinki": "Helsinki",
+      "honolulu": "Honolulu",
+      "hsinchu": "Hsinchu",
+      "islamabad": "Islamabad",
+      "istanbul": "Estambul",
+      "izmir": "Esmirna",
+      "jakarta": "Yakarta",
+      "johannesburg": "Johannesburgo",
+      "karaganda": "Karagandá",
+      "kowloon": "Hong Kong",
+      "kualalumpur": "Kuala Lumpur",
+      "la": "Los Ángeles",
+      "lisbon": "Lisboa",
+      "ljubljana": "Liubliana",
+      "london": "Londres",
+      "madrid": "Madrid",
+      "melbourne": "Melbourne",
+      "mexicocity": "Ciudad de México",
+      "miami": "Miami",
+      "milano": "Milano",
+      "moscow": "Moscú",
+      "mumbai": "Bombay",
+      "newark": "Newark",
+      "nicosia": "Nicosia",
+      "nova": "Virginia del Norte",
+      "nyc": "Ciudad de Nueva York",
+      "oostkamp": "Oostkamp",
+      "oslo": "Oslo",
+      "palermo": "Palermo",
+      "paris": "París",
+      "perth": "Perth",
+      "philadelphia": "Filadelfia",
+      "prague": "Praga",
+      "riyadh": "Riad",
+      "sanjose": "San José",
+      "saopaulo": "São Paulo",
+      "seattle": "Seattle",
+      "seoul": "Seúl",
+      "sf": "San Francisco",
+      "singapore": "Singapur",
+      "sofia": "Sofía",
+      "stockholm": "Estocolmo",
+      "stpetersburg": "San Petersburgo",
+      "sydney": "Sídney",
+      "taipei": "Taipéi",
+      "tallinn": "Tallin",
+      "telaviv": "Tel Aviv",
+      "test": "Prueba",
+      "tokyo": "Tokio",
+      "toronto": "Toronto",
+      "tripoli": "Trípoli",
+      "valencia": "València",
+      "vancouver": "Vancouver",
+      "vienna": "Viena",
+      "vilnius": "Vilna",
+      "warsaw": "Varsovia",
+      "zurich": "Zúrich"
+    },
+    "COUNTRY": {
+      "ae": "EAU",
+      "at": "Austria",
+      "au": "Australia",
+      "az": "Azerbaiyán",
+      "be": "Bélgica",
+      "bg": "Bulgaria",
+      "br": "Brasil",
+      "ca": "Canadá",
+      "ch": "Suiza",
+      "cn": "República Popular China",
+      "co": "Colombia",
+      "cr": "Costa Rica",
+      "cy": "Chipre",
+      "cz": "República Checa",
+      "de": "Alemania",
+      "dk": "Dinamarca",
+      "ee": "Estonia",
+      "eg": "Egipto",
+      "es": "España",
+      "fi": "Finlandia",
+      "fr": "Francia",
+      "gb": "Gran Bretaña",
+      "hk": "Hong Kong",
+      "hu": "Hungría",
+      "id": "Indonesia",
+      "ie": "Irlanda",
+      "il": "Israel",
+      "im": "Isla del Hombre",
+      "in": "India",
+      "is": "Islandia",
+      "it": "Italia",
+      "jp": "Japón",
+      "kr": "Corea del Sur",
+      "kz": "Kazajistán",
+      "lt": "Lituania",
+      "ly": "Libia",
+      "md": "Moldavia",
+      "mx": "México",
+      "my": "Malasia",
+      "nl": "Países Bajos",
+      "no": "Noruega",
+      "nz": "Nueva Zelanda",
+      "pk": "Pakistán",
+      "pl": "Polonia",
+      "pt": "Portugal",
+      "ro": "Rumania",
+      "rs": "Serbia",
+      "ru": "Rusia",
+      "sa": "Arabia Saudita",
+      "se": "Suecia",
+      "sg": "Singapur",
+      "si": "Eslovenia",
+      "tr": "Turquía",
+      "tw": "República de China",
+      "us": "Estados Unidos",
+      "za": "Sudáfrica"
+    }
+  },
+  "LOCKSCREEN": {
+    "POPUP": {
+      "CALLS": "Mejoras en las conferencias de video",
+      "PLUS": "Usar múltiples conexiones de Internet al mismo tiempo",
+      "SECURITY": "Encriptación supersegura",
+      "SERVERS": "Acceso a servidores en todo el mundo",
+      "STREAM": "Emisiones en vivo optimizadas",
+      "SUBTITLE": "Estas son todas las funciones que se está perdiendo...",
+      "TITLE": "¡Ha usado todos sus datos gratuitos!",
+      "UNLIMITED": "Navegación, streaming y juegos sin límites"
+    },
+    "UPGRADETITLE": "Obtenga una mejora para seguir usando Speedify",
+    "USAGE": "Ha utilizado todos sus datos gratuitos mensuales"
+  },
+  "NETWORKADAPTERFUNCTIONS": {
+    "UNKNOWN": "Desconocido"
+  },
+  "NETWORKDOT": {
+    "MESSAGING": {
+      "CAPTIVE": "Portal cautivo",
+      "DISABLED": "Desactivado",
+      "OVERLIMITRATELIMIT": "Límite superior del tráfico"
+    }
+  },
+  "NOTIFICATIONS": {
+    "PERMISSION": "{speedifyProductName} no puede mostrar notificaciones. {linkPre}Habilitar permisos para notificaciones{linkPost}."
+  },
+  "OMNICHART": {
+    "SUBTITLES": {
+      "EXTENDED": "5 minutos",
+      "LATENCY": "Latencia",
+      "LOSS": "Pérdida",
+      "PROXY": "Local",
+      "REALTIME": "Tiempo real",
+      "SHARED": "Compartido",
+      "SPEED": "Velocidad",
+      "USAGE": "Uso"
+    },
+    "TITLES": {
+      "QUALITY": "Calidad de la conexión",
+      "SPEED": "Velocidad"
+    },
+    "TOTAL": "Total",
+    "WAITING": "Conectar para comenzar"
+  },
+  "ONEPANE": {
+    "POPINS": {
+      "ACCOUNT": "Cuenta",
+      "ADAPTERCONFIGURE": "Configurar",
+      "CHANGEPASSWORD": "Cambiar contraseña",
+      "CONNECTION": "Sesión",
+      "DEVTOOLS": "Herramientas del des",
+      "LOGIN": "Iniciar sesión",
+      "NOTIFICATIONS": "Notificaciones",
+      "PRIVACY": "Privacidad",
+      "SERVERS": "Servidores",
+      "SERVERSLOCATION": "Ubicación del servidor",
+      "SETTINGS": "Configuración",
+      "SIRI": "Atajos de Siri",
+      "SOUNDS": "Sonidos",
+      "SUPPORT": "Acerca",
+      "UPGRADE": "Actualizar"
+    }
+  },
+  "OVERLIMIT": {
+    "ACTIONLIMIT": "{boldPre} Seguir usando {boldPost} a {speed}",
+    "ACTIONSTOP": "{boldPre}Suspender uso{boldPost} {adapterName}",
+    "DAILY": {
+      "BOOST": "{boldPre}Aumentar límite diario{boldPost} a {boostAmount}",
+      "MSG": "{boldPre}{adapterName}{boldPost} ha superado el límite diario que estableció de {boldPre}{limit}{boldPost}."
+    },
+    "DAILY75": {
+      "MSG": "{boldPre}{adapterName}{boldPost} está a más del 75% del límite diario que estableció de {boldPre}{limit}{boldPost}."
+    },
+    "DISABLED": "{boldPre}{adapterName}{boldPost} se encuentra ahora desactivado para protegerlo.",
+    "LIMITED": "{boldPre}{adapterName}{boldPost} ahora tiene una tarifa limitada para protegerlo.",
+    "MONTHLY": {
+      "MSG": "{boldPre}{adapterName}{boldPost} ha superado el límite mensual que estableció de {boldPre}{limit}{boldPost}."
+    },
+    "MONTHLY75": {
+      "MSG": "{boldPre}{adapterName}{boldPost} está alrededor de 75% del límite mensual que estableció de {boldPre}{limit}{boldPost}."
+    }
+  },
+  "OVERVIEW": {
+    "CONSAVED": "Conexiones guardadas",
+    "DOWNLOAD": "Descargas",
+    "PACKRECOVERED": "Paquetes recuperados",
+    "SHARE": "¡Compartir esto!",
+    "SHARETEXT": {
+      "CONSAVED": "¡{speedifyProductName} cambió entre conexiones sin problemas {value, plural, one{1 vez} other{# veces}}!",
+      "DOWNLOAD": "¡{speedifyProductName} aumentó la velocidad de mis descargas a {value} Mbps!",
+      "PACKRECOVERED": "¡{speedifyProductName} recuperó {value} {bytesLabel} en paquetes perdidos!",
+      "UPLOAD": "¡{speedifyProductName} aumentó la velocidad de mis cargas a {value} Mbps!"
+    },
+    "TITLE": "Estadísticas",
+    "UPLOAD": "Cargas",
+    "WAITING": "Reuniendo datos, regrese en un momento"
+  },
+  "PLATFORM": {
+    "SHARE": {
+      "INSTRUCTION": "Comparta su experiencia de {speedifyProductName}",
+      "TEXT1": "Revisa {speedifyProductName} - "
+    }
+  },
+  "PRIORITIES": {
+    "ALWAYS": {
+      "DESC": "Usar siempre esta conexión",
+      "DISPLAY": "Primaria"
+    },
+    "AUTOMATIC": {
+      "DESC": "Permita que {speedifyProductName} gestione la prioridad de la conexión",
+      "DISPLAY": "Automático"
+    },
+    "BACKUP": {
+      "DESC": "Solo usar esta conexión para conmutación por error cuando no haya otras disponibles. No realiza vinculación por velocidad (menos usada).",
+      "DISPLAY": "Respaldo"
+    },
+    "CAPTIVEPORTAL": "Acción requerida",
+    "DESC": "El nivel de Prioridad de una conexión determina cómo y cuándo debe usarla {speedifyProductName}.",
+    "NEVER": {
+      "DESC": "No usar esta conexión",
+      "DISPLAY": "Nunca"
+    },
+    "OVERLIMIT": {
+      "DISPLAY": "SOBRE EL LÍMITE"
+    },
+    "SECONDARY": {
+      "DESC": "Usar esta conexión para aumento de velocidad y conmutación por error, pero menos que la conexión Primaria.",
+      "DISPLAY": "Secundaria"
+    },
+    "UNKNOWN": {
+      "DISPLAY": "DESCONOCIDO"
+    }
+  },
+  "PRIORITYSELECTION": {
+    "CELLULARALWAYSALERT": {
+      "ASKAGAINCANCEL": "No, cambiar a secundaria",
+      "ASKAGAINOK": "Sí, dejar en principal",
+      "ASKAGAINTITLE": "¿Aún desea configurar \"{adapter}\" en prioridad principal?",
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Cuando se establece una conexión celular como Primaria, siempre será usada, incluso si hay otras conexiones Wi-Fi o Ethernet disponibles. Esto puede causar un uso adicional de datos y un mayor consumo de batería.",
+      "OK": "Configurar en SIEMPRE",
+      "TITLE": "SIEMPRE usar {adapterType}"
+    },
+    "NEVERALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Configurar en NUNCA significa que esta conexión no se usará en absoluto. ¿Continuar?",
+      "OK": "Configurar en NUNCA",
+      "TITLE": "NUNCA usar {adapterType}"
+    }
+  },
+  "PROMPTS": {
+    "ALLOW": "Permitir",
+    "CANCEL": "Cancelar",
+    "NO": "No",
+    "NOTNOW": "Ahora no",
+    "OK": "Aceptar",
+    "YES": "Sí"
+  },
+  "PURCHASE": {
+    "BESTDEAL": "¡El mejor trato!",
+    "CANCELSUBDESC": "Cancele cuando lo desee.",
+    "CHOOSEYOURDESTINY": "Elija una suscripción individual",
+    "COMPLETECOVER": "Completa tu pedido o cierra la Tienda {speedifyProductName} para continuar",
+    "CREATEACCOUNTALERT": {
+      "CANCEL": "Omitir",
+      "MSG": "Para poder utilizar tu cuenta de {speedifyProductName} ilimitada en otros dispositivos, necesitarás registrarte con una dirección de  correo electrónico y un contraseña.",
+      "OK": "Crear una cuenta",
+      "TITLE": "Registra tu cuenta"
+    },
+    "CREATEACCOUNTALERT2": {
+      "CANCEL": "@:PURCHASE.CREATEACCOUNTALERT.CANCEL",
+      "MSG": "Si omites el proceso de registro de cuenta no podrás acceder a tu cuenta de {speedifyProductName} ilimitada en otros dispositivos.",
+      "OK": "@:PURCHASE.CREATEACCOUNTALERT.OK",
+      "TITLE": "¿Estás seguro?"
+    },
+    "CREATEACCOUNTREGISTER": {
+      "HEADER": "¡Registra tu cuenta de {speedifyProductName} ilimitada ahora para poder utilizar {speedifyProductName} hasta en cuatro dispositivos adicionales de forma simultánea!",
+      "TITLE": "Registrar cuenta"
+    },
+    "DISPLAYEDPRICES": "Precios mostrados en {currencyCode}",
+    "FAMILYHEADER": "... ¡o uno para toda la familia!",
+    "HEADER100USED": "{pre1}¡Has usado todos tus datos móviles gratuitos de {speedifyProductName}!{post1} {pre2}Suscríbete ahora para acceder a todas estas fabulosas funciones o espera {stylePre}{daysDisplay} {days, plural, one{día} other{dias}}{stylePost} para tener más datos gratuitos.{post2}",
+    "HEADER100USEDNODATA": "{pre1}Usted ha usado todos sus datos {speedifyProductName} gratis!{post1} {pre2}Suscríbase para desbloquear todas estas grandes funcionalidades.",
+    "HEADEREXPIRED": "{pre1}¡Tu suscripción ha caducado!{post1}",
+    "MOSTPOPULAR": "MÁS POPULARES",
+    "NAMES": {
+      "FAMILY": "Plan familiar",
+      "MONTHLY": "Mensualmente",
+      "THREEYEAR": "Plan de 3 años",
+      "YEARLY": "Anual"
+    },
+    "PLANS": {
+      "FAMILY": "Familias",
+      "FIXED": "Planes de duración fija",
+      "INDIVIDUAL": "Individual",
+      "SUB": "Suscripción",
+      "UPGRADES": "Mejoras disponibles"
+    },
+    "POSTPURCHASE": {
+      "DIRECTIONS": "Inicia sesión en la cuenta que acabas de adquirir.",
+      "TITLE": "Iniciar sesión."
+    },
+    "PRICEPERMONTH": "{currencySymbol}{price}/mes",
+    "PRICEPERUSERPERMONTH": "{currencySymbol}{price} {currencyCode}/usuario al mes",
+    "PRICEPERYEAR": "{currencySymbol}{price}/año",
+    "PRICEPERYEARABTESTA": "Solo ",
+    "PRICEPERYEARABTESTB": "{currencySymbol}{price} {currencyCode} al año",
+    "PRICEPERYEARABTESTC": "{currencySymbol}{price} {currencyCode}",
+    "PRICEWITHOUTDURATION": "{currencySymbol}{price}",
+    "PRODUCTTITLE": "{pre1}{speedifyProductName}{post1} {pre2}Ilimitado{post2}",
+    "PRODUCTTITLEFAMILY": "{pre1}{speedifyProductName}{post1}{pre2}para familias{post2}",
+    "PURCHASELENGTH": "{monthsDisplay} {months, plural, one{Mes} other{Meses}}",
+    "REASONS": {
+      "FAMILY": "Uso ilimitado, acceso premium al servidor, además de {stylePre}Compartir en Familia de iCloud{stylePost} que les permite compartir acceso a usted y hasta a otros cinco familiares",
+      "FIVEDEVICES": "Use hasta 5 dispositivos simultáneamente",
+      "INDIVIDUAL": "¡Actualiza ahora para un uso ilimitado en hasta 5 dispositivos y acceso a servidores premium!",
+      "PREMIUM": "Acceso a servidor premium",
+      "SALE": "Suscríbete ahora y ahorra un %30",
+      "UNLIMITED": "Uso ilimitado",
+      "WORLDWIDE": "Acceso mundial al servidor"
+    },
+    "SALEOFFER": "OFERTA POR TIEMPO LIMITADO",
+    "SALESAVINGS": "30% DE DESCUENTO",
+    "SALETRIAL": "Comenzar mi prueba gratuita de 7 días",
+    "SAVEPERCENTAGE": "Ahorra un {percentDisplay}%",
+    "SIGNIN": "Ya tengo una cuenta",
+    "TRIALBUTTON": "Primeros 7 días gratis - Luego {currencySymbol}{price}/año",
+    "TRIALEXPLAIN": "Los usuarios nuevos son elegibles para períodos de prueba gratuitos de {trialLength} días. Todos los períodos de prueba se renuevan automáticamente al final del período.",
+    "TRIALPRICE": "Pague {currencySymbol}{trialPrice} hoy y {currencySymbol}{price}/año después de la prueba gratuita.",
+    "USERDEVICES": "Usuarios {userDisplay}, dispositivos {deviceDisplay}",
+    "VIEWMORE": "Ver más opciones"
+  },
+  "PUSHPERMISSION": {
+    "DESCRIPTION": "Solo enviaremos mensajes útiles sobre seguridades y actualizaciones de la cuenta cuando ses necesario",
+    "HEADER": "De último, pero no menos importante...",
+    "LOWERDESC": "Usted puede activar o desactivar alertas específicas.",
+    "RECEIVE": "Reciba notificaciones",
+    "SOUNDSGOOD": "Suena bien"
+  },
+  "REGISTERLOGIN": {
+    "BUTTONS": {
+      "CONTINUE": "Continuar",
+      "CREATEGLOBAL": "Completar registro",
+      "FORGOTPASSWORD": "Olvidó su contraseña",
+      "LOGIN": "Iniciar sesión",
+      "NEEDACCOUNT": "¿No tiene una cuenta?",
+      "REGISTER": "Regístrese",
+      "USEFREE": "Usar una cuenta gratuita"
+    },
+    "DIRECTIONS": {
+      "AUTOFREE": "Ingrese su dirección de correo electrónico para iniciar sesión en una cuenta existente",
+      "AUTOPAID": "Cree una cuenta para usar su plan de {speedifyProductName} en otros dispositivos o vincula la cuenta a su cuenta preexistente",
+      "LOGOUT": "Ahora ya está fuera de sesión. Para continuar usando {speedifyProductName}, puede Iniciar sesión con otra cuenta de usuario, o seleccione Usar cuenta gratis",
+      "NOACCOUNT": "Ingrese su dirección de correo electrónico para iniciar sesión en {speedifyProductName}",
+      "NOTEXIST": "Esa cuenta no existe. Ingrese una dirección de correo electrónico asociada con la cuenta de {speedifyProductName} a la que desea ingresar",
+      "PASSRESETSUBMIT": "Se ha enviado su solicitud para restablecer la contraseña. Revise su correo electrónico para recibir más instrucciones",
+      "SWITCH": "Ingrese su dirección de correo electrónico para iniciar sesión en una cuenta diferente"
+    },
+    "ERRORS": {
+      "DEVICELIMIT": {
+        "BTMMSG": "Para continuar, cierra sesión en Speedify en uno o más de tus dispositivos e intenta de nuevo. Es posible que necesites esperar hasta 1 semana.",
+        "LEARNMORE": "@:SETTINGSPANE.LEARNMORE",
+        "OK": "@:PROMPTS.OK",
+        "TITLE": "Límite de Dispositivo Excedido",
+        "TOPMSG": "Una sola cuenta de usuario solo puede iniciar sesión en hasta 5 dispositivos por semana."
+      }
+    },
+    "PASSMANAGERS": "O inicie sesión con",
+    "PASSRESET": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "¿Está seguro de que desea restablecer su contraseña?",
+      "OK": "Restablecer contraseña",
+      "TITLE": "Restablecimiento de contraseña"
+    }
+  },
+  "REVIEW": {
+    "ENJOYING": {
+      "NO": "¡Ayuda, no funciona!",
+      "QUESTION": "¿Está disfrutando de {speedifyProductName}?",
+      "YES": "¡Todo bien hasta el momento!"
+    },
+    "FBLIKE": {
+      "QUESTIONFORLIKE": "¿Te encanta {speedifyProductName}?",
+      "YES": "Hazte fan en Facebook"
+    },
+    "PROMPT": {
+      "LINK": "Pulsar para valorar",
+      "SUBTITLE": "Si es así, ¡te agradeceríamos que nos dejaras una valoración!",
+      "TITLE": "¿Te gusta {speedifyProductName}?"
+    },
+    "REVIEW": {
+      "NO": "Por ahora no.",
+      "QUESTION": "Grandioso. ¿Puede tomarse un minuto para evaluar {speedifyProductName}?",
+      "YES": "¡Claro!"
+    },
+    "SUPPORT": {
+      "NO": "Por ahora no.",
+      "QUESTION": "Lamentamos escuchar eso. ¿Puede enviar una solicitud a soporte técnico para poder ayudarlo?",
+      "YES": "Contactar a soporte técnico"
+    }
+  },
+  "SALEPOPUP": {
+    "DEALBUTTON": "¡Conseguir esta oferta!",
+    "DESCRIPTION": "Mejora a {speedifyProductName} VPN Ilimitado con esta oferta por tiempo limitado para nuevos usuarios.",
+    "HURRY": "¡Deprisa! Está oferta termina en: ",
+    "LATERBUTTON": "Quizás luego",
+    "SAVINGS": "¡Ahorra un 40% ahora!"
+  },
+  "SERVERFUNCTIONS": {
+    "PRIVATE": "Servidores dedicados",
+    "PRIVATEBRAG": "Disfruta de velocidades más rápidas, una dirección IP consistente y opciones para el reenvío de puertos.",
+    "UNKNOWN": "Desconocido"
+  },
+  "SERVERS": {
+    "LESS": "menos...",
+    "MORE": "más...",
+    "OPTIONS": {
+      "AUTOMATIC": "Selección automática",
+      "CLOSEST": "El servidor más rápido",
+      "CLOSESTDEDICATED": "Servidor dedicado más cercano",
+      "CLOSESTPUBLIC": "Servidor público más cercano",
+      "COUNTRY": "Elija un país",
+      "DEDICATED": "Dedicado",
+      "EXIT": "Desconectar al salir",
+      "EXITANDROID": "Tarea al deslizar",
+      "EXITDESC": {
+        "ANDROID": "Desconectar al eliminar {speedifyProductName} de las tareas vía arrastre o cerrar todo",
+        "DESKTOP": "Desconectar al salir de la interfase de usuario"
+      },
+      "EXITOFFANDROID": "Permanecer conectado",
+      "EXITONANDROID": "Desconectar",
+      "MANUALPITCH": "Use la Selección Manual para elegir servidores específicos o navegar por sitios web y usar aplicaciones como si estuviera en otro país.",
+      "MANUALSELECTION": "SELECCIÓN MANUAL",
+      "MANUALSELECTIONDESC": "Desbloquea el acceso a servidores prémium con ubicaciones en todo el mundo.",
+      "P2P": "Servidor apto para torrents",
+      "P2PDESC": "Conectarse a un servidor que permite torrenting y otros protocolos de puerto a puerto",
+      "PROXY": "Local",
+      "REQUIRESUNLIMITED": "(REQUIERE ILIMITADO)",
+      "STARTUP": "Conectar al inicio",
+      "STARTUPDESC": "Conectar a {speedifyProductName} automáticamente cuando se reinicie el dispositivo.",
+      "UPGRADELINK": "Actualiza ahora"
+    },
+    "VIEWALLLOCATIONS": "VER TODAS LAS UBICACIONES",
+    "VIEWLESS": "VER MENOS"
+  },
+  "SERVICE": {
+    "RESTART": "Reiniciar servicio de {speedifyProductName}"
+  },
+  "SETTINGERRORMESSAGE": {
+    "MESSAGE": "Su Administrador de Equipo ha bloqueado la configuración de este ajuste.",
+    "TITLE": "Este ajuste está bloqueado"
+  },
+  "SETTINGSPANE": {
+    "ABOUT": {
+      "FOLLOW": "Sigue a {username} en Twitter",
+      "RATE": "Califica a {appname}",
+      "TITLE": "Acerca de {speedifyProductName}"
+    },
+    "ACCOUNT": {
+      "CANCEL": "Cancelar suscripción",
+      "DATAUSED": "{percentage}% de {dataAvailable} utilizado",
+      "DELETE": {
+        "ACCOUNT": "Eliminar cuenta",
+        "ACCOUNTERROR": "Se ha producido un problema al eliminar tu cuenta, por favor, ponte en contacto con support@speedify.com",
+        "ACCOUNTMESSAGE": "Al pulsar \"Eliminar\", tu cuenta de Speedify se desactivará inmediatamente y luego se eliminará por completo dentro de los 14 días siguientes a tu solicitud. Esta acción no se puede deshacer. \n NOTA: Esto no cancelará la suscripción que compraste a través de la App Store, ni te conseguirá nuevos periodos de prueba gratuita. Para gestionar tus compras, visita la App Store.",
+        "ACCOUNTMESSAGESUCCESSTITLE": "Cuenta eliminada",
+        "ACCOUNTMESSAGETITLE": "¿Eliminar cuenta?",
+        "ACCOUNTSUCCESS": "Tu cuenta ha sido eliminada para su eliminación y será eliminada en 14 días",
+        "MANAGESUB": "Gestionar suscripción",
+        "MESSAGECONFIRMOPTION": "Eliminar"
+      },
+      "EXPIRESON": "Expira el {date}",
+      "HELPERMESSAGE": "Inicia sesión con tu cuenta de {speedifyProductName}",
+      "MANAGE": "Gestionar cuenta",
+      "MONTHLYTIER": "Suscripción mensual",
+      "NEWUPGRADE": "Nueva mejora disponible",
+      "NOACCOUNT": "¿No tienes una cuenta? ¡Actualiza ahora!",
+      "ONEYEARPASS": "Pase anual",
+      "PLAN": "{dataAvailable} mensual",
+      "REDEMPTIONCODE": "Canjear código",
+      "RENEWSFREE": "Los datos gratuitos se renuevan el {date}",
+      "RENEWSPAID": "Se renueva el {date}",
+      "REVIEW": "Reseñar a {speedifyProductName}",
+      "REVIEWDESC": "Si te sientes generoso y dispones de algunos minutos, por favor, deja una reseña. Esto marca una gran diferencia para nosotros. Gracias de antemano. :smiley:",
+      "SIGNOUT": "Cerrar sesión",
+      "STATS": {
+        "RESCUE": "Perfecta tolerancia frente a fallos",
+        "RESCUEDESCRIPTION": "Perfecta tolerancia frente a fallos se refiere a la cantidad de conexiones a una red que hubieran fallado si no hubieras estado usando {speedifyProductName}.",
+        "TITLE": "ESTADÍSTICAS (TODO EL TIEMPO)"
+      },
+      "THREEYEARPASS": "Pase trienal",
+      "THREEYEARSUB": "Suscripción de tres años",
+      "TITLE": "@:ONEPANE.POPINS.ACCOUNT",
+      "TWOYEARTIER": "Suscripción de dos años",
+      "UPGRADE": "Actualizar a Ilimitado",
+      "UPGRADEFAMILIES": "Mejorar a Familias",
+      "VERSION": "Versión ",
+      "YEARLYTIER": "Suscripción anual"
+    },
+    "APPLICATIONBYPASS": {
+      "HEADER": "Aplicación de bypass"
+    },
+    "BACK": "Volver",
+    "CONNECTIONSETTINGS": "AJUSTES DE CONEXIÓN",
+    "CONNECTIONSUBTITLE": "Las conexiones aparecerán automáticamente al ser encontradas.",
+    "CUSTOM": "Personalizado",
+    "DASHBOARD": "Panel de control",
+    "DETACHWINDOW": {
+      "DESC": "La ubicación de la ventana determina cómo se mostrará la interfaz de usuario de Speedify.",
+      "DOCKDESC": "La interfaz de Speedify se acoplará a la barra de menú.",
+      "DOCKED": "Barra de menú",
+      "DOCKEDOPTION": "Acoplada en la barra de menú",
+      "FLOATING": "Flotante",
+      "FLOATINGDESC": "La interfaz de Speedify se mostrará en su propia ventana flotante de aplicación.",
+      "FLOATINGOPTION": "Ventana flotante",
+      "HEADER": "Ubicación de la ventana"
+    },
+    "DNSLEAKDESC": "Protege de \"fugas de DNS\", donde las solicitudes de DNS podrían pasar por {speedifyProductName} y revelar tu ubicación real a los sitios que visitas.",
+    "DONE": "Listo",
+    "HELP": {
+      "CONTACT": "Atención al cliente de {speedifyProductName}",
+      "TITLE": "Ayuda"
+    },
+    "IPLEAKDESC": "Protege de \"fugas de IP\", donde las solicitudes de IP podrían ir de un lado a otro {speedifyProductName} y revelar su ubicación real a los sitios que visita.",
+    "LEARNMORE": "Más información",
+    "LOCKEDMESSAGE": "Este ajuste es manejado por su Administrador de Equipo",
+    "LOCKEDPOP": {
+      "MESSAGE": "Su Administrador de Equipo ha bloqueado la configuración de este ajuste.",
+      "TITLE": "Este ajuste está bloqueado"
+    },
+    "NETWORKS": {
+      "ADVANCED": {
+        "HEADER": "AVANZADO",
+        "IPADDRESS": "Dirección IP",
+        "IPADDRESSDESC": "Muestra la dirección IP y el transporte que están siendo usados actualmente en esta conexión.",
+        "RATELIMIT": {
+          "DESC": "Cuando se activa el límite de velocidad, {speedifyProductName} limita la velocidad máxima de esta conexión a internet al valor establecido anteriormente. Si tienes un plan de datos limitado con tu proveedor de internet, esto puede ayudar a prevenir sobrecostos."
+        }
+      },
+      "COLLAPSE": "Colapsar",
+      "CONNECTIONDIALOG": "Iniciar sesión en esta red Wi-Fi",
+      "DATACAP": {
+        "AMOUNT": "Cantidad",
+        "BOOST": "Incrementar",
+        "BOOSTDESC": "Agrega datos extra a su límite diario de datos.",
+        "DAILY": "Límite diario de datos",
+        "DESC": " te permite controlar la cantidad de datos que {speedifyProductName} puede enviar y recibir por medio de este adaptador. Si tienes un plan de datos limitado con tu proveedor de internet, esto puede ayudar a prevenir sobrecostos.",
+        "HEADER": "LÍMITE DE DATOS",
+        "MONTHLY": "Límite mensual de datos",
+        "OVERLIMIT": "{percent} % de {data}",
+        "RESETSON": "Reinicio activado",
+        "SUB": "{speedifyProductName} solo mide el uso de datos mientras te encuentres conectado al servicio."
+      },
+      "DETAILS": "Detalles de la conexión",
+      "EXPAND": "Expandir",
+      "MESSAGES": {
+        "ADAPTERNAME": {
+          "DESCRIPTION": "Descripción del adaptador",
+          "HEADER": "Nombre del adaptador"
+        },
+        "ISP": {
+          "HEADER": "Proveedor de Servicios de Internet",
+          "MESSAGE": "El nombre del Proveedor de Servicios de Internet."
+        },
+        "JITTER": {
+          "HEADER": "Jitter",
+          "MESSAGE": "La variabilidad en la latencia de esta conexión. Un valor más bajo indica una conexión más estable y consistente."
+        },
+        "LATENCY": {
+          "HEADER": "Latencia",
+          "MESSAGE": "También conocida como ping, la latencia es el tiempo total de ida y vuelta (RTT) desde que esta conexión envía una solicitud hasta que recibe una respuesta del servidor. Cuanto más bajo es mejor, siendo los valores por debajo de 80 ms los deseados para los juegos y los valores por encima de 150 ms resultan en retrasos y lentitud notables en la experiencia de Internet."
+        },
+        "LOSS": {
+          "HEADER": "Pérdida de paquetes",
+          "MESSAGE": "El porcentaje de paquetes de datos recientemente perdidos o soltados por esta conexión. Una conexión fiable a Internet suele tener poca o ninguna pérdida de paquetes, y los valores superiores al 1% dan lugar a una disminución significativa del rendimiento."
+        },
+        "MOS": {
+          "HEADER": "Puntuación media de opinión",
+          "MESSAGE": "Una calificación estándar de cuán bien se desempeñará esta conexión para las llamadas VoIP en base a la latencia, el jitter y la pérdida."
+        },
+        "SSID": {
+          "HEADER": "Nombre de la red",
+          "MESSAGE": "El nombre de la red conectada."
+        }
+      },
+      "OVERLIMIT": {
+        "DAILY": "Sobrelímite diario de datos",
+        "DESC": "La respuesta por sobrelímite determina lo que ocurre si una conexión a internet excede un límite diario o mensual de datos.",
+        "HEADER": "Respuesta por sobrelímite",
+        "MONTHLY": "Sobrelímite mensual de datos",
+        "RATELIMIT": "Límite de velocidad",
+        "RATELIMITTO": "Límite de velocidad a {speed}",
+        "STOP": "Detener"
+      },
+      "RESET": "Reiniciar estadísticas"
+    },
+    "NEWS": {
+      "ARCHIVED": "ARCHIVADO",
+      "DASHBOARDOPTION": "Mostrar en el panel de control",
+      "NOEVENTS": "¡Está al día!",
+      "TITLE": "Noticias y eventos",
+      "UNREAD": "NO LEÍDO"
+    },
+    "NOTIFICATIONS": {
+      "ALLOW": "Permitir notificaciones",
+      "STABILITYHEADER": "Estabilidad y Seguridad",
+      "DISABLEDDESC": "Speeds necesita permiso para enviarle notificaciones. Abra los Ajustes de notificación y toque en Permitir.",
+      "PITCH": "Solo enviaremos mensajes de seguridad y actualizaciones de la cuenta cuando sea necesario."
+    },
+    "OFF": "Apagado",
+    "ON": "Encendido",
+    "PREFERENCES": "Preferencias",
+    "PREMIUMFEATURES": "Las cuentas ilimitadas obtienen acceso a esta función y más.",
+    "PRIVACY": {
+      "DNSSERVICE": {
+        "ADD": "Agregar Servicio DNS",
+        "ADDIP": "Añadir dirección IP",
+        "ADGUARDDESC": "Servicio DNS con un bloqueador integrado de publicidad.",
+        "ADGUARDHEADER": "DNS AdGuard",
+        "AUTODESC": "El servidor DNS de {speedifyProductName} administrará automáticamente su DNS para la máxima velocidad y privacidad.",
+        "AUTOHEADER": "Automático",
+        "CLOUDFLAREDESC": "Servicio DNS primero la seguridad",
+        "CLOUDFLAREHEADER": "1.1.1.1 por Cloudflare",
+        "HEADER": "Servicio DNS",
+        "IP": "DIRECCIONES IP",
+        "OPENDNSDESC": "Servicio DNS con protección integrada contra phishing.",
+        "OPENDNSHEADER": "Inicio OpenDNS",
+        "QUAD9DESC": "Seguridad y privacidad en Internet.",
+        "QUAD9HEADER": "9.9.9.9 por Quad9"
+      },
+      "ENCRYPTION": {
+        "DESC": "Cuando se activa el cifrado, {speedifyProductName} utiliza los últimos estándares de cifrado para conservar la privacidad de la información con un impacto mínimo en el rendimiento general. Dependiendo de la compatibilidad del dispositivo, {speedifyProductName} utiliza DTLS 1.2 en combinación con cifrado AES256-GCM o ChaCha20.",
+        "HEADER": "Cifrado"
+      },
+      "HEADER": "PRIVACIDAD",
+      "INTERNETKILLSWITCH": {
+        "DESC": "Cuando Internet Kill Switch está activado, todo el tráfico de Internet será deshabilitado si {speedifyProductName} está desconectado.",
+        "HEADER": "Internet Kill Switch (Interruptor para detener Internet)",
+        "OFF": "Apagado"
+      }
+    },
+    "RECOMMENDED": "(Recomendado)",
+    "SERVERS": {
+      "ALL": "Todos los servidores",
+      "CONNECT": "Conectarse",
+      "CONNECTED": "Conectado",
+      "DESCRIPTION": "Elige un país y un servidor a donde se enruta tu tráfico de Internet.",
+      "RECENT": "Selecciones recientes",
+      "SERVER": "Servidor",
+      "TITLE": "SELECCIÓN DE SERVIDOR"
+    },
+    "SESSION": {
+      "BONDINGMODE": {
+        "DESC": {
+          "MAIN": "El modo de enlace determina la forma en que {speedifyProductName} gestiona las conexiones a internet.",
+          "REDUNDANT": "En el modo redundante, {speedifyProductName} funciona a la velocidad de la conexión a internet más rápida y utiliza datos adicionales para ofrecer una conexión de máxima estabilidad. Cuando se utiliza el modo redundante, cada paquete se envía simultáneamente a través de varias conexiones y se entrega el que llegue primero.",
+          "SPEED": "En modo de velocidad, {speedifyProductName} distribuye de forma inteligente el tráfico web entre todas las conexiones de internet disponibles para ofrecer una velocidad y un rendimiento óptimos.",
+          "STREAMING": "Cuando se activa \"Mejorar streaming\", Speedify priorizará automáticamente las transmisiones (llamadas de vídeo, llamadas de audio, transmisiones en directo, etc.) sobre el resto del tráfico de red y utilizará de forma inteligente tanto la vinculación como la redundancia para optimizar el rendimiento."
+        },
+        "ENHANCESTREAMING": "Mejorar la transmisión",
+        "HEADER": "Modo de enlace",
+        "REDUNDANT": "Redundante",
+        "SPEED": "Velocidad",
+        "SPEEDPLUS": "Velocidad +",
+        "STREAMING": "Streaming"
+      },
+      "HEADER": "CONFIGURACIÓN DE SESIÓN",
+      "HEADERCOMPRESSION": {
+        "DESC": {
+          "MAIN": "Cuando se habilita la Compresión de Encabezado, Speedify reduce los encabezados en los paquetes de datos para minimizar el tráfico de la red y el consumo de datos. Esto puede llevar a un mayor rendimiento de los juegos en línea, la VoIP y las videoconferencias."
+        },
+        "HEADER": "Compresión de Encabezado"
+      },
+      "JUMBO": {
+        "DESC": "Cuando se activa Jumbo MTU (unidad máxima de transferencia), {speedifyProductName} envía paquetes de datos más grandes a través del adaptador de red virtual de {speedifyProductName}, lo que aumenta la eficiencia y reduce el uso de la CPU. Déjala activada, a menos que el servicio de atención al cliente te sugiera lo contrario."
+      },
+      "PAIRANDSHARE": {
+        "ATTEMPTPAIR": "Intentando emparejar con",
+        "BACKUPONLY": "Usar Solo como Respaldo",
+        "CONNECTPANE": {
+          "BOTTOMDESC": "O puedes escanear el código QR utilizando la cámara de tu dispositivo",
+          "CONNECT": "@:CAPTIVEPORTALPOPUP.CONNECTBUTTON",
+          "TITLE": "Emparejar Dispositivo",
+          "TOPDESC": "Pide al propietario de {displayName} el código de 6 dígitos que se muestra en su configuración de Emparejar y Compartir"
+        },
+        "DASHBOARD": {
+          "BUTTONTEXT": "Comienza emparejando un dispositivo",
+          "BUTTONTEXTNORECEIVE": "Habilitar Emparejar y Compartir",
+          "NEWPEERTITLE": "Se ha descubierto {count} nuevo par",
+          "NEWPEERSUBTITLE": "Toca para agregar o administrar dispositivos emparejados",
+          "NOPAIREDTITLE": "No hay dispositivos emparejados disponibles",
+          "NOPAIREDSUBTITLE": "Toca para gestionar dispositivos emparejados",
+          "TITLE": "Comparte fácilmente las conexiones Celulares entre varios usuarios de {speedifyProductName} en la misma red Wi-Fi."
+        },
+        "DATAUSAGE": {
+          "REALTIME": "Tiempo Real",
+          "RECEIVED": "Recibido",
+          "SHARED": "Compartido",
+          "TITLE": "Uso de Datos Emparejados"
+        },
+        "DESCCLIENT": "Empareja y utiliza las conexiones celulares compartidas por otros usuarios de Speedify en la misma red local.",
+        "DESCHOST": "Comparte fácilmente las conexiones Celulares entre varios usuarios de {speedifyProductName} en la misma red Wi-Fi.",
+        "DISABLEPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DISABLE": "Deshabilitar",
+          "MSG": "Al menos un dispositivo emparejado está utilizando activamente esta conexión compartida. ¿Deseas continuar?",
+          "PEERMSG": "Este dispositivo está utilizando activamente esta conexión compartida. ¿Deseas continuar?",
+          "TITLE": "Deshabilitar Compartir"
+        },
+        "ENABLERECEIVING": "Activa la opción Recibir para descubrir nuevos dispositivos con los que emparejarte.",
+        "INTRO": {
+          "ENABLE": "@:SETTINGSPANE.SESSION.PAIRANDSHARE.DASHBOARD.BUTTONTEXTNORECEIVE",
+          "NOTNOW": "@:PROMPTS.NOTNOW",
+          "POINT1": "Cuando está habilitado, {speedifyProductName} buscará en tu red local dispositivos con los que emparejarse",
+          "POINT2": "Puedes emparejar, modificar permisos o desemparejar de otros dispositivos en cualquier momento",
+          "POINT3": "Todos los datos compartidos y recibidos entre los dispositivos emparejados y los servidores de {speedifyProductName} están cifrados.",
+          "POINT4": "Cualquier dato celular compartido con otros dispositivos aparecerá como datos anclados a la red para tu ISP",
+          "SUBTITLE": "Pair & Share es una nueva función que te permite compartir fácilmente las conexiones celulares entre varios usuarios de {speedifyProductName} en la misma red Wi-Fi.",
+          "TITLE": "Activa Pair & Share para una conectividad máxima"
+        },
+        "MANAGE": "Administrar",
+        "DISCOVERED": "Descubierto",
+        "NOUNPAIREDDEVICES": "Los dispositivos no emparejados en la misma red Wi-Fi aparecerán aquí.",
+        "PAIREDDEVICE": "Dispositivo Emparejado",
+        "PAIREDDEVICES": "Dispositivos Emparejados",
+        "PERMISSIONS": "Permisos",
+        "POPUP": {
+          "ACCEPT": "Sí, Emparejar Dispositivo",
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "FAILMESSAGE": "Este dispositivo ya no está disponible para emparejar o no se puede encontrar en tu red local actual. Por favor, intenta de nuevo más tarde.",
+          "FAILTITLE": "No se puede emparejar con \"{displayName}\"",
+          "MANAGE": "Administrar Permisos",
+          "OK": "@:PROMPTS.OK",
+          "AUTOTITLE": "Tu dispositivo \"{displayName}\" ha sido emparejado automáticamente",
+          "AUTOSUBTITLE": "{speedifyProductName} se emparejará automáticamente con otros dispositivos en tu cuenta para compartir datos móviles de forma rápida y sencilla. Puedes cambiar este comportamiento en cualquier momento.",
+          "OPTIONS": {
+            "ENCRYPTED": "Todos los datos enviados entre los dispositivos y los servidores de Speedify están cifrados.",
+            "LIMITS": "Puedes establecer límites o detener la compartición para evitar el uso excesivo de tu conexión celular",
+            "PERMISSION": "Puedes modificar los permisos de este dispositivo o desvincularlo en cualquier momento"
+          },
+          "REQUEST": "Enviar Solicitud para Emparejar",
+          "SUCCESS": "¡Éxito! Ahora estás emparejado con \"{displayName}\"",
+          "SUCCESSMESSAGE": "Te conectarás automáticamente a este dispositivo cuando estés en la misma red local. Puedes gestionar los permisos y la prioridad de la conexión compartida o desvincularte de este dispositivo en cualquier momento.",
+          "TITLE": "¿Emparejar y compartir con \"{displayName}\"?",
+          "TOPDESCRIPTION": "Una vez emparejado, podrás compartir fácilmente las conexiones celulares de ida y vuelta cuando estés en la misma red Wi-Fi."
+        },
+        "QRSCREEN": {
+          "NOSPEEDIFY": "¿Todavía no tienes {speedifyProductName}?",
+          "NOSPEEDIFYDESC": "No te preocupes, el código QR de arriba enlazará con la versión correcta para tu dispositivo",
+          "SCANDESC": "Al escanear este código, los amigos pueden emparejarse fácilmente para compartir conexiones Celulares de ida y vuelta cuando están en la misma red Wi-Fi.",
+          "TITLE": "Comparte tu código QR para un emparejamiento rápido y fácil"
+        },
+        "SCANTOPAIR": "Escanear para Emparejar",
+        "SETTINGS": {
+          "ADD": "AÑADIR",
+          "CONNECTING": "Conectando...",
+          "DISPLAYNAME": "Nombre de la Pantalla",
+          "DISPLAYNAMEDESC": "El Nombre de Pantalla define cómo se identificará tu dispositivo a otros usuarios de Pair and Share.",
+          "PAIRINGREQUEST": {
+            "ASK": "Pregunta",
+            "AUTO": "Aceptar automáticamente",
+            "AUTODESC": "{speedifyProductName} aceptará automáticamente cualquier solicitud entrante para emparejar.",
+            "DESC": "Las solicitudes de emparejamiento determinan cómo responderá Speedify cuando otros dispositivos soliciten emparejarse.",
+            "IGNORE": "Ignorar",
+            "OFFDESC": "{speedifyProductName} ignorará todas las solicitudes entrantes de emparejamiento.",
+            "ONDESC": "Se le solicitará cada vez que otro dispositivo solicite emparejarse."
+          },
+          "PAIRMYDEVICES": {
+            "AUTO": "Automáticamente",
+            "MANUAL": "Manualmente"
+          },
+          "PAIRINGREQUESTS": "Solicitudes de Emparejamiento",
+          "AUTOPAIR": "Emparejar Mis Dispositivos",
+          "AUTOPAIRDESC": "\"Emparejar Mis Dispositivos\" controla si Speedify debería emparejar automáticamente este dispositivo con otros en tu cuenta.",
+          "RECEIVEDISABLED": "Recibir deshabilitado desde",
+          "RECEIVEDSTOPPED": "La recepción se detuvo desde",
+          "RECEIVEFROM": "Recibiendo de",
+          "RECEIVING": "Recibiendo",
+          "RECEIVINGCONTROLDESC": "Cuando se activa Permitir Recepción, este dispositivo podrá utilizar las conexiones compartidas de otros dispositivos emparejados cuando esté en la misma red Wi-Fi y esté ejecutando {speedifyProductName}.",
+          "RECEIVINGCONTROLTITLE": "Permitir Recepción",
+          "RECEIVINGUNAVAILABLE": "Recepción No Disponible",
+          "SHARERECEIVE": "Compartiendo a & Recibiendo de",
+          "SHARING": "Compartiendo ({isp})",
+          "SHARINGCONTROLDESC": "Cuando se habilita Permitir Compartir, otros dispositivos emparejados en la misma red Wi-Fi que ejecutan {speedifyProductName} podrán utilizar hasta 10 Mbps cada uno de esta conexión Celular. {stylePre}{stylePost} Esta función requiere un plan de datos Celular compatible con capacidades de hotspot/tethering móvil. Algunos ISP pueden limitar o cobrar extra por el tethering. {stylePre}{stylePost} NOTA: Puedes habilitar o deshabilitar la compartición para dispositivos individuales visitando su configuración de conexión.",
+          "SHARINGCONTROLTITLE": "Permitir Compartir",
+          "SHARINGDISABLED": "Compartir deshabilitado para",
+          "SHARINGSTOPPED": "Se detuvo la compartición a",
+          "SHARINGTO": "Compartiendo a",
+          "SHARINGUNAVAILABLE": "Compartir No Disponible",
+          "TITLE": "Configuración de Emparejar y Compartir",
+          "UNAVAILABLE": "No disponible"
+        },
+        "SHAREDEVICE": "Compartir a este Dispositivo",
+        "TAPPAIR": "Toca para Emparejar",
+        "TITLE": "Emparejar y Compartir",
+        "TOPTITLE": "Conéctate a {speedifyProductName} para comenzar a usar Pair & Share",
+        "UNPAIR": "Desvincular Dispositivo",
+        "UNPAIREDDEVICES": "Dispositivos Desemparejados",
+        "UNPAIRPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DESC": "Ya no podrás compartir a este dispositivo ni utilizar la conexión compartida del dispositivo.",
+          "OK": "Desemparejar",
+          "TITLE": "¿Desvincular este dispositivo?"
+        },
+        "USEDEVICE": "Utiliza la Conexión Compartida de este Dispositivo",
+        "VIEWALL": "Ver Todo",
+        "VIEWLESS": "Ver Menos",
+        "WIFIDESC": "Conéctate a Wi-Fi para comenzar a usar Emparejar & Compartir"
+      },
+      "PORTFWD": {
+        "DESC": "En los servidores dedicados, {speedifyProductName} puede redirigir los puertos entrantes del servidor a este cliente. Esto te permite ejecutar un servidor en este dispositivo al que se pueden conectar los usuarios por medio de la dirección IP del servidor dedicado. Tanto TCP como UDP admiten números de puerto entre 1024 y 49151."
+      },
+      "STARTUPCONNECT": {
+        "DESC": "Cuando se activa la opción de conectar al inicio, {speedifyProductName} se conecta automáticamente cuando se reinicia el dispositivo.",
+        "HEADER": "Conectar al inicio"
+      },
+      "TRANSPORTMODE": {
+        "AUTO": "Automático (recomendado)",
+        "DESC": {
+          "AUTO": "Esto le permite a {speedifyProductName} decidir el mejor protocolo para cada situación.",
+          "HTTPS": "La ruta HTTPS oculta el tráfico de {speedifyProductName} mientras se navega. Normalmente es un poco más lenta que las otras opciones.",
+          "MAIN": "El modo de ruta determina qué protocolo de red utiliza {speedifyProductName}.",
+          "TCP": "TCP provee el mejor rendimiento en conexiones de internet rápidas y estables.",
+          "TCPMULTI": "Utiliza múltiples tomas TCP paralelas para obtener un mayor rendimiento que una sola toma TCP. Se recomienda para redes muy rápidas y redes con alta latencia o pérdida de paquetes.",
+          "UDP": "UDP ofrece el mejor rendimiento en conexiones lentas y poco estables y se recomienda para aplicaciones sensibles a la latencia, como juegos y transmisión en directo."
+        },
+        "HEADER": "Modo de ruta",
+        "HTTPS": "HTTPS",
+        "TCP": "TCP",
+        "TCPMULTI": "TCP Múltiple",
+        "UDP": "UDP"
+      }
+    },
+    "SOUNDS": {
+      "DESC": "Habilita o deshabilita los efectos de sonido en la interfaz de usuario de {speedifyProductName}.",
+      "TITLE": "Efectos de Sonido"
+    },
+    "STATISTICS": {
+      "BRAGS": {
+        "BONDED": "Tiempo de conexión",
+        "CPASSIST": "Asistencias de portal cautivo",
+        "DATAENCRYPTED": "Datos encriptados",
+        "MALWARE": "Malware bloqueado",
+        "RESCUED": "Perfecta tolerancia frente a fallos",
+        "STREAMERGENCY": "@:SETTINGSPANE.STATISTICS.MESSAGES.STREAMERGENCY.TITLE",
+        "STREAMS": "Transmisiones completadas",
+        "TOPDOWNLOADSPEED": "Velocidad máxima de descarga",
+        "TOPUPLOADSPEED": "Velocidad máxima de carga"
+      },
+      "DURATION": {
+        "ALLTIME": "Todo el tiempo",
+        "MONTH": "Este mes",
+        "PAST": "Sesiones anteriores",
+        "RECENT": "Reciente",
+        "TODAY": "Hoy",
+        "WEEK": "Semana"
+      },
+      "MESSAGES": {
+        "CAPTIVE": {
+          "MESSAGE": "El número de veces que Speedify lo ayudó a conectarse a una red Wifi detrás de una pantalla de acceso o portal cautivo.",
+          "TITLE": "Asistencias de portal cautivo"
+        },
+        "DOWNSPEED": {
+          "MESSAGE": "Es la velocidad de descarga más alta registrada al ejecutar Speedify.",
+          "TITLE": "Velocidad máxima de descarga"
+        },
+        "ENCRYPTED": {
+          "MESSAGE": "La cantidad total de tráfico de la red que Speedify encriptó.",
+          "TITLE": "Total de bytes encriptados"
+        },
+        "RESCUE": {
+          "MESSAGE": "La cantidad de veces que Speedify evitó que una subida, descarga, stream o llamada se cayera durante un fallo o cambio en la red.",
+          "TITLE": "Perfecta tolerancia frente a fallos"
+        },
+        "STREAMERGENCY": {
+          "MESSAGE": "La cantidad de veces que Speedify intervino para prevenir emergencias durante un stream.",
+          "TITLE": "{streamergency} evitadas"
+        },
+        "STREAMS": {
+          "MESSAGE": "Las transmisiones en tiempo real, como las videollamadas, VoIP y las transmisiones en vivo, se priorizan y protegen automáticamente, asegurando la mejor experiencia posible.",
+          "TITLE": "@:UBERBOX.STATE.SINGLEACTIVESTREAMING"
+        },
+        "UPSPEED": {
+          "MESSAGE": "Es la velocidad de carga más alta registrada al ejecutar Speedify.",
+          "TITLE": "Velocidad máxima de carga"
+        }
+      },
+      "NOSTATS": "Como usted usa Speedify, recopilaremos e informaremos estadísticas importantes aquí.",
+      "SECTIONS": {
+        "SECURITY": "Seguridad",
+        "SPEED": "Velocidad",
+        "STABILIITY": "Estabilidad"
+      },
+      "SHARE": {
+        "CAPTIVE": "Desde que instalé Speedify me ha ayudado a conectarme sin problemas y de forma segura a {stat} redes Wi-Fi detrás de portales cautivos.",
+        "DOWNLOAD": "¡Alcancé una velocidad máxima de descarga de {stat} con la ayuda de Speedify!",
+        "ENCRYPTED": "Desde que instalé Speedify, ha encriptado de forma segura {stat} del valor de mi tráfico web.",
+        "FAILOVERS": "Desde que instalé Speedify, ha rescatado mis aplicaciones {stat} veces de conexiones de internet que fallaban.",
+        "STREAMERGENCY": "Desde que Speedify fue instalada, me ha salvado de {stat} de emergencias durante streams.",
+        "STREAMS": "Desde que Speedify fue instalada, ha priorizado y protegido {stat} de mis streams en tiempo real.",
+        "UPLOAD": "¡Alcancé una velocidad máxima de subida de {stat} con la ayuda de Speedify!"
+      },
+      "TITLE": "Mis estadísticas"
+    },
+    "STREAMINGBYPASS": {
+      "BYPASSSUGGESTION": "Sugerencias de exclusión",
+      "DASHBOARDDESC": "Permitir que determinados servicios excluyan {speedifyProductName}",
+      "DASHBOARDINFO": "Se sabe que los servicios enumerados anteriormente restringen el tráfico VPN. Si se activa, el tráfico hacia el servicio seleccionado se saltará la seguridad y el cifrado de {speedifyProductName}, lo que le permitirá conectarse directamente.",
+      "DESC": "Estos servicios son conocidos por bloquear tráfico VPN. Cuando activas Bypass, el tráfico a los servicios seleccionados omitirá la seguridad y el cifrado de {speedifyProductName}, lo que les permitirá conectarse directamente.",
+      "HEADER": "Bypass",
+      "MANAGE": "Gestionar ({count})",
+      "NOSUGGESTIONS": "No hay sugerencias de exclusión en este momento",
+      "POPUP": {
+        "DESC": "{speedifyProductName} puede permitir tráfico desde {service}, el cual se sabe que bloquea servicios de VPN y evita que se conecten directamente por fuera del túnel cifrado.",
+        "NOBUTTON": "No, gracias",
+        "TITLE": "¿Permitir que el tráfico de {service} no pase por {speedifyProductName}?",
+        "YESBUTTON": "Desactivar para {service}"
+      },
+      "RESTOREPOPUP": {
+        "CANCEL": "@:PROMPTS.CANCEL",
+        "DESC": "Esta acción desactivará cualquier selección de exclusión personalizada y activará las opciones predeterminadas recomendadas.",
+        "RESTORE": "Restaurar valores por defecto",
+        "TITLE": "¿Restaurar la configuración por defecto de exclusión?"
+      },
+      "SELECTED": "Seleccionado",
+      "SUGGESTIONDESC": "Active las sugerencias de exclusión basadas en el uso. Los resultados son locales a su dispositivo y nunca se comunican de vuelta a {speedifyProductName}.",
+      "SUGGESTIONS": "Sugerencias",
+      "TITLE": "EVITAR TRÁFICO DESDE"
+    },
+    "SUPPORT": "ASISTENCIA",
+    "TESTSPEED": {
+      "CLOSE": "Cerrar",
+      "CONNECTION": "Conexión",
+      "CONNECTIONS": "Conexiones",
+      "CONNECTNEWTEST": "Conectar e iniciar prueba de velocidad",
+      "CONNECTSTREAMTEST": "Conectar e Iniciar Prueba de Streaming en Vivo",
+      "DESC": "Ponga a prueba su velocidad de conexión total al usar iPerf3",
+      "ERROR": "Vaya, se produjo un error al realizar esta prueba.",
+      "ERRORDESC": "Espera hasta que finalice la prueba actual",
+      "ERRORTITLE": "Error",
+      "HEADER": "Pruebas de rendimiento",
+      "JITTER": "JITTER",
+      "LIVESTREAMDESC": "Revisa tus capacidades de streaming en vivo",
+      "LIVESTREAMINPROGRESS": "Prueba de transmisión en vivo en progreso...",
+      "LIVESTREAMPANEDESC": "{speedifyProductName} priorizará el tráfico de transmisiones en vivo y videoconferencias.",
+      "LIVESTREAMSTART": "Iniciar Prueba de Streaming en Vivo",
+      "LIVESTREAMTEST": "Prueba de Transmisión en Vivo",
+      "LIVESTREAMTESTDESC": "Pruebe su velocidad de subida para ver qué resolución de video y cuántas imágenes por segundo puede transmitir en vivo. Útil tanto para transmisiones en vivo como para videollamadas.",
+      "LIVESTREAMTESTSHARE": "¡Mira los resultados de mi prueba de streaming en vivo cuando uso Speedify! ¿Qué resolución y frecuencia de imagen soporta tu conexión?",
+      "LIVESTREAMTITLE": "Prueba de Streaming en Vivo de {speedifyProductName}",
+      "LIVETESTCOMPLETE": "Prueba de Streaming en Vivo Completada",
+      "LOSS": "PÉRDIDA",
+      "NEWSTREAMTEST": "Iniciar Prueba de Streaming",
+      "NEWTEST": "Iniciar prueba de velocidad",
+      "OVERALLDESC": "Estas pruebas pueden consumir muchos datos, por lo tanto, tenga cuidado si su plan de datos es costoso o limitado.",
+      "PING": "PING",
+      "RECENTTESTS": "Pruebas recientes",
+      "RETRY": "Reintentar",
+      "SPEEDTEST": "Prueba de Velocidad",
+      "SPEEDTESTCOMPLETE": "Prueba de Velocidad Completada",
+      "SPEEDTESTDESC": "Pruebe las velocidades máximas de subida y descarga que su internet mejorado con Speedify puede manejar.",
+      "SPEEDTESTSHARE": "¡Mira mis velocidades de conexión a internet con Speedify! ¿Qué tan rápido es tu internet?",
+      "TESTING_SPEED": "Probando Velocidades",
+      "TESTING_STREAMING": "Probando la transmisión en vivo",
+      "TESTREPORT": "Combinadas, tus {stylePre}{numberOfConnections}{stylePost} conexiones son capaces de transmitir video en vivo con una resolución de {stylePre}{resolution}{stylePost} y a {stylePre}{fps}{stylePost} cuadros por segundo",
+      "TESTREPORTERROR": "Tus {stylePre}{numberOfConnections}{stylePost} conexiones {stylePre}no son adecuadas{stylePost} para streaming",
+      "UPLOAD": "SUBIDA",
+      "VIEWHISTORY": "Ver historial"
+    },
+    "THEME": {
+      "DARK": "Oscuro",
+      "DEFAULT": "Predeterminado",
+      "DEFAULTDESC": " La selección de predeterminado solo se actualizará con base en sus preferencias de sistemas operativos.",
+      "HEADER": "Tema",
+      "LIGHT": "Claro"
+    }
+  },
+  "SOCIALPOPUP": {
+    "DESC": "¡Obtenga las últimas noticias, tips y trucos de Speedify y nuestras mejores ofertas y premios!",
+    "DESCTITLE": "¡Siga a {followSpeedify} Ahora!",
+    "FOLLOWUS": "Síganos en ",
+    "HEADER": "¡Permanezca en contacto!",
+    "NOTHANKS": "@:SETTINGSPANE.STREAMINGBYPASS.POPUP.NOBUTTON",
+    "SUBSCRIBEON": "Suscríbase en "
+  },
+  "SPEEDIFY": "Speedify",
+  "SPEEDMODE": {
+    "DESCRIPTIONS": {
+      "REDUNDANCY": "Enviar de manera redundante todo el tráfico por cada conexión para mejorar la confiabilidad."
+    },
+    "REDUNDANCY": "Modo redundante"
+  },
+  "STREAMING": {
+    "ACTIVE": "{active} Activo",
+    "COMPLETED": "{completed} Completo",
+    "DELETE": "Borrar historial",
+    "FAILOVERSAVES": "Salvado de la interrupción de la conexión",
+    "HEADER": "Transmitir",
+    "HINTS": {
+      "CPU": {
+        "HEADER": "CPU en niveles elevados",
+        "TEXT": "Considera cerrar algunas aplicaciones o pestañas"
+      },
+      "LATENCY": {
+        "HEADER": "Conexión inestable (latencia)",
+        "TEXT": "¿Puedes moverte para obtener una mejor señal?"
+      },
+      "LOSS": {
+        "HEADER": "Conexión inestable (pérdida)",
+        "TEXT": "¿Puedes moverte para obtener una mejor señal?"
+      },
+      "MEMORY": {
+        "HEADER": "Memoria baja",
+        "TEXT": "Considera cerrar algunas aplicaciones o pestañas"
+      }
+    },
+    "NOSTATSSUBTITLE": "Speedify priorizará el tráfico de transmisiones",
+    "REDUNDANTSAVES": "Salvado de la excesiva latencia o pérdida de paquetes",
+    "SPEEDSAVES": "Salvado de la interrupción de la conexión",
+    "STREAM": "Transmisión"
+  },
+  "STREAMINGPOPUP": {
+    "MAINDESC": "Durante tu última transmisión, Speedify intervino para evitar {saves} emergencias.",
+    "MAINTITLE": "¡Speedify salvó una transmisión!",
+    "SHARE": "Speedify evitó que {saves} emergencias interrumpieran mi última llamada o transmisión. Speedify me permite combinar conexiones a Internet y automáticamente prioriza el tráfico de las transmisiones para conseguir llamadas de Zoom, videojuegos y videoconferencias más estables y seguros.",
+    "SUBDESC": "Para obtener transmisiones, llamadas y conferencias más fluidas y confiables comparte Speedify con tus amigos, familiares y compañeros de trabajo."
+  },
+  "TORRENTALERT": {
+    "MSG": "{speedifyProductName} ha detectado una aplicación que intenta usar BitTorrent u otro protocolo Peer2Peer. Este servidor no permite tráfico P2P. ¿Deseas conectarte con un servidor que soporte P2P?",
+    "NO": "Desconectar",
+    "STAYCONNECTED": "Continuar sin P2P (peer to peer, red de pares)",
+    "TITLE": "Conectar a servidor P2P",
+    "YES": "Conectar a Servidor P2P"
+  },
+  "TORRENTDISCONNECT": {
+    "MSG": "{speedifyProductName} se ha desconectado. Por favor, cierra cualquier programa que use BitTorrent u otro protocolo Peer2Peer antes de reconectar.",
+    "TITLE": "{speedifyProductName} se ha desconectado"
+  },
+  "UBERBOX": {
+    "CONNECTTOSERVER": "Toca aquí para conectarte",
+    "OUTOFDATA": "Sin datos gratuitos",
+    "REDUNDANTALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "El modo redundante no combina velocidades de conexión, sino que opera a la velocidad de la conexión más rápida. Tenga en cuenta que este modo utiliza significativamente más datos para crear una conexión ultra confiable.",
+      "OK": "Activar",
+      "TITLE": "Activar modo redundante"
+    },
+    "STATE": {
+      "AUTO_CONNECTING": "Probando servidores",
+      "CONNECTED": "Conectado",
+      "CONNECTING": "Conectando",
+      "DISCONNECTING": "Desconectando",
+      "KILLSWITCH": "Interruptor de la Internet activado",
+      "LOGGED_IN": "Desconectado",
+      "LOGGED_OUT": "Sesión cerrada",
+      "LOGGING_IN": "Iniciando sesión",
+      "MULTIACTIVEOLRL": "Todas las tasas de conexión son limitadas",
+      "MULTIACTIVEREDUNDANT": "Redundante con {count} conexiones",
+      "MULTIACTIVESPEED": "Uniendo {count} conexiones",
+      "MULTIACTIVESTREAMINGNOSTREAM": "Sin transmisión en tiempo real, {count} conexiones",
+      "MULTIACTIVESTREAMINGREDUNDANT": "Transmisión en directo redundante",
+      "MULTIACTIVESTREAMINGSPEED": "Transmisión en directo con enlaces",
+      "MULTIBACKUPREDUNDANT": "Redundante con {count} conexiones de respaldo",
+      "MULTIBACKUPSPEED": "Uniendo {count} conexiones de respaldo",
+      "NOINTERNET": "Sin conexión a internet",
+      "OVERLIMIT": "Las conexiones alcanzaron el límite de consumo",
+      "SINGLEACTIVEOLRL": "Tasa limitada de conexión",
+      "SINGLEACTIVEREDUNDANT": "Redundante pero solo con 1 conexión",
+      "SINGLEACTIVESPEED": "Conectado",
+      "SINGLEACTIVESTREAMING": "Transmisión en directo",
+      "SINGLEBACKUP": "Usando conexión de respaldo"
+    },
+    "STREAMINGALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "El modo Streaming optimiza el tráfico en tiempo real con una combinación de tráfico de enlace y redundante. Este modo puede usar una mayor cantidad de datos y batería para brindar una mejor experiencia de transmisión.",
+      "OK": "Habilitar",
+      "TITLE": "Habilitar el modo Streaming"
+    },
+    "UPGRADENOW": "MEJORAR AHORA",
+    "UPGRADENOWSALE": "Y AHORRA UN 30%"
+  },
+  "UPDATES": {
+    "ERROR": "Ocurrió un error al buscar una nueva versión.",
+    "IGNORE": "Ignorar",
+    "INSTALLNOW": "Descargar ahora",
+    "LATEST": "Ya cuenta con la versión más reciente."
+  },
+  "UPSELL": {
+    "BUTTONS": {
+      "STORE": "Ver planes y precios"
+    },
+    "DESCRIPTION": {
+      "EXPIRED": "@:UPSELL.DESCRIPTION.USAGE100",
+      "USAGE100": "Esperamos que hayas disfrutado de tu prueba gratuita. ¡Actualiza ahora para habilitar un uso ilimitado en hasta 5 dispositivos más el acceso a servidores prémium!",
+      "USAGE50": "Esperamos que estés disfrutando de tu prueba de {speedifyProductName}. ¡Evita quedarte sin datos y actúa ahora! ¡Desbloquea el acceso a los servidores premium así como el uso ilimitado de hasta 5 dispositivos!",
+      "USAGE75": "El tiempo vuela cuando te diviertes y disfrutas de un mejor Internet. Para no quedarte sin datos y tener acceso a servidores premium, ¡actualiza ahora a un plan ilimitado!"
+    },
+    "HEADER": {
+      "EXPIRED": "¡Su suscripción ha expirado!",
+      "USAGE100": "{percentage}% de datos mensuales usados",
+      "USAGE50": "Has utilizado {percentage}% de tus datos gratuitos",
+      "USAGE75": "Tus datos gratis están a punto de agotarse ({percentage}% utilizado)"
+    },
+    "SECONDARYHEADER": {
+      "EXPIRED": "@:UPSELL.SECONDARYHEADER.USAGE100",
+      "USAGE100": "Actualiza ahora para seguir usando {speedifyProductName}",
+      "USAGE50": "¡Es hora de actualizar!",
+      "USAGE75": "¡No arruines tu racha de fiabilidad en Internet!"
+    }
+  },
+  "USAGECHART": {
+    "SUBTITLES": {
+      "DAILY": "Diario",
+      "MONTHLY": "Mensual"
+    },
+    "TITLE": "Fallo de utilización",
+    "WAITING": "Conectar para comenzar"
+  },
+  "WEEKLYSTATSPOPUP": {
+    "CONNRESCUEDDESC": "La semana pasada Speedify evitó que {rescued} de tus descargas, subidas, transmisiones o llamadas se cayeran durante un fallo o interrupción de la red.",
+    "CONNRESCUEDSHARE": "¿Tienes un Internet inestable? Necesitas Speedify. Solo en la última semana, Speedify evitó que {rescued} de mis descargas, subidas, transmisiones o llamadas se cayeran durante una falla o interrupción de red.",
+    "CONNRESCUEDTITLE": "{rescued} conmutaciones por error solucionadas",
+    "DATAENCRYPTEDDESC": "La semana pasada Speedify encriptó de forma segura {data} de tus datos.",
+    "DATAENCRYPTEDSHARE": "No todos los VPN son iguales. Speedify utiliza los estándares más recientes de encriptación para ofrecer el doble de desempeño que los VPN convencionales. En la última semana Speedify encriptó {data} de mis datos manteniéndome seguro y a salvo en línea sin sacrificar velocidad.",
+    "DATAENCRYPTEDTITLE": "{data} datos encriptados",
+    "DEFAULTDESC": "Revisa tus nuevas estadísticas semanales.",
+    "DEFAULTTITLE": "Nuevas estadísticas semanales",
+    "MAXDOWNLOADDESC": "La semana pasada Speedify alcanzó una nueva velocidad máxima de descarga de {download}.",
+    "MAXDOWNLOADSHARE": "He estado usando Speedify para combinar mis conexiones a Internet y obtener una mejor estabilidad, velocidad y seguridad. La semana pasada alcancé una nueva velocidad máxima de descarga de {download}.",
+    "MAXDOWNLOADTITLE": "Nueva velocidad máxima de descarga de {download}",
+    "MAXUPLOADDESC": "La semana pasada Speedify alcanzó una nueva velocidad máxima de subida de {upload}.",
+    "MAXUPLOADSHARE": "He estado usando Speedify para combinar mis conexiones a Internet para obtener una mejor estabilidad, velocidad y seguridad. La semana pasada alcancé una nueva velocidad máxima de subida de {upload}.",
+    "MAXUPLOADTITLE": "Nueva velocidad máxima de subida de {upload}",
+    "NOTIFICATIONDESC": "Conoce la forma en la que Speedify ayudó a mejorar la velocidad, seguridad y estabilidad de tu Internet.",
+    "REPORTAVAILABLE": "Tu reporte semanal está disponible",
+    "SMALLTITLE": "Destacados semanales",
+    "STREAMSAVEDESC": "La semana pasada Speedify automáticamente priorizó {streams} transmisiones e intervino para evitar {saved} emergencias en mis transmisiones.",
+    "STREAMSAVESHARE": "Speedify es la herramienta perfecta para tener transmisiones más estables y confiables, incluyendo llamadas de Zoom, videojuegos y videoconferencias. En la última semana Speedify automáticamente priorizó {streams} de mis transmisiones e intervino para evitar {saved} emergencias en mis transmisiones.",
+    "STREAMSAVETITLE": "{saved} emergencias evitadas"
+  },
+  "WIZARD": {
+    "CHANGE": "Puede cambiar o eliminar estos límites de datos en cualquier momento al  tocar la configuración de conexión {adapterName}.",
+    "DAILY": "Diario",
+    "DESC": "Para ofrecer un mejor Internet, {speedifyProductName} utilizará ocasionalmente tu conexión de {adapterName} incluso cuando estés conectado a Wi-Fi.",
+    "DONTWORRY": "No se preocupe, puede modificar esta configuración en cualquier momento.",
+    "DOYOU": "¿Tienes un plan de datos limitado?",
+    "GOTIT": "¡Lo tengo!",
+    "GREAT": "¡Genial! Pondremos los siguientes límites de datos en tu conexión de {adapterName}.",
+    "HEADER": "Tu conexión {adapterName}",
+    "INTRO": "Sabemos que es costoso exceder su plan de datos móviles. Para evitar cargos adicionales de su proveedor, {speedifyProductName} puede limitar su uso de {adapterName} con límite de datos.",
+    "MONTHLY": "Mensual",
+    "NOCAPS": "No, yo cuento con un plan de datos ilimitados",
+    "SET": "Puedes modificar los límites mensuales y diarios para evitar que {speedifyProductName} envíe demasiados datos a través de esta conexión.",
+    "YESCAPS": "Sí, aplique los límites de datos"
+  }
+}

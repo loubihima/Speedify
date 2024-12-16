@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Delar (%2$s) med %1$d ihopparade enheter</item>
+        <item quantity="one">Delar (%2$s) med %1$d ihopparad enhet</item>
+    </plurals>
+</resources>

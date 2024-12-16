@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_lr" android:layout_marginTop="@dimen/margin_tb" android:layout_marginRight="@dimen/margin_lr" android:layout_marginBottom="@dimen/margin_tb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/titleBackground" android:layout_width="fill_parent" android:layout_height="60.0sp">
+        <TextView android:textSize="18.0sp" android:textColor="@color/title" android:gravity="center" android:id="@id/appsearch_title" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0sp" android:text="@string/appsearch_title" android:textAlignment="center" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/back" android:gravity="center" android:id="@id/appsearch_back" android:background="@android:color/transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/back" android:textAlignment="center" android:layout_marginStart="28.0sp" />
+        <ImageView android:gravity="center" android:id="@id/appsearch_arrow" android:background="@android:color/transparent" android:focusable="true" android:clickable="true" android:layout_width="18.0sp" android:layout_height="18.0sp" android:layout_marginTop="22.0sp" android:src="@drawable/back" android:layout_marginStart="10.0sp" />
+    </RelativeLayout>
+    <TextView android:id="@id/appsearch_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0sp" android:layout_marginBottom="32.0sp" android:text="@string/appsearch_description" android:layout_marginStart="10.0sp" android:layout_marginEnd="10.0sp" />
+    <SearchView android:id="@id/appsearch_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0sp" android:iconifiedByDefault="false" android:queryHint="@string/appsearch_hint" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/appsearch_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Partage (%2$s) avec %1$d appareils appariés</item>
+        <item quantity="one">Partage (%2$s) avec %1$d appareil apparié</item>
+        <item quantity="many">Partage (%2$s) avec %1$d appareils appariés</item>
+    </plurals>
+</resources>

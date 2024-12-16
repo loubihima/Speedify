@@ -1,0 +1,1600 @@
+{
+  "ACCCTRL": {
+    "CHANGEPASS": "Byt lösenord",
+    "FACEBOOKLIKE": "Gilla {speedifyProductName} på Facebook",
+    "RESTORE": "Återställ köp",
+    "REVIEW": "Recensera {speedifyProductName}",
+    "SHARE": "Dela"
+  },
+  "ACCINFO": {
+    "PERIOD": {
+      "ENDTIME": "(återställs om {dayCountDisplay} {dayCount, plural, one{dag} other{dagar}})"
+    },
+    "SUB": {
+      "ENDTIME": "Prenumerationen slutar om {dayCountDisplay} {dayCount, plural, one{dag} other{dagar}}",
+      "EXPIRED": "Prenumerationen har upphört"
+    },
+    "TYPE": {
+      "FAMILY": "Familjekonto",
+      "FREE": "Gratis konto",
+      "LIMITED": "Begränsat konto",
+      "NOACCOUNT": "Inte inloggad",
+      "TEAMS": "Teamkonto",
+      "UNLIMITED": "Obegränsat konto"
+    },
+    "USAGE": {
+      "UNLIMITED": "Obegränsat",
+      "UNLIMITEDWITHUSAGE": "{usedBytes} använda denna månad",
+      "UNSUPPORTED": "Stöds inte",
+      "USAGEREMAINING": "{percentConsumed}% av {availableBytes} Använd"
+    }
+  },
+  "ACCOUNTING": {
+    "DATAREPLENISH": "Din {speedifyProductName} månatliga data plan har återställts",
+    "EXTRADATA": "Goda nyheter, du har skickats extra {speedifyProductName} data!",
+    "LAUNCH": "Starta {speedifyProductName}...",
+    "UNLIMITED": "Obegränsat"
+  },
+  "ACCOUNTPANE": {
+    "CREATE": "Slutför registrering",
+    "LOGGEDOUT": "Utloggad",
+    "LOGIN": "Logga in",
+    "LOGOUT": "Logga ut",
+    "UPGRADE": "Uppgradera"
+  },
+  "ACCOUNTSETTINGERRORMESSAGE": {
+    "MESSAGE": "@:SETTINGSPANE.PREMIUMFEATURES",
+    "TITLE": "@:SETTINGERRORMESSAGE.TITLE"
+  },
+  "ADAPTEREXTRAS": {
+    "addconnection": {
+      "desc": "Lägg till anslutning",
+      "name": "Lägg till anslutning"
+    }
+  },
+  "ADAPTERINFO": {
+    "BWLIMIT": {
+      "title": "Hastighetsgräns",
+      "unlimited": "Obegränsat"
+    },
+    "DATA": "{adapterType} Data",
+    "OVERLIMITMODE": {
+      "disabled": "Sluta använda",
+      "slow": "Sakta ner till",
+      "title": "När jag når en gräns..."
+    },
+    "PRIORITY": "Prioritet",
+    "RESETALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Vill du återställa all registrerad dataanvändning för {adapterName} från {speedifyProductName}?",
+      "OK": "Återställ",
+      "TITLE": "Återställ dataanvändning"
+    },
+    "RESETUSAGE": "Återställ dataanvändning",
+    "STATUS": {
+      "CAPTIVEPORTAL": "Offline, åtgärd krävs",
+      "DISCONNETED": "Inte tillgänglig",
+      "NOINTERNET": "Ingen Internet",
+      "NOTUSED": "Inte använd",
+      "ONLINECONNECTED": "Online, ansluten",
+      "ONLINECONNECTING": "Ansluter",
+      "ONLINEDISCONNECTED": "Fungerar inte",
+      "ONLINESLEEPING": "Online, sover",
+      "OVERLIMIT": "Över gränsen",
+      "OVERLIMITDAILY": "Över daglig gräns",
+      "OVERLIMITMONTHLY": "Över månadsgräns",
+      "SPEEDIFYDISCONNECTED": "{speedifyProductName} Frånkopplad"
+    },
+    "TUNNELSTATE": {
+      "CONNECTED": "@:UBERBOX.STATE.CONNECTED",
+      "CONNECTING": "@:UBERBOX.STATE.CONNECTING",
+      "DISCONNECTED": "@:UBERBOX.STATE.LOGGED_IN"
+    },
+    "USEDATA": "Använd {adapterType} Data"
+  },
+  "ADAPTERTYPES": {
+    "Bluetooth": "Bluetooth",
+    "Cellular": "Cellulär",
+    "Ethernet": "Ethernet",
+    "Loopback": "Loopback",
+    "NetworkShare Client": "Parat nätverk",
+    "NetworkShare Host": "Delad cellulär",
+    "Unknown": "Okänd",
+    "VPN": "VPN",
+    "Wi-Fi": "Wi-Fi"
+  },
+  "ADVANCED": {
+    "OPTIONS": {
+      "ACCOUNTALERT": "Kontovarningar",
+      "ACCOUNTALERTDESC": "Ta emot meddelanden relaterade till ditt Speedify-konto",
+      "CAPTIVEPORTAL": "Fångstportalvarningar",
+      "CAPTIVEPORTALDESC": "Meddelar dig när din nuvarande Wi-Fi-anslutning kräver en åtgärd för att ansluta till Internet.",
+      "CONNECTALERT": "Anslutningsmeddelande",
+      "CONNECTALERTDESC": "Visa ett meddelande när {speedifyProductName} ansluter eller kopplar från.",
+      "CRASH": "Kraschrapporter",
+      "CRASHDESC": "Tillåt {speedifyProductName} att ta emot anonym felsökningsinformation i det osannolika fallet av en krasch.",
+      "DEADHOTSPOT": "Döda hotspotvarningar",
+      "DEADHOTSPOTDESC": "Meddelar dig när {speedifyProductName} räddar en anslutning från en död hotspot.",
+      "INCOMINGPASALERTS": "Inkommande parningsförfrågningar",
+      "PASSTATUSALERTS": "Uppdateringar av parningsstatus",
+      "PASNEWPEERALERTS": "Ny peer upptäckt",
+      "DISCONNECTALERTS": "Frånkopplingsvarningar",
+      "DNSLEAK": "DNS-läckageskydd",
+      "DNSLEAKDESC": "Aktiverar DNS-läckageskydd",
+      "DNSSERVER": {
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "För att ändra din DNS måste du återansluta till {speedifyProductName}",
+          "OK": "Återanslut",
+          "TITLE": "Ändra DNS-server"
+        },
+        "CUSTOMINSTRUCTION": "Ange 1 eller flera IP-adresser, separerade med mellanslag",
+        "DESC": "{speedifyProductName} ansluter alltid till DNS-tjänsten på våra servrar, men du kan berätta för {speedifyProductName} DNS-tjänst att vidarebefordra förfrågningar till en annan DNS-tjänst.",
+        "TITLE": "DNS-server"
+      },
+      "HOTSPOTSECURITY": "Hotspot-säkerhetsvarningar",
+      "HOTSPOTSECURITYDESC": "Meddelar dig när du är ansluten till osäkra Wi-Fi-hotspots.",
+      "IPLEAK": "IP-läckageskydd",
+      "IPLEAKDESC": "Aktiverar IP-läckageskydd",
+      "JUMBO": "Jumbo MTU",
+      "JUMBODESC": "Aktivera Jumbo MTU",
+      "KILLSWITCH": "Internet Kill Switch",
+      "KILLSWITCHDESC": "När Internet Kill Switch är aktiverat kommer all Internet-trafik att inaktiveras om {speedifyProductName} kopplas från.",
+      "MARKETINGALERT": "Nyheter och specialerbjudanden",
+      "MARKETINGALERTDESC": "Få uppdateringar om försäljning och kampanjer från Speedify",
+      "NOTIFICATIONDESC": "Individuella meddelandetyper kan aktiveras eller inaktiveras ovan. Vi skickar endast hjälpsamma säkerhetsmeddelanden och konto-uppdateringar när det är nödvändigt.",
+      "PORTFORWARD": {
+        "ADDTCP": "Lägg till TCP-port",
+        "ADDUDP": "Lägg till UDP-port",
+        "CONFIRM": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "MSG": "För att ändra dina vidarebefordrade portar måste du återansluta till {speedifyProductName}",
+          "OK": "Återanslut",
+          "TITLE": "Ändra vidarebefordrade portar"
+        },
+        "DESC": "Ha vissa portar på serverns offentliga IP skickade till denna dator. Endast dedikerade servrar.",
+        "INVALIDINPUT": "Portnumret måste vara mellan {portNumberMin} och {portNumberMax}",
+        "RESTRICTED": "Portnumret kan inte vara ett av: {portRestrictedList}",
+        "TCP": "TCP",
+        "TITLE": "Portvidarebefordring",
+        "TOOMANY": "Du kan endast ha {maxPorts} portar. Ta bort en befintlig port för att lägga till en annan.",
+        "UDP": "UDP"
+      },
+      "SIRICONFIGURE": "Konfigurera Siri-genvägar",
+      "SIRIDESC": "Tillåt Siri att föreslå en genväg.",
+      "SIRILINK": "Få hjälp med Siri-genvägar",
+      "SIRITITLE": "Siri-popups",
+      "SPEEDIFYLIVE": "{speedifyProductName} LIVE-påminnelser",
+      "SPEEDIFYLIVEDESC": "Få meddelanden för Speedify LIVE-händelser och Speedify Office Hours live Q&A.",
+      "STREAMINGBYPASS": "Bypass-förslag",
+      "STREAMINGBYPASSDESC": "Meddelar dig när Bypass kan användas för att avblockera en app eller tjänst.",
+      "STREAMMONITORALERT": "Övervakning av strömningens hälsa",
+      "STREAMMONITORALERTDESC": "Varningar om hälsan på dina strömmar.",
+      "TRANSPORT": "Transportläge",
+      "TRANSPORTDESC": "Vilket nätverksprotokoll ska {speedifyProductName} försöka först?",
+      "TRANSPORTMODES": {
+        "auto": "Auto",
+        "tcp": "TCP",
+        "tcp-multi": "TCP Flera",
+        "udp": "UDP",
+        "websocket": "WebSocket"
+      },
+      "WEEKLYREPORT": "Veckorapport",
+      "WEEKLYREPORTDESC": "Ta emot ett meddelande när din veckovisa användningsrapport är tillgänglig."
+    }
+  },
+  "ARIALABEL": {
+    "DOWNLOAD": "Nedladdningshastighet",
+    "EXITINTRO": "Avsluta introduktion till instrumentpanel",
+    "INTRO1": "Introduktionsbild 1 av 6",
+    "INTRO2": "Introduktionsbild 2 av 6",
+    "INTRO3": "Introduktionsbild 3 av 6",
+    "INTRO4": "Introduktionsbild 4 av 6",
+    "INTRO5": "Introduktionsbild 5 av 6",
+    "INTRO6": "Introduktionsbild 6 av 6",
+    "SETTINGS": "Inställningsknapp",
+    "SHARE": "Dela {speedifyProductName}",
+    "TOGGLE": "Växla Speedify",
+    "TOGGLESETTING": "Växla inställning",
+    "UPLOAD": "Uppladdningshastighet"
+  },
+  "CAPTIVEPORTALPOPUP": {
+    "CONNECTBUTTON": "Anslut",
+    "CONTINUEBUTTON": "Fortsätt utan Wi-Fi",
+    "DESCRIPTION": "Detta Wi-Fi-nätverk kräver att du loggar in eller utför en åtgärd för att ansluta till Internet",
+    "TITLE": "Åtgärd krävs för att använda '{SSID}'"
+  },
+  "CHANGEPASSWORD": {
+    "CHANGE": "Ändra ditt lösenord"
+  },
+  "CONNECTSTARTUPERMISSION": {
+    "ACTIONBUTTON": "Aktivera Anslut vid uppstart",
+    "DISMISSBUTTON": "Inte nu",
+    "INTRO": {
+      "ACTIONBUTTON": "Ja, Anslut vid uppstart",
+      "DESCRIPTION": "Genom att aktivera Anslut vid uppstart, kommer du att förbli ansluten och skyddad även efter systemuppdateringar och omstarter. Du kan ändra denna inställning när som helst.",
+      "DISMISSBUTTON": "Påminn mig senare",
+      "HEADER": "Aktivera Anslut vid uppstart",
+      "TITLE": "{speedifyProductName} kan automatiskt ansluta när du loggar in eller startar om din dator"
+    },
+    "TITLE": "Du kommer bara att få fördelarna med Speedifys kanalbindningsteknologi när den är ansluten! Aktivera {boldPre} Anslut vid uppstart {boldPost} så att Speedify automatiskt kan starta när du loggar in eller startar om din dator."
+  },
+  "DESKTOPSTORENAGS": {
+    "DESC": "Obegränsad tillgång, kompromisslös säkerhet och otrolig hastighet, allt stöds av vår 30-dagars pengarna tillbaka-garanti.",
+    "DESCTITLE": "Uppgradera till en obegränsad plan för att fortsätta njuta av ett bättre Internet",
+    "HEADER": "Du har använt all din fria månatliga data",
+    "NEWDATA": "Du får mer data om {dayCountDisplay} {dayCount, plural, one{dag} other{dagar}}"
+  },
+  "DISCONNECTPROMPT": {
+    "OPTIONS": {
+      "CONNECTED": "Förbli ansluten",
+      "HELP": "Få hjälp",
+      "LONGCONNECT": "Återanslut imorgon",
+      "NOCONNECT": "Återanslut inte",
+      "SERVER": "Prova en annan server",
+      "SHORTCONNECT": "Återanslut om 2 timmar"
+    },
+    "RECONNECTSUBTITLE": "Återanslut senare och återgå till mer stabil och säker streaming, videosamtal och surfning",
+    "RECONNECTTIME": "Återansluter vid {connectTime}",
+    "RECONNECTTITLE": "Vill du att {speedifyProductName} ska återansluta automatiskt?",
+    "STREAMINPROGRESS": {
+      "SUBTITLE": "Om du kopplar från nu kan aktiva strömmar avbrytas.",
+      "TITLE": "Du streamar för närvarande, är du säker på att du vill koppla från?"
+    },
+    "SUBTITLE": "Att prova en annan serveranslutning kan förbättra din upplevelse med {speedifyProductName}",
+    "TITLE": "Stoppade du {speedifyProductName} på grund av ett problem?"
+  },
+  "ENCRYPTION": {
+    "DESCRIPTION": "Skyddar allt du skickar och tar emot från snokande.",
+    "ENCRYPTED": "Krypterad"
+  },
+  "ERROR": {
+    "SERVICEDOWN": "{speedifyProductName}-tjänsten körs inte"
+  },
+  "FORMS": {
+    "DEFAULT": {
+      "EMAIL": "E-postadress",
+      "PASS": "Lösenord",
+      "PASSCONFIRM": "Bekräfta nytt lösenord",
+      "PASSCURRENT": "Nuvarande lösenord",
+      "PASSNEW": "Nytt lösenord"
+    },
+    "ERRORS": {
+      "EMAILINVALID": "Ange en giltig e-postadress",
+      "ENTERCURPASS": "Ange ditt nuvarande lösenord",
+      "ENTERPASS": "Ange ditt lösenord",
+      "PASSINVALIDCHAR": "Se till att ditt lösenord inte innehåller \" eller \\\\",
+      "PASSLENGTH": "Se till att ditt lösenord är minst 8 tecken långt",
+      "PASSMATCH": "Se till att dina lösenord matchar"
+    },
+    "WAITING": "Vänta..."
+  },
+  "GOFORTH": {
+    "ALREADYHAVEACCOUNT": "@:INTRO.HAVEACCOUNT",
+    "BACKGROUND": "Den kommer att arbeta tyst i bakgrunden för att optimera dina internetanslutningar.",
+    "BODY": "Vi startar dig på en gratis {stylePre}{dataAmount}/månad{stylePost} plan så att du kan uppleva magin med kanalbindning själv.",
+    "CONNECTED": "Jag är ansluten, vad gör jag härnäst?",
+    "CONTINUE": "Nu kan du använda internet medan {speedifyProductName} gör sin magi!",
+    "LOGIN": "Logga in nu",
+    "RELIABILITY": "Nu med ökad tillförlitlighet, säkerhet och hastighet!",
+    "RUNNING": "Låt {speedifyProductName} appen vara igång",
+    "TITLE": "Gå fram och bind!",
+    "USE": "Använd dina favoritappar och webbplatser"
+  },
+  "GRAPHROTATION": {
+    "DESCRIPTION": "När aktiverat kommer graferna på instrumentpanelen att rotera var 20:e sekund",
+    "TITLE": "Grafrotation"
+  },
+  "HELP": {
+    "DESC": "{speedifyProductName} är en ny typ av mobil VPN designad från grunden för hastighet, säkerhet och tillförlitlighet. Den krypterar inte bara allt du gör, utan binder också {platform, select, mobile{ditt Wi-Fi och Cellular} desktop{alla dina internetanslutningar} other{}} för att ge dig snabbt, tillförlitligt internet. Den fungerar i bakgrunden för att hålla ditt internet säkert och tillförlitligt.",
+    "GETHELP": {
+      "ACCOUNT": "Få hjälp med ditt konto",
+      "CONNECTION": "Få hjälp med anslutningar",
+      "CONNECTIONS": "{speedifyProductName} kommer att upptäcka och kombinera nya anslutningar automatiskt.",
+      "CONNECTIONSLINK": "Få hjälp med att lägga till anslutningar »",
+      "PASSWORD": "Få hjälp med lösenord",
+      "SERVERS": "Få hjälp med servrar",
+      "SETTINGS": {
+        "NOTIFICATIONS": "Få hjälp med notifikationer",
+        "PRIVACY": "Få hjälp med integritet",
+        "SESSION": "Få hjälp med sessioner"
+      },
+      "SIGNIN": "Få hjälp med att logga in"
+    },
+    "MENU": {
+      "ACCOUNT": "@:ONEPANE.POPINS.ACCOUNT",
+      "CLEARSETTINGS": "Rensa inställningar",
+      "CREDITS": "3:e parts krediter",
+      "DEVTOOLS": "Utvecklarverktyg",
+      "GENLOGS": "Generera loggar",
+      "GETSTART": "Kom igång-guide",
+      "PRIVACY": "Integritetspolicy",
+      "QUITAPP": "Avsluta app",
+      "REMOVEHELPER": "Ta bort hjälpverktyg",
+      "SETTINGS": "@:ONEPANE.POPINS.SETTINGS",
+      "SUPPORT": "Sök efter hjälp",
+      "TOS": "Användarvillkor",
+      "UPDATES": "Sök efter uppdateringar"
+    }
+  },
+  "INTRO": {
+    "DESC": {
+      "BODY": "{speedifyProductName} är en unik VPN som binder alla dina anslutningar för att göra Internet ultra-pålitligt, snabbt och säkert.",
+      "CONTINUE": "Fortsätt",
+      "PRIVACY": "Din integritet är vår främsta prioritet",
+      "PRIVACYBODY": "Din IP-adress och en unik enhetsidentifierare för att låta dig använda tjänsten utan att registrera ett konto, tidpunkten och nätverksplatsen för din första anslutning för att dirigera din trafik så effektivt som möjligt, mängden data som används och tiden ansluten till vår VPN-tjänst för att uppfylla våra villkor, nätverksprestandastatistik för att förbättra hastigheter och kraschloggar för att förbättra kvaliteten. Din e-postadress samlas in om du väljer att tillhandahålla den vid köp för att använda licensen på andra enheter.",
+      "PRIVACYBODYHEADER": "Vi lagrar tillfälligt följande:",
+      "PRIVACYCHANGE": "Vår sekretesspolicy har nyligen ändrats eftersom vi samlar in ännu mindre data och för att följa Kaliforniens lag",
+      "PRIVACYDESC": "Vi sparar inte loggar över dina onlineaktiviteter och associerar aldrig några domäner eller applikationer som du använder med dig, din enhet, IP-adress, mängd data som används eller e-post.",
+      "PRIVACYMOREINFO": "För mer information, vänligen läs vår ",
+      "TITLE": "2 anslutningar är bättre än 1"
+    },
+    "GDPR2": {
+      "CONTINUE": "Godkänn och fortsätt",
+      "DISCLOSURE": "Vi loggar inte de webbplatser du besöker, de tjänster du använder eller vad du gör online. Vi lagrar tillfälligt mängden data som överförs och varaktigheten av {speedifyProductName}-anslutningen för att uppfylla våra villkor, en unik enhetsidentifierare för att låta dig använda tjänsten utan att registrera ett konto, din IP-adress för att ansluta dig till bästa möjliga server, samt tidpunkten och nätverksplatsen för din första anslutning.",
+      "LEARN": "Lär dig hur dina data hanteras",
+      "TITLE": "Din integritet är vår prioritet",
+      "WECOLLECT": "Vi krypterar all din webbtrafik och samlar in minsta möjliga mängd information för att kunna tillhandahålla vår tjänst."
+    },
+    "HAVEACCOUNT": "Har du redan ett konto?",
+    "PERMISSIONS": {
+      "ACCOUNTREADY": "Ditt {accountType} är redo att användas!",
+      "COMPLETE": "Fortsätt",
+      "OPTIONAL": "(Valfritt)",
+      "TITLE": "Låt oss ställa in din enhet."
+    },
+    "PITCH": {
+      "COMBINE": "Kombinera anslutningar",
+      "COMBINEDESC": "Använd Wi-Fi och Cellular samtidigt för optimal prestanda",
+      "DEVICEDESC": "Länka din telefon, surfplatta, dator och mer under ett konto",
+      "DEVICETITLE": "Använd på 5 enheter",
+      "ENCRYPTIONDESC": "Håll dina data säkra och skyddade från snokare och hackare",
+      "ENCRYPTIONTITLE": "Extrem kryptering",
+      "FREEVERSION": "Använd begränsad gratisversion",
+      "LIMITED": "Begränsad gratisversion",
+      "LIMITEDDESCData": "Optimera dina första {data} GB av dataanvändning varje månad - inget konto behövs.",
+      "LIMITEDTITLE": "Använd {speedifyProductName} gratis med begränsningar",
+      "LIMITEDTITLEDESCDATA": "{data} GB av Internetoptimering varje månad",
+      "NOTRIALDESC": "Vad väntar du på? Kom igång nu för bara {cost} per år",
+      "PRICEPERUSERPERMONTH": "Sedan {currencySymbol}{price} {currencyCode} per månad",
+      "SECURITY": "Öka stabilitet, hastighet och säkerhet. Eliminera {streamergencies}",
+      "SERVERDESC": "Anslut till servrar över hela världen",
+      "SERVERHEADER": "Global serveråtkomst",
+      "SUBSCRIBE": "Prenumerera nu",
+      "SUBSCRIBEFOR": "Prenumerera för",
+      "TITLEHEADER": "{speedifyProductName} Obegränsad VPN",
+      "TRIAL": "Börja din 7 dagars gratis provperiod!",
+      "TRIALBUTTON": "Starta min 7-dagars gratis provperiod",
+      "TRIALPAY": "Sedan bara {cost} per år"
+    }
+  },
+  "KILLSWITCH": {
+    "CONNECT": "Anslut {speedifyProductName}",
+    "DISABLE": "Stäng av Kill Switch",
+    "MSG": "För att skydda dig från att gå online utan en VPN, förhindrar {speedifyProductName} andra program från att få tillgång till Internet.",
+    "OFFLINE": "Förbli offline"
+  },
+  "LANGUAGE": {
+    "AUTO": "@:ADVANCED.OPTIONS.TRANSPORTMODES.auto",
+    "DESC": "Styr språket som Speedify användargränssnittet presenteras på. Auto, den rekommenderade standardinställningen, kommer att använda operativsystemets språk.",
+    "TITLE": "Språk"
+  },
+  "LIMITS": {
+    "DAILYLIMIT": "Daglig gräns",
+    "DAYBOOST": "En extra {boostHtml} kommer att tillåtas idag",
+    "DAYUSAGELIMITED": "{usage} av {limitHtml} används idag",
+    "DAYUSAGEUNLIMITED": "{usage} används idag",
+    "MONTHLYLIMIT": "Månadsgräns",
+    "MONTHUSAGELIMITED": "{usage} av {limitHtml} per månad",
+    "MONTHUSAGEUNLIMITED": "{usage} används de senaste 30 dagarna",
+    "MONTHUSAGEUNLIMITEDMONTH": "{usage} används denna månad",
+    "RESETDAY": {
+      "LAST30": "Senaste 30 dagarna",
+      "N": "{day, selectordinal, one{#a} two{#a} few{#e} other{#e} }",
+      "UNKNOWN": "OKÄND"
+    },
+    "RESETDAYPRE": "Återställ den {resetDayHtml}",
+    "USAGEWITHPERCENTAGE": "{usage} ({percentage})"
+  },
+  "LOCATION": {
+    "CITY": {
+      "amsterdam": "Amsterdam",
+      "atlanta": "Atlanta",
+      "auckland": "Auckland",
+      "baku": "Baku",
+      "bangalore": "Bangalore",
+      "beijing": "Beijing",
+      "belgrade": "Belgrad",
+      "bhs": "Montreal",
+      "bogota": "Bogotá",
+      "brisbane": "Brisbane",
+      "brussels": "Bryssel",
+      "bucharest": "Bukarest",
+      "budapest": "Budapest",
+      "bursa": "Bursa",
+      "cairo": "Kairo",
+      "chicago": "Chicago",
+      "chisinau": "Chișinău",
+      "copenhagen": "Köpenhamn",
+      "dallas": "Dallas",
+      "denver": "Denver",
+      "dubai": "Dubai",
+      "dublin": "Dublin",
+      "dusseldorf": "Düsseldorf",
+      "frankfurt": "Frankfurt",
+      "fremont": "Fremont",
+      "graz": "Graz",
+      "helsinki": "Helsingfors",
+      "honolulu": "Honolulu",
+      "hsinchu": "Hsinchu",
+      "islamabad": "Islamabad",
+      "istanbul": "Istanbul",
+      "izmir": "İzmir",
+      "jakarta": "Jakarta",
+      "johannesburg": "Johannesburg",
+      "karaganda": "Karaganda",
+      "kowloon": "Hong Kong",
+      "kualalumpur": "Kuala Lumpur",
+      "la": "Los Angeles",
+      "lisbon": "Lissabon",
+      "ljubljana": "Ljubljana",
+      "london": "London",
+      "madrid": "Madrid",
+      "melbourne": "Melbourne",
+      "mexicocity": "Mexico City",
+      "miami": "Miami",
+      "milano": "Milano",
+      "moscow": "Moskva",
+      "mumbai": "Mumbai",
+      "newark": "Newark",
+      "nicosia": "Nicosia",
+      "nova": "Northern Virginia",
+      "nyc": "New York City",
+      "oostkamp": "Oostkamp",
+      "oslo": "Oslo",
+      "palermo": "Palermo",
+      "paris": "Paris",
+      "perth": "Perth",
+      "philadelphia": "Philadelphia",
+      "prague": "Prag",
+      "riyadh": "Riyadh",
+      "sanjose": "San José",
+      "saopaulo": "São Paulo",
+      "seattle": "Seattle",
+      "seoul": "Seoul",
+      "sf": "San Francisco",
+      "singapore": "Singapore",
+      "sofia": "Sofia",
+      "stockholm": "Stockholm",
+      "stpetersburg": "Sankt Petersburg",
+      "sydney": "Sydney",
+      "taipei": "Taipei",
+      "tallinn": "Tallinn",
+      "telaviv": "Tel Aviv",
+      "test": "Test",
+      "tokyo": "Tokyo",
+      "toronto": "Toronto",
+      "tripoli": "Tripoli",
+      "valencia": "Valencia",
+      "vancouver": "Vancouver",
+      "vienna": "Wien",
+      "vilnius": "Vilnius",
+      "warsaw": "Warszawa",
+      "zurich": "Zürich"
+    },
+    "COUNTRY": {
+      "ae": "Förenade Arabemiraten",
+      "at": "Österrike",
+      "au": "Australien",
+      "az": "Azerbajdzjan",
+      "be": "Belgien",
+      "bg": "Bulgarien",
+      "br": "Brasilien",
+      "ca": "Kanada",
+      "ch": "Schweiz",
+      "cn": "Folkrepubliken Kina",
+      "co": "Colombia",
+      "cr": "Costa Rica",
+      "cy": "Cypern",
+      "cz": "Tjeckien",
+      "de": "Tyskland",
+      "dk": "Danmark",
+      "ee": "Estland",
+      "eg": "Egypten",
+      "es": "Spanien",
+      "fi": "Finland",
+      "fr": "Frankrike",
+      "gb": "Storbritannien",
+      "hk": "Hong Kong",
+      "hu": "Ungern",
+      "id": "Indonesien",
+      "ie": "Irland",
+      "il": "Israel",
+      "im": "Isle of Man",
+      "in": "Indien",
+      "is": "Island",
+      "it": "Italien",
+      "jp": "Japan",
+      "kr": "Sydkorea",
+      "kz": "Kazakstan",
+      "lt": "Litauen",
+      "ly": "Libyen",
+      "md": "Moldavien",
+      "mx": "Mexiko",
+      "my": "Malaysia",
+      "nl": "Nederländerna",
+      "no": "Norge",
+      "nz": "Nya Zeeland",
+      "pk": "Pakistan",
+      "pl": "Polen",
+      "pt": "Portugal",
+      "ro": "Rumänien",
+      "rs": "Serbien",
+      "ru": "Ryssland",
+      "sa": "Saudiarabien",
+      "se": "Sverige",
+      "sg": "Singapore",
+      "si": "Slovenien",
+      "tr": "Turkiet",
+      "tw": "Taiwan",
+      "us": "Förenta Staterna",
+      "za": "Sydafrika"
+    }
+  },
+  "LOCKSCREEN": {
+    "POPUP": {
+      "CALLS": "Förbättra videokonferenser",
+      "PLUS": "Använd flera internetanslutningar samtidigt",
+      "SECURITY": "Super säker kryptering",
+      "SERVERS": "Tillgång till servrar över hela världen",
+      "STREAM": "Optimerad livestreaming",
+      "SUBTITLE": "Här är alla funktioner du missar...",
+      "TITLE": "Du har använt upp all din fria data!",
+      "UNLIMITED": "Bläddra, streama och spela utan gränser"
+    },
+    "UPGRADETITLE": "Uppgradera nu för att fortsätta använda Speedify",
+    "USAGE": "Du har använt upp all din fria månatliga data"
+  },
+  "NETWORKADAPTERFUNCTIONS": {
+    "UNKNOWN": "Okänd"
+  },
+  "NETWORKDOT": {
+    "MESSAGING": {
+      "CAPTIVE": "Fångad Portal",
+      "DISABLED": "Inaktiverad",
+      "OVERLIMITRATELIMIT": "Över gränsen hastighetsgräns"
+    }
+  },
+  "NOTIFICATIONS": {
+    "PERMISSION": "{speedifyProductName} kan inte visa notifikationer. {linkPre}Aktivera Notifikationsbehörighet{linkPost}."
+  },
+  "OMNICHART": {
+    "SUBTITLES": {
+      "EXTENDED": "5 Minuter",
+      "LATENCY": "Latenstid",
+      "LOSS": "Förlust",
+      "PROXY": "Lokal",
+      "REALTIME": "Realtid",
+      "SHARED": "Delad",
+      "SPEED": "Hastighet",
+      "USAGE": "Användning"
+    },
+    "TITLES": {
+      "QUALITY": "Anslutningskvalitet",
+      "SPEED": "Hastighet"
+    },
+    "TOTAL": "Totalt",
+    "WAITING": "Anslut för att starta"
+  },
+  "ONEPANE": {
+    "POPINS": {
+      "ACCOUNT": "Konto",
+      "ADAPTERCONFIGURE": "Konfigurera",
+      "CHANGEPASSWORD": "Ändra lösenord",
+      "CONNECTION": "Session",
+      "DEVTOOLS": "Utvecklarverktyg",
+      "LOGIN": "Logga in",
+      "NOTIFICATIONS": "Notifikationer",
+      "PRIVACY": "Integritet",
+      "SERVERS": "Servrar",
+      "SERVERSLOCATION": "Serverplats",
+      "SETTINGS": "Inställningar",
+      "SIRI": "Siri-genvägar",
+      "SOUNDS": "Ljud",
+      "SUPPORT": "Om",
+      "UPGRADE": "Uppgradera"
+    }
+  },
+  "OVERLIMIT": {
+    "ACTIONLIMIT": "{boldPre}Fortsätt använda{boldPost} vid {speed}",
+    "ACTIONSTOP": "{boldPre}Sluta använda{boldPost} {adapterName}",
+    "DAILY": {
+      "BOOST": "{boldPre}Öka daglig gräns{boldPost} med {boostAmount}",
+      "MSG": "{boldPre}{adapterName}{boldPost} har överskridit den dagliga gräns du satt på {boldPre}{limit}{boldPost}."
+    },
+    "DAILY75": {
+      "MSG": "{boldPre}{adapterName}{boldPost} är över 75% av den dagliga gräns du satt på {boldPre}{limit}{boldPost}."
+    },
+    "DISABLED": "{boldPre}{adapterName}{boldPost} är nu inaktiverad för att skydda dig.",
+    "LIMITED": "{boldPre}{adapterName}{boldPost} är nu hastighetsbegränsad för att skydda dig.",
+    "MONTHLY": {
+      "MSG": "{boldPre}{adapterName}{boldPost} har överskridit den månatliga gräns du satt på {boldPre}{limit}{boldPost}."
+    },
+    "MONTHLY75": {
+      "MSG": "{boldPre}{adapterName}{boldPost} är över 75% av den månatliga gräns du satt på {boldPre}{limit}{boldPost}."
+    }
+  },
+  "OVERVIEW": {
+    "CONSAVED": "Anslutningar Sparade",
+    "DOWNLOAD": "Nedladdningar",
+    "PACKRECOVERED": "Paket Återhämtade",
+    "SHARE": "Dela detta!",
+    "SHARETEXT": {
+      "CONSAVED": "{speedifyProductName} bytte sömlöst mellan anslutningar {value, plural, one{1 gång} other{# gånger}}!",
+      "DOWNLOAD": "{speedifyProductName} ökade mina nedladdningshastigheter med {value} Mbps!",
+      "PACKRECOVERED": "{speedifyProductName} återhämtade {value} {bytesLabel} i förlorade paket!",
+      "UPLOAD": "{speedifyProductName} ökade mina uppladdningshastigheter med {value} Mbps!"
+    },
+    "TITLE": "Statistik",
+    "UPLOAD": "Uppladdningar",
+    "WAITING": "Samlar data, kom tillbaka snart"
+  },
+  "PLATFORM": {
+    "SHARE": {
+      "INSTRUCTION": "Dela din {speedifyProductName} upplevelse",
+      "TEXT1": "Kolla in {speedifyProductName} - "
+    }
+  },
+  "PRIORITIES": {
+    "ALWAYS": {
+      "DESC": "Använd alltid denna anslutning",
+      "DISPLAY": "Primär"
+    },
+    "AUTOMATIC": {
+      "DESC": "Låt {speedifyProductName} hantera anslutningens prioritet",
+      "DISPLAY": "Automatisk"
+    },
+    "BACKUP": {
+      "DESC": "Använd endast denna anslutning för failover när inga andra är tillgängliga. Gör inte bindning för hastighet (minst använd)",
+      "DISPLAY": "Backup"
+    },
+    "CAPTIVEPORTAL": "Åtgärd krävs",
+    "DESC": "Prioritetsnivån för en anslutning bestämmer hur och när {speedifyProductName} ska använda den.",
+    "NEVER": {
+      "DESC": "Använd inte denna anslutning",
+      "DISPLAY": "Aldrig"
+    },
+    "OVERLIMIT": {
+      "DISPLAY": "ÖVERGRÄNS"
+    },
+    "SECONDARY": {
+      "DESC": "Använd denna anslutning för hastighetsökningar och failover, men mindre än Primär.",
+      "DISPLAY": "Sekundär"
+    },
+    "UNKNOWN": {
+      "DISPLAY": "OKÄND"
+    }
+  },
+  "PRIORITYSELECTION": {
+    "CELLULARALWAYSALERT": {
+      "ASKAGAINCANCEL": "Nej, ändra till sekundär",
+      "ASKAGAINOK": "Ja, förbli inställd på primär",
+      "ASKAGAINTITLE": "Vill du fortfarande ha \"{adapter}\" inställd på primär prioritet?",
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "När en mobilanslutning är inställd på primär kommer den alltid att användas, även i närvaro av andra Wi-Fi- eller Ethernet-anslutningar. Detta kan resultera i ytterligare mobildataanvändning och ökad batteriförbrukning.",
+      "OK": "Fortsätt",
+      "TITLE": "Ställ in prioritet till PRIMÄR?"
+    },
+    "NEVERALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Att ställa in till ALDRIG innebär att denna anslutning inte kommer att användas alls. Fortsätt?",
+      "OK": "Ställ in på ALDRIG",
+      "TITLE": "ALDRIG använd {adapterType}"
+    }
+  },
+  "PROMPTS": {
+    "ALLOW": "Tillåt",
+    "CANCEL": "Avbryt",
+    "NO": "Nej",
+    "NOTNOW": "Inte nu",
+    "OK": "OK",
+    "YES": "Ja"
+  },
+  "PURCHASE": {
+    "BESTDEAL": "BÄSTA ERBJUDANDE!",
+    "CANCELSUBDESC": "Avbryt när som helst",
+    "CHOOSEYOURDESTINY": "Välj en individuell prenumeration",
+    "COMPLETECOVER": "Slutför din beställning eller stäng {speedifyProductName} Store för att fortsätta",
+    "CREATEACCOUNTALERT": {
+      "CANCEL": "Hoppa över",
+      "MSG": "För att använda ditt obegränsade {speedifyProductName} konto på andra enheter, måste du registrera dig med en e-postadress och lösenord.",
+      "OK": "Skapa ett konto",
+      "TITLE": "Registrera ditt konto"
+    },
+    "CREATEACCOUNTALERT2": {
+      "CANCEL": "@:PURCHASE.CREATEACCOUNTALERT.CANCEL",
+      "MSG": "Om du hoppar över registreringsprocessen kommer du inte att kunna komma åt ditt obegränsade {speedifyProductName} konto på andra enheter.",
+      "OK": "@:PURCHASE.CREATEACCOUNTALERT.OK",
+      "TITLE": "Är du säker?"
+    },
+    "CREATEACCOUNTREGISTER": {
+      "HEADER": "Registrera ditt obegränsade {speedifyProductName} konto nu för att använda {speedifyProductName} på upp till 4 andra enheter samtidigt!",
+      "TITLE": "Registrera konto"
+    },
+    "DISPLAYEDPRICES": "Priser visas i {currencyCode}",
+    "FAMILYHEADER": "...Eller en för hela din familj!",
+    "HEADER100USED": "{pre1}Du har använt upp all din fria {speedifyProductName} data!{post1} {pre2}Prenumerera nu för att låsa upp dessa fantastiska funktioner eller vänta {stylePre}{daysDisplay} {days, plural, one{dag} other{dagar}}{stylePost} för mer gratis data.{post2}",
+    "HEADER100USEDNODATA": "{pre1}Du har använt upp all din fria {speedifyProductName} data!{post1} {pre2}Prenumerera nu för att låsa upp dessa fantastiska funktioner.",
+    "HEADEREXPIRED": "{pre1}Din prenumeration har löpt ut!{post1}",
+    "MOSTPOPULAR": "MEST POPULÄR",
+    "NAMES": {
+      "FAMILY": "Familjeplan",
+      "MONTHLY": "Månadsvis",
+      "THREEYEAR": "3-årsplan",
+      "YEARLY": "Årlig"
+    },
+    "PLANS": {
+      "FAMILY": "Familjer",
+      "FIXED": "Fastlängdsplaner",
+      "INDIVIDUAL": "Individuell",
+      "SUB": "Prenumerationer",
+      "UPGRADES": "Tillgängliga uppgraderingar"
+    },
+    "POSTPURCHASE": {
+      "DIRECTIONS": "Logga in på det konto du just köpt under",
+      "TITLE": "Logga in"
+    },
+    "PRICEPERMONTH": "{currencySymbol}{price}/Månad",
+    "PRICEPERUSERPERMONTH": "{currencySymbol}{price} {currencyCode}/användare per månad",
+    "PRICEPERYEAR": "{currencySymbol}{price}/År",
+    "PRICEPERYEARABTESTA": "Endast ",
+    "PRICEPERYEARABTESTB": "{currencySymbol}{price} {currencyCode} per år",
+    "PRICEPERYEARABTESTC": "{currencySymbol}{price} {currencyCode}",
+    "PRICEWITHOUTDURATION": "{currencySymbol}{price}",
+    "PRODUCTTITLE": "{pre1}{speedifyProductName}{post1} {pre2}Obegränsad{post2}",
+    "PRODUCTTITLEFAMILY": "{pre1}{speedifyProductName}{post1} {pre2}för familjer{post2}",
+    "PURCHASELENGTH": "{monthsDisplay} {months, plural, one{Månad} other{Månader}}",
+    "REASONS": {
+      "FAMILY": "Obegränsad användning, premium serveråtkomst, plus {stylePre}iCloud Family Sharing{stylePost} som låter dig och upp till fem andra familjemedlemmar dela åtkomst",
+      "FIVEDEVICES": "Använd på upp till 5 enheter samtidigt",
+      "INDIVIDUAL": "Uppgradera nu för obegränsad användning på upp till 5 enheter plus tillgång till premium servrar!",
+      "PREMIUM": "Premium Serveråtkomst",
+      "SALE": "Prenumerera nu och spara 30%",
+      "UNLIMITED": "Obegränsad användning",
+      "WORLDWIDE": "Världsomspännande serveråtkomst"
+    },
+    "SALEOFFER": "BEGÄNSAT TIDSERBJUDANDE",
+    "SALESAVINGS": "30% RABATT",
+    "SALETRIAL": "Starta min 7 dagars gratis provperiod",
+    "SAVEPERCENTAGE": "Spara {percentDisplay}%",
+    "SIGNIN": "Jag har redan ett konto",
+    "TRIALBUTTON": "Första 7 dagarna gratis - Sedan {currencySymbol}{price}/år",
+    "TRIALEXPLAIN": "Förstagångsprenumeranter är berättigade till en {trialLength} dagars gratis provperiod. Prenumerationer förnyas automatiskt vid slutet av provperioden.",
+    "TRIALPRICE": "Betala {currencySymbol}{trialPrice} idag, sedan {currencySymbol}{price}/år efter gratis provperiod.",
+    "USERDEVICES": "{userDisplay} användare, {deviceDisplay} enheter",
+    "VIEWMORE": "Visa fler alternativ"
+  },
+  "PUSHPERMISSION": {
+    "DESCRIPTION": "Vi meddelar dig när Wi-Fi-nätverk kräver din uppmärksamhet och hjälper dig att säkert ansluta till offentliga hotspots.",
+    "HEADER": "Sist men inte minst...",
+    "LOWERDESC": "Du kan när som helst slå på eller stänga av specifika varningar.",
+    "RECEIVE": "Tillåt notifikationer för att få ut det mesta av {speedifyProductName}",
+    "SOUNDSGOOD": "Låter bra"
+  },
+  "REGISTERLOGIN": {
+    "BUTTONS": {
+      "CONTINUE": "Fortsätt",
+      "CREATEGLOBAL": "Slutför registrering",
+      "FORGOTPASSWORD": "Glömt lösenord",
+      "LOGIN": "Logga in",
+      "NEEDACCOUNT": "Har du inget konto?",
+      "REGISTER": "Registrera",
+      "USEFREE": "Använd gratis konto"
+    },
+    "DIRECTIONS": {
+      "AUTOFREE": "Ange din e-postadress för att logga in på ett befintligt konto",
+      "AUTOPAID": "Skapa ett konto för att använda ditt {speedifyProductName} plan på andra enheter, eller länka det till ditt befintliga konto",
+      "LOGOUT": "Du är nu utloggad. För att fortsätta använda {speedifyProductName}, logga in med ett annat användarkonto eller välj Använd gratis konto",
+      "NOACCOUNT": "Ange din e-postadress för att logga in på {speedifyProductName}",
+      "NOTEXIST": "Det kontot finns inte. Ange den e-postadress som är kopplad till {speedifyProductName}-kontot du vill logga in på",
+      "PASSRESETSUBMIT": "Din begäran om att återställa lösenordet har skickats. Kontrollera din e-post för vidare instruktioner",
+      "SWITCH": "Ange din e-postadress för att logga in på ett annat konto"
+    },
+    "ERRORS": {
+      "DEVICELIMIT": {
+        "BTMMSG": "För att fortsätta, logga ut från Speedify på en eller flera av dina enheter och försök igen. Du kan behöva vänta upp till 1 vecka.",
+        "LEARNMORE": "@:SETTINGSPANE.LEARNMORE",
+        "OK": "@:PROMPTS.OK",
+        "TITLE": "Enhetens gräns överskriden",
+        "TOPMSG": "Ett enda användarkonto kan endast vara inloggat på upp till 5 enheter per vecka."
+      }
+    },
+    "PASSMANAGERS": "Eller logga in med",
+    "PASSRESET": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Är du säker på att du vill återställa ditt lösenord?",
+      "OK": "Återställ lösenord",
+      "TITLE": "Återställ lösenord"
+    }
+  },
+  "REVIEW": {
+    "ENJOYING": {
+      "NO": "Det fungerar inte, hjälp mig!",
+      "QUESTION": "Njuter du av {speedifyProductName}?",
+      "YES": "Hittills, så bra!"
+    },
+    "FBLIKE": {
+      "QUESTIONFORLIKE": "Älskar du {speedifyProductName}?",
+      "YES": "Gilla oss på Facebook"
+    },
+    "PROMPT": {
+      "LINK": "Tryck för att recensera",
+      "SUBTITLE": "Om så är fallet, skulle vi verkligen uppskatta om du kunde ta dig tid att lämna oss en recension!",
+      "TITLE": "Älskar du {speedifyProductName}?"
+    },
+    "REVIEW": {
+      "NO": "Inte just nu.",
+      "QUESTION": "Bra. Kan du ta en minut att recensera {speedifyProductName}?",
+      "YES": "Självklart!"
+    },
+    "SUPPORT": {
+      "NO": "Inte just nu.",
+      "QUESTION": "Tråkigt att höra. Kan du skicka in ett supportärende så att vi kan hjälpa dig?",
+      "YES": "Kontakta support"
+    }
+  },
+  "SALEPOPUP": {
+    "DEALBUTTON": "Få detta erbjudande!",
+    "DESCRIPTION": "Uppgradera till {speedifyProductName} Obegränsad VPN med detta tidsbegränsade erbjudande för nya användare.",
+    "HURRY": "Skynda dig! Detta erbjudande löper ut om: ",
+    "LATERBUTTON": "Kanske senare",
+    "SAVINGS": "Spara 40% nu!"
+  },
+  "SERVERFUNCTIONS": {
+    "PRIVATE": "Dedikerade servrar",
+    "PRIVATEBRAG": "Njut av snabbare hastigheter, en konsekvent IP-adress och alternativ för portvidarebefordran.",
+    "UNKNOWN": "Okänd"
+  },
+  "SERVERS": {
+    "LESS": "mindre...",
+    "MORE": "mer...",
+    "OPTIONS": {
+      "AUTOMATIC": "Automatiskt val",
+      "CLOSEST": "Snabbaste servern",
+      "CLOSESTDEDICATED": "Närmaste dedikerade server",
+      "CLOSESTPUBLIC": "Närmaste offentliga server",
+      "COUNTRY": "Välj land",
+      "DEDICATED": "Dedikerad",
+      "EXIT": "Koppla från vid avslut",
+      "EXITANDROID": "Uppgift svep",
+      "EXITDESC": {
+        "ANDROID": "Koppla från när du rensar {speedifyProductName} från uppgiftslistan via svep eller Stäng alla",
+        "DESKTOP": "Koppla från när du avslutar användargränssnittet"
+      },
+      "EXITOFFANDROID": "Förbli ansluten",
+      "EXITONANDROID": "Koppla från",
+      "MANUALPITCH": "Använd Manuell val för att välja specifika servrar eller surfa på webbplatser och använda appar som om du var i ett annat land.",
+      "MANUALSELECTION": "MANUELLT VAL",
+      "MANUALSELECTIONDESC": "Lås upp tillgång till premiumservrar på platser över hela världen.",
+      "P2P": "Torrentvänlig server",
+      "P2PDESC": "Ansluter till en server som tillåter torrenting och andra peer to peer-protokoll.",
+      "PROXY": "Lokal",
+      "REQUIRESUNLIMITED": "(KRÄVER OBEGRÄNSAD)",
+      "STARTUP": "Anslut vid uppstart",
+      "STARTUPDESC": "Anslut till {speedifyProductName} automatiskt när din enhet startar om.",
+      "UPGRADELINK": "Uppgradera nu"
+    },
+    "VIEWALLLOCATIONS": "VISA ALLA PLATSER",
+    "VIEWLESS": "VISA MINDRE"
+  },
+  "SERVICE": {
+    "RESTART": "Starta om {speedifyProductName} Tjänst"
+  },
+  "SETTINGERRORMESSAGE": {
+    "MESSAGE": "Din teamadministratör har låst konfigurationen av denna inställning.",
+    "TITLE": "Denna inställning är låst"
+  },
+  "SETTINGSPANE": {
+    "ABOUT": {
+      "FOLLOW": "Följ {username} på Twitter",
+      "RATE": "Betygsätt {appname}",
+      "TITLE": "Om {speedifyProductName}"
+    },
+    "ACCOUNT": {
+      "CANCEL": "Avbryt Prenumeration",
+      "DATAUSED": "{percentage}% av {dataAvailable} Använd",
+      "DELETE": {
+        "ACCOUNT": "Radera konto",
+        "ACCOUNTERROR": "Det finns ett problem med att ta bort ditt konto, vänligen kontakta support@speedify.com",
+        "ACCOUNTMESSAGE": "Genom att trycka på \"Radera\" kommer ditt Speedify-konto att inaktiveras omedelbart och sedan helt raderas inom 14 dagar efter din begäran. Denna åtgärd kan inte ångras.\nOBS: Detta kommer inte att avbryta prenumerationen du köpte via App Store, och det kommer inte att ge dig nya gratisprovningar. För att hantera dina köp, besök App Store.",
+        "ACCOUNTMESSAGESUCCESSTITLE": "Konto Raderat",
+        "ACCOUNTMESSAGETITLE": "Radera konto?",
+        "ACCOUNTSUCCESS": "Ditt konto har markerats för radering och kommer att tas bort inom 14 dagar",
+        "MANAGESUB": "Hantera Prenumeration",
+        "MESSAGECONFIRMOPTION": "Radera"
+      },
+      "EXPIRESON": "Går ut den {date}",
+      "HELPERMESSAGE": "Logga in med ditt {speedifyProductName} konto",
+      "MANAGE": "Hantera Konto",
+      "MONTHLYTIER": "Månadsabonnemang",
+      "NEWUPGRADE": "Ny tillgänglig uppgradering",
+      "NOACCOUNT": "Har du inte ett konto? Uppgradera nu!",
+      "ONEYEARPASS": "Årskort",
+      "PLAN": "{dataAvailable} Månadsvis",
+      "REDEMPTIONCODE": "Lös in kod",
+      "RENEWSFREE": "Gratis data förnyas den {date}",
+      "RENEWSPAID": "Förnyas den {date}",
+      "REVIEW": "Recensera {speedifyProductName}",
+      "REVIEWDESC": "Om du känner dig generös och har några minuter över, vänligen lämna en recension. Det gör en stor skillnad för oss. Tack på förhand.",
+      "SIGNOUT": "Logga ut",
+      "STATS": {
+        "RESCUE": "Sömlösa Övergångar",
+        "RESCUEDESCRIPTION": "Sömlösa Failovers refererar till antalet nätverksanslutningar som skulle ha tappats om du inte hade kört {speedifyProductName}.",
+        "TITLE": "STATISTIK (ALL TID)"
+      },
+      "THREEYEARPASS": "Trepårs Pass",
+      "THREEYEARSUB": "Treprenumeration",
+      "TITLE": "@:ONEPANE.POPINS.ACCOUNT",
+      "TWOYEARTIER": "2-års prenumeration",
+      "UPGRADE": "Uppgradera till Obegränsad",
+      "UPGRADEFAMILIES": "Uppgradera till Familjer",
+      "VERSION": "Version",
+      "YEARLYTIER": "Årlig Prenumeration"
+    },
+    "APPLICATIONBYPASS": {
+      "HEADER": "App-omgång"
+    },
+    "BACK": "Tillbaka",
+    "CONNECTIONSETTINGS": "ANSKUTNINGSINSTÄLLNINGAR",
+    "CONNECTIONSUBTITLE": "Anslutningar kommer automatiskt att visas när de upptäcks.",
+    "CUSTOM": "Anpassad",
+    "DASHBOARD": "Instrumentpanel",
+    "DETACHWINDOW": {
+      "DESC": "Fönsterplats bestämmer hur Speedify-användargränssnittet kommer att visas.",
+      "DOCKDESC": "Speedify-gränssnittet kommer att fästas vid menyraden.",
+      "DOCKED": "Menyraden",
+      "DOCKEDOPTION": "Fäst i menyraden",
+      "FLOATING": "Flytande",
+      "FLOATINGDESC": "Speedify-gränssnittet kommer att visas i sitt eget flytande applikationsfönster.",
+      "FLOATINGOPTION": "Flytande Fönster",
+      "HEADER": "Fönsterplats"
+    },
+    "DNSLEAKDESC": "Skyddar mot \"DNS-läckor\", där DNS-förfrågningar kan gå runt {speedifyProductName} och avslöja din verkliga plats för webbplatser du besöker.",
+    "DONE": "Klar",
+    "HELP": {
+      "CONTACT": "Kontakta {speedifyProductName} Support",
+      "TITLE": "Hjälp"
+    },
+    "IPLEAKDESC": "Skyddar mot \"IP-läckor\", där IP-förfrågningar kan gå runt {speedifyProductName} och avslöja din verkliga plats för webbplatser du besöker.",
+    "LEARNMORE": "Lär dig mer",
+    "LOCKEDMESSAGE": "Denna inställning hanteras av din teamadministratör",
+    "LOCKEDPOP": {
+      "MESSAGE": "Din teamadministratör har låst konfigurationen av denna inställning.",
+      "TITLE": "Denna inställning är låst"
+    },
+    "NETWORKS": {
+      "ADVANCED": {
+        "HEADER": "AVANCERAD",
+        "IPADDRESS": "IP-adress",
+        "IPADDRESSDESC": "Visar IP-adressen och transporten som för närvarande används på denna anslutning.",
+        "RATELIMIT": {
+          "DESC": "När hastighetsgränsen är aktiverad kommer {speedifyProductName} att begränsa den maximala hastigheten för denna internetanslutning till det värde som anges ovan. Om du har en begränsad dataplan med din internetleverantör kan detta hjälpa till att förhindra överskridanden."
+        }
+      },
+      "COLLAPSE": "Kollapsa",
+      "CONNECTIONDIALOG": "Logga in på detta Wi-Fi-nätverk",
+      "DATACAP": {
+        "AMOUNT": "Belopp",
+        "BOOST": "Förbättra",
+        "BOOSTDESC": "Lägger till extra data till din dagliga datatak.",
+        "DAILY": "Daglig datakapacitet",
+        "DESC": "låter dig kontrollera mängden data {speedifyProductName} kan skicka och ta emot över denna adapter. Om du har en begränsad dataplan med din internetleverantör kan detta hjälpa till att förhindra överskridanden.",
+        "HEADER": "DATAKAPACITET",
+        "MONTHLY": "Månadsvis datakapacitet",
+        "OVERLIMIT": "{percent}% av {data}",
+        "RESETSON": "Återställs På",
+        "SUB": "{speedifyProductName} mäter endast dataanvändning medan du är ansluten till tjänsten."
+      },
+      "DETAILS": "Anslutningsdetaljer",
+      "EXPAND": "Expandera",
+      "MESSAGES": {
+        "ADAPTERNAME": {
+          "DESCRIPTION": "Adapterbeskrivning",
+          "HEADER": "Adapternamn"
+        },
+        "ISP": {
+          "HEADER": "Internetleverantör",
+          "MESSAGE": "Namnet på internetleverantören."
+        },
+        "JITTER": {
+          "HEADER": "Skakning",
+          "MESSAGE": "Variabiliteten i latens för denna anslutning. Ett lägre värde indikerar en mer stabil och konsekvent anslutning."
+        },
+        "LATENCY": {
+          "HEADER": "Fördröjning",
+          "MESSAGE": "Även känd som ping, är latens den totala rundresan (RTT) från när denna anslutning skickar en begäran till när den får ett svar från servern. Lägre är bättre, med värden under 80 ms önskvärda för spel och värden över 150 ms resulterar i märkbara fördröjningar och tröghet i din internetupplevelse."
+        },
+        "LOSS": {
+          "HEADER": "Paketförlust",
+          "MESSAGE": "Procentandelen av datapaket som nyligen förlorats eller släppts av denna anslutning. En pålitlig internetanslutning har vanligtvis liten eller ingen paketförlust, med värden över 1% resulterar i betydligt minskad prestanda."
+        },
+        "MOS": {
+          "HEADER": "Medelvärdesbetyg",
+          "MESSAGE": "En standardbedömning av hur bra denna anslutning kommer att fungera för VoIP-samtal baserat på latens, jitter och förlust."
+        },
+        "SSID": {
+          "HEADER": "Nätverksnamn",
+          "MESSAGE": "Namnet på det anslutna nätverket."
+        }
+      },
+      "OVERLIMIT": {
+        "DAILY": "Över daglig datatak i GB",
+        "DESC": "Övergränsbeteendet bestämmer vad som händer om denna internetanslutning överskrider en daglig eller månatlig datakapsel.",
+        "HEADER": "Beteende vid Övergräns",
+        "MONTHLY": "Över Månadsvis Data Cap",
+        "RATELIMIT": "Hastighetsgräns",
+        "RATELIMITTO": "Hastighetsgräns till {speed}",
+        "STOP": "Sluta Använda"
+      },
+      "RESET": "Återställ statistik"
+    },
+    "NEWS": {
+      "ARCHIVED": "ARKIVERAD",
+      "DASHBOARDOPTION": "Visa på instrumentpanelen",
+      "NOEVENTS": "Du är helt uppdaterad!",
+      "TITLE": "Nyheter & Evenemang",
+      "UNREAD": "OLÄST"
+    },
+    "NOTIFICATIONS": {
+      "ALLOW": "Tillåt notifikationer",
+      "STABILITYHEADER": "Stabilitet & Säkerhet",
+      "DISABLEDDESC": "{speedifyProductName} behöver tillstånd för att skicka dig meddelanden. Öppna Notifikationsinställningarna och tryck på tillåt.",
+      "PITCH": "Vi skickar endast användbara säkerhetsmeddelanden och kontouppdateringar när det är nödvändigt."
+    },
+    "OFF": "Av",
+    "ON": "På",
+    "PREFERENCES": "Inställningar",
+    "PREMIUMFEATURES": "Obegränsade konton får tillgång till denna funktion och mer.",
+    "PRIVACY": {
+      "DNSSERVICE": {
+        "ADD": "Lägg till DNS-tjänst",
+        "ADDIP": "Lägg till IP-adress",
+        "ADGUARDDESC": "DNS-tjänst med inbyggd annonsblockerare.",
+        "ADGUARDHEADER": "AdGuard DNS",
+        "AUTODESC": "{speedifyProductName}s DNS-server kommer automatiskt att hantera din DNS för maximal hastighet och integritet.",
+        "AUTOHEADER": "Automatisk",
+        "CLOUDFLAREDESC": "Sekretess-först DNS-tjänst",
+        "CLOUDFLAREHEADER": "1.1.1.1 av Cloudflare",
+        "HEADER": "DNS-tjänst",
+        "IP": "IP-ADRESSER",
+        "OPENDNSDESC": "DNS-tjänst med inbyggt skydd mot phishing.",
+        "OPENDNSHEADER": "OpenDNS Hem",
+        "QUAD9DESC": "Internet Säkerhet & Sekretess.",
+        "QUAD9HEADER": "9.9.9.9 av Quad9"
+      },
+      "ENCRYPTION": {
+        "DESC": "När kryptering är aktiverad använder {speedifyProductName} de senaste krypteringsstandarderna för att hålla din information privat med minimal inverkan på den totala prestandan. Beroende på enhetsstöd använder {speedifyProductName} DTLS 1.2 tillsammans med antingen AES256-GCM eller ChaCha20-krypteringschiffer.",
+        "HEADER": "Kryptering"
+      },
+      "HEADER": "INTEGRITET",
+      "INTERNETKILLSWITCH": {
+        "DESC": "När Internet Kill Switch är aktiverad kommer all Internet-trafik att inaktiveras om {speedifyProductName} kopplas från.",
+        "HEADER": "Internet Kill Switch",
+        "OFF": "Av"
+      }
+    },
+    "RECOMMENDED": "(Rekommenderat)",
+    "SERVERS": {
+      "ALL": "Alla servrar",
+      "CONNECT": "Anslut",
+      "CONNECTED": "Ansluten",
+      "DESCRIPTION": "Välj land och server där din internettrafik dirigeras.",
+      "RECENT": "Senaste val",
+      "SERVER": "Server",
+      "TITLE": "SERVERVAL"
+    },
+    "SESSION": {
+      "BONDINGMODE": {
+        "DESC": {
+          "MAIN": "Bindningsläget bestämmer hur {speedifyProductName} kommer att hantera dina internetanslutningar.",
+          "REDUNDANT": "I Redundant-läge kommer {speedifyProductName} att fungera i hastigheten av den snabbaste enskilda Internetanslutningen och använda extra data för att leverera en ultra-pålitlig anslutning. När du använder Redundant-läge skickas varje paket samtidigt över flera anslutningar och vilket paket som kommer fram först, är det som levereras. Detta läge använder mer data och mer batteri, så de flesta användare är bättre med Speed-läge.",
+          "SPEED": "I Speed-läge fördelar {speedifyProductName} intelligent din webbtrafik bland alla tillgängliga Internetanslutningar för att leverera optimal hastighet och prestanda.",
+          "STREAMING": "När Förbättra Streaming är aktiverat kommer Speedify automatiskt att prioritera strömmar (videosamtal, ljudsamtal, live streaming, etc) över annan nätverkstrafik och intelligent använda både bindning och redundans för att optimera prestanda."
+        },
+        "ENHANCESTREAMING": "Förbättra Streaming",
+        "HEADER": "Bindningsläge",
+        "REDUNDANT": "Redundant",
+        "SPEED": "Hastighet",
+        "SPEEDPLUS": "Hastighet +",
+        "STREAMING": "Streaming"
+      },
+      "HEADER": "SESSIONSINSTÄLLNINGAR",
+      "HEADERCOMPRESSION": {
+        "DESC": {
+          "MAIN": "När Header Compression är aktiverat kommer Speedify att krympa rubrikerna på datapaket för att minska nätverksoverhead och dataanvändning. Detta kan leda till ökad prestanda med online-spel, VoIP och videokonferenser."
+        },
+        "HEADER": "Rubrikkomprimering"
+      },
+      "JUMBO": {
+        "DESC": "När Jumbo MTU (Maximum Transmission Unit) är aktiverat kommer {speedifyProductName} att skicka större datapaket genom {speedifyProductName} Virtuella nätverksadapter vilket ökar effektiviteten och minskar CPU-användningen. Lämna på, om inte support har föreslagit att stänga av det."
+      },
+      "PAIRANDSHARE": {
+        "ATTEMPTPAIR": "Försöker para ihop med",
+        "BACKUPONLY": "Använd endast som säkerhetskopia",
+        "CONNECTPANE": {
+          "BOTTOMDESC": "Eller så kan du skanna QR-koden med din enhets kamera",
+          "CONNECT": "@:CAPTIVEPORTALPOPUP.CONNECTBUTTON",
+          "TITLE": "Para Enhet",
+          "TOPDESC": "Fråga ägaren till {displayName} om den 6-siffriga koden som visas i deras inställningar för Pair & Share"
+        },
+        "DASHBOARD": {
+          "BUTTONTEXT": "Börja med att Para ihop en Enhet",
+          "BUTTONTEXTNORECEIVE": "Aktivera Pair & Share",
+          "NEWPEERTITLE": "{count} ny peer upptäckt",
+          "NEWPEERSUBTITLE": "Tryck för att lägga till eller hantera ihopparade enheter",
+          "NOPAIREDTITLE": "Inga parade enheter tillgängliga",
+          "NOPAIREDSUBTITLE": "Tryck för att hantera ihopparade enheter",
+          "TITLE": "Dela enkelt mobilanslutningar fram och tillbaka mellan flera {speedifyProductName} användare på samma Wi-Fi-nätverk."
+        },
+        "DATAUSAGE": {
+          "REALTIME": "Realtid",
+          "RECEIVED": "Mottaget",
+          "SHARED": "Delad",
+          "TITLE": "Parat dataanvändning"
+        },
+        "DESCCLIENT": "Para ihop och använd de mobilanslutningar som delas av andra Speedify-användare på samma lokala nätverk.",
+        "DESCHOST": "Dela enkelt mobilanslutningar fram och tillbaka mellan flera {speedifyProductName} användare på samma Wi-Fi-nätverk.",
+        "DISABLEPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DISABLE": "Inaktivera",
+          "MSG": "Minst en ihopparad enhet använder aktivt denna delade anslutning. Vill du fortsätta?",
+          "PEERMSG": "Denna enhet använder aktivt denna delade anslutning. Vill du fortsätta?",
+          "TITLE": "Inaktivera Delning"
+        },
+        "ENABLERECEIVING": "Aktivera Mottagning för att upptäcka nya enheter att para ihop med.",
+        "INTRO": {
+          "ENABLE": "@:SETTINGSPANE.SESSION.PAIRANDSHARE.DASHBOARD.BUTTONTEXTNORECEIVE",
+          "NOTNOW": "@:PROMPTS.NOTNOW",
+          "POINT1": "När aktiverat kommer {speedifyProductName} att söka i ditt lokala nätverk efter enheter att para ihop med.",
+          "POINT2": "Du kan para ihop, ändra behörigheter eller koppla bort från andra enheter när som helst.",
+          "POINT3": "All data som delas och tas emot mellan parade enheter och {speedifyProductName} servrar är krypterad.",
+          "POINT4": "All mobildata som delas med andra enheter kommer att visas som bunden data för din ISP.",
+          "SUBTITLE": "Pair & Share är en ny funktion som gör det möjligt för dig att enkelt dela mobilanslutningar fram och tillbaka mellan flera {speedifyProductName} användare på samma Wi-Fi-nätverk.",
+          "TITLE": "Aktivera Pair & Share för maximal anslutning"
+        },
+        "MANAGE": "Hantera",
+        "DISCOVERED": "Upptäckt",
+        "NOUNPAIREDDEVICES": "Oparade enheter på samma Wi-Fi-nätverk kommer att visas här.",
+        "PAIREDDEVICE": "Parat Enhet",
+        "PAIREDDEVICES": "Parade enheter",
+        "PERMISSIONS": "Behörigheter",
+        "POPUP": {
+          "ACCEPT": "Ja, Para ihop enhet",
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "FAILMESSAGE": "Denna enhet är inte längre tillgänglig för att para eller kan inte hittas på ditt nuvarande lokala nätverk. Vänligen försök igen senare.",
+          "FAILTITLE": "Kan inte para ihop med \"{displayName}\"",
+          "MANAGE": "Hantera behörigheter",
+          "OK": "@:PROMPTS.OK",
+          "AUTOTITLE": "Din enhet \"{displayName}\" har automatiskt parats",
+          "AUTOSUBTITLE": "{speedifyProductName} kommer automatiskt att para ihop sig med andra enheter på ditt konto för snabb och enkel mobil delning. Du kan ändra detta beteende när som helst.",
+          "OPTIONS": {
+            "ENCRYPTED": "All data som skickas mellan enheter och Speedify-servrarna är krypterad",
+            "LIMITS": "Du kan sätta gränser eller sluta dela för att förhindra överanvändning av din mobilanslutning",
+            "PERMISSION": "Du kan ändra denna enhets behörigheter eller koppla bort den när som helst"
+          },
+          "REQUEST": "Skicka förfrågan om parning",
+          "SUCCESS": "Framgång! Du är nu ihopkopplad med \"{displayName}\"",
+          "SUCCESSMESSAGE": "Du kommer automatiskt att ansluta till denna enhet när du är på samma lokala nätverk. Du kan hantera behörigheterna och prioriteten för den delade anslutningen eller koppla bort från denna enhet när som helst.",
+          "TITLE": "Para & dela med \"{displayName}\"?",
+          "TOPDESCRIPTION": "När du har parat ihop dem kommer du enkelt att kunna dela mobilanslutningar fram och tillbaka när du är på samma Wi-Fi-nätverk."
+        },
+        "QRSCREEN": {
+          "NOSPEEDIFY": "Har du inte {speedifyProductName} än?",
+          "NOSPEEDIFYDESC": "Ingen oro, QR-koden ovan kommer att länka till den korrekta versionen för din enhet.",
+          "SCANDESC": "Genom att skanna denna kod kan vänner enkelt para ihop sig för att dela mobilanslutningar fram och tillbaka när de är på samma Wi-Fi-nätverk.",
+          "TITLE": "Dela din QR-kod för snabb och enkel parkoppling"
+        },
+        "SCANTOPAIR": "Skanna för att para ihop",
+        "SETTINGS": {
+          "ADD": "LÄGG TILL",
+          "CONNECTING": "Ansluter...",
+          "DISPLAYNAME": "Visningsnamn",
+          "DISPLAYNAMEDESC": "Visningsnamn definierar hur din enhet kommer att identifieras för andra Pair & Share-användare.",
+          "PAIRINGREQUEST": {
+            "ASK": "Fråga",
+            "AUTO": "Automatiskt Acceptera",
+            "AUTODESC": "{speedifyProductName} kommer automatiskt att acceptera alla inkommande förfrågningar om att para ihop.",
+            "DESC": "Parkopplingsförfrågningar bestämmer hur Speedify kommer att svara när andra enheter begär att paras.",
+            "IGNORE": "Ignorera",
+            "OFFDESC": "{speedifyProductName} kommer att ignorera alla inkommande förfrågningar om att para ihop.",
+            "ONDESC": "Du kommer att bli uppmanad varje gång en annan enhet begär att paras."
+          },
+          "PAIRMYDEVICES": {
+            "AUTO": "Automatiskt",
+            "MANUAL": "Manuellt"
+          },
+          "PAIRINGREQUESTS": "Parkopplingsförfrågningar",
+          "AUTOPAIR": "Automatisk parkoppling",
+          "AUTOPAIRDESC": "Tillåt alla dina inloggade enheter att automatiskt använda Pair & Share",
+          "RECEIVEDISABLED": "Mottagning inaktiverad från",
+          "RECEIVEDSTOPPED": "Mottagning stoppad från",
+          "RECEIVEFROM": "Mottar från",
+          "RECEIVING": "Mottagning",
+          "RECEIVINGCONTROLDESC": "När Tillåt Mottagning är aktiverat kommer denna enhet att kunna använda de delade anslutningarna från andra ihopparade enheter när den är på samma Wi-Fi-nätverk och kör {speedifyProductName}.",
+          "RECEIVINGCONTROLTITLE": "Tillåt Mottagning",
+          "RECEIVINGUNAVAILABLE": "Mottagning Otillgänglig",
+          "SHARERECEIVE": "Dela till & Ta emot från",
+          "SHARING": "Delning ({isp})",
+          "SHARINGCONTROLDESC": "När Tillåt Delning är aktiverad kommer andra ihopparade enheter på samma Wi-Fi-nätverk som kör {speedifyProductName} att kunna använda upp till 10 Mbps vardera från denna Cellular-anslutning. {stylePre}{stylePost} Denna funktion kräver en kompatibel Cellular-data plan med mobil hotspot/tethering-funktioner. Vissa internetleverantörer kan begränsa eller ta ut extra avgifter för tethering. {stylePre}{stylePost} OBS: Du kan aktivera eller inaktivera delning för enskilda enheter genom att besöka deras anslutningsinställningar.",
+          "SHARINGCONTROLTITLE": "Tillåt Delning",
+          "SHARINGDISABLED": "Delning inaktiverad till",
+          "SHARINGSTOPPED": "Delning stoppades till",
+          "SHARINGTO": "Dela till",
+          "SHARINGUNAVAILABLE": "Delning Otillgänglig",
+          "TITLE": "Inställningar för Parkoppling & Delning",
+          "UNAVAILABLE": "Otillgänglig"
+        },
+        "SHAREDEVICE": "Dela till denna enhet",
+        "TAPPAIR": "Tryck för att Para Ihop",
+        "TITLE": "Para & Dela",
+        "TOPTITLE": "Anslut till {speedifyProductName} för att börja använda Pair & Share",
+        "UNPAIR": "Koppla bort enhet",
+        "UNPAIREDDEVICES": "Okopplade enheter",
+        "UNPAIRPOPUP": {
+          "CANCEL": "@:PROMPTS.CANCEL",
+          "DESC": "Du kommer inte längre att kunna dela till denna enhet eller använda enhetens delade anslutning.",
+          "OK": "Koppla bort",
+          "TITLE": "Koppla bort denna enhet?"
+        },
+        "USEDEVICE": "Använd den här enhetens delade anslutning",
+        "VIEWALL": "Visa Alla",
+        "VIEWLESS": "Visa Mindre",
+        "WIFIDESC": "Anslut till Wi-Fi för att börja använda Pair & Share"
+      },
+      "PORTFWD": {
+        "DESC": "På dedikerade servrar kan {speedifyProductName} vidarebefordra inkommande portar på servern till denna klient. Detta låter dig köra en server på denna enhet som användare på Internet kan ansluta till, med hjälp av den dedikerade serverns IP-adress. Både TCP och UDP stöds på portnummer mellan 1024 och 49151."
+      },
+      "STARTUPCONNECT": {
+        "DESC": "När Anslut vid uppstart är aktiverad kommer {speedifyProductName} automatiskt att ansluta när din enhet startar om.",
+        "HEADER": "Anslut vid uppstart"
+      },
+      "TRANSPORTMODE": {
+        "AUTO": "Auto (Rekommenderat)",
+        "DESC": {
+          "AUTO": "Detta låter {speedifyProductName} bestämma vilket protokoll som är bäst för en given situation.",
+          "HTTPS": "HTTPS-transport förkläder {speedifyProductName}s trafik som webbläsning. Det är vanligtvis lite långsammare än de andra alternativen.",
+          "MAIN": "Transportläget bestämmer vilket nätverksprotokoll {speedifyProductName} använder.",
+          "TCP": "TCP ger bästa prestanda på snabba och tillförlitliga Internetanslutningar.",
+          "TCPMULTI": "Använder flera parallella TCP-uttag för bättre prestanda än ett enda TCP-uttag. Rekommenderas för mycket snabba nätverk och nätverk med hög latens eller paketförlust.",
+          "UDP": "UDP ger bästa prestanda på långsamma och opålitliga anslutningar och rekommenderas för latenskänsliga applikationer som spel och live streaming."
+        },
+        "HEADER": "Transportläge",
+        "HTTPS": "HTTPS",
+        "TCP": "TCP",
+        "TCPMULTI": "Flera TCP",
+        "UDP": "UDP"
+      }
+    },
+    "SOUNDS": {
+      "DESC": "Aktivera eller inaktivera ljud effekter i {speedifyProductName} användargränssnitt.",
+      "TITLE": "Ljudeffekter"
+    },
+    "STATISTICS": {
+      "BRAGS": {
+        "BONDED": "Bunden Tid",
+        "CPASSIST": "Assistans för Captive Portal",
+        "DATAENCRYPTED": "Data Krypterad",
+        "MALWARE": "Skadlig programvara blockerad",
+        "RESCUED": "Sömlösa Övergångar",
+        "STREAMERGENCY": "@:SETTINGSPANE.STATISTICS.MESSAGES.STREAMERGENCY.TITLE",
+        "STREAMS": "Strömmar Fullföljda",
+        "TOPDOWNLOADSPEED": "Topp nedladdningshastighet",
+        "TOPUPLOADSPEED": "Topp uppladdningshastighet"
+      },
+      "DURATION": {
+        "ALLTIME": "Alla Tider",
+        "MONTH": "Månad",
+        "PAST": "Tidigare Sessioner",
+        "RECENT": "Nyligen",
+        "TODAY": "Idag",
+        "WEEK": "Vecka"
+      },
+      "MESSAGES": {
+        "CAPTIVE": {
+          "MESSAGE": "Antalet gånger Speedify hjälpte dig att ansluta till ett Wi-Fi-nätverk bakom en inloggningsskärm eller fångstportal.",
+          "TITLE": "Assistans för Captive Portal"
+        },
+        "DOWNSPEED": {
+          "MESSAGE": "Den högsta registrerade nedladdningshastigheten medan Speedify kördes.",
+          "TITLE": "Topp nedladdningshastighet"
+        },
+        "ENCRYPTED": {
+          "MESSAGE": "Den totala mängden nätverkstrafik som Speedify krypterade.",
+          "TITLE": "Totalt krypterade GB"
+        },
+        "RESCUE": {
+          "MESSAGE": "Antalet gånger som Speedify räddade en uppladdning, nedladdning, strömning eller samtal från att tappas under ett nätverksfel eller förändring.",
+          "TITLE": "Sömlösa Övergångar"
+        },
+        "STREAMERGENCY": {
+          "MESSAGE": "Antalet gånger Speedify ingrep för att förhindra streamingnödsituationer.",
+          "TITLE": "{streamergency} Sparar"
+        },
+        "STREAMS": {
+          "MESSAGE": "Realtidsströmmar, som videosamtal, VoIP och live-strömmar, prioriteras och skyddas automatiskt, vilket garanterar den bästa möjliga upplevelsen.",
+          "TITLE": "@:UBERBOX.STATE.SINGLEACTIVESTREAMING"
+        },
+        "UPSPEED": {
+          "MESSAGE": "Den högsta registrerade uppladdningshastigheten medan Speedify kördes.",
+          "TITLE": "Topp uppladdningshastighet"
+        }
+      },
+      "NOSTATS": "När du använder Speedify kommer vi att samla in och rapportera viktiga Statistik här.",
+      "SECTIONS": {
+        "SECURITY": "Säkerhet",
+        "SPEED": "Hastighet",
+        "STABILIITY": "Stabilitet"
+      },
+      "SHARE": {
+        "CAPTIVE": "Sedan jag installerade Speedify har det hjälpt mig att sömlöst och säkert ansluta till {stat} Wi-Fi-nätverk bakom Captive Portals.",
+        "DOWNLOAD": "Jag nådde en topphastighet för nedladdning på {stat} med hjälp av Speedify!",
+        "ENCRYPTED": "Sedan jag installerade Speedify har det säkert krypterat {stat} GB av min webbtrafik.",
+        "FAILOVERS": "Sedan installationen av Speedify har den räddat mina appar från att misslyckas med internetanslutningar {stat} gånger.",
+        "STREAMERGENCY": "Sedan jag installerade Speedify har det räddat mig från {stat} streaming-nödsituationer.",
+        "STREAMS": "Sedan jag installerade Speedify har det prioriterat och skyddat {stat} av mina realtidsströmmar.",
+        "UPLOAD": "Jag nådde en topp uppladdningshastighet på {stat} med hjälp av Speedify!"
+      },
+      "TITLE": "Mina Statistik"
+    },
+    "STREAMINGBYPASS": {
+      "BYPASSSUGGESTION": "Förbigå Förslag",
+      "DASHBOARDDESC": "Tillåt att utvalda tjänster kringgår {speedifyProductName}",
+      "DASHBOARDINFO": "Tjänster som listas ovan är kända för att begränsa VPN-trafik. Om aktiverat kommer trafik till den valda tjänsten att kringgå {speedifyProductName}s säkerhet och kryptering, vilket tillåter den att ansluta direkt.",
+      "DESC": "När aktiverat kommer trafik till utvalda tjänster att kringgå {speedifyProductName}s säkerhet och kryptering, vilket tillåter dem att ansluta direkt.",
+      "HEADER": "Kringgå",
+      "MANAGE": "Hantera ({count})",
+      "NOSUGGESTIONS": "Inga förslag på kringgående för tillfället",
+      "POPUP": {
+        "DESC": "{service} är känd för att blockera VPN:er. Du kan tillåta dess trafik att kringgå {speedifyProductName}s kryptering och ansluta direkt.",
+        "NOBUTTON": "Ingen Tack",
+        "TITLE": "Tillåt {service} att kringgå {speedifyProductName}?",
+        "YESBUTTON": "Kringgå {service}"
+      },
+      "RESTOREPOPUP": {
+        "CANCEL": "@:PROMPTS.CANCEL",
+        "DESC": "Denna åtgärd kommer att inaktivera alla anpassade kringgå-val och aktivera de rekommenderade standardalternativen.",
+        "RESTORE": "Återställ Standardinställningar",
+        "TITLE": "Återställ standardkonfiguration för Bypass?"
+      },
+      "SELECTED": "Vald",
+      "SUGGESTIONDESC": "Aktivera förslag på användningsbaserad bypass. Resultaten är lokala till din enhet och kommuniceras aldrig tillbaka till {speedifyProductName}.",
+      "SUGGESTIONS": "Förslag",
+      "TITLE": "KRINGGÅ TRAFIK FRÅN"
+    },
+    "SUPPORT": "STÖD",
+    "TESTSPEED": {
+      "CLOSE": "Stäng",
+      "CONNECTION": "Anslutning",
+      "CONNECTIONS": "Anslutningar",
+      "CONNECTNEWTEST": "Anslut & Starta Hastighetstest",
+      "CONNECTSTREAMTEST": "Anslut & Starta Livestream Test",
+      "DESC": "Testa din totala anslutningshastighet med iPerf3",
+      "ERROR": "Oj, det uppstod ett fel vid utförandet av detta test.",
+      "ERRORDESC": "Vänligen vänta tills det nuvarande testet är klart",
+      "ERRORTITLE": "Fel",
+      "HEADER": "Prestandatester",
+      "JITTER": "JITTER",
+      "LIVESTREAMDESC": "Kontrollera dina livestreaming-funktioner",
+      "LIVESTREAMINPROGRESS": "Livestream-test pågår ...",
+      "LIVESTREAMPANEDESC": "{speedifyProductName} kommer att prioritera trafik från livestreams och videokonferenser.",
+      "LIVESTREAMSTART": "Starta Livestream Test",
+      "LIVESTREAMTEST": "Livestream Test",
+      "LIVESTREAMTESTDESC": "Testa din uppladdning för att se vilken videoupplösning och bildfrekvens du kan livestreama. Användbart både före livestreaming och videosamtal.",
+      "LIVESTREAMTESTSHARE": "Kolla in mina livestream-testresultat medan jag använder Speedify! Vilken upplösning och bildfrekvens kan dina anslutningar stödja?",
+      "LIVESTREAMTITLE": "{speedifyProductName} Livestream Test",
+      "LIVETESTCOMPLETE": "Livestream-testen är klar",
+      "LOSS": "FÖRLUST",
+      "NEWSTREAMTEST": "Starta Streamingtest",
+      "NEWTEST": "Starta hastighetstest",
+      "OVERALLDESC": "Dessa tester kan använda mycket data, så var försiktig om din data är dyr eller begränsad.",
+      "PING": "PING",
+      "RECENTTESTS": "Senaste Tester",
+      "RETRY": "Försök igen",
+      "SPEEDTEST": "Hastighetstest",
+      "SPEEDTESTCOMPLETE": "Hastighetstestet är klart",
+      "SPEEDTESTDESC": "Testa för de maximala uppladdnings- och nedladdningshastigheter som ditt Speedify-förbättrade internet kan hantera.",
+      "SPEEDTESTSHARE": "Kolla in mina internethastigheter med Speedify! Hur snabb är din Internet?",
+      "TESTING_SPEED": "Testar Hastigheter",
+      "TESTING_STREAMING": "Testar Livestreaming",
+      "TESTREPORT": "Kombinerat är dina {stylePre}{numberOfConnections}{stylePost} anslutningar kapabla att live streama {stylePre}{resolution}{stylePost} video med {stylePre}{fps}{stylePost} bilder per sekund",
+      "TESTREPORTERROR": "Dina {stylePre}{numberOfConnections}{stylePost} anslutningar är {stylePre}inte lämpliga{stylePost} för streaming",
+      "UPLOAD": "UPPLADDNING",
+      "VIEWHISTORY": "Visa Historik"
+    },
+    "THEME": {
+      "DARK": "Mörk",
+      "DEFAULT": "Standard",
+      "DEFAULTDESC": "Att välja standard kommer endast att uppdatera baserat på ditt operativsystems preferenser.",
+      "HEADER": "Tema",
+      "LIGHT": "Ljus"
+    }
+  },
+  "SOCIALPOPUP": {
+    "DESC": "Få de senaste nyheterna, tipsen, tricksen och våra bästa erbjudanden och priser från Speedify!",
+    "DESCTITLE": "Följ {followSpeedify} nu!",
+    "FOLLOWUS": "Följ oss på ",
+    "HEADER": "Håll kontakten!",
+    "NOTHANKS": "@:SETTINGSPANE.STREAMINGBYPASS.POPUP.NOBUTTON",
+    "SUBSCRIBEON": "Prenumerera på "
+  },
+  "SPEEDIFY": "Speedify",
+  "SPEEDMODE": {
+    "DESCRIPTIONS": {
+      "REDUNDANCY": "Skicka redundanta all trafik över varje anslutning för att förbättra tillförlitligheten."
+    },
+    "REDUNDANCY": "Redundant läge"
+  },
+  "STREAMING": {
+    "ACTIVE": "{active} Aktiv",
+    "COMPLETED": "{completed} Slutförd",
+    "DELETE": "Rensa historik",
+    "FAILOVERSAVES": "Sparad av anslutningsfel",
+    "HEADER": "Strömmar",
+    "HINTS": {
+      "CPU": {
+        "HEADER": "Hög CPU",
+        "TEXT": "Överväg att stänga några appar eller flikar"
+      },
+      "LATENCY": {
+        "HEADER": "Ostabil anslutning (Latens)",
+        "TEXT": "Kan du flytta för att få bättre signal?"
+      },
+      "LOSS": {
+        "HEADER": "Ostabil anslutning (Förlust)",
+        "TEXT": "Kan du flytta för att få bättre signal?"
+      },
+      "MEMORY": {
+        "HEADER": "Lågt minne",
+        "TEXT": "Överväg att stänga några appar eller flikar"
+      }
+    },
+    "NOSTATSSUBTITLE": "Speedify kommer att prioritera streamingtrafik",
+    "REDUNDANTSAVES": "Sparad från överdriven latens eller paketförlust",
+    "SPEEDSAVES": "Sparad från anslutningsstörning",
+    "STREAM": "Ström"
+  },
+  "STREAMINGPOPUP": {
+    "MAINDESC": "Under din senaste ström ingrep Speedify för att förhindra {saves} streamingnödsituationer.",
+    "MAINTITLE": "Speedify räddade en ström!",
+    "SHARE": "Speedify förhindrade att {saves} streamingnödsituationer avbröt mitt senaste samtal eller ström. Speedify låter mig kombinera Internetanslutningar och prioriterar automatiskt streamingtrafik för mer stabila och säkra Zoom-samtal, spel och videokonferenser.",
+    "SUBDESC": "För mjukare, mer tillförlitliga strömmar, samtal och konferenser, dela Speedify med dina vänner, familj och kollegor."
+  },
+  "TORRENTALERT": {
+    "MSG": "{speedifyProductName} har upptäckt en applikation som försöker använda BitTorrent eller ett annat Peer2Peer-protokoll. P2P-trafik är inte tillåten på denna server. Vill du ansluta till en server som stöder P2P?",
+    "NO": "Koppla från",
+    "STAYCONNECTED": "Fortsätt utan P2P",
+    "TITLE": "Anslut till P2P-server",
+    "YES": "Anslut till P2P-server"
+  },
+  "TORRENTDISCONNECT": {
+    "MSG": "{speedifyProductName} har kopplats från. Vänligen stäng alla program som använder BitTorrent eller andra Peer2Peer-protokoll innan du ansluter igen.",
+    "TITLE": "{speedifyProductName} har kopplats från"
+  },
+  "UBERBOX": {
+    "CONNECTTOSERVER": "Tryck för att ansluta",
+    "OUTOFDATA": "Slut på gratis data",
+    "REDUNDANTALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Redundant läge duplicerar trafik över alla dina anslutningar för att skapa en mycket tillförlitlig anslutning. Det kombinerar inte anslutningshastigheter, men fungerar i hastigheten på den snabbaste anslutningen. Detta läge använder mer batteri och mer data. De flesta användare bör inte aktivera detta läge",
+      "OK": "Aktivera",
+      "TITLE": "Aktivera Redundant läge"
+    },
+    "STATE": {
+      "AUTO_CONNECTING": "Testar servrar",
+      "CONNECTED": "Ansluten",
+      "CONNECTING": "Ansluter",
+      "DISCONNECTING": "Kopplar från",
+      "KILLSWITCH": "Kill Switch Aktiverad",
+      "LOGGED_IN": "Frånkopplad",
+      "LOGGED_OUT": "Utloggad",
+      "LOGGING_IN": "Loggar in",
+      "MULTIACTIVEOLRL": "Anslutningar alla hastighetsbegränsade",
+      "MULTIACTIVEREDUNDANT": "Redundant med {count} anslutningar",
+      "MULTIACTIVESPEED": "Binder {count} anslutningar",
+      "MULTIACTIVESTREAMINGNOSTREAM": "Ingen realtidsström, {count} anslutningar",
+      "MULTIACTIVESTREAMINGREDUNDANT": "Strömmar redundantly",
+      "MULTIACTIVESTREAMINGSPEED": "Strömmar med bindning",
+      "MULTIBACKUPREDUNDANT": "Redundant med {count} Backup-anslutningar",
+      "MULTIBACKUPSPEED": "Binder {count} Backup-anslutningar",
+      "NOINTERNET": "Ingen internetanslutning",
+      "OVERLIMIT": "Anslutningar nådde användningsgräns",
+      "SINGLEACTIVEOLRL": "Anslutning hastighetsbegränsad",
+      "SINGLEACTIVEREDUNDANT": "Redundant men endast 1 anslutning",
+      "SINGLEACTIVESPEED": "Ansluten",
+      "SINGLEACTIVESTREAMING": "Strömmar",
+      "SINGLEBACKUP": "Använder Backup-anslutning"
+    },
+    "STREAMINGALERT": {
+      "CANCEL": "@:PROMPTS.CANCEL",
+      "MSG": "Strömningsläge optimerar realtidstrafik med en kombination av bindning och redundant trafik. Detta läge kan använda extra data och batteri när strömmar är aktiva för att hjälpa till att leverera en bättre strömningsupplevelse.",
+      "OK": "Aktivera",
+      "TITLE": "Aktivera strömningsläge"
+    },
+    "UPGRADENOW": "UPPGRADERA NU",
+    "UPGRADENOWSALE": "OCH SPARA 30%"
+  },
+  "UPDATES": {
+    "ERROR": "Det uppstod ett fel vid kontrollen av en ny version.",
+    "IGNORE": "Ignorera",
+    "INSTALLNOW": "Ladda ner nu",
+    "LATEST": "Du har redan den senaste versionen."
+  },
+  "UPSELL": {
+    "BUTTONS": {
+      "STORE": "Visa planer och priser"
+    },
+    "DESCRIPTION": {
+      "EXPIRED": "@:UPSELL.DESCRIPTION.USAGE100",
+      "USAGE100": "Vi hoppas att du har njutit av din gratis provperiod. Uppgradera nu för obegränsad användning på upp till 5 enheter plus tillgång till premiumservrar!",
+      "USAGE50": "Vi hoppas att du njuter av din {speedifyProductName} provperiod. Undvik att använda upp all data och agera nu! Lås upp tillgång till premiumservrar samt obegränsad användning upp till 5 enheter!",
+      "USAGE75": "Tiden går fort när du har roligt och njuter av ett bättre Internet. För att undvika att använda upp all data och få tillgång till premiumservrar, uppgradera nu till en obegränsad plan!"
+    },
+    "HEADER": {
+      "EXPIRED": "Din prenumeration har gått ut!",
+      "USAGE100": "{percentage}% månadsdata använd",
+      "USAGE50": "Du har använt {percentage}% av din fria data",
+      "USAGE75": "Din fria data är nästan slut ({percentage}% använd)"
+    },
+    "SECONDARYHEADER": {
+      "EXPIRED": "@:UPSELL.SECONDARYHEADER.USAGE100",
+      "USAGE100": "Uppgradera nu för att fortsätta använda {speedifyProductName}",
+      "USAGE50": "Det är dags att uppgradera!",
+      "USAGE75": "Förstör inte din pålitliga Internet-svit!"
+    }
+  },
+  "USAGECHART": {
+    "SUBTITLES": {
+      "DAILY": "Daglig",
+      "MONTHLY": "Månadsvis"
+    },
+    "TITLE": "Användningsuppdelning",
+    "WAITING": "Anslut för att starta"
+  },
+  "WEEKLYSTATSPOPUP": {
+    "CONNRESCUEDDESC": "Under den senaste veckan räddade Speedify {rescued} av dina uppladdningar, nedladdningar, strömmar eller samtal från att tappas under ett nätverksfel eller avbrott.",
+    "CONNRESCUEDSHARE": "Har du ostadigt internet? Du behöver Speedify. Bara under den senaste veckan räddade Speedify {rescued} av mina uppladdningar, nedladdningar, strömmar eller samtal från att tappas under ett nätverksfel eller avbrott.",
+    "CONNRESCUEDTITLE": "{rescued} Sömlösa Failovers",
+    "DATAENCRYPTEDDESC": "Under den senaste veckan krypterade Speedify säkert {data} av data.",
+    "DATAENCRYPTEDSHARE": "Alla VPN:er är inte skapade lika, Speedify använder de senaste krypteringsstandarderna för att leverera över 2 gånger prestandan av konventionella VPN:er. Under den senaste veckan krypterade Speedify {data} av min data och håller mig säker och skyddad online - utan att offra hastighet.",
+    "DATAENCRYPTEDTITLE": "{data} Data Krypterad",
+    "DEFAULTDESC": "Kolla in dina nya veckostatistik.",
+    "DEFAULTTITLE": "Nya Veckostatistik",
+    "MAXDOWNLOADDESC": "Under den senaste veckan nådde Speedify en ny topphastighet för nedladdning på {download}.",
+    "MAXDOWNLOADSHARE": "Jag har använt Speedify, för att kombinera mina internetanslutningar för förbättrad stabilitet, hastighet och säkerhet. Under den senaste veckan nådde jag en ny topphastighet för nedladdning på {download}.",
+    "MAXDOWNLOADTITLE": "Ny Topp Nedladdningshastighet på {download}",
+    "MAXUPLOADDESC": "Under den senaste veckan nådde Speedify en ny topphastighet för uppladdning på {upload}.",
+    "MAXUPLOADSHARE": "Jag har använt Speedify, för att kombinera mina internetanslutningar för förbättrad stabilitet, hastighet och säkerhet. Under den senaste veckan nådde jag en ny topphastighet för uppladdning på {upload}.",
+    "MAXUPLOADTITLE": "Ny Topp Uppladdningshastighet på {upload}",
+    "NOTIFICATIONDESC": "Se hur Speedify hjälpte till att förbättra hastigheten, säkerheten och stabiliteten på ditt internet.",
+    "REPORTAVAILABLE": "Din veckorapport är tillgänglig",
+    "SMALLTITLE": "Veckans Höjdpunkter",
+    "STREAMSAVEDESC": "Under den senaste veckan prioriterade Speedify automatiskt {streams} strömmar och ingrep för att förhindra {saved} streamingnödsituationer.",
+    "STREAMSAVESHARE": "Speedify är det perfekta verktyget för mer stabila och tillförlitliga strömmar inklusive Zoom-samtal, spel och videokonferenser. Under den senaste veckan prioriterade Speedify automatiskt {streams} av mina strömmar och ingrep för att förhindra {saved} streamingnödsituationer.",
+    "STREAMSAVETITLE": "{saved} Streamergency Sparar"
+  },
+  "WIZARD": {
+    "CHANGE": "Du kan ändra eller ta bort dessa datatak när som helst genom att trycka på dina {adapterName} anslutningsinställningar.",
+    "DAILY": "Daglig",
+    "DESC": "För att leverera bättre Internet kommer {speedifyProductName} ibland att använda din {adapterName} anslutning även när du är ansluten till Wi-Fi.",
+    "DONTWORRY": "Oroa dig inte, du kan ändra denna inställning när som helst.",
+    "DOYOU": "Har du en begränsad dataplan?",
+    "GOTIT": "Förstått!",
+    "GREAT": "Bra! Vi kommer att sätta följande datatak på din {adapterName} anslutning",
+    "HEADER": "Din {adapterName} anslutning",
+    "INTRO": "Vi vet att det är dyrt att överskrida din mobila dataplan. För att förhindra extra avgifter från din operatör kan {speedifyProductName} begränsa din {adapterName} användning med datatak.",
+    "MONTHLY": "Månadsvis",
+    "NOCAPS": "Nej, jag har en obegränsad dataplan",
+    "SET": "Du kan sätta Månadsvisa och Dagliga Data Caps för att förhindra att {speedifyProductName} skickar för mycket data över denna anslutning.",
+    "YESCAPS": "Ja, sätt datatak"
+  }
+}

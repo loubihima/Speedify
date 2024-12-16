@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SPEEDIFY_NOTIFICATION_CONNECTED_PEERS">
+        <item quantity="other">Совместное использование (%2$s) с %1$d подключенными устройствами</item>
+        <item quantity="one">Совместное использование (%2$s) с %1$d подключенным устройством</item>
+        <item quantity="few">Совместное использование (%2$s) с %1$d подключенными устройствами</item>
+        <item quantity="many">Совместное использование (%2$s) с %1$d подключенными устройствами</item>
+    </plurals>
+</resources>
